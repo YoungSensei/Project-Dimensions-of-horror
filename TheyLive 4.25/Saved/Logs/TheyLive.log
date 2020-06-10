@@ -2211,3 +2211,7 @@ Script Stack (0 frames):
 [2020.06.10-04.51.34:515][417]LogSavePackage: Moving 'D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Saved/ThirdPersonCharacter483CAB124C05537713B73F9F1F505BF7.tmp' to 'D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
 [2020.06.10-04.51.34:533][417]AssetCheck: New page: Asset Save: ThirdPersonCharacter
 [2020.06.10-04.51.34:533][417]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2020.06.10-04.52.01:447][772]LogUObjectHash: Compacting FUObjectHashTables data took   2.50ms
+[2020.06.10-04.52.01:538][772]LogSavePackage: Moving 'D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Attack_PrimaryA2A0BB5014866517F3FF3278E14915A21.tmp' to 'D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Content/ThirdPersonBP/Blueprints/Ai/Animation/Attack_PrimaryA.uasset'
+[2020.06.10-04.52.01:560][772]AssetCheck: New page: Asset Save: Attack_PrimaryA
+[2020.06.10-04.52.01:560][772]LogContentValidation: Display: Validating AnimSequence /Game/ThirdPersonBP/Blueprints/Ai/Animation/Attack_PrimaryA.Attack_PrimaryA
