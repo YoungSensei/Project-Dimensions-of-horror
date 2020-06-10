@@ -2215,3 +2215,1487 @@ Script Stack (0 frames):
 [2020.06.10-04.52.01:538][772]LogSavePackage: Moving 'D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Attack_PrimaryA2A0BB5014866517F3FF3278E14915A21.tmp' to 'D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Content/ThirdPersonBP/Blueprints/Ai/Animation/Attack_PrimaryA.uasset'
 [2020.06.10-04.52.01:560][772]AssetCheck: New page: Asset Save: Attack_PrimaryA
 [2020.06.10-04.52.01:560][772]LogContentValidation: Display: Validating AnimSequence /Game/ThirdPersonBP/Blueprints/Ai/Animation/Attack_PrimaryA.Attack_PrimaryA
+[2020.06.10-05.00.54:873][869]LogLinker: Warning: While loading 'D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Content/PN_interactiveSpruceForest/Materials/MasterMaterials/MA_Summer.uasset' failed to load '/Game/PN_interactiveSpruceForest/Textures/MasterTextures/ModelTextures/Bark_N': Can't find file.
+[2020.06.10-05.00.54:873][869]LogLinker: Warning: While loading 'D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Content/PN_interactiveSpruceForest/Materials/MasterMaterials/MA_Summer.uasset' failed to load '/Game/PN_interactiveSpruceForest/Textures/MasterTextures/ModelTextures/Bark_N': Can't find file.
+[2020.06.10-05.00.54:877][869]LogLinker: Warning: While loading 'D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Content/PN_interactiveSpruceForest/Materials/MasterMaterials/MA_Summer.uasset' failed to load '/Game/PN_interactiveSpruceForest/Textures/MasterTextures/ModelTextures/Bark_N': Can't find file.
+[2020.06.10-05.00.54:877][869]LogLinker: Warning: While loading 'D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Content/PN_interactiveSpruceForest/Materials/MasterMaterials/MA_Summer.uasset' failed to load '/Game/PN_interactiveSpruceForest/Textures/MasterTextures/ModelTextures/Bark_N': Can't find file.
+[2020.06.10-05.00.55:019][869]LogLinker: Warning: While loading 'D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Content/PN_interactiveSpruceForest/Materials/MasterMaterials/MA_Summer.uasset' failed to load '/Game/PN_interactiveSpruceForest/Textures/MasterTextures/ModelTextures/Bark_N': Can't find file.
+[2020.06.10-05.00.55:019][869]LoadErrors: Failed to load /Game/PN_interactiveSpruceForest/Textures/MasterTextures/ModelTextures/Bark_N.Bark_N Referenced by MaterialExpressionTextureSample_9
+[2020.06.10-05.00.55:019][869]LogLinker: Warning: While loading 'D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Content/PN_interactiveSpruceForest/Materials/MasterMaterials/MA_Summer.uasset' failed to load '/Game/PN_interactiveSpruceForest/Textures/MasterTextures/ModelTextures/Bark_N': Can't find file.
+[2020.06.10-05.00.55:376][869]LogTexture: Display: Building textures: HQ_Lightmap1_3 (AutoDXT, 64X64)
+[2020.06.10-05.00.55:376][869]LogTexture: Display: Building textures: LQ_Lightmap_1_3 (DXT1, 64X64)
+[2020.06.10-05.00.55:376][869]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 1024X1024)
+[2020.06.10-05.00.55:376][869]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 1024X1024)
+[2020.06.10-05.00.55:376][869]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 1024X1024)
+[2020.06.10-05.00.55:376][869]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 1024X1024)
+[2020.06.10-05.00.55:376][869]LogMaterial: Display: Missing cached shader map for material MA_Summer, compiling. 
+[2020.06.10-05.00.55:395][869]LogMaterial: Warning: D:\UEprojet\Project-Dimensions-of-horror\TheyLive 4.25\Content\PN_interactiveSpruceForest\Materials\MaterialInstances\full\high\spruce_full_03_trunk.uasset: Failed to compile Material Instance with Base MA_Summer for platform PCD3D_SM5, Default Material will be used in game.
+[2020.06.10-05.00.55:395][869]LogMaterial: Display: 	(Node TextureSample) Texture Sample> Missing input texture
+[2020.06.10-05.00.55:395][869]LogMaterial: Display: 	(Node MakeMaterialAttributes) Error on property Normal
+[2020.06.10-05.00.55:409][869]LogMaterial: Display: Missing cached shader map for material MA_Summer, compiling. 
+[2020.06.10-05.00.55:425][869]LogMaterial: Warning: D:\UEprojet\Project-Dimensions-of-horror\TheyLive 4.25\Content\PN_interactiveSpruceForest\Materials\MaterialInstances\full\high\spruce_full_02_trunk.uasset: Failed to compile Material Instance with Base MA_Summer for platform PCD3D_SM5, Default Material will be used in game.
+[2020.06.10-05.00.55:425][869]LogMaterial: Display: 	(Node TextureSample) Texture Sample> Missing input texture
+[2020.06.10-05.00.55:425][869]LogMaterial: Display: 	(Node MakeMaterialAttributes) Error on property Normal
+[2020.06.10-05.00.55:704][869]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/DemoLevel.DemoLevel
+[2020.06.10-05.00.55:740][869]LogUObjectHash: Compacting FUObjectHashTables data took   2.70ms
+[2020.06.10-05.00.55:757][869]Cmd: MAP LOAD FILE="D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Content/Maps/DemoLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.06.10-05.00.55:758][869]LightingResults: New page: Lighting Build
+[2020.06.10-05.00.55:758][869]LoadErrors: New page: Loading map: DemoLevel.umap
+[2020.06.10-05.00.55:766][869]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.06.10-05.00.55:766][869]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.10-05.00.55:766][869]MapCheck: New page: Map Check
+[2020.06.10-05.00.55:766][869]LightingResults: New page: Lighting Build
+[2020.06.10-05.00.55:803][869]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002A718B3A200), frame # 642869
+[2020.06.10-05.00.55:803][869]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002A71F0E3E00), frame # 642869
+[2020.06.10-05.00.55:808][869]LogUObjectHash: Compacting FUObjectHashTables data took   2.50ms
+[2020.06.10-05.00.56:418][869]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.06.10-05.00.56:418][869]LogAIModule: Creating AISystem for world DemoLevel
+[2020.06.10-05.00.56:418][869]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002A8E6439000), frame # 642869
+[2020.06.10-05.00.56:418][869]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002A7E11EC540), frame # 642869
+[2020.06.10-05.00.56:461][869]LogUObjectHash: Compacting FUObjectHashTables data took   2.50ms
+[2020.06.10-05.00.56:498][869]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.06.10-05.00.56:498][869]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.45ms to complete.
+[2020.06.10-05.00.56:498][869]LogFileHelpers: Loading map 'DemoLevel' took 0.741
+[2020.06.10-05.00.59:922][226]MapCheck: New page: Map Check
+[2020.06.10-05.00.59:944][226]Cmd: MAP REBUILD ALLVISIBLE
+[2020.06.10-05.00.59:944][226]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2020.06.10-05.01.21:500][226]LogWorld: UWorld::CleanupWorld for DemoLevel, bSessionEnded=true, bCleanupResources=false
+[2020.06.10-05.01.21:750][226]LogNavigationDataBuild: Display: UNavigationSystemV1::Build started...
+[2020.06.10-05.01.21:750][226]LogNavigationDataBuild: Display:    Building navigation data using PHYSICS_INTERFACE_PHYSX.
+[2020.06.10-05.01.21:750][226]LogNavigationDataBuild: Display:    Building navigation data using WITH_PHYSX.
+[2020.06.10-05.01.21:751][226]LogNavigationDataBuild: Display:    Building NavData:  Name Default class /Script/NavigationSystem.RecastNavMesh agent radius 35.0.
+[2020.06.10-05.01.21:791][226]LogNavigationDataBuild: Display: UNavigationSystemV1::Build total execution time: 0.04s
+[2020.06.10-05.01.21:832][226]LogUObjectHash: Compacting FUObjectHashTables data took   2.41ms
+[2020.06.10-05.01.21:839][226]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.06.10-05.01.21:842][226]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.06.10-05.01.21:844][226]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.06.10-05.01.21:855][226]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 4
+[2020.06.10-05.01.21:855][226]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 3
+[2020.06.10-05.01.21:855][226]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 2
+[2020.06.10-05.01.21:855][226]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 1
+[2020.06.10-05.01.21:855][226]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.06.10-05.01.21:869][226]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.06.10-05.01.21:881][226]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.06.10-05.01.21:888][226]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.06.10-05.01.21:900][226]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.06.10-05.01.21:911][226]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.06.10-05.01.21:923][226]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.06.10-05.01.21:932][226]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.06.10-05.01.21:940][226]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 20
+[2020.06.10-05.01.21:940][226]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 19
+[2020.06.10-05.01.21:940][226]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 18
+[2020.06.10-05.01.21:940][226]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 17
+[2020.06.10-05.01.21:940][226]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. Is special engine material.
+[2020.06.10-05.01.21:991][226]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.06.10-05.01.21:995][226]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.06.10-05.01.22:002][226]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.06.10-05.01.22:011][226]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.06.10-05.01.26:658][226]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 76
+[2020.06.10-05.01.26:658][226]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 75
+[2020.06.10-05.01.26:658][226]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 74
+[2020.06.10-05.01.26:658][226]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 73
+[2020.06.10-05.01.26:658][226]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 72
+[2020.06.10-05.01.26:658][226]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 71
+[2020.06.10-05.01.26:658][226]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 70
+[2020.06.10-05.01.26:658][226]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 69
+[2020.06.10-05.01.26:658][226]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 68
+[2020.06.10-05.01.26:658][226]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 67
+[2020.06.10-05.01.26:658][226]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 66
+[2020.06.10-05.01.26:658][226]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 65
+[2020.06.10-05.01.26:658][226]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 64
+[2020.06.10-05.01.26:658][226]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 63
+[2020.06.10-05.01.26:658][226]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 62
+[2020.06.10-05.01.26:658][226]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 61
+[2020.06.10-05.01.26:658][226]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 60
+[2020.06.10-05.01.26:658][226]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 59
+[2020.06.10-05.01.26:658][226]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 58
+[2020.06.10-05.01.26:658][226]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 57
+[2020.06.10-05.01.26:658][226]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 56
+[2020.06.10-05.01.26:658][226]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 55
+[2020.06.10-05.01.26:658][226]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 54
+[2020.06.10-05.01.26:658][226]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 53
+[2020.06.10-05.01.26:658][226]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 52
+[2020.06.10-05.01.26:658][226]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 51
+[2020.06.10-05.01.26:658][226]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 50
+[2020.06.10-05.01.26:658][226]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 49
+[2020.06.10-05.01.26:658][226]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 48
+[2020.06.10-05.01.26:658][226]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 47
+[2020.06.10-05.01.26:658][226]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 46
+[2020.06.10-05.01.26:658][226]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 45
+[2020.06.10-05.01.26:658][226]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 44
+[2020.06.10-05.01.26:658][226]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 43
+[2020.06.10-05.01.26:658][226]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 42
+[2020.06.10-05.01.26:658][226]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 41
+[2020.06.10-05.01.26:658][226]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 40
+[2020.06.10-05.01.26:658][226]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 39
+[2020.06.10-05.01.26:658][226]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 38
+[2020.06.10-05.01.26:658][226]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 37
+[2020.06.10-05.01.26:658][226]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 36
+[2020.06.10-05.01.26:658][226]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 35
+[2020.06.10-05.01.26:658][226]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 34
+[2020.06.10-05.01.26:658][226]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 33
+[2020.06.10-05.01.26:658][226]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 32
+[2020.06.10-05.01.26:658][226]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 31
+[2020.06.10-05.01.26:658][226]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 30
+[2020.06.10-05.01.26:658][226]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 29
+[2020.06.10-05.01.26:658][226]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 28
+[2020.06.10-05.01.26:658][226]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 27
+[2020.06.10-05.01.26:658][226]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 26
+[2020.06.10-05.01.26:658][226]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 25
+[2020.06.10-05.01.26:658][226]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 24
+[2020.06.10-05.01.26:658][226]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 23
+[2020.06.10-05.01.26:658][226]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 22
+[2020.06.10-05.01.26:658][226]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 21
+[2020.06.10-05.01.26:659][226]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 20
+[2020.06.10-05.01.26:659][226]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 19
+[2020.06.10-05.01.26:659][226]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 18
+[2020.06.10-05.01.26:659][226]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 17
+[2020.06.10-05.01.26:659][226]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 16
+[2020.06.10-05.01.26:659][226]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 15
+[2020.06.10-05.01.26:659][226]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 14
+[2020.06.10-05.01.26:659][226]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 13
+[2020.06.10-05.01.26:659][226]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 12
+[2020.06.10-05.01.26:659][226]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 11
+[2020.06.10-05.01.26:659][226]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 10
+[2020.06.10-05.01.26:659][226]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 9
+[2020.06.10-05.01.26:659][226]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 8
+[2020.06.10-05.01.26:659][226]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 7
+[2020.06.10-05.01.26:659][226]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 6
+[2020.06.10-05.01.26:659][226]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 5
+[2020.06.10-05.01.26:659][226]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 4
+[2020.06.10-05.01.26:659][226]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 3
+[2020.06.10-05.01.26:659][226]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 2
+[2020.06.10-05.01.26:659][226]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 1
+[2020.06.10-05.01.26:659][226]TextureStreamingBuild: Display: Compiling optional shaders took 4.819 seconds.
+[2020.06.10-05.01.26:692][226]LogLevel: Display: Export Material TexCoord Scales took 0.033 seconds.
+[2020.06.10-05.01.26:709][226]TextureStreamingBuild: Display: Build Texture Streaming took 0.016 seconds.
+[2020.06.10-05.01.26:741][226]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2020.06.10-05.01.26:745][226]LightingResults: New page: Lighting Build - Jun 9, 2020, 9:01:26 PM
+[2020.06.10-05.01.26:850][226]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2020.06.10-05.01.26:855][226]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2020.06.10-05.01.26:857][226]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2020.06.10-05.01.26:859][226]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2020.06.10-05.01.26:859][226]LogSwarmInterface: [TryOpenConnection] Local Process ID is 22920
+[2020.06.10-05.01.31:416][226]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2020.06.10-05.01.31:420][226]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2020.06.10-05.01.31:420][226]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2020.06.10-05.01.31:420][226]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2020.06.10-05.01.31:420][226]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2020.06.10-05.01.31:420][226]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2020.06.10-05.01.31:816][226]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2020.06.10-05.01.31:816][226]MapCheck: New page: DemoLevel - Jun 9, 2020, 9:01:31 PM
+[2020.06.10-05.01.31:817][226]MapCheck: Error: WorldSettings_1 Maps need lighting rebuilt 
+[2020.06.10-05.01.31:818][226]MapCheck: Map check complete: 1 Error(s), 0 Warning(s), took 1.269ms to complete.
+[2020.06.10-05.01.31:820][226]LogEditorBuildUtils: Build time 0:31
+[2020.06.10-05.01.32:280][231]LogUObjectHash: Compacting FUObjectHashTables data took   2.29ms
+[2020.06.10-05.01.47:392][ 74]Job is a success!
+[2020.06.10-05.01.47:552][ 75]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.027s
+[2020.06.10-05.01.47:552][ 75]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2020.06.10-05.01.47:553][ 75]LogVolumetricLightmapImport:      BrickData (all levels) 0.6Mb
+[2020.06.10-05.01.47:553][ 75]LogVolumetricLightmapImport:      Bricks at depth
+[2020.06.10-05.01.47:553][ 75]LogVolumetricLightmapImport:          0: 0.7% covering 100.0% of volume
+[2020.06.10-05.01.47:553][ 75]LogVolumetricLightmapImport:          1: 6.3% covering 14.1% of volume
+[2020.06.10-05.01.47:553][ 75]LogVolumetricLightmapImport:          2: 93.0% covering 3.2% of volume
+[2020.06.10-05.01.47:553][ 75]LogVolumetricLightmapImport:      Bricks in each level
+[2020.06.10-05.01.47:553][ 75]LogVolumetricLightmapImport:          DemoLevel 			 142 bricks 	 100.0% (Persistent Level)
+[2020.06.10-05.01.48:070][ 75]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
+[2020.06.10-05.01.48:070][ 75]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024)
+[2020.06.10-05.01.48:070][ 75]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 1024X1024)
+[2020.06.10-05.01.48:070][ 75]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 1024X1024)
+[2020.06.10-05.01.48:071][ 75]LogTexture: Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 64X64)
+[2020.06.10-05.01.48:071][ 75]LogTexture: Display: Building textures: LQ_Lightmap_0_3 (DXT1, 64X64)
+[2020.06.10-05.01.48:197][ 75]LogTexture: Display: Building textures: ShadowMapTexture2D_2 (G8, 32X32)
+[2020.06.10-05.01.48:197][ 75]LogTexture: Display: Building textures: ShadowMapTexture2D_1 (G8, 1024X128)
+[2020.06.10-05.01.48:197][ 75]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (G8, 512X512)
+[2020.06.10-05.01.48:197][ 75]Lightmass on MSI: 14.8 sec total, 2.26 sec importing, 565 ms setup, 3.36 sec photons, 8.57 sec processing, 0 ms extra exporting [1751/1751 mappings]. Threads: 1:34 min total, 40.1 sec processing.
+[2020.06.10-05.01.48:203][ 75]LogStaticLightingSystem: DemoLevel_BuiltData storing lightmap data for 200 meshes in 4 LightmapResourceClusters (50.0 Meshes per cluster).
+[2020.06.10-05.01.48:250][ 75]LogUObjectHash: Compacting FUObjectHashTables data took   2.64ms
+[2020.06.10-05.01.48:351][ 75]LogStaticLightingSystem: Illumination: 21.5 sec (258 ms encoding lightmaps, 65 ms encoding shadowmaps)
+[2020.06.10-05.01.48:351][ 75]LogStaticLightingSystem: Lightmap texture memory:  4.0 MB (2.0 MB streaming, 2.0 MB non-streaming), 6 textures
+[2020.06.10-05.01.48:351][ 75]LogStaticLightingSystem: Shadowmap texture memory: 0.5 MB (0.2 MB streaming, 0.3 MB non-streaming), 3 textures
+[2020.06.10-05.01.49:438][ 75]DumpUnbuiltLightIteractions
+[2020.06.10-05.01.49:438][ 75]Lights with unbuilt interactions: 0
+[2020.06.10-05.01.49:438][ 75]
+[2020.06.10-05.01.49:438][ 75]Primitives with unbuilt interactions: 0
+[2020.06.10-05.01.49:552][ 76]Cmd: MAP CHECK NOTIFYRESULTS
+[2020.06.10-05.01.49:552][ 76]MapCheck: New page: DemoLevel - Jun 9, 2020, 9:01:49 PM
+[2020.06.10-05.01.49:553][ 76]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 1.123ms to complete.
+[2020.06.10-05.01.54:610][640]LogSlate: Window 'Message Log' being destroyed
+[2020.06.10-05.01.54:620][640]LogSlate: Window 'Message Log' being destroyed
+[2020.06.10-05.08.00:760][889]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2020.06.10-05.11.25:225][370]LogUObjectHash: Compacting FUObjectHashTables data took   2.95ms
+[2020.06.10-05.11.25:235][370]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/DemoLevel" FILE="D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Autosaves/Game/Maps/DemoLevel_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2020.06.10-05.11.25:793][370]LogSavePackage: Moving 'D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Saved/DemoLevel_Auto29C10758140AE1C1EB6D4B699874E6DD7.tmp' to 'D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Autosaves/Game/Maps/DemoLevel_Auto2.umap'
+[2020.06.10-05.11.25:801][370]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/DemoLevel' took 0.612
+[2020.06.10-05.11.25:801][370]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.612
+[2020.06.10-05.12.29:789][704]LogSlate: Window 'Color Picker' being destroyed
+[2020.06.10-05.14.52:455][240]LogTemp: Repeating last play command: Selected Viewport
+[2020.06.10-05.14.52:492][240]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.06.10-05.14.52:492][240]PIE: New page: PIE session: DemoLevel (Jun 9, 2020, 9:14:52 PM)
+[2020.06.10-05.14.52:516][240]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_DemoLevel
+[2020.06.10-05.14.52:676][240]LogPlayLevel: PIE: StaticDuplicateObject took: (0.160765s)
+[2020.06.10-05.14.52:677][240]LogAIModule: Creating AISystem for world DemoLevel
+[2020.06.10-05.14.52:677][240]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002A8CC3E1A00), frame # 670240
+[2020.06.10-05.14.52:677][240]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002A82A5CB740), frame # 670240
+[2020.06.10-05.14.52:678][240]LogPlayLevel: PIE: World Init took: (0.001295s)
+[2020.06.10-05.14.52:678][240]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/DemoLevel.DemoLevel to /Game/Maps/UEDPIE_0_DemoLevel.DemoLevel (0.162424s)
+[2020.06.10-05.14.52:718][240]LogUObjectHash: Compacting FUObjectHashTables data took   2.58ms
+[2020.06.10-05.14.52:726][240]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.06.10-05.14.52:726][240]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.06.10-05.14.52:726][240]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.06.10-05.14.52:726][240]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.06.10-05.14.52:726][240]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.06.10-05.14.52:726][240]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.06.10-05.14.52:726][240]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.06.10-05.14.52:726][240]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.06.10-05.14.52:726][240]LogAudio: Display: Using built-in audio occlusion.
+[2020.06.10-05.14.52:726][240]LogAudioMixer: Display: Initializing audio mixer.
+[2020.06.10-05.14.52:731][240]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.10-05.14.52:731][240]LogAudioMixer: Display: 1: FrontRight
+[2020.06.10-05.14.52:731][240]LogAudioMixer: Display: 2: FrontCenter
+[2020.06.10-05.14.52:731][240]LogAudioMixer: Display: 3: LowFrequency
+[2020.06.10-05.14.52:731][240]LogAudioMixer: Display: 4: BackLeft
+[2020.06.10-05.14.52:731][240]LogAudioMixer: Display: 5: BackRight
+[2020.06.10-05.14.52:731][240]LogAudioMixer: Display: 6: SideLeft
+[2020.06.10-05.14.52:731][240]LogAudioMixer: Display: 7: SideRight
+[2020.06.10-05.14.52:822][240]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2020.06.10-05.14.52:822][240]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.06.10-05.14.52:822][240]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.06.10-05.14.52:822][240]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.06.10-05.14.52:822][240]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.06.10-05.14.52:836][240]LogInit: FAudioDevice initialized.
+[2020.06.10-05.14.52:846][240]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2020.06.10-05.14.52:856][240]LogWorld: Bringing World /Game/Maps/UEDPIE_0_DemoLevel.DemoLevel up for play (max tick rate 0) at 2020.06.10-01.14.52
+[2020.06.10-05.14.52:858][240]LogWorld: Bringing up level for play took: 0.010661
+[2020.06.10-05.14.52:858][240]LogOnline: OSS: Creating online subsystem instance for: :Context_48
+[2020.06.10-05.14.52:865][240]PIE: Server logged in
+[2020.06.10-05.14.52:866][240]PIE: Play in editor total start time 0.38 seconds.
+[2020.06.10-05.15.08:895][ 91]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.10-05.15.08:896][ 91]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_DemoLevel
+[2020.06.10-05.15.08:897][ 91]LogWorld: UWorld::CleanupWorld for DemoLevel, bSessionEnded=true, bCleanupResources=true
+[2020.06.10-05.15.08:899][ 91]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.10-05.15.08:915][ 91]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.06.10-05.15.08:923][ 91]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.10-05.15.08:984][ 91]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.10-05.15.08:986][ 91]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002A82A5CB740), frame # 672091
+[2020.06.10-05.15.08:986][ 91]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002A8CC3E1A00), frame # 672091
+[2020.06.10-05.15.08:990][ 91]LogUObjectHash: Compacting FUObjectHashTables data took   2.28ms
+[2020.06.10-05.15.09:024][ 92]LogPlayLevel: Display: Destroying online subsystem :Context_48
+[2020.06.10-05.15.20:198][417]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2020.06.10-05.17.29:389][655]LogTemp: Repeating last play command: Selected Viewport
+[2020.06.10-05.17.29:420][655]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.06.10-05.17.29:420][655]PIE: New page: PIE session: DemoLevel (Jun 9, 2020, 9:17:29 PM)
+[2020.06.10-05.17.29:420][655]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_DemoLevel
+[2020.06.10-05.17.29:543][655]LogPlayLevel: PIE: StaticDuplicateObject took: (0.122350s)
+[2020.06.10-05.17.29:544][655]LogAIModule: Creating AISystem for world DemoLevel
+[2020.06.10-05.17.29:544][655]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002A8CCB2F800), frame # 688655
+[2020.06.10-05.17.29:544][655]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002A81E41D1C0), frame # 688655
+[2020.06.10-05.17.29:544][655]LogPlayLevel: PIE: World Init took: (0.001153s)
+[2020.06.10-05.17.29:544][655]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/DemoLevel.DemoLevel to /Game/Maps/UEDPIE_0_DemoLevel.DemoLevel (0.123644s)
+[2020.06.10-05.17.29:583][655]LogUObjectHash: Compacting FUObjectHashTables data took   2.44ms
+[2020.06.10-05.17.29:590][655]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.06.10-05.17.29:590][655]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.06.10-05.17.29:590][655]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.06.10-05.17.29:590][655]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.06.10-05.17.29:590][655]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.06.10-05.17.29:590][655]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.06.10-05.17.29:590][655]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.06.10-05.17.29:590][655]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.06.10-05.17.29:591][655]LogAudio: Display: Using built-in audio occlusion.
+[2020.06.10-05.17.29:591][655]LogAudioMixer: Display: Initializing audio mixer.
+[2020.06.10-05.17.29:595][655]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.10-05.17.29:595][655]LogAudioMixer: Display: 1: FrontRight
+[2020.06.10-05.17.29:596][655]LogAudioMixer: Display: 2: FrontCenter
+[2020.06.10-05.17.29:596][655]LogAudioMixer: Display: 3: LowFrequency
+[2020.06.10-05.17.29:596][655]LogAudioMixer: Display: 4: BackLeft
+[2020.06.10-05.17.29:596][655]LogAudioMixer: Display: 5: BackRight
+[2020.06.10-05.17.29:596][655]LogAudioMixer: Display: 6: SideLeft
+[2020.06.10-05.17.29:596][655]LogAudioMixer: Display: 7: SideRight
+[2020.06.10-05.17.29:686][655]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2020.06.10-05.17.29:686][655]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.06.10-05.17.29:686][655]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.06.10-05.17.29:686][655]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.06.10-05.17.29:687][655]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.06.10-05.17.29:699][655]LogInit: FAudioDevice initialized.
+[2020.06.10-05.17.29:711][655]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2020.06.10-05.17.29:721][655]LogWorld: Bringing World /Game/Maps/UEDPIE_0_DemoLevel.DemoLevel up for play (max tick rate 0) at 2020.06.10-01.17.29
+[2020.06.10-05.17.29:722][655]LogWorld: Bringing up level for play took: 0.009684
+[2020.06.10-05.17.29:722][655]LogOnline: OSS: Creating online subsystem instance for: :Context_49
+[2020.06.10-05.17.29:728][655]PIE: Server logged in
+[2020.06.10-05.17.29:729][655]PIE: Play in editor total start time 0.314 seconds.
+[2020.06.10-05.17.41:517][ 16]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.10-05.17.41:517][ 16]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_DemoLevel
+[2020.06.10-05.17.41:517][ 16]LogWorld: UWorld::CleanupWorld for DemoLevel, bSessionEnded=true, bCleanupResources=true
+[2020.06.10-05.17.41:518][ 16]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.10-05.17.41:527][ 16]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.06.10-05.17.41:532][ 16]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.10-05.17.41:583][ 16]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.10-05.17.41:584][ 16]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002A81E41D1C0), frame # 690016
+[2020.06.10-05.17.41:584][ 16]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002A8CCB2F800), frame # 690016
+[2020.06.10-05.17.41:588][ 16]LogUObjectHash: Compacting FUObjectHashTables data took   2.31ms
+[2020.06.10-05.17.41:626][ 17]LogPlayLevel: Display: Destroying online subsystem :Context_49
+[2020.06.10-05.17.47:572][722]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2020.06.10-05.17.56:464][773]LogEditorViewport: Clicking on Actor (LMB): PostProcessVolume (PostProcessVolume)
+[2020.06.10-05.18.07:214][  7]Cmd: DELETE
+[2020.06.10-05.18.07:214][  7]Cmd: ACTOR DELETE
+[2020.06.10-05.18.07:257][  7]LogEditorActor: Deleted Actor: PostProcessVolume
+[2020.06.10-05.18.07:291][  7]LogUObjectHash: Compacting FUObjectHashTables data took   2.57ms
+[2020.06.10-05.18.07:297][  7]LogEditorActor: Deleted 1 Actors (0.080 secs)
+[2020.06.10-05.18.13:896][795]Cmd: TRANSACTION UNDO
+[2020.06.10-05.18.13:896][795]LogEditorTransaction: Undo Delete Actors
+[2020.06.10-05.18.22:877][783]Cmd: DELETE
+[2020.06.10-05.18.22:877][783]Cmd: ACTOR DELETE
+[2020.06.10-05.18.22:917][783]LogEditorActor: Deleted Actor: PostProcessVolume
+[2020.06.10-05.18.22:950][783]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2020.06.10-05.18.22:957][783]LogEditorActor: Deleted 1 Actors (0.080 secs)
+[2020.06.10-05.18.37:041][458]MapCheck: New page: Map Check
+[2020.06.10-05.18.37:069][458]Cmd: MAP REBUILD ALLVISIBLE
+[2020.06.10-05.18.37:070][458]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2020.06.10-05.18.58:208][458]LogWorld: UWorld::CleanupWorld for DemoLevel, bSessionEnded=true, bCleanupResources=false
+[2020.06.10-05.18.58:445][458]LogNavigationDataBuild: Display: UNavigationSystemV1::Build started...
+[2020.06.10-05.18.58:445][458]LogNavigationDataBuild: Display:    Building navigation data using PHYSICS_INTERFACE_PHYSX.
+[2020.06.10-05.18.58:445][458]LogNavigationDataBuild: Display:    Building navigation data using WITH_PHYSX.
+[2020.06.10-05.18.58:446][458]LogNavigationDataBuild: Display:    Building NavData:  Name Default class /Script/NavigationSystem.RecastNavMesh agent radius 35.0.
+[2020.06.10-05.18.58:481][458]LogNavigationDataBuild: Display: UNavigationSystemV1::Build total execution time: 0.03s
+[2020.06.10-05.18.58:518][458]LogUObjectHash: Compacting FUObjectHashTables data took   2.30ms
+[2020.06.10-05.18.58:525][458]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.06.10-05.18.58:527][458]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.06.10-05.18.58:529][458]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.06.10-05.18.58:540][458]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 4
+[2020.06.10-05.18.58:540][458]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 3
+[2020.06.10-05.18.58:540][458]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 2
+[2020.06.10-05.18.58:540][458]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 1
+[2020.06.10-05.18.58:540][458]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.06.10-05.18.58:550][458]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.06.10-05.18.58:561][458]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.06.10-05.18.58:569][458]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.06.10-05.18.58:584][458]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.06.10-05.18.58:603][458]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 10
+[2020.06.10-05.18.58:603][458]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 9
+[2020.06.10-05.18.58:603][458]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 8
+[2020.06.10-05.18.58:603][458]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 7
+[2020.06.10-05.18.58:603][458]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.06.10-05.18.58:617][458]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.06.10-05.18.58:623][458]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.06.10-05.18.58:625][458]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. Is special engine material.
+[2020.06.10-05.18.58:643][458]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.06.10-05.18.58:646][458]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.06.10-05.18.58:653][458]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.06.10-05.18.58:658][458]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.06.10-05.19.02:577][458]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 76
+[2020.06.10-05.19.02:577][458]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 75
+[2020.06.10-05.19.02:577][458]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 74
+[2020.06.10-05.19.02:577][458]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 73
+[2020.06.10-05.19.02:577][458]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 72
+[2020.06.10-05.19.02:577][458]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 71
+[2020.06.10-05.19.02:577][458]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 70
+[2020.06.10-05.19.02:577][458]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 69
+[2020.06.10-05.19.02:577][458]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 68
+[2020.06.10-05.19.02:577][458]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 67
+[2020.06.10-05.19.02:577][458]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 66
+[2020.06.10-05.19.02:577][458]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 65
+[2020.06.10-05.19.02:578][458]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 64
+[2020.06.10-05.19.02:578][458]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 63
+[2020.06.10-05.19.02:578][458]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 62
+[2020.06.10-05.19.02:578][458]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 61
+[2020.06.10-05.19.02:578][458]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 60
+[2020.06.10-05.19.02:578][458]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 59
+[2020.06.10-05.19.02:578][458]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 58
+[2020.06.10-05.19.02:578][458]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 57
+[2020.06.10-05.19.02:578][458]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 56
+[2020.06.10-05.19.02:578][458]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 55
+[2020.06.10-05.19.02:578][458]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 54
+[2020.06.10-05.19.02:578][458]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 53
+[2020.06.10-05.19.02:578][458]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 52
+[2020.06.10-05.19.02:578][458]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 51
+[2020.06.10-05.19.02:578][458]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 50
+[2020.06.10-05.19.02:578][458]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 49
+[2020.06.10-05.19.02:578][458]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 48
+[2020.06.10-05.19.02:578][458]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 47
+[2020.06.10-05.19.02:578][458]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 46
+[2020.06.10-05.19.02:579][458]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 45
+[2020.06.10-05.19.02:579][458]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 44
+[2020.06.10-05.19.02:579][458]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 43
+[2020.06.10-05.19.02:579][458]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 42
+[2020.06.10-05.19.02:579][458]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 41
+[2020.06.10-05.19.02:579][458]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 40
+[2020.06.10-05.19.02:579][458]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 39
+[2020.06.10-05.19.02:579][458]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 38
+[2020.06.10-05.19.02:579][458]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 37
+[2020.06.10-05.19.02:579][458]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 36
+[2020.06.10-05.19.02:579][458]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 35
+[2020.06.10-05.19.02:579][458]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 34
+[2020.06.10-05.19.02:579][458]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 33
+[2020.06.10-05.19.02:579][458]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 32
+[2020.06.10-05.19.02:579][458]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 31
+[2020.06.10-05.19.02:579][458]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 30
+[2020.06.10-05.19.02:579][458]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 29
+[2020.06.10-05.19.02:580][458]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 28
+[2020.06.10-05.19.02:580][458]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 27
+[2020.06.10-05.19.02:580][458]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 26
+[2020.06.10-05.19.02:580][458]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 25
+[2020.06.10-05.19.02:580][458]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 24
+[2020.06.10-05.19.02:580][458]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 23
+[2020.06.10-05.19.02:580][458]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 22
+[2020.06.10-05.19.02:580][458]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 21
+[2020.06.10-05.19.02:580][458]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 20
+[2020.06.10-05.19.02:580][458]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 19
+[2020.06.10-05.19.02:580][458]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 18
+[2020.06.10-05.19.02:580][458]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 17
+[2020.06.10-05.19.02:580][458]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 16
+[2020.06.10-05.19.02:580][458]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 15
+[2020.06.10-05.19.02:580][458]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 14
+[2020.06.10-05.19.02:580][458]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 13
+[2020.06.10-05.19.02:580][458]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 12
+[2020.06.10-05.19.02:580][458]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 11
+[2020.06.10-05.19.02:580][458]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 10
+[2020.06.10-05.19.02:581][458]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 9
+[2020.06.10-05.19.02:581][458]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 8
+[2020.06.10-05.19.02:581][458]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 7
+[2020.06.10-05.19.02:581][458]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 6
+[2020.06.10-05.19.02:581][458]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 5
+[2020.06.10-05.19.02:581][458]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 4
+[2020.06.10-05.19.02:581][458]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 3
+[2020.06.10-05.19.02:581][458]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 2
+[2020.06.10-05.19.02:581][458]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 1
+[2020.06.10-05.19.02:581][458]TextureStreamingBuild: Display: Compiling optional shaders took 4.052 seconds.
+[2020.06.10-05.19.02:655][458]LogLevel: Display: Export Material TexCoord Scales took 0.074 seconds.
+[2020.06.10-05.19.02:706][458]TextureStreamingBuild: Display: Build Texture Streaming took 0.050 seconds.
+[2020.06.10-05.19.02:737][458]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2020.06.10-05.19.02:740][458]LightingResults: New page: Lighting Build - Jun 9, 2020, 9:19:02 PM
+[2020.06.10-05.19.02:840][458]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2020.06.10-05.19.02:842][458]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2020.06.10-05.19.02:843][458]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2020.06.10-05.19.02:844][458]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2020.06.10-05.19.02:844][458]LogSwarmInterface: [TryOpenConnection] Local Process ID is 22920
+[2020.06.10-05.19.07:355][458]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2020.06.10-05.19.07:359][458]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2020.06.10-05.19.07:359][458]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2020.06.10-05.19.07:359][458]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2020.06.10-05.19.07:359][458]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2020.06.10-05.19.07:359][458]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2020.06.10-05.19.07:761][458]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2020.06.10-05.19.07:761][458]MapCheck: New page: DemoLevel - Jun 9, 2020, 9:19:07 PM
+[2020.06.10-05.19.07:784][458]MapCheck: Error: WorldSettings_1 Maps need lighting rebuilt 
+[2020.06.10-05.19.07:784][458]MapCheck: Map check complete: 1 Error(s), 0 Warning(s), took 23.293ms to complete.
+[2020.06.10-05.19.07:786][458]LogEditorBuildUtils: Build time 0:30
+[2020.06.10-05.19.08:126][461]LogUObjectHash: Compacting FUObjectHashTables data took   3.62ms
+[2020.06.10-05.19.20:932][187]Job is a success!
+[2020.06.10-05.19.21:082][188]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.024s
+[2020.06.10-05.19.21:082][188]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2020.06.10-05.19.21:082][188]LogVolumetricLightmapImport:      BrickData (all levels) 0.6Mb
+[2020.06.10-05.19.21:082][188]LogVolumetricLightmapImport:      Bricks at depth
+[2020.06.10-05.19.21:082][188]LogVolumetricLightmapImport:          0: 0.7% covering 100.0% of volume
+[2020.06.10-05.19.21:082][188]LogVolumetricLightmapImport:          1: 6.3% covering 14.1% of volume
+[2020.06.10-05.19.21:082][188]LogVolumetricLightmapImport:          2: 93.0% covering 3.2% of volume
+[2020.06.10-05.19.21:082][188]LogVolumetricLightmapImport:      Bricks in each level
+[2020.06.10-05.19.21:082][188]LogVolumetricLightmapImport:          DemoLevel 			 142 bricks 	 100.0% (Persistent Level)
+[2020.06.10-05.19.21:597][188]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 1024X1024)
+[2020.06.10-05.19.21:597][188]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 1024X1024)
+[2020.06.10-05.19.21:597][188]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 1024X1024)
+[2020.06.10-05.19.21:597][188]LogTexture: Display: Building textures: HQ_Lightmap1_3 (AutoDXT, 64X64)
+[2020.06.10-05.19.21:597][188]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 1024X1024)
+[2020.06.10-05.19.21:597][188]LogTexture: Display: Building textures: LQ_Lightmap_1_3 (DXT1, 64X64)
+[2020.06.10-05.19.21:705][188]LogTexture: Display: Building textures: ShadowMapTexture2D_5 (G8, 32X32)
+[2020.06.10-05.19.21:705][188]LogTexture: Display: Building textures: ShadowMapTexture2D_4 (G8, 1024X128)
+[2020.06.10-05.19.21:705][188]LogTexture: Display: Building textures: ShadowMapTexture2D_3 (G8, 512X512)
+[2020.06.10-05.19.21:705][188]Lightmass on MSI: 12.8 sec total, 746 ms importing, 490 ms setup, 3.50 sec photons, 8.05 sec processing, 0 ms extra exporting [1751/1751 mappings]. Threads: 1:28 min total, 35.4 sec processing.
+[2020.06.10-05.19.21:715][188]LogStaticLightingSystem: DemoLevel_BuiltData storing lightmap data for 200 meshes in 4 LightmapResourceClusters (50.0 Meshes per cluster).
+[2020.06.10-05.19.21:794][188]LogUObjectHash: Compacting FUObjectHashTables data took   3.21ms
+[2020.06.10-05.19.21:889][188]LogStaticLightingSystem: Illumination: 19.1 sec (248 ms encoding lightmaps, 55 ms encoding shadowmaps)
+[2020.06.10-05.19.21:889][188]LogStaticLightingSystem: Lightmap texture memory:  4.0 MB (2.0 MB streaming, 2.0 MB non-streaming), 6 textures
+[2020.06.10-05.19.21:889][188]LogStaticLightingSystem: Shadowmap texture memory: 0.5 MB (0.2 MB streaming, 0.3 MB non-streaming), 3 textures
+[2020.06.10-05.19.32:381][188]DumpUnbuiltLightIteractions
+[2020.06.10-05.19.32:381][188]Lights with unbuilt interactions: 0
+[2020.06.10-05.19.32:381][188]
+[2020.06.10-05.19.32:381][188]Primitives with unbuilt interactions: 0
+[2020.06.10-05.19.32:573][189]Cmd: MAP CHECK NOTIFYRESULTS
+[2020.06.10-05.19.32:573][189]MapCheck: New page: DemoLevel - Jun 9, 2020, 9:19:32 PM
+[2020.06.10-05.19.32:574][189]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.999ms to complete.
+[2020.06.10-05.19.36:366][633]LogSlate: Window 'Message Log' being destroyed
+[2020.06.10-05.19.36:371][633]LogSlate: Window 'Message Log' being destroyed
+[2020.06.10-05.19.53:014][626]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (spruce_full_8)
+[2020.06.10-05.19.55:828][947]Cmd: TRANSACTION UNDO
+[2020.06.10-05.19.55:828][947]LogEditorTransaction: Undo Clicking on Actors
+[2020.06.10-05.21.05:086][531]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/DemoLevel.DemoLevel
+[2020.06.10-05.21.05:119][531]LogUObjectHash: Compacting FUObjectHashTables data took   2.55ms
+[2020.06.10-05.21.08:539][531]LogSlate: Window 'Save Content' being destroyed
+[2020.06.10-05.21.08:544][531]Cmd: MAP LOAD FILE="D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Content/Maps/DemoLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.06.10-05.21.08:546][531]LightingResults: New page: Lighting Build
+[2020.06.10-05.21.08:546][531]LoadErrors: New page: Loading map: DemoLevel.umap
+[2020.06.10-05.21.08:548][531]LogWorld: UWorld::CleanupWorld for DemoLevel, bSessionEnded=true, bCleanupResources=true
+[2020.06.10-05.21.08:548][531]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.10-05.21.08:548][531]MapCheck: New page: Map Check
+[2020.06.10-05.21.08:548][531]LightingResults: New page: Lighting Build
+[2020.06.10-05.21.08:589][531]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002A7E11EC540), frame # 703531
+[2020.06.10-05.21.08:589][531]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002A8E6439000), frame # 703531
+[2020.06.10-05.21.08:594][531]LogUObjectHash: Compacting FUObjectHashTables data took   2.48ms
+[2020.06.10-05.21.08:716][531]LogTexture: Display: Building textures: HQ_Lightmap1_3 (AutoDXT, 64X64)
+[2020.06.10-05.21.08:716][531]LogTexture: Display: Building textures: LQ_Lightmap_1_3 (DXT1, 64X64)
+[2020.06.10-05.21.08:751][531]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 1024X1024)
+[2020.06.10-05.21.08:751][531]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 1024X1024)
+[2020.06.10-05.21.08:751][531]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 1024X1024)
+[2020.06.10-05.21.08:751][531]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 1024X1024)
+[2020.06.10-05.21.08:871][531]LogAIModule: Creating AISystem for world DemoLevel
+[2020.06.10-05.21.08:871][531]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002A8FF7A8400), frame # 703531
+[2020.06.10-05.21.08:871][531]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002A7D7E8D1C0), frame # 703531
+[2020.06.10-05.21.09:499][531]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.06.10-05.21.09:539][531]LogUObjectHash: Compacting FUObjectHashTables data took   2.64ms
+[2020.06.10-05.21.09:582][531]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.06.10-05.21.09:582][531]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.092ms to complete.
+[2020.06.10-05.21.09:582][531]LogFileHelpers: Loading map 'DemoLevel' took 1.038
+[2020.06.10-05.21.18:605][527]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/Main.Main
+[2020.06.10-05.21.18:639][527]LogUObjectHash: Compacting FUObjectHashTables data took   2.71ms
+[2020.06.10-05.21.18:641][527]Cmd: MAP LOAD FILE="D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Content/Maps/Main.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.06.10-05.21.18:641][527]LightingResults: New page: Lighting Build
+[2020.06.10-05.21.18:641][527]LoadErrors: New page: Loading map: Main.umap
+[2020.06.10-05.21.18:674][527]LogWorld: UWorld::CleanupWorld for DemoLevel, bSessionEnded=true, bCleanupResources=true
+[2020.06.10-05.21.18:674][527]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.10-05.21.18:675][527]MapCheck: New page: Map Check
+[2020.06.10-05.21.18:675][527]LightingResults: New page: Lighting Build
+[2020.06.10-05.21.18:713][527]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002A7D7E8D1C0), frame # 704527
+[2020.06.10-05.21.18:713][527]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002A8FF7A8400), frame # 704527
+[2020.06.10-05.21.18:717][527]LogUObjectHash: Compacting FUObjectHashTables data took   2.32ms
+[2020.06.10-05.21.18:895][527]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.06.10-05.21.18:895][527]LogAIModule: Creating AISystem for world Main
+[2020.06.10-05.21.18:895][527]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002A7B36D7000), frame # 704527
+[2020.06.10-05.21.18:895][527]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002A7F73D5440), frame # 704527
+[2020.06.10-05.21.18:930][527]LogUObjectHash: Compacting FUObjectHashTables data took   2.16ms
+[2020.06.10-05.21.18:966][527]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.06.10-05.21.18:966][527]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.063ms to complete.
+[2020.06.10-05.21.18:966][527]LogFileHelpers: Loading map 'Main' took 0.325
+[2020.06.10-05.21.21:569][818]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2020.06.10-05.21.21:569][818]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.10-05.21.24:344][987]LogWorld: UWorld::CleanupWorld for World_32, bSessionEnded=true, bCleanupResources=true
+[2020.06.10-05.21.24:344][987]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.10-05.21.24:349][987]LogWorld: UWorld::CleanupWorld for World_31, bSessionEnded=true, bCleanupResources=true
+[2020.06.10-05.21.24:349][987]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.10-05.21.26:494][140]LogWorld: UWorld::CleanupWorld for World_30, bSessionEnded=true, bCleanupResources=true
+[2020.06.10-05.21.26:494][140]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.10-05.21.26:519][140]LogWorld: UWorld::CleanupWorld for World_29, bSessionEnded=true, bCleanupResources=true
+[2020.06.10-05.21.26:519][140]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.10-05.21.27:655][254]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2020.06.10-05.21.27:655][254]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2020.06.10-05.21.27:655][254]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.10-05.21.43:212][ 61]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/ThirdPersonBP/Blueprints/MainMenu.MainMenu
+[2020.06.10-05.22.06:872][821]BlueprintLog: New page: Compile MainMenu
+[2020.06.10-05.22.06:985][821]LogUObjectHash: Compacting FUObjectHashTables data took   3.30ms
+[2020.06.10-05.22.09:191][ 69]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/MainMenu" FILE="D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Content/ThirdPersonBP/Blueprints/MainMenu.uasset" SILENT=true
+[2020.06.10-05.22.09:238][ 69]LogSavePackage: Moving 'D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Saved/MainMenu220FE1194FED47CE1194D1AC352AFB75.tmp' to 'D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Content/ThirdPersonBP/Blueprints/MainMenu.uasset'
+[2020.06.10-05.22.09:251][ 69]AssetCheck: New page: Asset Save: MainMenu
+[2020.06.10-05.22.09:251][ 69]LogContentValidation: Display: Validating WidgetBlueprint /Game/ThirdPersonBP/Blueprints/MainMenu.MainMenu
+[2020.06.10-05.22.25:679][  7]LogTemp: Repeating last play command: Selected Viewport
+[2020.06.10-05.22.25:703][  7]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.06.10-05.22.25:704][  7]PIE: New page: PIE session: Main (Jun 9, 2020, 9:22:25 PM)
+[2020.06.10-05.22.25:745][  7]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2020.06.10-05.22.25:746][  7]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001148s)
+[2020.06.10-05.22.25:747][  7]LogAIModule: Creating AISystem for world Main
+[2020.06.10-05.22.25:747][  7]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002A8E843BC00), frame # 712007
+[2020.06.10-05.22.25:747][  7]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002A83FC09580), frame # 712007
+[2020.06.10-05.22.25:747][  7]LogPlayLevel: PIE: World Init took: (0.001055s)
+[2020.06.10-05.22.25:747][  7]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.002389s)
+[2020.06.10-05.22.25:818][  7]LogUObjectHash: Compacting FUObjectHashTables data took   3.39ms
+[2020.06.10-05.22.25:824][  7]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.06.10-05.22.25:824][  7]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.06.10-05.22.25:824][  7]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.06.10-05.22.25:824][  7]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.06.10-05.22.25:824][  7]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.06.10-05.22.25:824][  7]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.06.10-05.22.25:824][  7]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.06.10-05.22.25:824][  7]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.06.10-05.22.25:825][  7]LogAudio: Display: Using built-in audio occlusion.
+[2020.06.10-05.22.25:825][  7]LogAudioMixer: Display: Initializing audio mixer.
+[2020.06.10-05.22.25:829][  7]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.10-05.22.25:829][  7]LogAudioMixer: Display: 1: FrontRight
+[2020.06.10-05.22.25:830][  7]LogAudioMixer: Display: 2: FrontCenter
+[2020.06.10-05.22.25:830][  7]LogAudioMixer: Display: 3: LowFrequency
+[2020.06.10-05.22.25:830][  7]LogAudioMixer: Display: 4: BackLeft
+[2020.06.10-05.22.25:830][  7]LogAudioMixer: Display: 5: BackRight
+[2020.06.10-05.22.25:830][  7]LogAudioMixer: Display: 6: SideLeft
+[2020.06.10-05.22.25:830][  7]LogAudioMixer: Display: 7: SideRight
+[2020.06.10-05.22.25:920][  7]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2020.06.10-05.22.25:921][  7]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.06.10-05.22.25:921][  7]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.06.10-05.22.25:921][  7]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.06.10-05.22.25:925][  7]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.06.10-05.22.25:935][  7]LogInit: FAudioDevice initialized.
+[2020.06.10-05.22.25:942][  7]LogLoad: Game class is 'GameModeBase'
+[2020.06.10-05.22.25:943][  7]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2020.06.10-01.22.25
+[2020.06.10-05.22.25:944][  7]LogWorld: Bringing up level for play took: 0.000249
+[2020.06.10-05.22.25:944][  7]LogOnline: OSS: Creating online subsystem instance for: :Context_52
+[2020.06.10-05.22.25:949][  7]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(799)]!
+[2020.06.10-05.22.25:949][  7]PIE: Server logged in
+[2020.06.10-05.22.25:950][  7]PIE: Play in editor total start time 0.252 seconds.
+[2020.06.10-05.22.33:249][880]LogNet: Browse: /Game/Maps/DemoLevel
+[2020.06.10-05.22.33:249][880]LogLoad: LoadMap: /Game/Maps/DemoLevel
+[2020.06.10-05.22.33:249][880]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Main
+[2020.06.10-05.22.33:250][880]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2020.06.10-05.22.33:250][880]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.10-05.22.33:300][880]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002A83FC09580), frame # 712880
+[2020.06.10-05.22.33:300][880]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002A8E843BC00), frame # 712880
+[2020.06.10-05.22.33:302][880]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
+[2020.06.10-05.22.33:477][880]LogAIModule: Creating AISystem for world DemoLevel
+[2020.06.10-05.22.33:477][880]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002A82C875400), frame # 712880
+[2020.06.10-05.22.33:477][880]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002A7AED32840), frame # 712880
+[2020.06.10-05.22.33:478][880]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2020.06.10-05.22.33:491][880]LogWorld: Bringing World /Game/Maps/UEDPIE_0_DemoLevel.DemoLevel up for play (max tick rate 0) at 2020.06.10-01.22.33
+[2020.06.10-05.22.33:492][880]LogWorld: Bringing up level for play took: 0.013778
+[2020.06.10-05.22.33:498][880]LogLoad: Took 0.248402 seconds to LoadMap(/Game/Maps/DemoLevel)
+[2020.06.10-05.22.39:425][581]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.10-05.22.39:425][581]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_DemoLevel
+[2020.06.10-05.22.39:426][581]LogWorld: UWorld::CleanupWorld for DemoLevel, bSessionEnded=true, bCleanupResources=true
+[2020.06.10-05.22.39:428][581]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.10-05.22.39:438][581]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.06.10-05.22.39:443][581]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.10-05.22.39:480][581]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.10-05.22.39:488][581]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002A7AED32840), frame # 713581
+[2020.06.10-05.22.39:488][581]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002A82C875400), frame # 713581
+[2020.06.10-05.22.39:491][581]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2020.06.10-05.22.39:522][582]LogPlayLevel: Display: Destroying online subsystem :Context_52
+[2020.06.10-05.23.20:954][ 10]LogAssetEditorSubsystem: Opening Asset editor for LevelScriptBlueprint /Game/Maps/Main.Main:PersistentLevel.Main
+[2020.06.10-05.23.29:879][948]LogSlate: Window 'Main' being destroyed
+[2020.06.10-05.23.29:884][948]LogSlate: Window 'Main' being destroyed
+[2020.06.10-05.23.29:934][948]LogWorld: UWorld::CleanupWorld for World_36, bSessionEnded=true, bCleanupResources=true
+[2020.06.10-05.23.29:934][948]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.10-05.23.34:133][409]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/Plantation.Plantation
+[2020.06.10-05.23.34:155][409]LogUObjectHash: Compacting FUObjectHashTables data took   1.91ms
+[2020.06.10-05.23.34:161][409]Cmd: MAP LOAD FILE="D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Content/Maps/Plantation.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.06.10-05.23.34:161][409]LightingResults: New page: Lighting Build
+[2020.06.10-05.23.34:161][409]LoadErrors: New page: Loading map: Plantation.umap
+[2020.06.10-05.23.34:161][409]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2020.06.10-05.23.34:162][409]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.10-05.23.34:162][409]MapCheck: New page: Map Check
+[2020.06.10-05.23.34:162][409]LightingResults: New page: Lighting Build
+[2020.06.10-05.23.34:182][409]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002A7F73D5440), frame # 717409
+[2020.06.10-05.23.34:182][409]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002A7B36D7000), frame # 717409
+[2020.06.10-05.23.34:184][409]LogUObjectHash: Compacting FUObjectHashTables data took   1.93ms
+[2020.06.10-05.23.34:661][409]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.06.10-05.23.34:661][409]LogAIModule: Creating AISystem for world Plantation
+[2020.06.10-05.23.34:661][409]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002A7185A1400), frame # 717409
+[2020.06.10-05.23.34:661][409]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002A7A47E2840), frame # 717409
+[2020.06.10-05.23.34:684][409]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2020.06.10-05.23.34:719][409]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.06.10-05.23.34:719][409]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.067ms to complete.
+[2020.06.10-05.23.34:719][409]LogFileHelpers: Loading map 'Plantation' took 0.558
+[2020.06.10-05.23.43:735][453]LogAssetEditorSubsystem: Opening Asset editor for LevelScriptBlueprint /Game/Maps/Plantation.Plantation:PersistentLevel.Plantation
+[2020.06.10-05.24.01:875][345]LogSlate: Window 'Plantation' being destroyed
+[2020.06.10-05.24.01:934][345]LogWorld: UWorld::CleanupWorld for World_37, bSessionEnded=true, bCleanupResources=true
+[2020.06.10-05.24.01:934][345]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.10-05.24.05:317][714]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/DemoLevel.DemoLevel
+[2020.06.10-05.24.05:342][714]LogUObjectHash: Compacting FUObjectHashTables data took   1.88ms
+[2020.06.10-05.24.05:347][714]Cmd: MAP LOAD FILE="D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Content/Maps/DemoLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.06.10-05.24.05:347][714]LightingResults: New page: Lighting Build
+[2020.06.10-05.24.05:347][714]LoadErrors: New page: Loading map: DemoLevel.umap
+[2020.06.10-05.24.05:348][714]LogWorld: UWorld::CleanupWorld for Plantation, bSessionEnded=true, bCleanupResources=true
+[2020.06.10-05.24.05:348][714]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.10-05.24.05:348][714]MapCheck: New page: Map Check
+[2020.06.10-05.24.05:348][714]LightingResults: New page: Lighting Build
+[2020.06.10-05.24.05:369][714]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002A7A47E2840), frame # 720714
+[2020.06.10-05.24.05:369][714]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002A7185A1400), frame # 720714
+[2020.06.10-05.24.05:371][714]LogUObjectHash: Compacting FUObjectHashTables data took   1.96ms
+[2020.06.10-05.24.06:211][714]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.06.10-05.24.06:211][714]LogAIModule: Creating AISystem for world DemoLevel
+[2020.06.10-05.24.06:211][714]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002A8EB258800), frame # 720714
+[2020.06.10-05.24.06:211][714]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002A7AD808680), frame # 720714
+[2020.06.10-05.24.06:240][714]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2020.06.10-05.24.06:276][714]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.06.10-05.24.06:276][714]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.085ms to complete.
+[2020.06.10-05.24.06:276][714]LogFileHelpers: Loading map 'DemoLevel' took 0.929
+[2020.06.10-05.24.08:875][  1]MapCheck: New page: Map Check
+[2020.06.10-05.24.08:901][  1]Cmd: MAP REBUILD ALLVISIBLE
+[2020.06.10-05.24.08:901][  1]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2020.06.10-05.24.29:860][  1]LogWorld: UWorld::CleanupWorld for DemoLevel, bSessionEnded=true, bCleanupResources=false
+[2020.06.10-05.24.30:102][  1]LogNavigationDataBuild: Display: UNavigationSystemV1::Build started...
+[2020.06.10-05.24.30:102][  1]LogNavigationDataBuild: Display:    Building navigation data using PHYSICS_INTERFACE_PHYSX.
+[2020.06.10-05.24.30:102][  1]LogNavigationDataBuild: Display:    Building navigation data using WITH_PHYSX.
+[2020.06.10-05.24.30:103][  1]LogNavigationDataBuild: Display:    Building NavData:  Name Default class /Script/NavigationSystem.RecastNavMesh agent radius 35.0.
+[2020.06.10-05.24.30:135][  1]LogNavigationDataBuild: Display: UNavigationSystemV1::Build total execution time: 0.03s
+[2020.06.10-05.24.30:161][  1]LogUObjectHash: Compacting FUObjectHashTables data took   1.95ms
+[2020.06.10-05.24.30:166][  1]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.06.10-05.24.30:168][  1]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.06.10-05.24.30:169][  1]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.06.10-05.24.30:180][  1]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 4
+[2020.06.10-05.24.30:180][  1]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 3
+[2020.06.10-05.24.30:180][  1]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 2
+[2020.06.10-05.24.30:180][  1]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 1
+[2020.06.10-05.24.30:180][  1]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.06.10-05.24.30:191][  1]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.06.10-05.24.30:202][  1]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.06.10-05.24.30:209][  1]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.06.10-05.24.30:223][  1]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.06.10-05.24.30:241][  1]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 10
+[2020.06.10-05.24.30:241][  1]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 9
+[2020.06.10-05.24.30:241][  1]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 8
+[2020.06.10-05.24.30:241][  1]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 7
+[2020.06.10-05.24.30:242][  1]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.06.10-05.24.30:258][  1]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.06.10-05.24.30:265][  1]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.06.10-05.24.30:267][  1]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. Is special engine material.
+[2020.06.10-05.24.30:286][  1]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.06.10-05.24.30:289][  1]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.06.10-05.24.30:295][  1]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.06.10-05.24.30:302][  1]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.06.10-05.24.34:171][  1]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 76
+[2020.06.10-05.24.34:171][  1]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 75
+[2020.06.10-05.24.34:171][  1]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 74
+[2020.06.10-05.24.34:171][  1]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 73
+[2020.06.10-05.24.34:171][  1]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 72
+[2020.06.10-05.24.34:171][  1]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 71
+[2020.06.10-05.24.34:171][  1]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 70
+[2020.06.10-05.24.34:171][  1]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 69
+[2020.06.10-05.24.34:172][  1]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 68
+[2020.06.10-05.24.34:172][  1]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 67
+[2020.06.10-05.24.34:172][  1]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 66
+[2020.06.10-05.24.34:172][  1]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 65
+[2020.06.10-05.24.34:172][  1]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 64
+[2020.06.10-05.24.34:172][  1]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 63
+[2020.06.10-05.24.34:172][  1]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 62
+[2020.06.10-05.24.34:172][  1]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 61
+[2020.06.10-05.24.34:172][  1]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 60
+[2020.06.10-05.24.34:172][  1]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 59
+[2020.06.10-05.24.34:172][  1]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 58
+[2020.06.10-05.24.34:172][  1]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 57
+[2020.06.10-05.24.34:172][  1]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 56
+[2020.06.10-05.24.34:172][  1]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 55
+[2020.06.10-05.24.34:172][  1]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 54
+[2020.06.10-05.24.34:172][  1]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 53
+[2020.06.10-05.24.34:172][  1]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 52
+[2020.06.10-05.24.34:172][  1]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 51
+[2020.06.10-05.24.34:172][  1]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 50
+[2020.06.10-05.24.34:172][  1]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 49
+[2020.06.10-05.24.34:172][  1]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 48
+[2020.06.10-05.24.34:172][  1]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 47
+[2020.06.10-05.24.34:172][  1]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 46
+[2020.06.10-05.24.34:172][  1]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 45
+[2020.06.10-05.24.34:172][  1]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 44
+[2020.06.10-05.24.34:173][  1]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 43
+[2020.06.10-05.24.34:173][  1]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 42
+[2020.06.10-05.24.34:173][  1]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 41
+[2020.06.10-05.24.34:173][  1]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 40
+[2020.06.10-05.24.34:173][  1]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 39
+[2020.06.10-05.24.34:173][  1]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 38
+[2020.06.10-05.24.34:173][  1]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 37
+[2020.06.10-05.24.34:173][  1]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 36
+[2020.06.10-05.24.34:173][  1]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 35
+[2020.06.10-05.24.34:173][  1]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 34
+[2020.06.10-05.24.34:173][  1]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 33
+[2020.06.10-05.24.34:173][  1]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 32
+[2020.06.10-05.24.34:173][  1]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 31
+[2020.06.10-05.24.34:173][  1]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 30
+[2020.06.10-05.24.34:173][  1]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 29
+[2020.06.10-05.24.34:173][  1]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 28
+[2020.06.10-05.24.34:173][  1]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 27
+[2020.06.10-05.24.34:173][  1]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 26
+[2020.06.10-05.24.34:173][  1]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 25
+[2020.06.10-05.24.34:173][  1]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 24
+[2020.06.10-05.24.34:173][  1]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 23
+[2020.06.10-05.24.34:173][  1]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 22
+[2020.06.10-05.24.34:173][  1]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 21
+[2020.06.10-05.24.34:174][  1]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 20
+[2020.06.10-05.24.34:174][  1]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 19
+[2020.06.10-05.24.34:174][  1]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 18
+[2020.06.10-05.24.34:174][  1]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 17
+[2020.06.10-05.24.34:174][  1]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 16
+[2020.06.10-05.24.34:174][  1]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 15
+[2020.06.10-05.24.34:174][  1]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 14
+[2020.06.10-05.24.34:174][  1]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 13
+[2020.06.10-05.24.34:174][  1]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 12
+[2020.06.10-05.24.34:174][  1]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 11
+[2020.06.10-05.24.34:174][  1]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 10
+[2020.06.10-05.24.34:174][  1]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 9
+[2020.06.10-05.24.34:174][  1]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 8
+[2020.06.10-05.24.34:174][  1]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 7
+[2020.06.10-05.24.34:174][  1]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 6
+[2020.06.10-05.24.34:174][  1]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 5
+[2020.06.10-05.24.34:174][  1]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 4
+[2020.06.10-05.24.34:174][  1]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 3
+[2020.06.10-05.24.34:174][  1]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 2
+[2020.06.10-05.24.34:174][  1]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 1
+[2020.06.10-05.24.34:175][  1]TextureStreamingBuild: Display: Compiling optional shaders took 4.005 seconds.
+[2020.06.10-05.24.34:235][  1]LogLevel: Display: Export Material TexCoord Scales took 0.060 seconds.
+[2020.06.10-05.24.34:282][  1]TextureStreamingBuild: Display: Build Texture Streaming took 0.047 seconds.
+[2020.06.10-05.24.34:338][  1]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2020.06.10-05.24.34:345][  1]LightingResults: New page: Lighting Build - Jun 9, 2020, 9:24:34 PM
+[2020.06.10-05.24.34:449][  1]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2020.06.10-05.24.34:451][  1]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2020.06.10-05.24.34:451][  1]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2020.06.10-05.24.34:452][  1]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2020.06.10-05.24.34:452][  1]LogSwarmInterface: [TryOpenConnection] Local Process ID is 22920
+[2020.06.10-05.24.38:975][  1]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2020.06.10-05.24.38:981][  1]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2020.06.10-05.24.38:981][  1]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2020.06.10-05.24.38:981][  1]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2020.06.10-05.24.38:981][  1]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2020.06.10-05.24.38:981][  1]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2020.06.10-05.24.39:394][  1]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2020.06.10-05.24.39:394][  1]MapCheck: New page: DemoLevel - Jun 9, 2020, 9:24:39 PM
+[2020.06.10-05.24.39:418][  1]MapCheck: Error: WorldSettings_1 Maps need lighting rebuilt 
+[2020.06.10-05.24.39:418][  1]MapCheck: Map check complete: 1 Error(s), 0 Warning(s), took 24.498ms to complete.
+[2020.06.10-05.24.39:420][  1]LogEditorBuildUtils: Build time 0:30
+[2020.06.10-05.24.39:790][  4]LogUObjectHash: Compacting FUObjectHashTables data took   2.27ms
+[2020.06.10-05.24.53:592][806]Job is a success!
+[2020.06.10-05.24.53:745][807]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.026s
+[2020.06.10-05.24.53:745][807]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2020.06.10-05.24.53:745][807]LogVolumetricLightmapImport:      BrickData (all levels) 0.6Mb
+[2020.06.10-05.24.53:745][807]LogVolumetricLightmapImport:      Bricks at depth
+[2020.06.10-05.24.53:745][807]LogVolumetricLightmapImport:          0: 0.7% covering 100.0% of volume
+[2020.06.10-05.24.53:745][807]LogVolumetricLightmapImport:          1: 6.3% covering 14.1% of volume
+[2020.06.10-05.24.53:745][807]LogVolumetricLightmapImport:          2: 93.0% covering 3.2% of volume
+[2020.06.10-05.24.53:745][807]LogVolumetricLightmapImport:      Bricks in each level
+[2020.06.10-05.24.53:745][807]LogVolumetricLightmapImport:          DemoLevel 			 142 bricks 	 100.0% (Persistent Level)
+[2020.06.10-05.24.54:241][807]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
+[2020.06.10-05.24.54:242][807]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024)
+[2020.06.10-05.24.54:242][807]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 1024X1024)
+[2020.06.10-05.24.54:242][807]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 1024X1024)
+[2020.06.10-05.24.54:242][807]LogTexture: Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 64X64)
+[2020.06.10-05.24.54:242][807]LogTexture: Display: Building textures: LQ_Lightmap_0_3 (DXT1, 64X64)
+[2020.06.10-05.24.54:350][807]LogTexture: Display: Building textures: ShadowMapTexture2D_2 (G8, 32X32)
+[2020.06.10-05.24.54:350][807]LogTexture: Display: Building textures: ShadowMapTexture2D_1 (G8, 1024X128)
+[2020.06.10-05.24.54:350][807]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (G8, 512X512)
+[2020.06.10-05.24.54:350][807]Lightmass on MSI: 13.7 sec total, 780 ms importing, 505 ms setup, 3.22 sec photons, 9.26 sec processing, 0 ms extra exporting [1751/1751 mappings]. Threads: 1:41 min total, 37.7 sec processing.
+[2020.06.10-05.24.54:360][807]LogStaticLightingSystem: DemoLevel_BuiltData storing lightmap data for 200 meshes in 4 LightmapResourceClusters (50.0 Meshes per cluster).
+[2020.06.10-05.24.54:396][807]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
+[2020.06.10-05.24.54:496][807]LogStaticLightingSystem: Illumination: 20.1 sec (244 ms encoding lightmaps, 56 ms encoding shadowmaps)
+[2020.06.10-05.24.54:496][807]LogStaticLightingSystem: Lightmap texture memory:  4.0 MB (2.0 MB streaming, 2.0 MB non-streaming), 6 textures
+[2020.06.10-05.24.54:496][807]LogStaticLightingSystem: Shadowmap texture memory: 0.5 MB (0.2 MB streaming, 0.3 MB non-streaming), 3 textures
+[2020.06.10-05.25.05:004][807]DumpUnbuiltLightIteractions
+[2020.06.10-05.25.05:004][807]Lights with unbuilt interactions: 0
+[2020.06.10-05.25.05:004][807]
+[2020.06.10-05.25.05:004][807]Primitives with unbuilt interactions: 0
+[2020.06.10-05.25.05:165][808]Cmd: MAP CHECK NOTIFYRESULTS
+[2020.06.10-05.25.05:165][808]MapCheck: New page: DemoLevel - Jun 9, 2020, 9:25:05 PM
+[2020.06.10-05.25.05:165][808]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.78ms to complete.
+[2020.06.10-05.25.07:461][ 72]LogSlate: Window 'Message Log' being destroyed
+[2020.06.10-05.25.07:466][ 72]LogSlate: Window 'Message Log' being destroyed
+[2020.06.10-05.25.13:902][825]LogAssetEditorSubsystem: Opening Asset editor for LevelScriptBlueprint /Game/Maps/DemoLevel.DemoLevel:PersistentLevel.DemoLevel
+[2020.06.10-05.25.30:302][506]BlueprintLog: New page: Compile DemoLevel
+[2020.06.10-05.25.30:332][506]LogUObjectHash: Compacting FUObjectHashTables data took   1.82ms
+[2020.06.10-05.25.32:345][705]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/DemoLevel" FILE="D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Content/Maps/DemoLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.06.10-05.25.32:374][705]LogUObjectHash: Compacting FUObjectHashTables data took   2.05ms
+[2020.06.10-05.25.32:919][705]LogSavePackage: Moving 'D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Saved/DemoLevelF7CB5F854895FE45AE67CAADD817F477.tmp' to 'D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Content/Maps/DemoLevel.umap'
+[2020.06.10-05.25.32:975][705]LogFileHelpers: Saving map 'DemoLevel' took 0.631
+[2020.06.10-05.25.32:990][705]AssetCheck: New page: Asset Save: DemoLevel
+[2020.06.10-05.25.32:990][705]LogContentValidation: Display: Validating World /Game/Maps/DemoLevel.DemoLevel
+[2020.06.10-05.25.34:918][907]LogSlate: Window 'DemoLevel' being destroyed
+[2020.06.10-05.25.34:947][907]LogWorld: UWorld::CleanupWorld for World_38, bSessionEnded=true, bCleanupResources=true
+[2020.06.10-05.25.34:947][907]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.10-05.25.37:985][250]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/Main.Main
+[2020.06.10-05.25.38:009][250]LogUObjectHash: Compacting FUObjectHashTables data took   1.89ms
+[2020.06.10-05.25.40:443][250]LogSlate: Window 'Save Content' being destroyed
+[2020.06.10-05.25.40:457][250]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/DemoLevel_BuiltData" FILE="D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Content/Maps/DemoLevel_BuiltData.uasset" SILENT=true
+[2020.06.10-05.25.40:549][250]LogSavePackage: Moving 'D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Saved/DemoLevel_BuiltDataCC15D72E4AABB5CA80E8A7922FE8E66C.tmp' to 'D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Content/Maps/DemoLevel_BuiltData.uasset'
+[2020.06.10-05.25.40:553][250]Cmd: MAP LOAD FILE="D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Content/Maps/Main.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.06.10-05.25.40:553][250]LightingResults: New page: Lighting Build
+[2020.06.10-05.25.40:553][250]LoadErrors: New page: Loading map: Main.umap
+[2020.06.10-05.25.40:555][250]LogWorld: UWorld::CleanupWorld for DemoLevel, bSessionEnded=true, bCleanupResources=true
+[2020.06.10-05.25.40:555][250]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.10-05.25.40:555][250]MapCheck: New page: Map Check
+[2020.06.10-05.25.40:556][250]LightingResults: New page: Lighting Build
+[2020.06.10-05.25.40:585][250]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002A7AD808680), frame # 725250
+[2020.06.10-05.25.40:586][250]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002A8EB258800), frame # 725250
+[2020.06.10-05.25.40:590][250]LogUObjectHash: Compacting FUObjectHashTables data took   2.39ms
+[2020.06.10-05.25.40:815][250]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.06.10-05.25.40:815][250]LogAIModule: Creating AISystem for world Main
+[2020.06.10-05.25.40:815][250]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002A81C292200), frame # 725250
+[2020.06.10-05.25.40:815][250]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002A7ACFB6480), frame # 725250
+[2020.06.10-05.25.40:840][250]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
+[2020.06.10-05.25.40:875][250]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.06.10-05.25.40:876][250]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.063ms to complete.
+[2020.06.10-05.25.40:876][250]LogFileHelpers: Loading map 'Main' took 0.323
+[2020.06.10-05.25.40:938][250]AssetCheck: New page: Asset Save: DemoLevel_BuiltData
+[2020.06.10-05.25.40:938][250]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/DemoLevel_BuiltData.DemoLevel_BuiltData
+[2020.06.10-05.25.43:324][530]LogTemp: Repeating last play command: Selected Viewport
+[2020.06.10-05.25.43:348][530]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.06.10-05.25.43:348][530]PIE: New page: PIE session: Main (Jun 9, 2020, 9:25:43 PM)
+[2020.06.10-05.25.43:348][530]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2020.06.10-05.25.43:349][530]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000838s)
+[2020.06.10-05.25.43:349][530]LogAIModule: Creating AISystem for world Main
+[2020.06.10-05.25.43:349][530]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002A81F50E800), frame # 725530
+[2020.06.10-05.25.43:350][530]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002A7ACFB1300), frame # 725530
+[2020.06.10-05.25.43:350][530]LogPlayLevel: PIE: World Init took: (0.000817s)
+[2020.06.10-05.25.43:350][530]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.001743s)
+[2020.06.10-05.25.43:371][530]LogUObjectHash: Compacting FUObjectHashTables data took   1.81ms
+[2020.06.10-05.25.43:372][530]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.06.10-05.25.43:372][530]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.06.10-05.25.43:372][530]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.06.10-05.25.43:372][530]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.06.10-05.25.43:372][530]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.06.10-05.25.43:372][530]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.06.10-05.25.43:372][530]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.06.10-05.25.43:372][530]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.06.10-05.25.43:373][530]LogAudio: Display: Using built-in audio occlusion.
+[2020.06.10-05.25.43:373][530]LogAudioMixer: Display: Initializing audio mixer.
+[2020.06.10-05.25.43:377][530]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.10-05.25.43:377][530]LogAudioMixer: Display: 1: FrontRight
+[2020.06.10-05.25.43:377][530]LogAudioMixer: Display: 2: FrontCenter
+[2020.06.10-05.25.43:377][530]LogAudioMixer: Display: 3: LowFrequency
+[2020.06.10-05.25.43:377][530]LogAudioMixer: Display: 4: BackLeft
+[2020.06.10-05.25.43:377][530]LogAudioMixer: Display: 5: BackRight
+[2020.06.10-05.25.43:377][530]LogAudioMixer: Display: 6: SideLeft
+[2020.06.10-05.25.43:377][530]LogAudioMixer: Display: 7: SideRight
+[2020.06.10-05.25.43:465][530]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2020.06.10-05.25.43:465][530]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.06.10-05.25.43:465][530]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.06.10-05.25.43:465][530]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.06.10-05.25.43:465][530]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.06.10-05.25.43:479][530]LogInit: FAudioDevice initialized.
+[2020.06.10-05.25.43:488][530]LogLoad: Game class is 'GameModeBase'
+[2020.06.10-05.25.43:489][530]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2020.06.10-01.25.43
+[2020.06.10-05.25.43:490][530]LogWorld: Bringing up level for play took: 0.000254
+[2020.06.10-05.25.43:490][530]LogOnline: OSS: Creating online subsystem instance for: :Context_57
+[2020.06.10-05.25.43:493][530]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(799)]!
+[2020.06.10-05.25.43:493][530]PIE: Server logged in
+[2020.06.10-05.25.43:494][530]PIE: Play in editor total start time 0.152 seconds.
+[2020.06.10-05.25.44:883][694]LogNet: Browse: /Game/Maps/DemoLevel
+[2020.06.10-05.25.44:883][694]LogLoad: LoadMap: /Game/Maps/DemoLevel
+[2020.06.10-05.25.44:883][694]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Main
+[2020.06.10-05.25.44:883][694]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2020.06.10-05.25.44:883][694]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.10-05.25.44:924][694]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002A7ACFB1300), frame # 725694
+[2020.06.10-05.25.44:925][694]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002A81F50E800), frame # 725694
+[2020.06.10-05.25.44:926][694]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2020.06.10-05.25.45:094][694]LogAIModule: Creating AISystem for world DemoLevel
+[2020.06.10-05.25.45:094][694]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002A8FC466400), frame # 725694
+[2020.06.10-05.25.45:094][694]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002A7ACF98A40), frame # 725694
+[2020.06.10-05.25.45:094][694]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2020.06.10-05.25.45:109][694]LogWorld: Bringing World /Game/Maps/UEDPIE_0_DemoLevel.DemoLevel up for play (max tick rate 0) at 2020.06.10-01.25.45
+[2020.06.10-05.25.45:110][694]LogWorld: Bringing up level for play took: 0.015149
+[2020.06.10-05.25.45:116][694]LogLoad: Took 0.232328 seconds to LoadMap(/Game/Maps/DemoLevel)
+[2020.06.10-05.25.49:189][171]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.10-05.25.49:189][171]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_DemoLevel
+[2020.06.10-05.25.49:189][171]LogWorld: UWorld::CleanupWorld for DemoLevel, bSessionEnded=true, bCleanupResources=true
+[2020.06.10-05.25.49:190][171]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.10-05.25.49:200][171]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.06.10-05.25.49:204][171]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.10-05.25.49:241][171]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.10-05.25.49:252][171]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002A7ACF98A40), frame # 726171
+[2020.06.10-05.25.49:253][171]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002A8FC466400), frame # 726171
+[2020.06.10-05.25.49:257][171]LogUObjectHash: Compacting FUObjectHashTables data took   2.18ms
+[2020.06.10-05.25.49:302][172]LogPlayLevel: Display: Destroying online subsystem :Context_57
+[2020.06.10-05.25.53:182][606]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/DemoLevel.DemoLevel
+[2020.06.10-05.25.53:206][606]LogUObjectHash: Compacting FUObjectHashTables data took   2.08ms
+[2020.06.10-05.25.53:208][606]Cmd: MAP LOAD FILE="D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Content/Maps/DemoLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.06.10-05.25.53:208][606]LightingResults: New page: Lighting Build
+[2020.06.10-05.25.53:208][606]LoadErrors: New page: Loading map: DemoLevel.umap
+[2020.06.10-05.25.53:255][606]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2020.06.10-05.25.53:255][606]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.10-05.25.53:255][606]MapCheck: New page: Map Check
+[2020.06.10-05.25.53:255][606]LightingResults: New page: Lighting Build
+[2020.06.10-05.25.53:281][606]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002A7ACFB6480), frame # 726606
+[2020.06.10-05.25.53:281][606]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002A81C292200), frame # 726606
+[2020.06.10-05.25.53:283][606]LogUObjectHash: Compacting FUObjectHashTables data took   2.31ms
+[2020.06.10-05.25.54:336][606]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.06.10-05.25.54:336][606]LogAIModule: Creating AISystem for world DemoLevel
+[2020.06.10-05.25.54:336][606]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002A81A62B800), frame # 726606
+[2020.06.10-05.25.54:336][606]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002A90F80DF80), frame # 726606
+[2020.06.10-05.25.54:368][606]LogUObjectHash: Compacting FUObjectHashTables data took   1.91ms
+[2020.06.10-05.25.54:405][606]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.06.10-05.25.54:406][606]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.09ms to complete.
+[2020.06.10-05.25.54:406][606]LogFileHelpers: Loading map 'DemoLevel' took 1.198
+[2020.06.10-05.26.14:998][  8]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.06.10-05.26.28:079][571]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.06.10-05.26.38:919][857]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/DemoLevel" FILE="D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Content/Maps/DemoLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.06.10-05.26.38:945][857]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2020.06.10-05.26.39:487][857]LogSavePackage: Moving 'D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Saved/DemoLevelDA272DF64FC818E5538497BCDB23318E.tmp' to 'D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Content/Maps/DemoLevel.umap'
+[2020.06.10-05.26.39:532][857]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/DemoLevel_BuiltData" FILE="D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Content/Maps/DemoLevel_BuiltData.uasset" SILENT=true
+[2020.06.10-05.26.39:646][857]LogSavePackage: Moving 'D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Saved/DemoLevel_BuiltData124852424958ACB66190A0B9F7ABC37D.tmp' to 'D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Content/Maps/DemoLevel_BuiltData.uasset'
+[2020.06.10-05.26.39:663][857]AssetCheck: New page: Asset Save: multiple assets
+[2020.06.10-05.26.39:663][857]LogContentValidation: Display: Validating World /Game/Maps/DemoLevel.DemoLevel
+[2020.06.10-05.26.39:663][857]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/DemoLevel_BuiltData.DemoLevel_BuiltData
+[2020.06.10-05.27.00:651][333]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2020.06.10-05.27.00:725][333]LogWorld: UWorld::CleanupWorld for World_34, bSessionEnded=true, bCleanupResources=true
+[2020.06.10-05.27.00:725][333]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.10-05.27.00:732][333]LogWorld: UWorld::CleanupWorld for World_33, bSessionEnded=true, bCleanupResources=true
+[2020.06.10-05.27.00:732][333]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.10-05.27.00:896][333]LogSlate: Window 'TheyLive - Unreal Editor' being destroyed
+[2020.06.10-05.27.01:330][334]Cmd: QUIT_EDITOR
+[2020.06.10-05.27.01:330][334]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2020.06.10-05.27.01:350][334]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2020.06.10-05.27.02:132][334]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.06.10-05.27.02:148][334]LogExit: Preparing to exit.
+[2020.06.10-05.27.02:324][334]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.06.10-05.27.02:324][334]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.06.10-05.27.02:324][334]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.06.10-05.27.02:324][334]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.06.10-05.27.02:324][334]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.06.10-05.27.02:324][334]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.06.10-05.27.02:324][334]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.06.10-05.27.02:324][334]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2020.06.10-05.27.02:325][334]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.06.10-05.27.02:325][334]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.06.10-05.27.02:325][334]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.06.10-05.27.02:325][334]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.06.10-05.27.02:325][334]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.06.10-05.27.02:325][334]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.06.10-05.27.02:325][334]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.06.10-05.27.02:325][334]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2020.06.10-05.27.02:326][334]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.06.10-05.27.02:326][334]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.06.10-05.27.02:326][334]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.06.10-05.27.02:326][334]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.06.10-05.27.02:326][334]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.06.10-05.27.02:326][334]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.06.10-05.27.02:326][334]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.06.10-05.27.02:326][334]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2020.06.10-05.27.02:326][334]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.06.10-05.27.02:326][334]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.06.10-05.27.02:326][334]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.06.10-05.27.02:326][334]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.06.10-05.27.02:326][334]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.06.10-05.27.02:327][334]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.06.10-05.27.02:327][334]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.06.10-05.27.02:327][334]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2020.06.10-05.27.02:327][334]LogWorld: UWorld::CleanupWorld for World_35, bSessionEnded=true, bCleanupResources=true
+[2020.06.10-05.27.02:328][334]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2020.06.10-05.27.02:328][334]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2020.06.10-05.27.02:329][334]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.06.10-05.27.02:329][334]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.06.10-05.27.02:329][334]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.06.10-05.27.02:329][334]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.06.10-05.27.02:329][334]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.06.10-05.27.02:329][334]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.06.10-05.27.02:329][334]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.06.10-05.27.02:329][334]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2020.06.10-05.27.02:329][334]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.06.10-05.27.02:329][334]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.06.10-05.27.02:329][334]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.06.10-05.27.02:329][334]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.06.10-05.27.02:329][334]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.06.10-05.27.02:329][334]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.06.10-05.27.02:329][334]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.06.10-05.27.02:329][334]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2020.06.10-05.27.02:330][334]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.06.10-05.27.02:330][334]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.06.10-05.27.02:330][334]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.06.10-05.27.02:330][334]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.06.10-05.27.02:330][334]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.06.10-05.27.02:330][334]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.06.10-05.27.02:330][334]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.06.10-05.27.02:330][334]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2020.06.10-05.27.02:331][334]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.06.10-05.27.02:331][334]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.06.10-05.27.02:331][334]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.06.10-05.27.02:331][334]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.06.10-05.27.02:331][334]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.06.10-05.27.02:331][334]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.06.10-05.27.02:331][334]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.06.10-05.27.02:331][334]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2020.06.10-05.27.02:405][334]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
+[2020.06.10-05.27.02:433][334]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2020.06.10-05.27.02:433][334]LogExit: Editor shut down
+[2020.06.10-05.27.02:436][334]LogExit: Transaction tracking system shut down
+[2020.06.10-05.27.02:756][334]LogAISub: UAISubsystem::~UAISubsystem AISubsystem (000002A76F165840), frame # 734334
+[2020.06.10-05.27.02:756][334]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002A76F04F9C0), frame # 734334
+[2020.06.10-05.27.02:756][334]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002A76F073200), frame # 734334
+[2020.06.10-05.27.02:874][334]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002A90F80DF80), frame # 734334
+[2020.06.10-05.27.02:874][334]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002A81A62B800), frame # 734334
+[2020.06.10-05.27.03:044][334]LogExit: Object subsystem successfully closed.
+[2020.06.10-05.27.03:097][334]LogShaderCompilers: Display: Shaders left to compile 0
+[2020.06.10-05.27.03:299][334]LogModuleManager: Shutting down and abandoning module SequencerWidgets (806)
+[2020.06.10-05.27.03:299][334]LogModuleManager: Shutting down and abandoning module AnimationEditor (804)
+[2020.06.10-05.27.03:300][334]LogModuleManager: Shutting down and abandoning module PinnedCommandList (802)
+[2020.06.10-05.27.03:300][334]LogModuleManager: Shutting down and abandoning module SkeletonEditor (800)
+[2020.06.10-05.27.03:301][334]LogModuleManager: Shutting down and abandoning module BlueprintGraph (798)
+[2020.06.10-05.27.03:302][334]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (796)
+[2020.06.10-05.27.03:302][334]LogModuleManager: Shutting down and abandoning module Voice (794)
+[2020.06.10-05.27.03:302][334]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (792)
+[2020.06.10-05.27.03:303][334]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (790)
+[2020.06.10-05.27.03:303][334]LogModuleManager: Shutting down and abandoning module SceneOutliner (788)
+[2020.06.10-05.27.03:303][334]LogModuleManager: Shutting down and abandoning module AddContentDialog (786)
+[2020.06.10-05.27.03:308][334]LogModuleManager: Shutting down and abandoning module WidgetCarousel (785)
+[2020.06.10-05.27.03:308][334]LogModuleManager: Shutting down and abandoning module EditorWidgets (782)
+[2020.06.10-05.27.03:308][334]LogModuleManager: Shutting down and abandoning module CollectionManager (780)
+[2020.06.10-05.27.03:309][334]LogModuleManager: Shutting down and abandoning module StatsViewer (778)
+[2020.06.10-05.27.03:310][334]LogModuleManager: Shutting down and abandoning module VirtualTexturingEditor (776)
+[2020.06.10-05.27.03:310][334]LogModuleManager: Shutting down and abandoning module FoliageEdit (774)
+[2020.06.10-05.27.03:310][334]LogModuleManager: Shutting down and abandoning module LandscapeEditor (772)
+[2020.06.10-05.27.03:314][334]LogModuleManager: Shutting down and abandoning module MeshPaintMode (770)
+[2020.06.10-05.27.03:314][334]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (768)
+[2020.06.10-05.27.03:314][334]LogModuleManager: Shutting down and abandoning module ActorPickerMode (766)
+[2020.06.10-05.27.03:314][334]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (764)
+[2020.06.10-05.27.03:315][334]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (762)
+[2020.06.10-05.27.03:315][334]LogModuleManager: Shutting down and abandoning module AutomationWorker (760)
+[2020.06.10-05.27.03:315][334]LogModuleManager: Shutting down and abandoning module SteamVREditor (758)
+[2020.06.10-05.27.03:316][334]LogModuleManager: Shutting down and abandoning module OculusMR (756)
+[2020.06.10-05.27.03:316][334]LogModuleManager: Shutting down and abandoning module GooglePADEditor (754)
+[2020.06.10-05.27.03:316][334]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (752)
+[2020.06.10-05.27.03:316][334]LogModuleManager: Shutting down and abandoning module TemplateSequenceEditor (750)
+[2020.06.10-05.27.03:317][334]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (748)
+[2020.06.10-05.27.03:317][334]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (746)
+[2020.06.10-05.27.03:320][334]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (744)
+[2020.06.10-05.27.03:321][334]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (742)
+[2020.06.10-05.27.03:321][334]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (740)
+[2020.06.10-05.27.03:321][334]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (738)
+[2020.06.10-05.27.03:321][334]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (736)
+[2020.06.10-05.27.03:321][334]LogModuleManager: Shutting down and abandoning module WebMMedia (734)
+[2020.06.10-05.27.03:321][334]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (732)
+[2020.06.10-05.27.03:322][334]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (730)
+[2020.06.10-05.27.03:322][334]LogModuleManager: Shutting down and abandoning module SequenceRecorder (729)
+[2020.06.10-05.27.03:323][334]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (726)
+[2020.06.10-05.27.03:323][334]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (724)
+[2020.06.10-05.27.03:323][334]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (722)
+[2020.06.10-05.27.03:323][334]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (720)
+[2020.06.10-05.27.03:323][334]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (718)
+[2020.06.10-05.27.03:323][334]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (716)
+[2020.06.10-05.27.03:323][334]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (714)
+[2020.06.10-05.27.03:323][334]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (712)
+[2020.06.10-05.27.03:323][334]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (710)
+[2020.06.10-05.27.03:323][334]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (708)
+[2020.06.10-05.27.03:323][334]LogModuleManager: Shutting down and abandoning module PlanarCut (706)
+[2020.06.10-05.27.03:324][334]LogModuleManager: Shutting down and abandoning module CharacterAI (704)
+[2020.06.10-05.27.03:324][334]LogModuleManager: Shutting down and abandoning module TextureAlignMode (702)
+[2020.06.10-05.27.03:324][334]LogModuleManager: Shutting down and abandoning module BspMode (700)
+[2020.06.10-05.27.03:324][334]LogModuleManager: Shutting down and abandoning module PlacementMode (699)
+[2020.06.10-05.27.03:324][334]LogModuleManager: Shutting down and abandoning module GeometryMode (696)
+[2020.06.10-05.27.03:324][334]LogModuleManager: Shutting down and abandoning module CameraShakePreviewer (694)
+[2020.06.10-05.27.03:325][334]LogModuleManager: Shutting down and abandoning module SmartSnapping (692)
+[2020.06.10-05.27.03:325][334]LogModuleManager: Shutting down and abandoning module SessionServices (690)
+[2020.06.10-05.27.03:325][334]LogModuleManager: Shutting down and abandoning module MeshPaint (688)
+[2020.06.10-05.27.03:325][334]LogModuleManager: Shutting down and abandoning module ViewportSnapping (686)
+[2020.06.10-05.27.03:325][334]LogModuleManager: Shutting down and abandoning module ViewportInteraction (684)
+[2020.06.10-05.27.03:325][334]LogModuleManager: Shutting down and abandoning module ClothPainter (682)
+[2020.06.10-05.27.03:327][334]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (681)
+[2020.06.10-05.27.03:327][334]LogModuleManager: Shutting down and abandoning module LogVisualizer (678)
+[2020.06.10-05.27.03:329][334]LogModuleManager: Shutting down and abandoning module IntroTutorials (676)
+[2020.06.10-05.27.03:331][334]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (675)
+[2020.06.10-05.27.03:332][334]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (672)
+[2020.06.10-05.27.03:332][334]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (670)
+[2020.06.10-05.27.03:332][334]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (668)
+[2020.06.10-05.27.03:332][334]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (667)
+[2020.06.10-05.27.04:471][334]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (664)
+[2020.06.10-05.27.04:471][334]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (662)
+[2020.06.10-05.27.04:471][334]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (660)
+[2020.06.10-05.27.04:471][334]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (658)
+[2020.06.10-05.27.04:471][334]LogModuleManager: Shutting down and abandoning module TraceInsights (656)
+[2020.06.10-05.27.04:482][334]LogModuleManager: Shutting down and abandoning module TraceServices (655)
+[2020.06.10-05.27.04:484][334]LogModuleManager: Shutting down and abandoning module EditorInteractiveToolsFramework (652)
+[2020.06.10-05.27.04:484][334]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (650)
+[2020.06.10-05.27.04:485][334]LogModuleManager: Shutting down and abandoning module InputBindingEditor (648)
+[2020.06.10-05.27.04:486][334]LogModuleManager: Shutting down and abandoning module MergeActors (646)
+[2020.06.10-05.27.04:487][334]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (644)
+[2020.06.10-05.27.04:489][334]LogModuleManager: Shutting down and abandoning module LocalizationService (643)
+[2020.06.10-05.27.04:490][334]LogModuleManager: Shutting down and abandoning module HardwareTargeting (640)
+[2020.06.10-05.27.04:490][334]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (638)
+[2020.06.10-05.27.04:490][334]LogModuleManager: Shutting down and abandoning module UndoHistory (636)
+[2020.06.10-05.27.04:491][334]LogModuleManager: Shutting down and abandoning module XmlParser (634)
+[2020.06.10-05.27.04:491][334]LogModuleManager: Shutting down and abandoning module Blutility (632)
+[2020.06.10-05.27.04:492][334]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (630)
+[2020.06.10-05.27.04:492][334]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (629)
+[2020.06.10-05.27.04:494][334]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (626)
+[2020.06.10-05.27.04:495][334]LogModuleManager: Shutting down and abandoning module SettingsEditor (624)
+[2020.06.10-05.27.04:496][334]LogModuleManager: Shutting down and abandoning module ProjectLauncher (622)
+[2020.06.10-05.27.04:497][334]LogModuleManager: Shutting down and abandoning module SessionFrontend (620)
+[2020.06.10-05.27.04:497][334]LogModuleManager: Shutting down and abandoning module ProfilerClient (618)
+[2020.06.10-05.27.04:498][334]LogModuleManager: Shutting down and abandoning module DeviceManager (616)
+[2020.06.10-05.27.04:500][334]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (615)
+[2020.06.10-05.27.04:533][334]LogModuleManager: Shutting down and abandoning module AutomationController (612)
+[2020.06.10-05.27.04:534][334]LogModuleManager: Shutting down and abandoning module AutomationWindow (610)
+[2020.06.10-05.27.04:535][334]LogModuleManager: Shutting down and abandoning module Layers (608)
+[2020.06.10-05.27.04:538][334]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (606)
+[2020.06.10-05.27.04:538][334]LogModuleManager: Shutting down and abandoning module DetailCustomizations (604)
+[2020.06.10-05.27.04:538][334]LogModuleManager: Shutting down and abandoning module PackagesDialog (602)
+[2020.06.10-05.27.04:539][334]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (600)
+[2020.06.10-05.27.04:540][334]LogModuleManager: Shutting down and abandoning module Persona (598)
+[2020.06.10-05.27.04:541][334]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (597)
+[2020.06.10-05.27.04:541][334]LogModuleManager: Shutting down and abandoning module AnimGraph (595)
+[2020.06.10-05.27.04:541][334]LogModuleManager: Shutting down and abandoning module Kismet (592)
+[2020.06.10-05.27.04:574][334]LogModuleManager: Shutting down and abandoning module KismetWidgets (591)
+[2020.06.10-05.27.04:574][334]LogModuleManager: Shutting down and abandoning module GraphEditor (588)
+[2020.06.10-05.27.04:574][334]LogModuleManager: Shutting down and abandoning module StructViewer (586)
+[2020.06.10-05.27.04:575][334]LogModuleManager: Shutting down and abandoning module ClassViewer (584)
+[2020.06.10-05.27.04:581][334]LogModuleManager: Shutting down and abandoning module Toolbox (582)
+[2020.06.10-05.27.04:581][334]LogModuleManager: Shutting down and abandoning module ModuleUI (580)
+[2020.06.10-05.27.04:581][334]LogModuleManager: Shutting down and abandoning module OutputLog (578)
+[2020.06.10-05.27.04:588][334]LogModuleManager: Shutting down and abandoning module GammaUI (576)
+[2020.06.10-05.27.04:588][334]LogModuleManager: Shutting down and abandoning module Documentation (574)
+[2020.06.10-05.27.04:595][334]LogModuleManager: Shutting down and abandoning module LiveCoding (572)
+[2020.06.10-05.27.04:596][334]LogModuleManager: Shutting down and abandoning module LevelSequence (570)
+[2020.06.10-05.27.04:596][334]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (568)
+[2020.06.10-05.27.04:597][334]LogModuleManager: Shutting down and abandoning module MovieScene (566)
+[2020.06.10-05.27.04:597][334]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (564)
+[2020.06.10-05.27.04:597][334]LogModuleManager: Shutting down and abandoning module LauncherPlatform (562)
+[2020.06.10-05.27.04:597][334]LogModuleManager: Shutting down and abandoning module AnalyticsET (560)
+[2020.06.10-05.27.04:597][334]LogModuleManager: Shutting down and abandoning module PortalServices (558)
+[2020.06.10-05.27.04:597][334]LogModuleManager: Shutting down and abandoning module PortalRpc (556)
+[2020.06.10-05.27.04:597][334]LogModuleManager: Shutting down and abandoning module MessagingRpc (554)
+[2020.06.10-05.27.04:597][334]LogModuleManager: Shutting down and abandoning module AudioMixerXAudio2 (552)
+[2020.06.10-05.27.04:598][334]LogModuleManager: Shutting down and abandoning module AudioMixerCore (551)
+[2020.06.10-05.27.04:598][334]LogModuleManager: Shutting down and abandoning module AIModule (548)
+[2020.06.10-05.27.04:598][334]LogModuleManager: Shutting down and abandoning module GameplayDebugger (547)
+[2020.06.10-05.27.04:598][334]LogModuleManager: Shutting down and abandoning module AITestSuite (545)
+[2020.06.10-05.27.04:598][334]LogModuleManager: Shutting down and abandoning module NavigationSystem (543)
+[2020.06.10-05.27.04:598][334]LogModuleManager: Shutting down and abandoning module ProfilerService (540)
+[2020.06.10-05.27.04:607][334]LogModuleManager: Shutting down and abandoning module TaskGraph (538)
+[2020.06.10-05.27.04:609][334]LogModuleManager: Shutting down and abandoning module ScreenshotTools (536)
+[2020.06.10-05.27.04:609][334]LogModuleManager: Shutting down and abandoning module SynthesisEditor (534)
+[2020.06.10-05.27.04:609][334]LogModuleManager: Shutting down and abandoning module Synthesis (532)
+[2020.06.10-05.27.04:610][334]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (530)
+[2020.06.10-05.27.04:610][334]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (528)
+[2020.06.10-05.27.04:610][334]LogModuleManager: Shutting down and abandoning module OculusEditor (526)
+[2020.06.10-05.27.04:610][334]LogModuleManager: Shutting down and abandoning module OculusInput (524)
+[2020.06.10-05.27.04:610][334]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (522)
+[2020.06.10-05.27.04:610][334]LogModuleManager: Shutting down and abandoning module GooglePAD (520)
+[2020.06.10-05.27.04:610][334]LogModuleManager: Shutting down and abandoning module EditableMesh (518)
+[2020.06.10-05.27.04:610][334]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (516)
+[2020.06.10-05.27.04:611][334]LogModuleManager: Shutting down and abandoning module CableComponent (514)
+[2020.06.10-05.27.04:611][334]LogModuleManager: Shutting down and abandoning module AudioCapture (512)
+[2020.06.10-05.27.04:611][334]LogModuleManager: Shutting down and abandoning module AudioCaptureRtAudio (511)
+[2020.06.10-05.27.04:611][334]LogModuleManager: Shutting down and abandoning module AssetTags (508)
+[2020.06.10-05.27.04:611][334]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (506)
+[2020.06.10-05.27.04:611][334]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (504)
+[2020.06.10-05.27.04:611][334]LogModuleManager: Shutting down and abandoning module AppleImageUtils (502)
+[2020.06.10-05.27.04:611][334]LogModuleManager: Shutting down and abandoning module AndroidPermission (500)
+[2020.06.10-05.27.04:611][334]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (498)
+[2020.06.10-05.27.04:611][334]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (496)
+[2020.06.10-05.27.04:612][334]LogModuleManager: Shutting down and abandoning module TemplateSequence (494)
+[2020.06.10-05.27.04:612][334]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineEditor (492)
+[2020.06.10-05.27.04:613][334]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineRenderPasses (490)
+[2020.06.10-05.27.04:613][334]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineSettings (488)
+[2020.06.10-05.27.04:613][334]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineCore (486)
+[2020.06.10-05.27.04:613][334]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (485)
+[2020.06.10-05.27.04:617][334]LogModuleManager: Shutting down and abandoning module MeshPaintingToolset (482)
+[2020.06.10-05.27.04:618][334]LogModuleManager: Shutting down and abandoning module MeshPaintEditorMode (480)
+[2020.06.10-05.27.04:618][334]LogModuleManager: Shutting down and abandoning module MediaCompositing (478)
+[2020.06.10-05.27.04:618][334]LogModuleManager: Shutting down and abandoning module ImgMedia (476)
+[2020.06.10-05.27.04:618][334]LogModuleManager: Shutting down and abandoning module MagicLeapSharedWorld (474)
+[2020.06.10-05.27.04:618][334]LogModuleManager: Shutting down and abandoning module MagicLeapLightEstimation (472)
+[2020.06.10-05.27.04:618][334]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (470)
+[2020.06.10-05.27.04:618][334]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (468)
+[2020.06.10-05.27.04:618][334]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (466)
+[2020.06.10-05.27.04:618][334]LogModuleManager: Shutting down and abandoning module NiagaraEditorWidgets (464)
+[2020.06.10-05.27.04:621][334]LogModuleManager: Shutting down and abandoning module MeshSolverUtilities (462)
+[2020.06.10-05.27.04:621][334]LogModuleManager: Shutting down and abandoning module MeshConversion (460)
+[2020.06.10-05.27.04:622][334]LogModuleManager: Shutting down and abandoning module DynamicMesh (458)
+[2020.06.10-05.27.04:622][334]LogModuleManager: Shutting down and abandoning module GeometryAlgorithms (456)
+[2020.06.10-05.27.04:623][334]LogModuleManager: Shutting down and abandoning module GeometricObjects (454)
+[2020.06.10-05.27.04:623][334]LogModuleManager: Shutting down and abandoning module GeometryCollectionTracks (452)
+[2020.06.10-05.27.04:623][334]LogModuleManager: Shutting down and abandoning module GeometryCollectionSequencer (451)
+[2020.06.10-05.27.04:623][334]LogModuleManager: Shutting down and abandoning module GeometryCollectionEditor (448)
+[2020.06.10-05.27.04:623][334]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (446)
+[2020.06.10-05.27.04:623][334]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (444)
+[2020.06.10-05.27.04:623][334]LogModuleManager: Shutting down and abandoning module ChaosSolverEditor (442)
+[2020.06.10-05.27.04:623][334]LogModuleManager: Shutting down and abandoning module ChaosNiagara (440)
+[2020.06.10-05.27.04:623][334]LogModuleManager: Shutting down and abandoning module FractureEditor (438)
+[2020.06.10-05.27.04:623][334]LogModuleManager: Shutting down and abandoning module ChaosClothEditor (436)
+[2020.06.10-05.27.04:623][334]LogModuleManager: Shutting down and abandoning module ChaosCloth (434)
+[2020.06.10-05.27.04:624][334]LogModuleManager: Shutting down and abandoning module BackChannel (432)
+[2020.06.10-05.27.04:624][334]LogModuleManager: Shutting down and abandoning module AutomationUtilsEditor (430)
+[2020.06.10-05.27.04:624][334]LogModuleManager: Shutting down and abandoning module AutomationUtils (428)
+[2020.06.10-05.27.04:624][334]LogModuleManager: Shutting down and abandoning module AlembicImporter (426)
+[2020.06.10-05.27.04:624][334]LogModuleManager: Shutting down and abandoning module AlembicLibrary (425)
+[2020.06.10-05.27.04:624][334]LogModuleManager: Shutting down and abandoning module GeometryCache (424)
+[2020.06.10-05.27.04:624][334]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (423)
+[2020.06.10-05.27.04:624][334]LogModuleManager: Shutting down and abandoning module VariantManagerContentEditor (418)
+[2020.06.10-05.27.04:624][334]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (416)
+[2020.06.10-05.27.04:625][334]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (414)
+[2020.06.10-05.27.04:625][334]LogModuleManager: Shutting down and abandoning module PluginBrowser (412)
+[2020.06.10-05.27.04:627][334]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (410)
+[2020.06.10-05.27.04:627][334]LogModuleManager: Shutting down and abandoning module MaterialAnalyzer (408)
+[2020.06.10-05.27.04:628][334]LogModuleManager: Shutting down and abandoning module EditorScriptingUtilities (406)
+[2020.06.10-05.27.04:628][334]LogModuleManager: Shutting down and abandoning module CurveEditorTools (404)
+[2020.06.10-05.27.04:628][334]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (402)
+[2020.06.10-05.27.04:628][334]LogModuleManager: Shutting down and abandoning module CryptoKeys (400)
+[2020.06.10-05.27.04:628][334]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (398)
+[2020.06.10-05.27.04:629][334]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (396)
+[2020.06.10-05.27.04:629][334]LogModuleManager: Shutting down and abandoning module UObjectPlugin (394)
+[2020.06.10-05.27.04:629][334]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (392)
+[2020.06.10-05.27.04:630][334]LogModuleManager: Shutting down and abandoning module RiderSourceCodeAccess (390)
+[2020.06.10-05.27.04:630][334]LogModuleManager: Shutting down and abandoning module PlasticSourceControl (388)
+[2020.06.10-05.27.04:631][334]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (386)
+[2020.06.10-05.27.04:633][334]LogModuleManager: Shutting down and abandoning module GitSourceControl (384)
+[2020.06.10-05.27.04:633][334]LogModuleManager: Shutting down and abandoning module SourceControl (383)
+[2020.06.10-05.27.04:633][334]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (380)
+[2020.06.10-05.27.04:634][334]LogModuleManager: Shutting down and abandoning module AnimationSharingEd (378)
+[2020.06.10-05.27.04:634][334]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (376)
+[2020.06.10-05.27.04:634][334]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (374)
+[2020.06.10-05.27.04:634][334]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (372)
+[2020.06.10-05.27.04:634][334]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (370)
+[2020.06.10-05.27.04:634][334]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (368)
+[2020.06.10-05.27.04:634][334]LogModuleManager: Shutting down and abandoning module Paper2DEditor (366)
+[2020.06.10-05.27.04:635][334]LogModuleManager: Shutting down and abandoning module SoundFields (364)
+[2020.06.10-05.27.04:635][334]LogModuleManager: Shutting down and abandoning module SignificanceManager (362)
+[2020.06.10-05.27.04:635][334]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (360)
+[2020.06.10-05.27.04:635][334]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (358)
+[2020.06.10-05.27.04:635][334]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (354)
+[2020.06.10-05.27.04:635][334]LogModuleManager: Shutting down and abandoning module ActorSequence (352)
+[2020.06.10-05.27.04:635][334]LogModuleManager: Shutting down and abandoning module UdpMessaging (350)
+[2020.06.10-05.27.04:737][334]LogModuleManager: Shutting down and abandoning module TcpMessaging (348)
+[2020.06.10-05.27.04:838][334]LogModuleManager: Shutting down and abandoning module MagicLeapARPin (346)
+[2020.06.10-05.27.04:838][334]LogModuleManager: Shutting down and abandoning module MagicLeapHandMeshing (344)
+[2020.06.10-05.27.04:838][334]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (342)
+[2020.06.10-05.27.04:838][334]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (340)
+[2020.06.10-05.27.04:838][334]LogModuleManager: Shutting down and abandoning module MagicLeapPlanes (338)
+[2020.06.10-05.27.04:839][334]LogMagicLeapPlanes: Planes tracker already destroyed.
+[2020.06.10-05.27.04:839][334]LogModuleManager: Shutting down and abandoning module MagicLeapImageTracker (336)
+[2020.06.10-05.27.04:840][334]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (334)
+[2020.06.10-05.27.04:840][334]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (332)
+[2020.06.10-05.27.04:841][334]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (330)
+[2020.06.10-05.27.04:842][334]LogModuleManager: Shutting down and abandoning module MagicLeapController (328)
+[2020.06.10-05.27.04:843][334]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2020.06.10-05.27.04:844][334]LogModuleManager: Shutting down and abandoning module MagicLeapARPinImpl (326)
+[2020.06.10-05.27.04:845][334]LogModuleManager: Shutting down and abandoning module MagicLeapAR (324)
+[2020.06.10-05.27.04:845][334]LogModuleManager: Shutting down and abandoning module AugmentedReality (323)
+[2020.06.10-05.27.04:845][334]LogModuleManager: Shutting down and abandoning module NiagaraAnimNotifies (320)
+[2020.06.10-05.27.04:845][334]LogModuleManager: Shutting down and abandoning module Niagara (318)
+[2020.06.10-05.27.04:847][334]LogModuleManager: Shutting down and abandoning module SignalProcessing (317)
+[2020.06.10-05.27.04:848][334]LogModuleManager: Shutting down and abandoning module NiagaraEditor (315)
+[2020.06.10-05.27.04:853][334]LogModuleManager: Shutting down and abandoning module NiagaraCore (312)
+[2020.06.10-05.27.04:853][334]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (310)
+[2020.06.10-05.27.04:854][334]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (308)
+[2020.06.10-05.27.04:854][334]LogModuleManager: Shutting down and abandoning module FacialAnimation (306)
+[2020.06.10-05.27.04:854][334]LogModuleManager: Shutting down and abandoning module DataValidation (304)
+[2020.06.10-05.27.04:854][334]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (302)
+[2020.06.10-05.27.04:857][334]LogModuleManager: Shutting down and abandoning module LevelEditor (301)
+[2020.06.10-05.27.04:862][334]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (300)
+[2020.06.10-05.27.04:864][334]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (298)
+[2020.06.10-05.27.04:865][334]LogModuleManager: Shutting down and abandoning module MainFrame (296)
+[2020.06.10-05.27.04:866][334]LogModuleManager: Shutting down and abandoning module HotReload (295)
+[2020.06.10-05.27.04:867][334]LogModuleManager: Shutting down and abandoning module ToolMenus (291)
+[2020.06.10-05.27.04:867][334]LogModuleManager: Shutting down and abandoning module TreeMap (289)
+[2020.06.10-05.27.04:868][334]LogModuleManager: Shutting down and abandoning module AnimationSharing (286)
+[2020.06.10-05.27.04:868][334]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (284)
+[2020.06.10-05.27.04:868][334]LogModuleManager: Shutting down and abandoning module Paper2D (282)
+[2020.06.10-05.27.04:869][334]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (280)
+[2020.06.10-05.27.04:869][334]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (278)
+[2020.06.10-05.27.04:869][334]LogModuleManager: Shutting down and abandoning module NetworkReplayStreaming (276)
+[2020.06.10-05.27.04:870][334]LogModuleManager: Shutting down and abandoning module PacketHandler (274)
+[2020.06.10-05.27.04:870][334]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (272)
+[2020.06.10-05.27.04:870][334]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntimeNv (270)
+[2020.06.10-05.27.04:871][334]LogModuleManager: Shutting down and abandoning module MediaAssets (268)
+[2020.06.10-05.27.04:871][334]LogModuleManager: Shutting down and abandoning module Overlay (266)
+[2020.06.10-05.27.04:871][334]LogModuleManager: Shutting down and abandoning module OverlayEditor (265)
+[2020.06.10-05.27.04:871][334]LogModuleManager: Shutting down and abandoning module VREditor (262)
+[2020.06.10-05.27.04:872][334]LogModuleManager: Shutting down and abandoning module StringTableEditor (260)
+[2020.06.10-05.27.04:872][334]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (258)
+[2020.06.10-05.27.04:872][334]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (256)
+[2020.06.10-05.27.04:872][334]LogModuleManager: Shutting down and abandoning module FunctionalTesting (254)
+[2020.06.10-05.27.04:873][334]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (252)
+[2020.06.10-05.27.04:874][334]LogModuleManager: Shutting down and abandoning module UMG (250)
+[2020.06.10-05.27.04:874][334]LogModuleManager: Shutting down and abandoning module UMGEditor (249)
+[2020.06.10-05.27.04:874][334]LogModuleManager: Shutting down and abandoning module MessageLog (247)
+[2020.06.10-05.27.04:874][334]LogModuleManager: Shutting down and abandoning module MaterialEditor (245)
+[2020.06.10-05.27.04:876][334]LogModuleManager: Shutting down and abandoning module ContentBrowser (244)
+[2020.06.10-05.27.04:881][334]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (243)
+[2020.06.10-05.27.04:883][334]LogModuleManager: Shutting down and abandoning module SlateReflector (236)
+[2020.06.10-05.27.04:885][334]LogModuleManager: Shutting down and abandoning module Slate (234)
+[2020.06.10-05.27.04:885][334]LogModuleManager: Shutting down and abandoning module SlateCore (232)
+[2020.06.10-05.27.04:885][334]LogModuleManager: Shutting down and abandoning module LandscapeEditorUtilities (230)
+[2020.06.10-05.27.04:885][334]LogModuleManager: Shutting down and abandoning module UnrealEd (228)
+[2020.06.10-05.27.04:885][334]LogModuleManager: Shutting down and abandoning module MRMesh (226)
+[2020.06.10-05.27.04:885][334]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (224)
+[2020.06.10-05.27.04:885][334]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (222)
+[2020.06.10-05.27.04:885][334]LogModuleManager: Shutting down and abandoning module XAudio2 (220)
+[2020.06.10-05.27.04:886][334]LogModuleManager: Shutting down and abandoning module Networking (218)
+[2020.06.10-05.27.04:886][334]LogModuleManager: Shutting down and abandoning module Core (216)
+[2020.06.10-05.27.04:886][334]LogModuleManager: Shutting down and abandoning module MovieSceneTools (214)
+[2020.06.10-05.27.04:886][334]LogModuleManager: Shutting down and abandoning module CurveEditor (213)
+[2020.06.10-05.27.04:886][334]LogModuleManager: Shutting down and abandoning module Sequencer (211)
+[2020.06.10-05.27.04:887][334]LogModuleManager: Shutting down and abandoning module EditorStyle (210)
+[2020.06.10-05.27.04:892][334]LogModuleManager: Shutting down and abandoning module KismetCompiler (206)
+[2020.06.10-05.27.04:892][334]LogModuleManager: Shutting down and abandoning module MeshBuilder (204)
+[2020.06.10-05.27.04:892][334]LogModuleManager: Shutting down and abandoning module MeshUtilities (202)
+[2020.06.10-05.27.04:893][334]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (201)
+[2020.06.10-05.27.04:894][334]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (200)
+[2020.06.10-05.27.04:894][334]LogModuleManager: Shutting down and abandoning module MeshBoneReduction (199)
+[2020.06.10-05.27.04:894][334]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (197)
+[2020.06.10-05.27.04:894][334]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (195)
+[2020.06.10-05.27.04:897][334]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (193)
+[2020.06.10-05.27.04:897][334]LogModuleManager: Shutting down and abandoning module MaterialBaking (189)
+[2020.06.10-05.27.04:898][334]LogModuleManager: Shutting down and abandoning module NullInstallBundleManager (184)
+[2020.06.10-05.27.04:898][334]LogModuleManager: Shutting down and abandoning module DerivedDataCache (182)
+[2020.06.10-05.27.04:898][334]LogModuleManager: Shutting down and abandoning module XGEController (180)
+[2020.06.10-05.27.04:898][334]LogXGEController: Cleaning working directory: C:/Users/FX22k/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2020.06.10-05.27.04:899][334]LogModuleManager: Shutting down and abandoning module TargetPlatform (178)
+[2020.06.10-05.27.04:899][334]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (177)
+[2020.06.10-05.27.04:900][334]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (175)
+[2020.06.10-05.27.04:900][334]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (173)
+[2020.06.10-05.27.04:900][334]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (171)
+[2020.06.10-05.27.04:900][334]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (169)
+[2020.06.10-05.27.04:901][334]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (167)
+[2020.06.10-05.27.04:901][334]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (165)
+[2020.06.10-05.27.04:901][334]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (163)
+[2020.06.10-05.27.04:901][334]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (161)
+[2020.06.10-05.27.04:902][334]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (159)
+[2020.06.10-05.27.04:902][334]LogModuleManager: Shutting down and abandoning module ImageWrapper (158)
+[2020.06.10-05.27.04:902][334]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (155)
+[2020.06.10-05.27.04:902][334]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (153)
+[2020.06.10-05.27.04:902][334]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (151)
+[2020.06.10-05.27.04:902][334]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (149)
+[2020.06.10-05.27.04:902][334]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (147)
+[2020.06.10-05.27.04:902][334]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (145)
+[2020.06.10-05.27.04:902][334]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (143)
+[2020.06.10-05.27.04:902][334]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (141)
+[2020.06.10-05.27.04:902][334]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (139)
+[2020.06.10-05.27.04:914][334]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (137)
+[2020.06.10-05.27.04:920][334]LogModuleManager: Shutting down and abandoning module LinuxAArch64ServerTargetPlatform (135)
+[2020.06.10-05.27.04:920][334]LogModuleManager: Shutting down and abandoning module LinuxAArch64ClientTargetPlatform (133)
+[2020.06.10-05.27.04:921][334]LogModuleManager: Shutting down and abandoning module LinuxAArch64NoEditorTargetPlatform (131)
+[2020.06.10-05.27.04:921][334]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (129)
+[2020.06.10-05.27.04:921][334]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (127)
+[2020.06.10-05.27.04:922][334]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (125)
+[2020.06.10-05.27.04:922][334]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (123)
+[2020.06.10-05.27.04:922][334]LogModuleManager: Shutting down and abandoning module Messaging (121)
+[2020.06.10-05.27.04:922][334]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (119)
+[2020.06.10-05.27.04:928][334]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (117)
+[2020.06.10-05.27.04:944][334]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (115)
+[2020.06.10-05.27.04:944][334]LogModuleManager: Shutting down and abandoning module InputCore (112)
+[2020.06.10-05.27.04:944][334]LogModuleManager: Shutting down and abandoning module Settings (110)
+[2020.06.10-05.27.04:944][334]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (108)
+[2020.06.10-05.27.04:945][334]LogModuleManager: Shutting down and abandoning module PhysXCooking (106)
+[2020.06.10-05.27.04:945][334]LogModuleManager: Shutting down and abandoning module ChaosSolvers (104)
+[2020.06.10-05.27.04:946][334]LogModuleManager: Shutting down and abandoning module FieldSystemEngine (103)
+[2020.06.10-05.27.04:946][334]LogModuleManager: Shutting down and abandoning module Chaos (100)
+[2020.06.10-05.27.04:947][334]LogModuleManager: Shutting down and abandoning module WindowsPlatformFeatures (98)
+[2020.06.10-05.27.04:947][334]LogModuleManager: Shutting down and abandoning module GameplayMediaEncoder (97)
+[2020.06.10-05.27.04:947][334]LogModuleManager: Shutting down and abandoning module AVEncoder (96)
+[2020.06.10-05.27.04:948][334]LogModuleManager: Shutting down and abandoning module SteamVRInputDevice (92)
+[2020.06.10-05.27.04:948][334]LogModuleManager: Shutting down and abandoning module SteamVRInput (90)
+[2020.06.10-05.27.04:948][334]LogModuleManager: Shutting down and abandoning module SteamVR (88)
+[2020.06.10-05.27.04:948][334]LogHMD: Freeing OpenVRDLLHandle.
+[2020.06.10-05.27.04:948][334]LogModuleManager: Shutting down and abandoning module OculusHMD (86)
+[2020.06.10-05.27.04:948][334]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (84)
+[2020.06.10-05.27.04:948][334]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (82)
+[2020.06.10-05.27.04:948][334]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (80)
+[2020.06.10-05.27.04:948][334]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (76)
+[2020.06.10-05.27.04:950][334]LogModuleManager: Shutting down and abandoning module XMPP (71)
+[2020.06.10-05.27.04:952][334]LogModuleManager: Shutting down and abandoning module WebSockets (70)
+[2020.06.10-05.27.04:959][334]LogModuleManager: Shutting down and abandoning module HTTP (67)
+[2020.06.10-05.27.04:959][334]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2020.06.10-05.27.04:959][334]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BC9BF4488-4F18-2F19-DD63-3D9FCFBB1EB0%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.1-13594126%2B%2B%2BUE4%2BRelease-4.25&UserID=734f6b4042b0cb48af8d489a394c00a2%7C9205cde92a6a42da970ed067baf7d45c%7C06593ca8-7109-4bcc-9e9e-b81438ff1e4c&AppEnvironment=datacollector-source&UploadType=eteventstream] refs=[1] status=Processing
+[2020.06.10-05.27.04:988][334]LogModuleManager: Shutting down and abandoning module SSL (66)
+[2020.06.10-05.27.04:995][334]LogModuleManager: Shutting down and abandoning module WmfMedia (62)
+[2020.06.10-05.27.05:239][334]LogModuleManager: Shutting down and abandoning module Media (61)
+[2020.06.10-05.27.05:241][334]LogModuleManager: Shutting down and abandoning module MagicLeap (58)
+[2020.06.10-05.27.05:241][334]LogModuleManager: Shutting down and abandoning module NiagaraVertexFactories (56)
+[2020.06.10-05.27.05:251][334]LogModuleManager: Shutting down and abandoning module NiagaraShader (54)
+[2020.06.10-05.27.05:251][334]LogModuleManager: Shutting down and abandoning module VariantManagerContent (52)
+[2020.06.10-05.27.05:251][334]LogModuleManager: Shutting down and abandoning module DatasmithContent (50)
+[2020.06.10-05.27.05:251][334]LogModuleManager: Shutting down and abandoning module AISupportModule (48)
+[2020.06.10-05.27.05:251][334]LogModuleManager: Shutting down and abandoning module DesktopPlatform (46)
+[2020.06.10-05.27.05:253][334]LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (44)
+[2020.06.10-05.27.05:253][334]LogModuleManager: Shutting down and abandoning module PlatformCryptoTypes (42)
+[2020.06.10-05.27.05:253][334]LogModuleManager: Shutting down and abandoning module PlatformCrypto (40)
+[2020.06.10-05.27.05:253][334]LogModuleManager: Shutting down and abandoning module AnimationModifiers (38)
+[2020.06.10-05.27.05:254][334]LogModuleManager: Shutting down and abandoning module PropertyEditor (37)
+[2020.06.10-05.27.05:256][334]LogModuleManager: Shutting down and abandoning module AudioEditor (34)
+[2020.06.10-05.27.05:259][334]LogModuleManager: Shutting down and abandoning module TextureCompressor (32)
+[2020.06.10-05.27.05:259][334]LogModuleManager: Shutting down and abandoning module RenderCore (30)
+[2020.06.10-05.27.05:259][334]LogModuleManager: Shutting down and abandoning module Landscape (28)
+[2020.06.10-05.27.05:259][334]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (26)
+[2020.06.10-05.27.05:279][334]LogModuleManager: Shutting down and abandoning module OpenGLDrv (24)
+[2020.06.10-05.27.05:279][334]LogModuleManager: Shutting down and abandoning module D3D11RHI (22)
+[2020.06.10-05.27.05:279][334]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
+[2020.06.10-05.27.05:279][334]LogModuleManager: Shutting down and abandoning module Renderer (18)
+[2020.06.10-05.27.05:279][334]LogModuleManager: Shutting down and abandoning module Engine (16)
+[2020.06.10-05.27.05:279][334]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
+[2020.06.10-05.27.05:281][334]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
+[2020.06.10-05.27.05:281][334]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
+[2020.06.10-05.27.05:281][334]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
+[2020.06.10-05.27.05:281][334]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
+[2020.06.10-05.27.05:281][334]LogModuleManager: Shutting down and abandoning module PakFile (4)
+[2020.06.10-05.27.05:284][334]LogModuleManager: Shutting down and abandoning module RSA (3)
+[2020.06.10-05.27.05:285][334]LogContentStreaming: Display: There are 1 unreleased StreamingManagers
+[2020.06.10-05.27.05:333][334]LogD3D11RHI: Shutdown
+[2020.06.10-05.27.05:333][334]LogD3D11RHI: CleanupD3DDevice
+[2020.06.10-05.27.05:385][334]LogExit: Exiting.
+[2020.06.10-05.27.05:417][334]Log file closed, 06/10/20 01:27:05
