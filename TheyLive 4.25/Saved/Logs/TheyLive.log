@@ -2484,3 +2484,519 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.06.14-21.12.25:236][342]AssetCheck: New page: Asset Save: multiple assets
 [2020.06.14-21.12.25:236][342]LogContentValidation: Display: Validating World /Game/Maps/Parkour.Parkour
 [2020.06.14-21.12.25:236][342]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Parkour_BuiltData.Parkour_BuiltData
+[2020.06.14-21.13.03:651][305]LogSavePackage: Moving 'D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Saved/ThirdPersonCharacterA000B8794C20C1DD879A9B90AE70FF8E.tmp' to 'D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2020.06.14-21.13.03:677][305]AssetCheck: New page: Asset Save: ThirdPersonCharacter
+[2020.06.14-21.13.03:677][305]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2020.06.14-21.20.42:392][171]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2020.06.14-21.20.42:517][171]LogUObjectHash: Compacting FUObjectHashTables data took   2.61ms
+[2020.06.14-21.22.25:447][517]LogUObjectHash: Compacting FUObjectHashTables data took   2.99ms
+[2020.06.14-21.22.25:448][517]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Parkour' took 0.033
+[2020.06.14-21.22.25:448][517]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter] ([1] browsable assets)...
+[2020.06.14-21.22.25:470][517]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter]
+[2020.06.14-21.22.25:470][517]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter]
+[2020.06.14-21.22.25:625][517]LogSavePackage: Moving 'D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Saved/ThirdPersonCharacter_Auto5B48CA2CC4E427537C942EF956BE3D353.tmp' to 'D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_Auto5.uasset'
+[2020.06.14-21.22.25:634][517]LogFileHelpers: Auto-saving content packages took 0.186
+[2020.06.14-21.23.07:670][406]LogTemp: Repeating last play command: Selected Viewport
+[2020.06.14-21.23.07:692][406]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.06.14-21.23.07:692][406]PIE: New page: PIE session: Parkour (Jun 14, 2020, 1:23:07 PM)
+[2020.06.14-21.23.07:727][406]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Parkour
+[2020.06.14-21.23.07:733][406]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006335s)
+[2020.06.14-21.23.07:734][406]LogAIModule: Creating AISystem for world Parkour
+[2020.06.14-21.23.07:734][406]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000277CAA6D000), frame # 493406
+[2020.06.14-21.23.07:734][406]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000276FD418180), frame # 493406
+[2020.06.14-21.23.07:734][406]LogPlayLevel: PIE: World Init took: (0.001011s)
+[2020.06.14-21.23.07:735][406]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Parkour.Parkour to /Game/Maps/UEDPIE_0_Parkour.Parkour (0.007506s)
+[2020.06.14-21.23.07:761][406]LogUObjectHash: Compacting FUObjectHashTables data took   2.32ms
+[2020.06.14-21.23.07:762][406]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.06.14-21.23.07:762][406]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.06.14-21.23.07:762][406]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.06.14-21.23.07:762][406]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.06.14-21.23.07:762][406]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.06.14-21.23.07:762][406]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.06.14-21.23.07:762][406]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.06.14-21.23.07:762][406]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.06.14-21.23.07:763][406]LogAudio: Display: Using built-in audio occlusion.
+[2020.06.14-21.23.07:763][406]LogAudioMixer: Display: Initializing audio mixer.
+[2020.06.14-21.23.07:768][406]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.14-21.23.07:768][406]LogAudioMixer: Display: 1: FrontRight
+[2020.06.14-21.23.07:768][406]LogAudioMixer: Display: 2: FrontCenter
+[2020.06.14-21.23.07:768][406]LogAudioMixer: Display: 3: LowFrequency
+[2020.06.14-21.23.07:768][406]LogAudioMixer: Display: 4: BackLeft
+[2020.06.14-21.23.07:768][406]LogAudioMixer: Display: 5: BackRight
+[2020.06.14-21.23.07:768][406]LogAudioMixer: Display: 6: SideLeft
+[2020.06.14-21.23.07:768][406]LogAudioMixer: Display: 7: SideRight
+[2020.06.14-21.23.07:861][406]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2020.06.14-21.23.07:861][406]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.06.14-21.23.07:861][406]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.06.14-21.23.07:861][406]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.06.14-21.23.07:862][406]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.06.14-21.23.07:874][406]LogInit: FAudioDevice initialized.
+[2020.06.14-21.23.07:883][406]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2020.06.14-21.23.07:884][406]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Parkour.Parkour up for play (max tick rate 0) at 2020.06.14-17.23.07
+[2020.06.14-21.23.07:885][406]LogWorld: Bringing up level for play took: 0.000635
+[2020.06.14-21.23.07:885][406]LogOnline: OSS: Creating online subsystem instance for: :Context_58
+[2020.06.14-21.23.07:888][406]PIE: Server logged in
+[2020.06.14-21.23.07:889][406]PIE: Play in editor total start time 0.199 seconds.
+[2020.06.14-21.23.20:889][936]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.14-21.23.20:889][936]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Parkour
+[2020.06.14-21.23.20:890][936]LogWorld: UWorld::CleanupWorld for Parkour, bSessionEnded=true, bCleanupResources=true
+[2020.06.14-21.23.20:890][936]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.14-21.23.20:900][936]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.06.14-21.23.20:904][936]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.14-21.23.20:932][936]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.14-21.23.20:949][936]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000276FD418180), frame # 494936
+[2020.06.14-21.23.20:949][936]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000277CAA6D000), frame # 494936
+[2020.06.14-21.23.20:951][936]LogUObjectHash: Compacting FUObjectHashTables data took   2.09ms
+[2020.06.14-21.23.20:984][937]LogPlayLevel: Display: Destroying online subsystem :Context_58
+[2020.06.14-21.29.28:394][767]Warning: then: Parse error while importing property values (PinName = then).
+[2020.06.14-21.29.28:396][767]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2020.06.14-21.29.29:094][767]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.699 s
+[2020.06.14-21.29.29:094][767]LogOutputDevice: Error: === Handled ensure: ===
+[2020.06.14-21.29.29:094][767]LogOutputDevice: Error: 
+[2020.06.14-21.29.29:094][767]LogOutputDevice: Error: Ensure condition failed: ThisPin [File:D:/Build/++UE4+Licensee/Sync/Engine/Source/Editor/UnrealEd/Private/EdGraphUtilities.cpp] [Line: 38]
+[2020.06.14-21.29.29:095][767]LogOutputDevice: Error: 
+[2020.06.14-21.29.29:095][767]LogOutputDevice: Error: Stack: 
+[2020.06.14-21.29.29:095][767]LogOutputDevice: Error: [Callstack] 0x00007ffffe066de8 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.06.14-21.29.29:095][767]LogOutputDevice: Error: [Callstack] 0x00007ffffd4070a6 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.06.14-21.29.29:095][767]LogOutputDevice: Error: [Callstack] 0x00007ffffd4074c2 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.06.14-21.29.29:095][767]LogOutputDevice: Error: [Callstack] 0x00007ffffd3f1e77 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.06.14-21.29.29:095][767]LogOutputDevice: Error: [Callstack] 0x00007fffff8aacb1 UE4Editor-Kismet.dll!UnknownFunction []
+[2020.06.14-21.29.29:095][767]LogOutputDevice: Error: [Callstack] 0x00007fffff8aaa86 UE4Editor-Kismet.dll!UnknownFunction []
+[2020.06.14-21.29.29:095][767]LogOutputDevice: Error: [Callstack] 0x00007fffff88220e UE4Editor-Kismet.dll!UnknownFunction []
+[2020.06.14-21.29.29:095][767]LogOutputDevice: Error: [Callstack] 0x00007ff809162d61 UE4Editor-Slate.dll!UnknownFunction []
+[2020.06.14-21.29.29:095][767]LogOutputDevice: Error: [Callstack] 0x00007ff80919b46a UE4Editor-Slate.dll!UnknownFunction []
+[2020.06.14-21.29.29:095][767]LogOutputDevice: Error: [Callstack] 0x00007ffff9ace058 UE4Editor-GraphEditor.dll!UnknownFunction []
+[2020.06.14-21.29.29:095][767]LogOutputDevice: Error: [Callstack] 0x00007ff8091305bb UE4Editor-Slate.dll!UnknownFunction []
+[2020.06.14-21.29.29:095][767]LogOutputDevice: Error: [Callstack] 0x00007ff80919d481 UE4Editor-Slate.dll!UnknownFunction []
+[2020.06.14-21.29.29:095][767]LogOutputDevice: Error: [Callstack] 0x00007ff809190eb6 UE4Editor-Slate.dll!UnknownFunction []
+[2020.06.14-21.29.29:095][767]LogOutputDevice: Error: [Callstack] 0x00007ff8714f7c25 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.06.14-21.29.29:095][767]LogOutputDevice: Error: [Callstack] 0x00007ff8714e5c87 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.06.14-21.29.29:095][767]LogOutputDevice: Error: [Callstack] 0x00007ff8714fa609 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.06.14-21.29.29:095][767]LogOutputDevice: Error: [Callstack] 0x00007ff8714e17d0 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.06.14-21.29.29:095][767]LogOutputDevice: Error: [Callstack] 0x00007ff8988a5c0d USER32.dll!UnknownFunction []
+[2020.06.14-21.29.29:095][767]LogOutputDevice: Error: [Callstack] 0x00007ff8988a5602 USER32.dll!UnknownFunction []
+[2020.06.14-21.29.29:095][767]LogOutputDevice: Error: [Callstack] 0x00007ff8714fbb24 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.06.14-21.29.29:095][767]LogOutputDevice: Error: [Callstack] 0x00007ff7a22b68c4 UE4Editor.exe!UnknownFunction []
+[2020.06.14-21.29.29:095][767]LogOutputDevice: Error: [Callstack] 0x00007ff7a22cba7c UE4Editor.exe!UnknownFunction []
+[2020.06.14-21.29.29:095][767]LogOutputDevice: Error: [Callstack] 0x00007ff7a22cbb5a UE4Editor.exe!UnknownFunction []
+[2020.06.14-21.29.29:095][767]LogOutputDevice: Error: [Callstack] 0x00007ff7a22de31d UE4Editor.exe!UnknownFunction []
+[2020.06.14-21.29.29:095][767]LogOutputDevice: Error: [Callstack] 0x00007ff7a22e145a UE4Editor.exe!UnknownFunction []
+[2020.06.14-21.29.29:095][767]LogOutputDevice: Error: [Callstack] 0x00007ff898ce7bd4 KERNEL32.DLL!UnknownFunction []
+[2020.06.14-21.29.29:095][767]LogOutputDevice: Error: [Callstack] 0x00007ff899f0ce51 ntdll.dll!UnknownFunction []
+[2020.06.14-21.29.29:095][767]LogOutputDevice: Error: 
+[2020.06.14-21.29.29:097][767]LogStats:                SubmitErrorReport -  0.000 s
+[2020.06.14-21.29.30:861][767]LogStats:                    SendNewReport -  1.764 s
+[2020.06.14-21.29.30:861][767]LogStats:             FDebug::EnsureFailed -  2.465 s
+[2020.06.14-21.29.31:455][768]Warning: then: Parse error while importing property values (PinName = then).
+[2020.06.14-21.29.34:209][914]LogEditorTransaction: Undo Paste clipboard contents
+[2020.06.14-21.29.34:394][914]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_28:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.06.14-21.30.14:600][146]LogEditorTransaction: Undo Paste clipboard contents
+[2020.06.14-21.30.14:774][146]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_28:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.06.14-21.30.52:920][953]Warning: then: Parse error while importing property values (PinName = then).
+[2020.06.14-21.32.32:445][292]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2020.06.14-21.32.32:571][292]LogUObjectHash: Compacting FUObjectHashTables data took   3.22ms
+[2020.06.14-21.32.35:704][595]LogTemp: Repeating last play command: Selected Viewport
+[2020.06.14-21.32.35:726][595]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.06.14-21.32.35:726][595]PIE: New page: PIE session: Parkour (Jun 14, 2020, 1:32:35 PM)
+[2020.06.14-21.32.35:747][595]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Parkour
+[2020.06.14-21.32.35:753][595]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005915s)
+[2020.06.14-21.32.35:754][595]LogAIModule: Creating AISystem for world Parkour
+[2020.06.14-21.32.35:754][595]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000277CAA6D000), frame # 515595
+[2020.06.14-21.32.35:754][595]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000277F46C3D80), frame # 515595
+[2020.06.14-21.32.35:754][595]LogPlayLevel: PIE: World Init took: (0.000981s)
+[2020.06.14-21.32.35:754][595]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Parkour.Parkour to /Game/Maps/UEDPIE_0_Parkour.Parkour (0.007040s)
+[2020.06.14-21.32.35:783][595]LogUObjectHash: Compacting FUObjectHashTables data took   2.81ms
+[2020.06.14-21.32.35:784][595]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.06.14-21.32.35:784][595]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.06.14-21.32.35:784][595]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.06.14-21.32.35:784][595]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.06.14-21.32.35:784][595]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.06.14-21.32.35:784][595]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.06.14-21.32.35:784][595]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.06.14-21.32.35:784][595]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.06.14-21.32.35:784][595]LogAudio: Display: Using built-in audio occlusion.
+[2020.06.14-21.32.35:784][595]LogAudioMixer: Display: Initializing audio mixer.
+[2020.06.14-21.32.35:789][595]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.14-21.32.35:789][595]LogAudioMixer: Display: 1: FrontRight
+[2020.06.14-21.32.35:789][595]LogAudioMixer: Display: 2: FrontCenter
+[2020.06.14-21.32.35:789][595]LogAudioMixer: Display: 3: LowFrequency
+[2020.06.14-21.32.35:789][595]LogAudioMixer: Display: 4: BackLeft
+[2020.06.14-21.32.35:789][595]LogAudioMixer: Display: 5: BackRight
+[2020.06.14-21.32.35:789][595]LogAudioMixer: Display: 6: SideLeft
+[2020.06.14-21.32.35:789][595]LogAudioMixer: Display: 7: SideRight
+[2020.06.14-21.32.35:881][595]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2020.06.14-21.32.35:881][595]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.06.14-21.32.35:881][595]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.06.14-21.32.35:881][595]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.06.14-21.32.35:882][595]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.06.14-21.32.35:894][595]LogInit: FAudioDevice initialized.
+[2020.06.14-21.32.35:900][595]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2020.06.14-21.32.35:902][595]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Parkour.Parkour up for play (max tick rate 0) at 2020.06.14-17.32.35
+[2020.06.14-21.32.35:902][595]LogWorld: Bringing up level for play took: 0.000659
+[2020.06.14-21.32.35:902][595]LogOnline: OSS: Creating online subsystem instance for: :Context_59
+[2020.06.14-21.32.35:906][595]PIE: Server logged in
+[2020.06.14-21.32.35:906][595]PIE: Play in editor total start time 0.182 seconds.
+[2020.06.14-21.33.10:599][668]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.14-21.33.10:599][668]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Parkour
+[2020.06.14-21.33.10:599][668]LogWorld: UWorld::CleanupWorld for Parkour, bSessionEnded=true, bCleanupResources=true
+[2020.06.14-21.33.10:600][668]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.14-21.33.10:604][668]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.06.14-21.33.10:609][668]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.14-21.33.10:650][668]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.14-21.33.10:650][668]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000277F46C3D80), frame # 519668
+[2020.06.14-21.33.10:650][668]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000277CAA6D000), frame # 519668
+[2020.06.14-21.33.10:653][668]LogUObjectHash: Compacting FUObjectHashTables data took   2.15ms
+[2020.06.14-21.33.10:686][669]LogPlayLevel: Display: Destroying online subsystem :Context_59
+[2020.06.14-21.33.32:036][782]LogTemp: Repeating last play command: Selected Viewport
+[2020.06.14-21.33.32:059][782]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.06.14-21.33.32:059][782]PIE: New page: PIE session: Parkour (Jun 14, 2020, 1:33:32 PM)
+[2020.06.14-21.33.32:059][782]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Parkour
+[2020.06.14-21.33.32:065][782]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006024s)
+[2020.06.14-21.33.32:066][782]LogAIModule: Creating AISystem for world Parkour
+[2020.06.14-21.33.32:066][782]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002773DC5A800), frame # 521782
+[2020.06.14-21.33.32:066][782]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000277F4D68400), frame # 521782
+[2020.06.14-21.33.32:066][782]LogPlayLevel: PIE: World Init took: (0.000889s)
+[2020.06.14-21.33.32:066][782]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Parkour.Parkour to /Game/Maps/UEDPIE_0_Parkour.Parkour (0.007013s)
+[2020.06.14-21.33.32:094][782]LogUObjectHash: Compacting FUObjectHashTables data took   2.21ms
+[2020.06.14-21.33.32:094][782]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.06.14-21.33.32:094][782]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.06.14-21.33.32:094][782]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.06.14-21.33.32:094][782]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.06.14-21.33.32:094][782]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.06.14-21.33.32:094][782]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.06.14-21.33.32:094][782]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.06.14-21.33.32:096][782]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.06.14-21.33.32:096][782]LogAudio: Display: Using built-in audio occlusion.
+[2020.06.14-21.33.32:096][782]LogAudioMixer: Display: Initializing audio mixer.
+[2020.06.14-21.33.32:100][782]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.14-21.33.32:100][782]LogAudioMixer: Display: 1: FrontRight
+[2020.06.14-21.33.32:100][782]LogAudioMixer: Display: 2: FrontCenter
+[2020.06.14-21.33.32:100][782]LogAudioMixer: Display: 3: LowFrequency
+[2020.06.14-21.33.32:100][782]LogAudioMixer: Display: 4: BackLeft
+[2020.06.14-21.33.32:100][782]LogAudioMixer: Display: 5: BackRight
+[2020.06.14-21.33.32:100][782]LogAudioMixer: Display: 6: SideLeft
+[2020.06.14-21.33.32:100][782]LogAudioMixer: Display: 7: SideRight
+[2020.06.14-21.33.32:190][782]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2020.06.14-21.33.32:190][782]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.06.14-21.33.32:190][782]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.06.14-21.33.32:190][782]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.06.14-21.33.32:191][782]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.06.14-21.33.32:202][782]LogInit: FAudioDevice initialized.
+[2020.06.14-21.33.32:210][782]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2020.06.14-21.33.32:212][782]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Parkour.Parkour up for play (max tick rate 0) at 2020.06.14-17.33.32
+[2020.06.14-21.33.32:212][782]LogWorld: Bringing up level for play took: 0.000627
+[2020.06.14-21.33.32:212][782]LogOnline: OSS: Creating online subsystem instance for: :Context_60
+[2020.06.14-21.33.32:216][782]PIE: Server logged in
+[2020.06.14-21.33.32:217][782]PIE: Play in editor total start time 0.16 seconds.
+[2020.06.14-21.33.42:939][ 59]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.14-21.33.42:939][ 59]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Parkour
+[2020.06.14-21.33.42:939][ 59]LogWorld: UWorld::CleanupWorld for Parkour, bSessionEnded=true, bCleanupResources=true
+[2020.06.14-21.33.42:939][ 59]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.14-21.33.42:947][ 59]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.06.14-21.33.42:951][ 59]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.14-21.33.42:991][ 59]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.14-21.33.42:992][ 59]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000277F4D68400), frame # 523059
+[2020.06.14-21.33.42:992][ 59]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002773DC5A800), frame # 523059
+[2020.06.14-21.33.42:994][ 59]LogUObjectHash: Compacting FUObjectHashTables data took   2.05ms
+[2020.06.14-21.33.43:027][ 60]LogPlayLevel: Display: Destroying online subsystem :Context_60
+[2020.06.14-21.36.29:107][998]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2020.06.14-21.36.29:243][998]LogUObjectHash: Compacting FUObjectHashTables data took   2.45ms
+[2020.06.14-21.36.33:656][441]LogTemp: Repeating last play command: Selected Viewport
+[2020.06.14-21.36.33:679][441]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.06.14-21.36.33:679][441]PIE: New page: PIE session: Parkour (Jun 14, 2020, 1:36:33 PM)
+[2020.06.14-21.36.33:716][441]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Parkour
+[2020.06.14-21.36.33:724][441]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007226s)
+[2020.06.14-21.36.33:724][441]LogAIModule: Creating AISystem for world Parkour
+[2020.06.14-21.36.33:725][441]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002781BADD400), frame # 541441
+[2020.06.14-21.36.33:725][441]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000277F2F36D40), frame # 541441
+[2020.06.14-21.36.33:725][441]LogPlayLevel: PIE: World Init took: (0.000875s)
+[2020.06.14-21.36.33:725][441]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Parkour.Parkour to /Game/Maps/UEDPIE_0_Parkour.Parkour (0.008245s)
+[2020.06.14-21.36.33:753][441]LogUObjectHash: Compacting FUObjectHashTables data took   2.95ms
+[2020.06.14-21.36.33:754][441]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.06.14-21.36.33:754][441]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.06.14-21.36.33:754][441]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.06.14-21.36.33:754][441]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.06.14-21.36.33:754][441]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.06.14-21.36.33:754][441]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.06.14-21.36.33:754][441]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.06.14-21.36.33:754][441]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.06.14-21.36.33:755][441]LogAudio: Display: Using built-in audio occlusion.
+[2020.06.14-21.36.33:755][441]LogAudioMixer: Display: Initializing audio mixer.
+[2020.06.14-21.36.33:759][441]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.14-21.36.33:759][441]LogAudioMixer: Display: 1: FrontRight
+[2020.06.14-21.36.33:759][441]LogAudioMixer: Display: 2: FrontCenter
+[2020.06.14-21.36.33:759][441]LogAudioMixer: Display: 3: LowFrequency
+[2020.06.14-21.36.33:759][441]LogAudioMixer: Display: 4: BackLeft
+[2020.06.14-21.36.33:759][441]LogAudioMixer: Display: 5: BackRight
+[2020.06.14-21.36.33:759][441]LogAudioMixer: Display: 6: SideLeft
+[2020.06.14-21.36.33:759][441]LogAudioMixer: Display: 7: SideRight
+[2020.06.14-21.36.33:850][441]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2020.06.14-21.36.33:850][441]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.06.14-21.36.33:850][441]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.06.14-21.36.33:851][441]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.06.14-21.36.33:851][441]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.06.14-21.36.33:863][441]LogInit: FAudioDevice initialized.
+[2020.06.14-21.36.33:867][441]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2020.06.14-21.36.33:869][441]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Parkour.Parkour up for play (max tick rate 0) at 2020.06.14-17.36.33
+[2020.06.14-21.36.33:869][441]LogWorld: Bringing up level for play took: 0.000642
+[2020.06.14-21.36.33:869][441]LogOnline: OSS: Creating online subsystem instance for: :Context_61
+[2020.06.14-21.36.33:873][441]PIE: Server logged in
+[2020.06.14-21.36.33:873][441]PIE: Play in editor total start time 0.196 seconds.
+[2020.06.14-21.36.47:603][ 42]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Vault
+[2020.06.14-21.37.19:663][744]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Vault
+[2020.06.14-21.38.15:860][261]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.14-21.38.15:860][261]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Parkour
+[2020.06.14-21.38.15:860][261]LogWorld: UWorld::CleanupWorld for Parkour, bSessionEnded=true, bCleanupResources=true
+[2020.06.14-21.38.15:860][261]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.14-21.38.15:863][261]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.06.14-21.38.15:869][261]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.14-21.38.15:910][261]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.14-21.38.15:911][261]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000277F2F36D40), frame # 553261
+[2020.06.14-21.38.15:911][261]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002781BADD400), frame # 553261
+[2020.06.14-21.38.15:914][261]LogUObjectHash: Compacting FUObjectHashTables data took   2.41ms
+[2020.06.14-21.38.15:948][262]LogPlayLevel: Display: Destroying online subsystem :Context_61
+[2020.06.14-21.39.35:534][459]Cmd: TRANSACTION UNDO
+[2020.06.14-21.39.35:542][459]LogEditorTransaction: Undo Edit Y
+[2020.06.14-21.39.35:653][459]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_28:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.06.14-21.41.26:446][308]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2020.06.14-21.41.27:204][395]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2020.06.14-21.41.28:133][505]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2020.06.14-21.41.28:787][582]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2020.06.14-21.41.29:839][707]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2020.06.14-21.42.26:984][387]Cmd: DUPLICATE
+[2020.06.14-21.42.26:984][387]Cmd: ACTOR DUPLICATE
+[2020.06.14-21.45.19:080][179]Cmd: DUPLICATE
+[2020.06.14-21.45.19:080][179]Cmd: ACTOR DUPLICATE
+[2020.06.14-21.45.52:947][152]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2020.06.14-21.46.07:886][908]Cmd: DUPLICATE
+[2020.06.14-21.46.07:886][908]Cmd: ACTOR DUPLICATE
+[2020.06.14-21.46.33:927][963]LogTemp: Repeating last play command: Selected Viewport
+[2020.06.14-21.46.33:949][963]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.06.14-21.46.33:949][963]PIE: New page: PIE session: Parkour (Jun 14, 2020, 1:46:33 PM)
+[2020.06.14-21.46.33:977][963]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Parkour
+[2020.06.14-21.46.33:984][963]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006439s)
+[2020.06.14-21.46.33:984][963]LogAIModule: Creating AISystem for world Parkour
+[2020.06.14-21.46.33:985][963]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002782FC1F800), frame # 610963
+[2020.06.14-21.46.33:985][963]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002782A8179C0), frame # 610963
+[2020.06.14-21.46.33:985][963]LogPlayLevel: PIE: World Init took: (0.001007s)
+[2020.06.14-21.46.33:985][963]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Parkour.Parkour to /Game/Maps/UEDPIE_0_Parkour.Parkour (0.007573s)
+[2020.06.14-21.46.34:014][963]LogUObjectHash: Compacting FUObjectHashTables data took   2.59ms
+[2020.06.14-21.46.34:017][963]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.06.14-21.46.34:017][963]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.06.14-21.46.34:017][963]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.06.14-21.46.34:017][963]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.06.14-21.46.34:017][963]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.06.14-21.46.34:017][963]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.06.14-21.46.34:017][963]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.06.14-21.46.34:017][963]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.06.14-21.46.34:017][963]LogAudio: Display: Using built-in audio occlusion.
+[2020.06.14-21.46.34:017][963]LogAudioMixer: Display: Initializing audio mixer.
+[2020.06.14-21.46.34:022][963]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.14-21.46.34:022][963]LogAudioMixer: Display: 1: FrontRight
+[2020.06.14-21.46.34:022][963]LogAudioMixer: Display: 2: FrontCenter
+[2020.06.14-21.46.34:022][963]LogAudioMixer: Display: 3: LowFrequency
+[2020.06.14-21.46.34:022][963]LogAudioMixer: Display: 4: BackLeft
+[2020.06.14-21.46.34:022][963]LogAudioMixer: Display: 5: BackRight
+[2020.06.14-21.46.34:022][963]LogAudioMixer: Display: 6: SideLeft
+[2020.06.14-21.46.34:022][963]LogAudioMixer: Display: 7: SideRight
+[2020.06.14-21.46.34:115][963]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2020.06.14-21.46.34:115][963]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.06.14-21.46.34:115][963]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.06.14-21.46.34:115][963]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.06.14-21.46.34:116][963]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.06.14-21.46.34:128][963]LogInit: FAudioDevice initialized.
+[2020.06.14-21.46.34:135][963]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2020.06.14-21.46.34:137][963]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Parkour.Parkour up for play (max tick rate 0) at 2020.06.14-17.46.34
+[2020.06.14-21.46.34:137][963]LogWorld: Bringing up level for play took: 0.000683
+[2020.06.14-21.46.34:137][963]LogOnline: OSS: Creating online subsystem instance for: :Context_62
+[2020.06.14-21.46.34:141][963]PIE: Server logged in
+[2020.06.14-21.46.34:142][963]PIE: Play in editor total start time 0.195 seconds.
+[2020.06.14-21.47.12:850][419]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.14-21.47.12:850][419]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Parkour
+[2020.06.14-21.47.12:850][419]LogWorld: UWorld::CleanupWorld for Parkour, bSessionEnded=true, bCleanupResources=true
+[2020.06.14-21.47.12:850][419]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.14-21.47.12:861][419]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.06.14-21.47.12:865][419]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.14-21.47.12:907][419]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.14-21.47.12:908][419]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002782A8179C0), frame # 615419
+[2020.06.14-21.47.12:908][419]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002782FC1F800), frame # 615419
+[2020.06.14-21.47.12:911][419]LogUObjectHash: Compacting FUObjectHashTables data took   2.54ms
+[2020.06.14-21.47.12:943][420]LogPlayLevel: Display: Destroying online subsystem :Context_62
+[2020.06.14-21.47.23:555][664]LogTemp: Repeating last play command: Selected Viewport
+[2020.06.14-21.47.23:577][664]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.06.14-21.47.23:577][664]PIE: New page: PIE session: Parkour (Jun 14, 2020, 1:47:23 PM)
+[2020.06.14-21.47.23:616][664]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Parkour
+[2020.06.14-21.47.23:622][664]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005695s)
+[2020.06.14-21.47.23:623][664]LogAIModule: Creating AISystem for world Parkour
+[2020.06.14-21.47.23:623][664]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000278326D2E00), frame # 616664
+[2020.06.14-21.47.23:623][664]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000277FED1D080), frame # 616664
+[2020.06.14-21.47.23:623][664]LogPlayLevel: PIE: World Init took: (0.000867s)
+[2020.06.14-21.47.23:623][664]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Parkour.Parkour to /Game/Maps/UEDPIE_0_Parkour.Parkour (0.006696s)
+[2020.06.14-21.47.23:649][664]LogUObjectHash: Compacting FUObjectHashTables data took   2.34ms
+[2020.06.14-21.47.23:650][664]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.06.14-21.47.23:650][664]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.06.14-21.47.23:650][664]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.06.14-21.47.23:650][664]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.06.14-21.47.23:650][664]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.06.14-21.47.23:650][664]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.06.14-21.47.23:650][664]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.06.14-21.47.23:650][664]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.06.14-21.47.23:650][664]LogAudio: Display: Using built-in audio occlusion.
+[2020.06.14-21.47.23:650][664]LogAudioMixer: Display: Initializing audio mixer.
+[2020.06.14-21.47.23:655][664]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.14-21.47.23:655][664]LogAudioMixer: Display: 1: FrontRight
+[2020.06.14-21.47.23:655][664]LogAudioMixer: Display: 2: FrontCenter
+[2020.06.14-21.47.23:655][664]LogAudioMixer: Display: 3: LowFrequency
+[2020.06.14-21.47.23:655][664]LogAudioMixer: Display: 4: BackLeft
+[2020.06.14-21.47.23:655][664]LogAudioMixer: Display: 5: BackRight
+[2020.06.14-21.47.23:655][664]LogAudioMixer: Display: 6: SideLeft
+[2020.06.14-21.47.23:655][664]LogAudioMixer: Display: 7: SideRight
+[2020.06.14-21.47.23:745][664]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2020.06.14-21.47.23:745][664]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.06.14-21.47.23:745][664]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.06.14-21.47.23:745][664]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.06.14-21.47.23:745][664]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.06.14-21.47.23:758][664]LogInit: FAudioDevice initialized.
+[2020.06.14-21.47.23:765][664]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2020.06.14-21.47.23:766][664]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Parkour.Parkour up for play (max tick rate 0) at 2020.06.14-17.47.23
+[2020.06.14-21.47.23:766][664]LogWorld: Bringing up level for play took: 0.000623
+[2020.06.14-21.47.23:766][664]LogOnline: OSS: Creating online subsystem instance for: :Context_63
+[2020.06.14-21.47.23:770][664]PIE: Server logged in
+[2020.06.14-21.47.23:770][664]PIE: Play in editor total start time 0.195 seconds.
+[2020.06.14-21.47.31:241][539]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Vault
+[2020.06.14-21.48.00:320][927]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Vault
+[2020.06.14-21.48.33:739][783]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.14-21.48.33:739][783]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Parkour
+[2020.06.14-21.48.33:739][783]LogWorld: UWorld::CleanupWorld for Parkour, bSessionEnded=true, bCleanupResources=true
+[2020.06.14-21.48.33:740][783]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.14-21.48.33:745][783]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.06.14-21.48.33:749][783]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.14-21.48.33:792][783]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.14-21.48.33:793][783]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000277FED1D080), frame # 624783
+[2020.06.14-21.48.33:793][783]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000278326D2E00), frame # 624783
+[2020.06.14-21.48.33:796][783]LogUObjectHash: Compacting FUObjectHashTables data took   2.50ms
+[2020.06.14-21.48.33:829][784]LogPlayLevel: Display: Destroying online subsystem :Context_63
+[2020.06.14-21.48.38:760][359]Cmd: DUPLICATE
+[2020.06.14-21.48.38:760][359]Cmd: ACTOR DUPLICATE
+[2020.06.14-21.50.16:847][792]LogTemp: Repeating last play command: Selected Viewport
+[2020.06.14-21.50.16:870][792]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.06.14-21.50.16:870][792]PIE: New page: PIE session: Parkour (Jun 14, 2020, 1:50:16 PM)
+[2020.06.14-21.50.16:906][792]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Parkour
+[2020.06.14-21.50.16:916][792]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010009s)
+[2020.06.14-21.50.16:917][792]LogAIModule: Creating AISystem for world Parkour
+[2020.06.14-21.50.16:917][792]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002782F561E00), frame # 636792
+[2020.06.14-21.50.16:917][792]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000027836E89080), frame # 636792
+[2020.06.14-21.50.16:917][792]LogPlayLevel: PIE: World Init took: (0.000946s)
+[2020.06.14-21.50.16:917][792]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Parkour.Parkour to /Game/Maps/UEDPIE_0_Parkour.Parkour (0.011115s)
+[2020.06.14-21.50.16:947][792]LogUObjectHash: Compacting FUObjectHashTables data took   2.37ms
+[2020.06.14-21.50.16:949][792]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.06.14-21.50.16:949][792]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.06.14-21.50.16:949][792]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.06.14-21.50.16:949][792]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.06.14-21.50.16:949][792]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.06.14-21.50.16:949][792]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.06.14-21.50.16:949][792]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.06.14-21.50.16:949][792]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.06.14-21.50.16:949][792]LogAudio: Display: Using built-in audio occlusion.
+[2020.06.14-21.50.16:949][792]LogAudioMixer: Display: Initializing audio mixer.
+[2020.06.14-21.50.16:954][792]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.14-21.50.16:954][792]LogAudioMixer: Display: 1: FrontRight
+[2020.06.14-21.50.16:954][792]LogAudioMixer: Display: 2: FrontCenter
+[2020.06.14-21.50.16:954][792]LogAudioMixer: Display: 3: LowFrequency
+[2020.06.14-21.50.16:954][792]LogAudioMixer: Display: 4: BackLeft
+[2020.06.14-21.50.16:954][792]LogAudioMixer: Display: 5: BackRight
+[2020.06.14-21.50.16:954][792]LogAudioMixer: Display: 6: SideLeft
+[2020.06.14-21.50.16:954][792]LogAudioMixer: Display: 7: SideRight
+[2020.06.14-21.50.17:045][792]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2020.06.14-21.50.17:045][792]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.06.14-21.50.17:045][792]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.06.14-21.50.17:045][792]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.06.14-21.50.17:046][792]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.06.14-21.50.17:058][792]LogInit: FAudioDevice initialized.
+[2020.06.14-21.50.17:069][792]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2020.06.14-21.50.17:071][792]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Parkour.Parkour up for play (max tick rate 0) at 2020.06.14-17.50.17
+[2020.06.14-21.50.17:071][792]LogWorld: Bringing up level for play took: 0.000731
+[2020.06.14-21.50.17:071][792]LogOnline: OSS: Creating online subsystem instance for: :Context_64
+[2020.06.14-21.50.17:075][792]PIE: Server logged in
+[2020.06.14-21.50.17:075][792]PIE: Play in editor total start time 0.207 seconds.
+[2020.06.14-21.50.23:029][496]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Vault
+[2020.06.14-21.50.49:659][581]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.14-21.50.49:659][581]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Parkour
+[2020.06.14-21.50.49:659][581]LogWorld: UWorld::CleanupWorld for Parkour, bSessionEnded=true, bCleanupResources=true
+[2020.06.14-21.50.49:659][581]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.14-21.50.49:671][581]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.06.14-21.50.49:675][581]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.14-21.50.49:719][581]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.14-21.50.49:720][581]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002782F561E00), frame # 640581
+[2020.06.14-21.50.49:720][581]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000027836E89080), frame # 640581
+[2020.06.14-21.50.49:723][581]LogUObjectHash: Compacting FUObjectHashTables data took   2.20ms
+[2020.06.14-21.50.49:757][582]LogPlayLevel: Display: Destroying online subsystem :Context_64
+[2020.06.14-21.50.50:512][671]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2020.06.14-21.50.58:665][633]LogTemp: Repeating last play command: Selected Viewport
+[2020.06.14-21.50.58:686][633]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.06.14-21.50.58:686][633]PIE: New page: PIE session: Parkour (Jun 14, 2020, 1:50:58 PM)
+[2020.06.14-21.50.58:717][633]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Parkour
+[2020.06.14-21.50.58:726][633]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009579s)
+[2020.06.14-21.50.58:727][633]LogAIModule: Creating AISystem for world Parkour
+[2020.06.14-21.50.58:727][633]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000027830318600), frame # 641633
+[2020.06.14-21.50.58:727][633]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000278399DA700), frame # 641633
+[2020.06.14-21.50.58:727][633]LogPlayLevel: PIE: World Init took: (0.000989s)
+[2020.06.14-21.50.58:727][633]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Parkour.Parkour to /Game/Maps/UEDPIE_0_Parkour.Parkour (0.010717s)
+[2020.06.14-21.50.58:755][633]LogUObjectHash: Compacting FUObjectHashTables data took   2.40ms
+[2020.06.14-21.50.58:756][633]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.06.14-21.50.58:756][633]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.06.14-21.50.58:756][633]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.06.14-21.50.58:756][633]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.06.14-21.50.58:756][633]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.06.14-21.50.58:756][633]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.06.14-21.50.58:756][633]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.06.14-21.50.58:756][633]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.06.14-21.50.58:757][633]LogAudio: Display: Using built-in audio occlusion.
+[2020.06.14-21.50.58:757][633]LogAudioMixer: Display: Initializing audio mixer.
+[2020.06.14-21.50.58:761][633]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.14-21.50.58:761][633]LogAudioMixer: Display: 1: FrontRight
+[2020.06.14-21.50.58:761][633]LogAudioMixer: Display: 2: FrontCenter
+[2020.06.14-21.50.58:761][633]LogAudioMixer: Display: 3: LowFrequency
+[2020.06.14-21.50.58:761][633]LogAudioMixer: Display: 4: BackLeft
+[2020.06.14-21.50.58:761][633]LogAudioMixer: Display: 5: BackRight
+[2020.06.14-21.50.58:761][633]LogAudioMixer: Display: 6: SideLeft
+[2020.06.14-21.50.58:761][633]LogAudioMixer: Display: 7: SideRight
+[2020.06.14-21.50.58:850][633]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2020.06.14-21.50.58:851][633]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.06.14-21.50.58:851][633]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.06.14-21.50.58:851][633]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.06.14-21.50.58:851][633]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.06.14-21.50.58:863][633]LogInit: FAudioDevice initialized.
+[2020.06.14-21.50.58:871][633]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2020.06.14-21.50.58:873][633]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Parkour.Parkour up for play (max tick rate 0) at 2020.06.14-17.50.58
+[2020.06.14-21.50.58:873][633]LogWorld: Bringing up level for play took: 0.000694
+[2020.06.14-21.50.58:873][633]LogOnline: OSS: Creating online subsystem instance for: :Context_65
+[2020.06.14-21.50.58:876][633]PIE: Server logged in
+[2020.06.14-21.50.58:877][633]PIE: Play in editor total start time 0.192 seconds.
+[2020.06.14-21.51.15:578][600]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Vault
+[2020.06.14-21.51.37:565][144]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Vault
+[2020.06.14-21.51.59:049][617]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.14-21.51.59:049][617]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Parkour
+[2020.06.14-21.51.59:049][617]LogWorld: UWorld::CleanupWorld for Parkour, bSessionEnded=true, bCleanupResources=true
+[2020.06.14-21.51.59:050][617]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.14-21.51.59:059][617]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.06.14-21.51.59:064][617]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.14-21.51.59:113][617]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.14-21.51.59:114][617]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000027830318600), frame # 648617
+[2020.06.14-21.51.59:114][617]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000278399DA700), frame # 648617
+[2020.06.14-21.51.59:117][617]LogUObjectHash: Compacting FUObjectHashTables data took   2.40ms
+[2020.06.14-21.51.59:152][618]LogPlayLevel: Display: Destroying online subsystem :Context_65
+[2020.06.14-21.52.01:779][917]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Parkour" FILE="D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Content/Maps/Parkour.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.06.14-21.52.01:815][917]LogUObjectHash: Compacting FUObjectHashTables data took   2.11ms
+[2020.06.14-21.52.01:863][917]LogSavePackage: Moving 'D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Saved/ParkourBB51AD5143BF34BDB39CFD88BD72746C.tmp' to 'D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Content/Maps/Parkour.umap'
+[2020.06.14-21.52.01:923][917]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Parkour_BuiltData" FILE="D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Content/Maps/Parkour_BuiltData.uasset" SILENT=true
+[2020.06.14-21.52.01:952][917]LogSavePackage: Moving 'D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Parkour_BuiltData220919044BD9E20EC58EF8BA8EA624C8.tmp' to 'D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Content/Maps/Parkour_BuiltData.uasset'
+[2020.06.14-21.52.01:970][917]AssetCheck: New page: Asset Save: multiple assets
+[2020.06.14-21.52.01:970][917]LogContentValidation: Display: Validating World /Game/Maps/Parkour.Parkour
+[2020.06.14-21.52.01:970][917]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Parkour_BuiltData.Parkour_BuiltData
+[2020.06.14-21.52.04:082][131]LogSavePackage: Moving 'D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Saved/ThirdPersonCharacter5793ED094AD1E4DC245F4092B163E36A.tmp' to 'D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2020.06.14-21.52.04:106][131]AssetCheck: New page: Asset Save: ThirdPersonCharacter
+[2020.06.14-21.52.04:106][131]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
