@@ -1,8 +1,8 @@
-﻿Log file open, 06/08/20 23:27:48
+﻿Log file open, 07/08/20 10:02:55
 LogInit: Display: Running engine for game: TheyLive
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 1.833206
+LogStats: Stats thread started at 1.228611
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -144,7 +144,7 @@ LogInit: Compiled (64-bit): Jun  2 2020 02:10:36
 LogInit: Compiled with Visual C++: 19.24.28315.00
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.25
-LogInit: Command Line:  /Game/ThirdPersonBP/Maps/Main -game -PIEVIACONSOLE -Multiprocess "GameUserSettingsINI=C:/Users/FX22k/Desktop/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/PIEGameUserSettings0.ini" -MultiprocessSaveConfig -MultiprocessOSS -messaging -SessionName="Play in Standalone Game" -windowed -ResX=1280 -ResY=720
+LogInit: Command Line: 
 LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/Win64/
 LogInit: Allocator: TBB
 LogInit: Installed Engine Build: 1
@@ -176,7 +176,7 @@ LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 3
 LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
 LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
 LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
-LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/FX22k/Desktop/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Engine.ini]
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Engine.ini]
 LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
 LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
 LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
@@ -194,697 +194,1058 @@ LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2020.06.09-03.27.49:717][  0]LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
-[2020.06.09-03.27.49:717][  0]LogConfig: Setting CVar [[r.setres:1280x720]]
-[2020.06.09-03.27.49:717][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/FX22k/Desktop/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Engine.ini]
-[2020.06.09-03.27.49:717][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2020.06.09-03.27.49:717][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/FX22k/Desktop/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Engine.ini]
-[2020.06.09-03.27.49:717][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/FX22k/Desktop/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Engine.ini]
-[2020.06.09-03.27.49:717][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2020.06.09-03.27.49:717][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2020.06.09-03.27.49:717][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2020.06.09-03.27.49:717][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2020.06.09-03.27.49:717][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2020.06.09-03.27.49:718][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2020.06.09-03.27.49:718][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2020.06.09-03.27.49:718][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2020.06.09-03.27.49:718][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2020.06.09-03.27.49:718][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2020.06.09-03.27.49:718][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2020.06.09-03.27.49:718][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2020.06.09-03.27.49:718][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2020.06.09-03.27.49:718][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
-[2020.06.09-03.27.49:718][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/FX22k/Desktop/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Engine.ini]
-[2020.06.09-03.27.49:718][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2020.06.09-03.27.49:718][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2020.06.09-03.27.49:718][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2020.06.09-03.27.49:718][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2020.06.09-03.27.49:718][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2020.06.09-03.27.49:718][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2020.06.09-03.27.49:718][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
-[2020.06.09-03.27.49:718][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2020.06.09-03.27.49:718][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2020.06.09-03.27.49:718][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2020.06.09-03.27.49:718][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2020.06.09-03.27.49:718][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2020.06.09-03.27.49:718][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2020.06.09-03.27.49:718][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/FX22k/Desktop/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Engine.ini]
-[2020.06.09-03.27.49:718][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/FX22k/Desktop/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Engine.ini]
-[2020.06.09-03.27.49:722][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/FX22k/Desktop/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Scalability.ini]
-[2020.06.09-03.27.49:722][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2020.06.09-03.27.49:722][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2020.06.09-03.27.49:722][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/FX22k/Desktop/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Scalability.ini]
-[2020.06.09-03.27.49:722][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2020.06.09-03.27.49:722][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/FX22k/Desktop/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Scalability.ini]
-[2020.06.09-03.27.49:722][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2020.06.09-03.27.49:722][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2020.06.09-03.27.49:722][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2020.06.09-03.27.49:722][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2020.06.09-03.27.49:722][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2020.06.09-03.27.49:722][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2020.06.09-03.27.49:722][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2020.06.09-03.27.49:722][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2020.06.09-03.27.49:722][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2020.06.09-03.27.49:722][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2020.06.09-03.27.49:722][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2020.06.09-03.27.49:722][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2020.06.09-03.27.49:722][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2020.06.09-03.27.49:722][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2020.06.09-03.27.49:722][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2020.06.09-03.27.49:722][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2020.06.09-03.27.49:722][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2020.06.09-03.27.49:722][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2020.06.09-03.27.49:722][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/FX22k/Desktop/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Scalability.ini]
-[2020.06.09-03.27.49:722][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2020.06.09-03.27.49:722][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2020.06.09-03.27.49:722][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2020.06.09-03.27.49:722][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2020.06.09-03.27.49:722][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2020.06.09-03.27.49:722][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2020.06.09-03.27.49:722][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2020.06.09-03.27.49:722][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2020.06.09-03.27.49:723][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2020.06.09-03.27.49:723][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2020.06.09-03.27.49:723][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2020.06.09-03.27.49:723][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2020.06.09-03.27.49:723][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2020.06.09-03.27.49:723][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2020.06.09-03.27.49:723][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2020.06.09-03.27.49:723][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2020.06.09-03.27.49:723][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2020.06.09-03.27.49:723][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2020.06.09-03.27.49:723][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2020.06.09-03.27.49:723][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2020.06.09-03.27.49:723][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2020.06.09-03.27.49:723][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2020.06.09-03.27.49:723][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2020.06.09-03.27.49:723][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2020.06.09-03.27.49:723][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2020.06.09-03.27.49:723][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2020.06.09-03.27.49:723][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2020.06.09-03.27.49:723][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2020.06.09-03.27.49:723][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2020.06.09-03.27.49:723][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2020.06.09-03.27.49:723][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/FX22k/Desktop/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Scalability.ini]
-[2020.06.09-03.27.49:723][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2020.06.09-03.27.49:723][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2020.06.09-03.27.49:723][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2020.06.09-03.27.49:723][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2020.06.09-03.27.49:723][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2020.06.09-03.27.49:723][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2020.06.09-03.27.49:723][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2020.06.09-03.27.49:723][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2020.06.09-03.27.49:723][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2020.06.09-03.27.49:723][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/FX22k/Desktop/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Scalability.ini]
-[2020.06.09-03.27.49:723][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2020.06.09-03.27.49:723][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2020.06.09-03.27.49:723][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2020.06.09-03.27.49:723][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2020.06.09-03.27.49:723][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2020.06.09-03.27.49:723][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2020.06.09-03.27.49:723][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2020.06.09-03.27.49:723][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2020.06.09-03.27.49:723][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2020.06.09-03.27.49:723][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2020.06.09-03.27.49:723][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2020.06.09-03.27.49:723][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
-[2020.06.09-03.27.49:723][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2020.06.09-03.27.49:723][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2020.06.09-03.27.49:723][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2020.06.09-03.27.49:723][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2020.06.09-03.27.49:723][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2020.06.09-03.27.49:723][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2020.06.09-03.27.49:723][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2020.06.09-03.27.49:723][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2020.06.09-03.27.49:723][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2020.06.09-03.27.49:723][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2020.06.09-03.27.49:723][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2020.06.09-03.27.49:723][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2020.06.09-03.27.49:723][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2020.06.09-03.27.49:723][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2020.06.09-03.27.49:723][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/FX22k/Desktop/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Scalability.ini]
-[2020.06.09-03.27.49:723][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2020.06.09-03.27.49:723][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2020.06.09-03.27.49:723][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/FX22k/Desktop/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Scalability.ini]
-[2020.06.09-03.27.49:724][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2020.06.09-03.27.49:724][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2020.06.09-03.27.49:724][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2020.06.09-03.27.49:724][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
-[2020.06.09-03.27.49:724][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
-[2020.06.09-03.27.49:724][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
-[2020.06.09-03.27.49:724][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
-[2020.06.09-03.27.49:724][  0]LogInit: Selected Device Profile: [Windows]
-[2020.06.09-03.27.49:724][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2020.06.09-03.27.49:724][  0]LogHAL: Display: Platform has ~ 16 GB [17015910400 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2020.06.09-03.27.49:724][  0]LogInit: Going up to parent DeviceProfile []
-[2020.06.09-03.27.49:725][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/FX22k/Desktop/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Scalability.ini]
-[2020.06.09-03.27.49:725][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2020.06.09-03.27.49:725][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2020.06.09-03.27.49:725][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/FX22k/Desktop/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Scalability.ini]
-[2020.06.09-03.27.49:725][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2020.06.09-03.27.49:725][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/FX22k/Desktop/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Scalability.ini]
-[2020.06.09-03.27.49:725][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2020.06.09-03.27.49:725][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2020.06.09-03.27.49:725][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2020.06.09-03.27.49:725][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2020.06.09-03.27.49:725][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2020.06.09-03.27.49:725][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2020.06.09-03.27.49:725][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2020.06.09-03.27.49:725][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2020.06.09-03.27.49:725][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2020.06.09-03.27.49:725][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2020.06.09-03.27.49:725][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2020.06.09-03.27.49:725][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2020.06.09-03.27.49:725][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2020.06.09-03.27.49:725][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2020.06.09-03.27.49:725][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2020.06.09-03.27.49:725][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2020.06.09-03.27.49:725][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2020.06.09-03.27.49:725][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2020.06.09-03.27.49:725][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/FX22k/Desktop/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Scalability.ini]
-[2020.06.09-03.27.49:725][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2020.06.09-03.27.49:725][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2020.06.09-03.27.49:725][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2020.06.09-03.27.49:725][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2020.06.09-03.27.49:725][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2020.06.09-03.27.49:725][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2020.06.09-03.27.49:725][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2020.06.09-03.27.49:725][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2020.06.09-03.27.49:725][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2020.06.09-03.27.49:725][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2020.06.09-03.27.49:725][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2020.06.09-03.27.49:725][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2020.06.09-03.27.49:725][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2020.06.09-03.27.49:725][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2020.06.09-03.27.49:725][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2020.06.09-03.27.49:725][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2020.06.09-03.27.49:725][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2020.06.09-03.27.49:725][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2020.06.09-03.27.49:726][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2020.06.09-03.27.49:726][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2020.06.09-03.27.49:726][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2020.06.09-03.27.49:726][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2020.06.09-03.27.49:726][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2020.06.09-03.27.49:726][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2020.06.09-03.27.49:726][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2020.06.09-03.27.49:726][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2020.06.09-03.27.49:726][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2020.06.09-03.27.49:726][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2020.06.09-03.27.49:726][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2020.06.09-03.27.49:726][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2020.06.09-03.27.49:726][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/FX22k/Desktop/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Scalability.ini]
-[2020.06.09-03.27.49:726][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2020.06.09-03.27.49:726][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2020.06.09-03.27.49:726][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2020.06.09-03.27.49:726][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2020.06.09-03.27.49:726][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2020.06.09-03.27.49:726][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2020.06.09-03.27.49:726][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2020.06.09-03.27.49:726][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2020.06.09-03.27.49:726][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2020.06.09-03.27.49:726][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/FX22k/Desktop/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Scalability.ini]
-[2020.06.09-03.27.49:726][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2020.06.09-03.27.49:726][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2020.06.09-03.27.49:726][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2020.06.09-03.27.49:726][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2020.06.09-03.27.49:726][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2020.06.09-03.27.49:726][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2020.06.09-03.27.49:726][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2020.06.09-03.27.49:726][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2020.06.09-03.27.49:726][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2020.06.09-03.27.49:726][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2020.06.09-03.27.49:726][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2020.06.09-03.27.49:726][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
-[2020.06.09-03.27.49:726][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2020.06.09-03.27.49:726][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2020.06.09-03.27.49:726][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2020.06.09-03.27.49:726][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2020.06.09-03.27.49:726][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2020.06.09-03.27.49:726][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2020.06.09-03.27.49:726][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2020.06.09-03.27.49:726][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2020.06.09-03.27.49:726][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2020.06.09-03.27.49:726][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2020.06.09-03.27.49:726][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2020.06.09-03.27.49:726][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2020.06.09-03.27.49:726][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2020.06.09-03.27.49:726][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2020.06.09-03.27.49:727][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/FX22k/Desktop/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Scalability.ini]
-[2020.06.09-03.27.49:727][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2020.06.09-03.27.49:727][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2020.06.09-03.27.49:727][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/FX22k/Desktop/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Scalability.ini]
-[2020.06.09-03.27.49:727][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2020.06.09-03.27.49:727][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2020.06.09-03.27.49:727][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2020.06.09-03.27.49:727][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
-[2020.06.09-03.27.49:727][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
-[2020.06.09-03.27.49:727][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
-[2020.06.09-03.27.49:727][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
-[2020.06.09-03.27.49:727][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2020.06.09-03.27.49:737][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2020.06.09-03.27.49:737][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
-[2020.06.09-03.27.49:737][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
-[2020.06.09-03.27.49:737][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/FX22k/Desktop/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Engine.ini]
-[2020.06.09-03.27.49:737][  0]LogInit: Computer: MSI
-[2020.06.09-03.27.49:737][  0]LogInit: User: FX22k
-[2020.06.09-03.27.49:738][  0]LogInit: CPU Page size=4096, Cores=6
-[2020.06.09-03.27.49:738][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2020.06.09-03.27.49:738][  0]LogMemory: Memory total: Physical=15.8GB (16GB approx)
-[2020.06.09-03.27.49:738][  0]LogMemory: Platform Memory Stats for Windows
-[2020.06.09-03.27.49:738][  0]LogMemory: Process Physical Memory: 116.08 MB used, 116.08 MB peak
-[2020.06.09-03.27.49:738][  0]LogMemory: Process Virtual Memory: 99.46 MB used, 99.46 MB peak
-[2020.06.09-03.27.49:738][  0]LogMemory: Physical Memory: 11224.21 MB used,  5003.43 MB free, 16227.64 MB total
-[2020.06.09-03.27.49:738][  0]LogMemory: Virtual Memory: 5167.93 MB used,  134212560.00 MB free, 134217728.00 MB total
-[2020.06.09-03.27.50:082][  0]LogWindows: WindowsPlatformFeatures enabled
-[2020.06.09-03.27.50:218][  0]LogInit: Physics initialised using underlying interface: PhysX
-[2020.06.09-03.27.50:219][  0]LogInit: Using OS detected language (en-US).
-[2020.06.09-03.27.50:219][  0]LogInit: Using OS detected locale (en-US).
-[2020.06.09-03.27.50:233][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2020.06.09-03.27.50:771][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2020.06.09-03.27.50:771][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2020.06.09-03.27.50:816][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2020.06.09-03.27.50:816][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
-[2020.06.09-03.27.50:816][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
-[2020.06.09-03.27.50:816][  0]LogD3D11RHI: D3D11 adapters:
-[2020.06.09-03.27.50:903][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 2080' (Feature Level 11_0)
-[2020.06.09-03.27.50:903][  0]LogD3D11RHI:       8010/0/8113 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2020.06.09-03.27.50:921][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics 630' (Feature Level 11_0)
-[2020.06.09-03.27.50:921][  0]LogD3D11RHI:       128/0/8113 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2020.06.09-03.27.50:926][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2020.06.09-03.27.50:926][  0]LogD3D11RHI:       0/0/8113 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2020.06.09-03.27.50:926][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2020.06.09-03.27.50:966][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2020.06.09-03.27.50:967][  0]LogD3D11RHI:     GPU DeviceId: 0x1e90 (for the marketing name, search the web for "GPU Device Id")
-[2020.06.09-03.27.50:967][  0]LogWindows: EnumDisplayDevices:
-[2020.06.09-03.27.50:967][  0]LogWindows:    0. 'Intel(R) UHD Graphics 630' (P:1 D:1)
-[2020.06.09-03.27.50:967][  0]LogWindows:    1. 'Intel(R) UHD Graphics 630' (P:0 D:0)
-[2020.06.09-03.27.50:967][  0]LogWindows:    2. 'Intel(R) UHD Graphics 630' (P:0 D:0)
-[2020.06.09-03.27.50:968][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2080' (P:0 D:0)
-[2020.06.09-03.27.50:968][  0]LogWindows:    4. 'NVIDIA GeForce RTX 2080' (P:0 D:0)
-[2020.06.09-03.27.50:968][  0]LogWindows:    5. 'NVIDIA GeForce RTX 2080' (P:0 D:0)
-[2020.06.09-03.27.50:968][  0]LogWindows:    6. 'NVIDIA GeForce RTX 2080' (P:0 D:0)
-[2020.06.09-03.27.50:969][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
-[2020.06.09-03.27.50:969][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 2080
-[2020.06.09-03.27.50:969][  0]LogD3D11RHI:   Driver Version: 445.75 (internal:26.21.14.4575, unified:445.75)
-[2020.06.09-03.27.50:969][  0]LogD3D11RHI:      Driver Date: 3-17-2020
-[2020.06.09-03.27.50:969][  0]LogRHI: Texture pool is 5607 MB (70% of 8010 MB)
-[2020.06.09-03.27.51:018][  0]LogD3D11RHI: RHI has support for 64 bit atomics
-[2020.06.09-03.27.51:018][  0]LogD3D11RHI: Async texture creation enabled
-[2020.06.09-03.27.51:019][  0]LogD3D11RHI: Array index from any shader is supported
-[2020.06.09-03.27.51:053][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2020.06.09-03.27.51:636][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
-[2020.06.09-03.27.51:643][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
-[2020.06.09-03.27.51:655][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
-[2020.06.09-03.27.51:665][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
-[2020.06.09-03.27.51:665][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2020.06.09-03.27.51:678][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
-[2020.06.09-03.27.51:771][  0]LogShaderCompilers: Guid format shader working directory is -44 characters bigger than the processId version (../../../../../../Users/FX22k/Desktop/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Intermediate/Shaders/WorkingDirectory/27492/).
-[2020.06.09-03.27.51:771][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/FX22k/AppData/Local/Temp/UnrealShaderWorkingDir/086C1FC247F96D2B958CFFBD784C6C2B/'.
-[2020.06.09-03.27.51:773][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2020.06.09-03.27.51:773][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2020.06.09-03.27.51:773][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2020.06.09-03.27.55:655][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2020.06.09-03.27.55:747][  0]LogDerivedDataCache: Loaded boot cache 0.09s 75MB C:/Users/FX22k/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
-[2020.06.09-03.27.55:747][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/FX22k/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
-[2020.06.09-03.27.55:747][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/FX22k/Desktop/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2020.06.09-03.27.55:747][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2020.06.09-03.27.55:747][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/FX22k/Desktop/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2020.06.09-03.27.55:747][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2020.06.09-03.27.55:758][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2020.06.09-03.27.55:758][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2020.06.09-03.27.55:758][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2020.06.09-03.27.55:760][  0]LogDerivedDataCache: Using Local data cache path C:/Users/FX22k/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2020.06.09-03.27.55:760][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2020.06.09-03.27.55:760][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2020.06.09-03.27.55:807][  0]LogSlate: Using FreeType 2.10.0
-[2020.06.09-03.27.55:831][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2020.06.09-03.27.55:966][  0]LogInit: Using OS detected language (en-US).
-[2020.06.09-03.27.55:966][  0]LogInit: Using OS detected locale (en-US).
-[2020.06.09-03.27.55:966][  0]LogTextLocalizationManager: No localization for 'en-US' exists, so 'en' will be used for the language.
-[2020.06.09-03.27.55:966][  0]LogTextLocalizationManager: No localization for 'en-US' exists, so 'en' will be used for the locale.
-[2020.06.09-03.27.55:966][  0]LogSlate: FontCache flush requested. Reason: Culture for localization was changed
-[2020.06.09-03.27.55:966][  0]LogSlate: FontCache flush requested. Reason: Culture for localization was changed
-[2020.06.09-03.27.55:968][  0]LogTextLocalizationManager: Compacting localization data took   0.00ms
-[2020.06.09-03.27.55:972][  0]LogAssetRegistry: FAssetRegistry took 0.0025 seconds to start up
-[2020.06.09-03.27.56:209][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.001002 seconds
-[2020.06.09-03.27.56:279][  0]LogInit: Selected Device Profile: [Windows]
-[2020.06.09-03.27.56:485][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2020.06.09-03.27.56:485][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
-[2020.06.09-03.27.56:485][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2020.06.09-03.27.56:486][  0]LogMeshReduction: No distributed automatic mesh merging module available
-[2020.06.09-03.27.56:486][  0]LogMeshMerging: No distributed automatic mesh merging module available
-[2020.06.09-03.27.56:614][  0]LogNetVersion: TheyLive 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 1881850289)
-[2020.06.09-03.27.57:706][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (000002CFF9D97840), frame # 0
-[2020.06.09-03.27.57:706][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002CFF9DA2AC0), frame # 0
-[2020.06.09-03.27.57:710][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002CFF9D9BC00), frame # 0
-[2020.06.09-03.27.57:901][  0]LogCollectionManager: Loaded 0 collections in 0.001709 seconds
-[2020.06.09-03.27.57:903][  0]LogFileCache: Scanning file cache for directory 'C:/Users/FX22k/Desktop/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Collections/' took 0.00s
-[2020.06.09-03.27.57:903][  0]LogFileCache: Scanning file cache for directory 'C:/Users/FX22k/Desktop/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Content/Developers/FX22k/Collections/' took 0.00s
-[2020.06.09-03.27.57:903][  0]LogFileCache: Scanning file cache for directory 'C:/Users/FX22k/Desktop/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Content/Collections/' took 0.00s
-[2020.06.09-03.27.57:903][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000003 seconds (updated 0 objects)
-[2020.06.09-03.27.58:032][  0]LogMoviePlayer: Initializing movie player
-[2020.06.09-03.27.58:378][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2020.06.09-03.27.58:384][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2020.06.09-03.27.58:458][  0]SourceControl: Source control is disabled
-[2020.06.09-03.27.58:459][  0]SourceControl: Source control is disabled
-[2020.06.09-03.27.58:469][  0]SourceControl: Source control is disabled
-[2020.06.09-03.27.58:715][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2020.06.09-03.27.58:738][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2020.06.09-03.27.58:738][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2020.06.09-03.27.58:851][  0]LogOcInput: OculusInput pre-init called
-[2020.06.09-03.27.58:875][  0]LogUObjectArray: 19064 objects as part of root set at end of initial load.
-[2020.06.09-03.27.58:875][  0]LogUObjectAllocator: 5015424 out of 0 bytes used by permanent object pool.
-[2020.06.09-03.27.58:875][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2020.06.09-03.27.58:983][  0]LogEngine: Initializing Engine...
-[2020.06.09-03.27.58:986][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2020.06.09-03.27.58:986][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
-[2020.06.09-03.27.58:988][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.001 s
-[2020.06.09-03.27.59:291][  0]LogInit: Initializing FReadOnlyCVARCache
-[2020.06.09-03.27.59:297][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2020.06.09-03.27.59:297][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2020.06.09-03.27.59:297][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2020.06.09-03.27.59:297][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2020.06.09-03.27.59:297][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2020.06.09-03.27.59:297][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2020.06.09-03.27.59:297][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2020.06.09-03.27.59:297][  0]LogAudio: Display: AudioDevice MaxSources: 32
-[2020.06.09-03.27.59:297][  0]LogAudio: Display: Using built-in audio occlusion.
-[2020.06.09-03.27.59:297][  0]LogAudioMixer: Display: Initializing audio mixer.
-[2020.06.09-03.27.59:416][  0]LogAudioMixer: Display: 0: FrontLeft
-[2020.06.09-03.27.59:416][  0]LogAudioMixer: Display: 1: FrontRight
-[2020.06.09-03.27.59:416][  0]LogAudioMixer: Display: 2: FrontCenter
-[2020.06.09-03.27.59:416][  0]LogAudioMixer: Display: 3: LowFrequency
-[2020.06.09-03.27.59:416][  0]LogAudioMixer: Display: 4: BackLeft
-[2020.06.09-03.27.59:416][  0]LogAudioMixer: Display: 5: BackRight
-[2020.06.09-03.27.59:416][  0]LogAudioMixer: Display: 6: SideLeft
-[2020.06.09-03.27.59:416][  0]LogAudioMixer: Display: 7: SideRight
-[2020.06.09-03.27.59:787][  0]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
-[2020.06.09-03.27.59:787][  0]LogAudioMixer: Display: Initializing Sound Submixes...
-[2020.06.09-03.27.59:822][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
-[2020.06.09-03.27.59:822][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
-[2020.06.09-03.27.59:822][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
-[2020.06.09-03.27.59:823][  0]LogInit: FAudioDevice initialized.
-[2020.06.09-03.27.59:825][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2020.06.09-03.27.59:825][  0]LogInit: Texture streaming: Enabled
-[2020.06.09-03.28.00:101][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.06.09-03.28.00:101][  0]LogInit: Display: Game Engine Initialized.
-[2020.06.09-03.28.00:102][  0]LogNiagaraEditor: Warning: GEditor isn't valid! Particle reset commands will not work for Niagara components!
-[2020.06.09-03.28.00:145][  0]LogInit: Display: Starting Game.
-[2020.06.09-03.28.00:145][  0]LogNet: Browse: /Game/ThirdPersonBP/Maps/Main?Name=Player
-[2020.06.09-03.28.00:145][  0]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/Main?Name=Player
-[2020.06.09-03.28.00:145][  0]LogWorld: BeginTearingDown for /Temp/Untitled_0
-[2020.06.09-03.28.00:147][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
-[2020.06.09-03.28.00:147][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.06.09-03.28.00:160][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
-[2020.06.09-03.28.00:193][  0]LogAIModule: Creating AISystem for world Main
-[2020.06.09-03.28.00:193][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002CF8186FC00), frame # 0
-[2020.06.09-03.28.00:193][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002CF81771080), frame # 0
-[2020.06.09-03.28.00:193][  0]LogLoad: Game class is 'GameModeBase'
-[2020.06.09-03.28.00:194][  0]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/Main.Main up for play (max tick rate 0) at 2020.06.08-23.28.00
-[2020.06.09-03.28.00:194][  0]LogWorld: Bringing up level for play took: 0.000576
-[2020.06.09-03.28.00:195][  0]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
-[2020.06.09-03.28.00:201][  0]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(799)]!
-[2020.06.09-03.28.00:201][  0]LogLoad: Took 0.055609 seconds to LoadMap(/Game/ThirdPersonBP/Maps/Main)
-[2020.06.09-03.28.00:259][  0]LogRenderer: Reallocating scene render targets to support 1280x720 Format 10 NumSamples 1 (Frame:1).
-[2020.06.09-03.28.00:259][  0]LogLoad: (Engine Initialization) Total time: 20.12 seconds
-[2020.06.09-03.28.00:259][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2020.06.09-03.28.00:294][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2020.06.09-03.28.00:299][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.06.09-03.28.08:520][522]LogSlate: Window 'TheyLive (64-bit Development PCD3D_SM5) ' being destroyed
-[2020.06.09-03.28.08:523][522]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2020.06.09-03.28.08:527][522]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2020.06.09-03.28.08:528][522]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.06.09-03.28.08:528][522]LogEngine: All Windows Closed
-[2020.06.09-03.28.08:528][522]LogWindows: FPlatformMisc::RequestExit(0)
-[2020.06.09-03.28.08:528][522]LogCore: Engine exit requested (reason: Win RequestExit)
-[2020.06.09-03.28.08:528][523]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
-[2020.06.09-03.28.08:530][523]LogAudio: Display: Shutting down audio device while 2 references to it are still alive. For more information, compile with INSTRUMENT_AUDIODEVICE_HANDLES.
-[2020.06.09-03.28.08:571][523]LogInit: Display: PreExit Game.
-[2020.06.09-03.28.08:659][523]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/Main
-[2020.06.09-03.28.08:660][523]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
-[2020.06.09-03.28.08:660][523]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.06.09-03.28.09:008][523]LogExit: Preparing to exit.
-[2020.06.09-03.28.09:394][523]LogMoviePlayer: Shutting down movie player
-[2020.06.09-03.28.09:539][523]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.06.09-03.28.09:574][523]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
-[2020.06.09-03.28.09:580][523]LogExit: Game engine shut down
-[2020.06.09-03.28.09:604][523]LogAISub: UAISubsystem::~UAISubsystem AISubsystem (000002CFF9D97840), frame # 3523
-[2020.06.09-03.28.09:604][523]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002CFF9DA2AC0), frame # 3523
-[2020.06.09-03.28.09:604][523]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002CFF9D9BC00), frame # 3523
-[2020.06.09-03.28.09:610][523]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002CF8186FC00), frame # 3523
-[2020.06.09-03.28.09:610][523]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002CF81771080), frame # 3523
-[2020.06.09-03.28.09:638][523]LogExit: Object subsystem successfully closed.
-[2020.06.09-03.28.09:658][523]LogShaderCompilers: Display: Shaders left to compile 0
-[2020.06.09-03.28.09:695][523]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (502)
-[2020.06.09-03.28.09:695][523]LogModuleManager: Shutting down and abandoning module SequenceRecorder (500)
-[2020.06.09-03.28.09:695][523]LogModuleManager: Shutting down and abandoning module AutomationController (498)
-[2020.06.09-03.28.09:695][523]LogModuleManager: Shutting down and abandoning module AutomationWorker (496)
-[2020.06.09-03.28.09:695][523]LogModuleManager: Shutting down and abandoning module Voice (494)
-[2020.06.09-03.28.09:695][523]LogModuleManager: Shutting down and abandoning module AIModule (492)
-[2020.06.09-03.28.09:695][523]LogModuleManager: Shutting down and abandoning module GameplayDebugger (491)
-[2020.06.09-03.28.09:695][523]LogModuleManager: Shutting down and abandoning module AITestSuite (489)
-[2020.06.09-03.28.09:695][523]LogModuleManager: Shutting down and abandoning module NavigationSystem (487)
-[2020.06.09-03.28.09:695][523]LogModuleManager: Shutting down and abandoning module OculusMR (484)
-[2020.06.09-03.28.09:695][523]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (482)
-[2020.06.09-03.28.09:695][523]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (480)
-[2020.06.09-03.28.09:695][523]LogModuleManager: Shutting down and abandoning module WebMMedia (478)
-[2020.06.09-03.28.09:695][523]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (476)
-[2020.06.09-03.28.09:695][523]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (474)
-[2020.06.09-03.28.09:695][523]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (472)
-[2020.06.09-03.28.09:695][523]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (470)
-[2020.06.09-03.28.09:695][523]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (468)
-[2020.06.09-03.28.09:695][523]LogModuleManager: Shutting down and abandoning module PlanarCut (466)
-[2020.06.09-03.28.09:696][523]LogModuleManager: Shutting down and abandoning module CharacterAI (464)
-[2020.06.09-03.28.09:696][523]LogModuleManager: Shutting down and abandoning module SessionServices (462)
-[2020.06.09-03.28.09:696][523]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (460)
-[2020.06.09-03.28.09:696][523]LogModuleManager: Shutting down and abandoning module LiveCoding (458)
-[2020.06.09-03.28.09:696][523]LogModuleManager: Shutting down and abandoning module LevelSequence (456)
-[2020.06.09-03.28.09:696][523]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (454)
-[2020.06.09-03.28.09:696][523]LogModuleManager: Shutting down and abandoning module MovieScene (452)
-[2020.06.09-03.28.09:696][523]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (450)
-[2020.06.09-03.28.09:696][523]LogModuleManager: Shutting down and abandoning module PortalServices (448)
-[2020.06.09-03.28.09:696][523]LogModuleManager: Shutting down and abandoning module PortalRpc (446)
-[2020.06.09-03.28.09:696][523]LogModuleManager: Shutting down and abandoning module MessagingRpc (444)
-[2020.06.09-03.28.09:696][523]LogModuleManager: Shutting down and abandoning module AudioMixerXAudio2 (442)
-[2020.06.09-03.28.09:696][523]LogModuleManager: Shutting down and abandoning module AudioMixerCore (441)
-[2020.06.09-03.28.09:696][523]LogModuleManager: Shutting down and abandoning module ProfilerService (438)
-[2020.06.09-03.28.09:918][523]LogModuleManager: Shutting down and abandoning module TaskGraph (436)
-[2020.06.09-03.28.09:918][523]LogModuleManager: Shutting down and abandoning module Synthesis (434)
-[2020.06.09-03.28.09:919][523]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (432)
-[2020.06.09-03.28.09:919][523]LogModuleManager: Shutting down and abandoning module OculusInput (430)
-[2020.06.09-03.28.09:919][523]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (428)
-[2020.06.09-03.28.09:919][523]LogModuleManager: Shutting down and abandoning module GooglePAD (426)
-[2020.06.09-03.28.09:919][523]LogModuleManager: Shutting down and abandoning module EditableMesh (424)
-[2020.06.09-03.28.09:919][523]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (422)
-[2020.06.09-03.28.09:919][523]LogModuleManager: Shutting down and abandoning module CableComponent (420)
-[2020.06.09-03.28.09:919][523]LogModuleManager: Shutting down and abandoning module AudioCapture (418)
-[2020.06.09-03.28.09:919][523]LogModuleManager: Shutting down and abandoning module AudioCaptureRtAudio (417)
-[2020.06.09-03.28.09:919][523]LogModuleManager: Shutting down and abandoning module AssetTags (414)
-[2020.06.09-03.28.09:919][523]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (412)
-[2020.06.09-03.28.09:919][523]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (410)
-[2020.06.09-03.28.09:919][523]LogModuleManager: Shutting down and abandoning module AppleImageUtils (408)
-[2020.06.09-03.28.09:919][523]LogModuleManager: Shutting down and abandoning module AndroidPermission (406)
-[2020.06.09-03.28.09:919][523]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (404)
-[2020.06.09-03.28.09:919][523]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (402)
-[2020.06.09-03.28.09:920][523]LogModuleManager: Shutting down and abandoning module TemplateSequence (400)
-[2020.06.09-03.28.09:920][523]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineRenderPasses (398)
-[2020.06.09-03.28.09:920][523]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineSettings (396)
-[2020.06.09-03.28.09:920][523]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineCore (394)
-[2020.06.09-03.28.09:920][523]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (393)
-[2020.06.09-03.28.09:922][523]LogModuleManager: Shutting down and abandoning module MediaCompositing (390)
-[2020.06.09-03.28.09:922][523]LogModuleManager: Shutting down and abandoning module ImgMedia (388)
-[2020.06.09-03.28.09:923][523]LogModuleManager: Shutting down and abandoning module MagicLeapSharedWorld (386)
-[2020.06.09-03.28.09:923][523]LogModuleManager: Shutting down and abandoning module MagicLeapLightEstimation (384)
-[2020.06.09-03.28.09:923][523]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (382)
-[2020.06.09-03.28.09:923][523]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (380)
-[2020.06.09-03.28.09:923][523]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (378)
-[2020.06.09-03.28.09:923][523]LogModuleManager: Shutting down and abandoning module MeshSolverUtilities (376)
-[2020.06.09-03.28.09:923][523]LogModuleManager: Shutting down and abandoning module MeshConversion (374)
-[2020.06.09-03.28.09:923][523]LogModuleManager: Shutting down and abandoning module DynamicMesh (372)
-[2020.06.09-03.28.09:924][523]LogModuleManager: Shutting down and abandoning module GeometryAlgorithms (370)
-[2020.06.09-03.28.09:924][523]LogModuleManager: Shutting down and abandoning module GeometricObjects (368)
-[2020.06.09-03.28.09:924][523]LogModuleManager: Shutting down and abandoning module GeometryCollectionTracks (366)
-[2020.06.09-03.28.09:924][523]LogModuleManager: Shutting down and abandoning module GeometryCollectionSequencer (365)
-[2020.06.09-03.28.09:924][523]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (362)
-[2020.06.09-03.28.09:924][523]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (361)
-[2020.06.09-03.28.09:924][523]LogModuleManager: Shutting down and abandoning module GeometryCache (358)
-[2020.06.09-03.28.09:924][523]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (357)
-[2020.06.09-03.28.09:924][523]LogModuleManager: Shutting down and abandoning module ChaosNiagara (354)
-[2020.06.09-03.28.09:924][523]LogModuleManager: Shutting down and abandoning module ChaosCloth (352)
-[2020.06.09-03.28.09:924][523]LogModuleManager: Shutting down and abandoning module BackChannel (350)
-[2020.06.09-03.28.09:924][523]LogModuleManager: Shutting down and abandoning module AutomationUtils (348)
-[2020.06.09-03.28.09:925][523]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (346)
-[2020.06.09-03.28.09:925][523]LogModuleManager: Shutting down and abandoning module HotReload (345)
-[2020.06.09-03.28.09:925][523]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (342)
-[2020.06.09-03.28.09:925][523]LogModuleManager: Shutting down and abandoning module UObjectPlugin (340)
-[2020.06.09-03.28.09:925][523]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (338)
-[2020.06.09-03.28.09:925][523]LogModuleManager: Shutting down and abandoning module RiderSourceCodeAccess (336)
-[2020.06.09-03.28.09:925][523]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (334)
-[2020.06.09-03.28.09:925][523]LogModuleManager: Shutting down and abandoning module SourceControl (333)
-[2020.06.09-03.28.09:925][523]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (330)
-[2020.06.09-03.28.09:925][523]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (328)
-[2020.06.09-03.28.09:925][523]LogModuleManager: Shutting down and abandoning module SoundFields (326)
-[2020.06.09-03.28.09:925][523]LogModuleManager: Shutting down and abandoning module SignificanceManager (324)
-[2020.06.09-03.28.09:925][523]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (322)
-[2020.06.09-03.28.09:925][523]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (320)
-[2020.06.09-03.28.09:925][523]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (316)
-[2020.06.09-03.28.09:925][523]LogModuleManager: Shutting down and abandoning module ActorSequence (314)
-[2020.06.09-03.28.09:925][523]LogModuleManager: Shutting down and abandoning module UdpMessaging (312)
-[2020.06.09-03.28.10:026][523]LogModuleManager: Shutting down and abandoning module TcpMessaging (310)
-[2020.06.09-03.28.10:387][523]LogModuleManager: Shutting down and abandoning module MagicLeapARPin (308)
-[2020.06.09-03.28.10:387][523]LogModuleManager: Shutting down and abandoning module MagicLeapHandMeshing (306)
-[2020.06.09-03.28.10:387][523]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (304)
-[2020.06.09-03.28.10:387][523]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (302)
-[2020.06.09-03.28.10:387][523]LogModuleManager: Shutting down and abandoning module MagicLeapPlanes (300)
-[2020.06.09-03.28.10:387][523]LogMagicLeapPlanes: Planes tracker already destroyed.
-[2020.06.09-03.28.10:387][523]LogModuleManager: Shutting down and abandoning module MagicLeapImageTracker (298)
-[2020.06.09-03.28.10:387][523]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (296)
-[2020.06.09-03.28.10:387][523]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (294)
-[2020.06.09-03.28.10:387][523]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (292)
-[2020.06.09-03.28.10:387][523]LogModuleManager: Shutting down and abandoning module MagicLeapController (290)
-[2020.06.09-03.28.10:390][523]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
-[2020.06.09-03.28.10:390][523]LogModuleManager: Shutting down and abandoning module MagicLeapARPinImpl (288)
-[2020.06.09-03.28.10:390][523]LogModuleManager: Shutting down and abandoning module MagicLeapAR (286)
-[2020.06.09-03.28.10:390][523]LogModuleManager: Shutting down and abandoning module AugmentedReality (285)
-[2020.06.09-03.28.10:390][523]LogModuleManager: Shutting down and abandoning module NiagaraAnimNotifies (282)
-[2020.06.09-03.28.10:390][523]LogModuleManager: Shutting down and abandoning module Niagara (280)
-[2020.06.09-03.28.10:390][523]LogModuleManager: Shutting down and abandoning module SignalProcessing (279)
-[2020.06.09-03.28.10:390][523]LogModuleManager: Shutting down and abandoning module NiagaraEditor (277)
-[2020.06.09-03.28.10:392][523]LogModuleManager: Shutting down and abandoning module NiagaraCore (274)
-[2020.06.09-03.28.10:392][523]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (272)
-[2020.06.09-03.28.10:392][523]LogModuleManager: Shutting down and abandoning module FacialAnimation (270)
-[2020.06.09-03.28.10:392][523]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (268)
-[2020.06.09-03.28.10:393][523]LogModuleManager: Shutting down and abandoning module TreeMap (267)
-[2020.06.09-03.28.10:393][523]LogModuleManager: Shutting down and abandoning module AnimationSharing (264)
-[2020.06.09-03.28.10:393][523]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (262)
-[2020.06.09-03.28.10:393][523]LogModuleManager: Shutting down and abandoning module Paper2D (260)
-[2020.06.09-03.28.10:393][523]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (258)
-[2020.06.09-03.28.10:393][523]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (256)
-[2020.06.09-03.28.10:393][523]LogModuleManager: Shutting down and abandoning module NetworkReplayStreaming (254)
-[2020.06.09-03.28.10:393][523]LogModuleManager: Shutting down and abandoning module PacketHandler (252)
-[2020.06.09-03.28.10:393][523]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (250)
-[2020.06.09-03.28.10:393][523]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntimeNv (248)
-[2020.06.09-03.28.10:394][523]LogModuleManager: Shutting down and abandoning module MediaAssets (246)
-[2020.06.09-03.28.10:394][523]LogModuleManager: Shutting down and abandoning module Overlay (244)
-[2020.06.09-03.28.10:394][523]LogModuleManager: Shutting down and abandoning module OverlayEditor (243)
-[2020.06.09-03.28.10:394][523]LogModuleManager: Shutting down and abandoning module VREditor (240)
-[2020.06.09-03.28.10:394][523]LogModuleManager: Shutting down and abandoning module StringTableEditor (238)
-[2020.06.09-03.28.10:394][523]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (236)
-[2020.06.09-03.28.10:394][523]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (234)
-[2020.06.09-03.28.10:395][523]LogModuleManager: Shutting down and abandoning module FunctionalTesting (232)
-[2020.06.09-03.28.10:395][523]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (230)
-[2020.06.09-03.28.10:395][523]LogModuleManager: Shutting down and abandoning module UMG (228)
-[2020.06.09-03.28.10:395][523]LogModuleManager: Shutting down and abandoning module UMGEditor (227)
-[2020.06.09-03.28.10:395][523]LogModuleManager: Shutting down and abandoning module Sequencer (226)
-[2020.06.09-03.28.10:395][523]LogModuleManager: Shutting down and abandoning module MessageLog (223)
-[2020.06.09-03.28.10:395][523]LogModuleManager: Shutting down and abandoning module MaterialEditor (221)
-[2020.06.09-03.28.10:395][523]LogModuleManager: Shutting down and abandoning module ContentBrowser (220)
-[2020.06.09-03.28.10:395][523]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (219)
-[2020.06.09-03.28.10:395][523]LogModuleManager: Shutting down and abandoning module CollectionManager (217)
-[2020.06.09-03.28.10:396][523]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (216)
-[2020.06.09-03.28.10:396][523]LogModuleManager: Shutting down and abandoning module SlateReflector (208)
-[2020.06.09-03.28.10:396][523]LogModuleManager: Shutting down and abandoning module Slate (206)
-[2020.06.09-03.28.10:397][523]LogModuleManager: Shutting down and abandoning module SlateCore (204)
-[2020.06.09-03.28.10:397][523]LogModuleManager: Shutting down and abandoning module LandscapeEditorUtilities (202)
-[2020.06.09-03.28.10:397][523]LogModuleManager: Shutting down and abandoning module EditorStyle (200)
-[2020.06.09-03.28.10:397][523]LogModuleManager: Shutting down and abandoning module UnrealEd (198)
-[2020.06.09-03.28.10:397][523]LogModuleManager: Shutting down and abandoning module MRMesh (196)
-[2020.06.09-03.28.10:397][523]LogModuleManager: Shutting down and abandoning module Messaging (194)
-[2020.06.09-03.28.10:397][523]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (192)
-[2020.06.09-03.28.10:397][523]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (190)
-[2020.06.09-03.28.10:397][523]LogModuleManager: Shutting down and abandoning module XAudio2 (188)
-[2020.06.09-03.28.10:397][523]LogModuleManager: Shutting down and abandoning module Networking (186)
-[2020.06.09-03.28.10:397][523]LogModuleManager: Shutting down and abandoning module Core (184)
-[2020.06.09-03.28.10:397][523]LogModuleManager: Shutting down and abandoning module MovieSceneTools (182)
-[2020.06.09-03.28.10:397][523]LogModuleManager: Shutting down and abandoning module KismetCompiler (180)
-[2020.06.09-03.28.10:397][523]LogModuleManager: Shutting down and abandoning module MeshBuilder (178)
-[2020.06.09-03.28.10:397][523]LogModuleManager: Shutting down and abandoning module MeshUtilities (176)
-[2020.06.09-03.28.10:398][523]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (175)
-[2020.06.09-03.28.10:398][523]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (174)
-[2020.06.09-03.28.10:398][523]LogModuleManager: Shutting down and abandoning module MeshBoneReduction (173)
-[2020.06.09-03.28.10:398][523]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (171)
-[2020.06.09-03.28.10:398][523]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (169)
-[2020.06.09-03.28.10:399][523]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (167)
-[2020.06.09-03.28.10:399][523]LogModuleManager: Shutting down and abandoning module MaterialBaking (163)
-[2020.06.09-03.28.10:399][523]LogModuleManager: Shutting down and abandoning module NullInstallBundleManager (158)
-[2020.06.09-03.28.10:399][523]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (156)
-[2020.06.09-03.28.10:399][523]LogModuleManager: Shutting down and abandoning module DerivedDataCache (154)
-[2020.06.09-03.28.10:399][523]LogModuleManager: Shutting down and abandoning module XGEController (152)
-[2020.06.09-03.28.10:399][523]LogModuleManager: Shutting down and abandoning module TargetPlatform (150)
-[2020.06.09-03.28.10:399][523]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (149)
-[2020.06.09-03.28.10:399][523]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (147)
-[2020.06.09-03.28.10:399][523]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (145)
-[2020.06.09-03.28.10:399][523]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (143)
-[2020.06.09-03.28.10:399][523]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (141)
-[2020.06.09-03.28.10:399][523]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (139)
-[2020.06.09-03.28.10:399][523]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (137)
-[2020.06.09-03.28.10:399][523]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (135)
-[2020.06.09-03.28.10:399][523]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (133)
-[2020.06.09-03.28.10:399][523]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (131)
-[2020.06.09-03.28.10:399][523]LogModuleManager: Shutting down and abandoning module ImageWrapper (130)
-[2020.06.09-03.28.10:399][523]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (127)
-[2020.06.09-03.28.10:399][523]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (125)
-[2020.06.09-03.28.10:399][523]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (123)
-[2020.06.09-03.28.10:399][523]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (121)
-[2020.06.09-03.28.10:399][523]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (119)
-[2020.06.09-03.28.10:399][523]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (117)
-[2020.06.09-03.28.10:399][523]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (115)
-[2020.06.09-03.28.10:400][523]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (113)
-[2020.06.09-03.28.10:400][523]LogModuleManager: Shutting down and abandoning module InputCore (110)
-[2020.06.09-03.28.10:400][523]LogModuleManager: Shutting down and abandoning module Settings (108)
-[2020.06.09-03.28.10:400][523]LogModuleManager: Shutting down and abandoning module PhysXCooking (106)
-[2020.06.09-03.28.10:400][523]LogModuleManager: Shutting down and abandoning module ChaosSolvers (104)
-[2020.06.09-03.28.10:400][523]LogModuleManager: Shutting down and abandoning module FieldSystemEngine (103)
-[2020.06.09-03.28.10:400][523]LogModuleManager: Shutting down and abandoning module Chaos (100)
-[2020.06.09-03.28.10:400][523]LogModuleManager: Shutting down and abandoning module WindowsPlatformFeatures (98)
-[2020.06.09-03.28.10:400][523]LogModuleManager: Shutting down and abandoning module GameplayMediaEncoder (97)
-[2020.06.09-03.28.10:400][523]LogModuleManager: Shutting down and abandoning module AVEncoder (96)
-[2020.06.09-03.28.10:400][523]LogModuleManager: Shutting down and abandoning module SteamVRInputDevice (92)
-[2020.06.09-03.28.10:400][523]LogModuleManager: Shutting down and abandoning module SteamVRInput (90)
-[2020.06.09-03.28.10:400][523]LogModuleManager: Shutting down and abandoning module SteamVR (88)
-[2020.06.09-03.28.10:400][523]LogHMD: Freeing OpenVRDLLHandle.
-[2020.06.09-03.28.10:400][523]LogModuleManager: Shutting down and abandoning module OculusHMD (86)
-[2020.06.09-03.28.10:400][523]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (84)
-[2020.06.09-03.28.10:400][523]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (82)
-[2020.06.09-03.28.10:400][523]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (80)
-[2020.06.09-03.28.10:400][523]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (76)
-[2020.06.09-03.28.10:401][523]LogModuleManager: Shutting down and abandoning module XMPP (71)
-[2020.06.09-03.28.10:402][523]LogModuleManager: Shutting down and abandoning module WebSockets (70)
-[2020.06.09-03.28.10:417][523]LogModuleManager: Shutting down and abandoning module HTTP (67)
-[2020.06.09-03.28.10:435][523]LogModuleManager: Shutting down and abandoning module SSL (66)
-[2020.06.09-03.28.10:436][523]LogModuleManager: Shutting down and abandoning module WmfMedia (62)
-[2020.06.09-03.28.10:561][523]LogModuleManager: Shutting down and abandoning module Media (61)
-[2020.06.09-03.28.10:561][523]LogModuleManager: Shutting down and abandoning module MagicLeap (58)
-[2020.06.09-03.28.10:561][523]LogModuleManager: Shutting down and abandoning module NiagaraVertexFactories (56)
-[2020.06.09-03.28.10:562][523]LogModuleManager: Shutting down and abandoning module NiagaraShader (54)
-[2020.06.09-03.28.10:562][523]LogModuleManager: Shutting down and abandoning module VariantManagerContent (52)
-[2020.06.09-03.28.10:562][523]LogModuleManager: Shutting down and abandoning module DatasmithContent (50)
-[2020.06.09-03.28.10:562][523]LogModuleManager: Shutting down and abandoning module AISupportModule (48)
-[2020.06.09-03.28.10:562][523]LogModuleManager: Shutting down and abandoning module DesktopPlatform (46)
-[2020.06.09-03.28.10:562][523]LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (44)
-[2020.06.09-03.28.10:562][523]LogModuleManager: Shutting down and abandoning module PlatformCryptoTypes (42)
-[2020.06.09-03.28.10:562][523]LogModuleManager: Shutting down and abandoning module PlatformCrypto (40)
-[2020.06.09-03.28.10:562][523]LogModuleManager: Shutting down and abandoning module AnimationModifiers (38)
-[2020.06.09-03.28.10:563][523]LogModuleManager: Shutting down and abandoning module PropertyEditor (37)
-[2020.06.09-03.28.10:563][523]LogModuleManager: Shutting down and abandoning module AudioEditor (34)
-[2020.06.09-03.28.10:563][523]LogModuleManager: Shutting down and abandoning module TextureCompressor (32)
-[2020.06.09-03.28.10:563][523]LogModuleManager: Shutting down and abandoning module RenderCore (30)
-[2020.06.09-03.28.10:563][523]LogModuleManager: Shutting down and abandoning module Landscape (28)
-[2020.06.09-03.28.10:563][523]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (26)
-[2020.06.09-03.28.10:563][523]LogModuleManager: Shutting down and abandoning module OpenGLDrv (24)
-[2020.06.09-03.28.10:564][523]LogModuleManager: Shutting down and abandoning module D3D11RHI (22)
-[2020.06.09-03.28.10:564][523]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
-[2020.06.09-03.28.10:564][523]LogModuleManager: Shutting down and abandoning module Renderer (18)
-[2020.06.09-03.28.10:564][523]LogModuleManager: Shutting down and abandoning module Engine (16)
-[2020.06.09-03.28.10:564][523]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
-[2020.06.09-03.28.10:564][523]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
-[2020.06.09-03.28.10:564][523]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
-[2020.06.09-03.28.10:564][523]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
-[2020.06.09-03.28.10:564][523]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
-[2020.06.09-03.28.10:564][523]LogModuleManager: Shutting down and abandoning module PakFile (4)
-[2020.06.09-03.28.10:564][523]LogModuleManager: Shutting down and abandoning module RSA (3)
-[2020.06.09-03.28.10:799][523]LogContentStreaming: Display: There are 1 unreleased StreamingManagers
-[2020.06.09-03.28.10:799][523]LogD3D11RHI: Shutdown
-[2020.06.09-03.28.10:799][523]LogD3D11RHI: CleanupD3DDevice
-[2020.06.09-03.28.10:814][523]LogExit: Exiting.
-[2020.06.09-03.28.10:821][523]Log file closed, 06/08/20 23:28:10
+[2020.07.08-14.02.55:997][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.07.08-14.02.55:997][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.07.08-14.02.55:997][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Engine.ini]
+[2020.07.08-14.02.55:997][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.07.08-14.02.55:997][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Engine.ini]
+[2020.07.08-14.02.55:997][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Engine.ini]
+[2020.07.08-14.02.55:997][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.07.08-14.02.55:997][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.07.08-14.02.55:997][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.07.08-14.02.55:997][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.07.08-14.02.55:997][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.07.08-14.02.55:997][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.07.08-14.02.55:997][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.07.08-14.02.55:997][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.07.08-14.02.55:997][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.07.08-14.02.55:997][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.07.08-14.02.55:997][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.07.08-14.02.55:997][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.07.08-14.02.55:997][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.07.08-14.02.55:997][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.07.08-14.02.55:997][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Engine.ini]
+[2020.07.08-14.02.55:997][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.07.08-14.02.55:997][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.07.08-14.02.55:997][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.07.08-14.02.55:997][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.07.08-14.02.55:997][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.07.08-14.02.55:997][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.07.08-14.02.55:997][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.07.08-14.02.55:998][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.07.08-14.02.55:998][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.07.08-14.02.55:998][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.07.08-14.02.55:998][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.07.08-14.02.55:998][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.07.08-14.02.55:998][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.07.08-14.02.55:998][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Engine.ini]
+[2020.07.08-14.02.55:998][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Engine.ini]
+[2020.07.08-14.02.56:000][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Scalability.ini]
+[2020.07.08-14.02.56:000][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.07.08-14.02.56:000][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.07.08-14.02.56:000][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Scalability.ini]
+[2020.07.08-14.02.56:000][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.07.08-14.02.56:000][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Scalability.ini]
+[2020.07.08-14.02.56:000][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.07.08-14.02.56:000][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.07.08-14.02.56:000][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.07.08-14.02.56:000][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.07.08-14.02.56:000][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.07.08-14.02.56:000][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.07.08-14.02.56:000][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.07.08-14.02.56:000][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.07.08-14.02.56:000][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.07.08-14.02.56:000][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.07.08-14.02.56:000][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.07.08-14.02.56:000][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.07.08-14.02.56:000][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.07.08-14.02.56:000][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.07.08-14.02.56:000][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.07.08-14.02.56:000][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.07.08-14.02.56:000][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.07.08-14.02.56:000][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.07.08-14.02.56:000][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Scalability.ini]
+[2020.07.08-14.02.56:000][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.07.08-14.02.56:000][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.07.08-14.02.56:000][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.07.08-14.02.56:000][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.07.08-14.02.56:000][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.07.08-14.02.56:000][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.07.08-14.02.56:000][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.07.08-14.02.56:000][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.07.08-14.02.56:000][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.07.08-14.02.56:000][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.07.08-14.02.56:000][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.07.08-14.02.56:000][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.07.08-14.02.56:000][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.07.08-14.02.56:000][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.07.08-14.02.56:000][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.07.08-14.02.56:000][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.07.08-14.02.56:000][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.07.08-14.02.56:000][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.07.08-14.02.56:000][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.07.08-14.02.56:000][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.07.08-14.02.56:000][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.07.08-14.02.56:000][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.07.08-14.02.56:000][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.07.08-14.02.56:000][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.07.08-14.02.56:000][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.07.08-14.02.56:000][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.07.08-14.02.56:000][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.07.08-14.02.56:000][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.07.08-14.02.56:000][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.07.08-14.02.56:001][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.07.08-14.02.56:001][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Scalability.ini]
+[2020.07.08-14.02.56:001][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.07.08-14.02.56:001][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.07.08-14.02.56:001][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.07.08-14.02.56:001][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.07.08-14.02.56:001][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.07.08-14.02.56:001][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.07.08-14.02.56:001][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.07.08-14.02.56:001][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.07.08-14.02.56:001][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.07.08-14.02.56:001][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Scalability.ini]
+[2020.07.08-14.02.56:001][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.07.08-14.02.56:001][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.07.08-14.02.56:001][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.07.08-14.02.56:001][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.07.08-14.02.56:001][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.07.08-14.02.56:001][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.07.08-14.02.56:001][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.07.08-14.02.56:001][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.07.08-14.02.56:001][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.07.08-14.02.56:001][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.07.08-14.02.56:001][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.07.08-14.02.56:001][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.07.08-14.02.56:001][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.07.08-14.02.56:001][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.07.08-14.02.56:001][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.07.08-14.02.56:001][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.07.08-14.02.56:001][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.07.08-14.02.56:001][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.07.08-14.02.56:001][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.07.08-14.02.56:001][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.07.08-14.02.56:001][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.07.08-14.02.56:001][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.07.08-14.02.56:001][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.07.08-14.02.56:001][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.07.08-14.02.56:001][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.07.08-14.02.56:001][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.07.08-14.02.56:001][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Scalability.ini]
+[2020.07.08-14.02.56:001][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.07.08-14.02.56:001][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.07.08-14.02.56:001][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Scalability.ini]
+[2020.07.08-14.02.56:001][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.07.08-14.02.56:001][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.07.08-14.02.56:001][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.07.08-14.02.56:001][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.07.08-14.02.56:001][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.07.08-14.02.56:001][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.07.08-14.02.56:001][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.07.08-14.02.56:001][  0]LogInit: Selected Device Profile: [Windows]
+[2020.07.08-14.02.56:001][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.07.08-14.02.56:001][  0]LogHAL: Display: Platform has ~ 16 GB [17015910400 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.07.08-14.02.56:001][  0]LogInit: Going up to parent DeviceProfile []
+[2020.07.08-14.02.56:001][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Scalability.ini]
+[2020.07.08-14.02.56:001][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.07.08-14.02.56:001][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.07.08-14.02.56:001][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Scalability.ini]
+[2020.07.08-14.02.56:001][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.07.08-14.02.56:001][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Scalability.ini]
+[2020.07.08-14.02.56:001][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.07.08-14.02.56:001][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.07.08-14.02.56:001][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.07.08-14.02.56:001][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.07.08-14.02.56:001][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.07.08-14.02.56:001][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.07.08-14.02.56:001][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.07.08-14.02.56:001][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.07.08-14.02.56:001][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.07.08-14.02.56:001][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.07.08-14.02.56:002][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.07.08-14.02.56:002][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.07.08-14.02.56:002][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.07.08-14.02.56:002][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.07.08-14.02.56:002][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.07.08-14.02.56:002][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.07.08-14.02.56:002][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.07.08-14.02.56:002][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.07.08-14.02.56:002][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Scalability.ini]
+[2020.07.08-14.02.56:002][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.07.08-14.02.56:002][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.07.08-14.02.56:002][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.07.08-14.02.56:002][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.07.08-14.02.56:002][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.07.08-14.02.56:002][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.07.08-14.02.56:002][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.07.08-14.02.56:002][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.07.08-14.02.56:002][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.07.08-14.02.56:002][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.07.08-14.02.56:002][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.07.08-14.02.56:002][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.07.08-14.02.56:002][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.07.08-14.02.56:002][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.07.08-14.02.56:002][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.07.08-14.02.56:002][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.07.08-14.02.56:002][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.07.08-14.02.56:002][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.07.08-14.02.56:002][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.07.08-14.02.56:002][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.07.08-14.02.56:002][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.07.08-14.02.56:002][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.07.08-14.02.56:002][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.07.08-14.02.56:002][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.07.08-14.02.56:002][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.07.08-14.02.56:002][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.07.08-14.02.56:002][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.07.08-14.02.56:002][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.07.08-14.02.56:002][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.07.08-14.02.56:002][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.07.08-14.02.56:002][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Scalability.ini]
+[2020.07.08-14.02.56:002][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.07.08-14.02.56:002][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.07.08-14.02.56:002][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.07.08-14.02.56:002][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.07.08-14.02.56:002][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.07.08-14.02.56:002][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.07.08-14.02.56:002][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.07.08-14.02.56:002][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.07.08-14.02.56:002][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.07.08-14.02.56:002][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Scalability.ini]
+[2020.07.08-14.02.56:002][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.07.08-14.02.56:002][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.07.08-14.02.56:002][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.07.08-14.02.56:002][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.07.08-14.02.56:002][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.07.08-14.02.56:002][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.07.08-14.02.56:002][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.07.08-14.02.56:002][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.07.08-14.02.56:002][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.07.08-14.02.56:002][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.07.08-14.02.56:002][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.07.08-14.02.56:002][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.07.08-14.02.56:002][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.07.08-14.02.56:002][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.07.08-14.02.56:002][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.07.08-14.02.56:002][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.07.08-14.02.56:002][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.07.08-14.02.56:002][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.07.08-14.02.56:002][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.07.08-14.02.56:002][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.07.08-14.02.56:002][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.07.08-14.02.56:002][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.07.08-14.02.56:002][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.07.08-14.02.56:002][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.07.08-14.02.56:002][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.07.08-14.02.56:002][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.07.08-14.02.56:002][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Scalability.ini]
+[2020.07.08-14.02.56:002][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.07.08-14.02.56:002][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.07.08-14.02.56:002][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Scalability.ini]
+[2020.07.08-14.02.56:002][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.07.08-14.02.56:003][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.07.08-14.02.56:003][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.07.08-14.02.56:003][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.07.08-14.02.56:003][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.07.08-14.02.56:003][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.07.08-14.02.56:003][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.07.08-14.02.56:003][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.07.08-14.02.56:003][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.07.08-14.02.56:003][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.07.08-14.02.56:003][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2020.07.08-14.02.56:003][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Engine.ini]
+[2020.07.08-14.02.56:003][  0]LogInit: Computer: MSI
+[2020.07.08-14.02.56:003][  0]LogInit: User: FX22k
+[2020.07.08-14.02.56:003][  0]LogInit: CPU Page size=4096, Cores=6
+[2020.07.08-14.02.56:004][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.07.08-14.02.56:004][  0]LogMemory: Memory total: Physical=15.8GB (16GB approx)
+[2020.07.08-14.02.56:004][  0]LogMemory: Platform Memory Stats for Windows
+[2020.07.08-14.02.56:004][  0]LogMemory: Process Physical Memory: 114.98 MB used, 114.98 MB peak
+[2020.07.08-14.02.56:004][  0]LogMemory: Process Virtual Memory: 97.49 MB used, 97.49 MB peak
+[2020.07.08-14.02.56:004][  0]LogMemory: Physical Memory: 9676.92 MB used,  6550.71 MB free, 16227.64 MB total
+[2020.07.08-14.02.56:004][  0]LogMemory: Virtual Memory: 5166.45 MB used,  134212560.00 MB free, 134217728.00 MB total
+[2020.07.08-14.02.56:295][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.07.08-14.02.56:328][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2020.07.08-14.02.56:329][  0]LogInit: Using OS detected language (en-US).
+[2020.07.08-14.02.56:329][  0]LogInit: Using OS detected locale (en-US).
+[2020.07.08-14.02.56:333][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2020.07.08-14.02.56:516][  0]LogInit: Setting process to per monitor DPI aware
+[2020.07.08-14.02.56:540][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.07.08-14.02.56:540][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.07.08-14.02.56:730][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.07.08-14.02.56:730][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.07.08-14.02.56:730][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.07.08-14.02.56:730][  0]LogD3D11RHI: D3D11 adapters:
+[2020.07.08-14.02.56:812][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 2080' (Feature Level 11_0)
+[2020.07.08-14.02.56:812][  0]LogD3D11RHI:       8010/0/8113 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2020.07.08-14.02.56:836][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics 630' (Feature Level 11_0)
+[2020.07.08-14.02.56:836][  0]LogD3D11RHI:       128/0/8113 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2020.07.08-14.02.56:838][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.07.08-14.02.56:838][  0]LogD3D11RHI:       0/0/8113 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.07.08-14.02.56:838][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.07.08-14.02.56:877][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.07.08-14.02.56:877][  0]LogD3D11RHI:     GPU DeviceId: 0x1e90 (for the marketing name, search the web for "GPU Device Id")
+[2020.07.08-14.02.56:877][  0]LogWindows: EnumDisplayDevices:
+[2020.07.08-14.02.56:877][  0]LogWindows:    0. 'Intel(R) UHD Graphics 630' (P:1 D:1)
+[2020.07.08-14.02.56:878][  0]LogWindows:    1. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2020.07.08-14.02.56:878][  0]LogWindows:    2. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2020.07.08-14.02.56:878][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2080' (P:0 D:0)
+[2020.07.08-14.02.56:878][  0]LogWindows:    4. 'NVIDIA GeForce RTX 2080' (P:0 D:0)
+[2020.07.08-14.02.56:879][  0]LogWindows:    5. 'NVIDIA GeForce RTX 2080' (P:0 D:0)
+[2020.07.08-14.02.56:879][  0]LogWindows:    6. 'NVIDIA GeForce RTX 2080' (P:0 D:0)
+[2020.07.08-14.02.56:879][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2020.07.08-14.02.56:879][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 2080
+[2020.07.08-14.02.56:879][  0]LogD3D11RHI:   Driver Version: 445.75 (internal:26.21.14.4575, unified:445.75)
+[2020.07.08-14.02.56:879][  0]LogD3D11RHI:      Driver Date: 3-17-2020
+[2020.07.08-14.02.56:879][  0]LogRHI: Texture pool is 5607 MB (70% of 8010 MB)
+[2020.07.08-14.02.56:932][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2020.07.08-14.02.56:935][  0]LogD3D11RHI: [Aftermath] Enabled and primed
+[2020.07.08-14.02.56:935][  0]LogD3D11RHI: Async texture creation enabled
+[2020.07.08-14.02.56:935][  0]LogD3D11RHI: Array index from any shader is supported
+[2020.07.08-14.02.56:957][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.07.08-14.02.57:258][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.07.08-14.02.57:279][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.07.08-14.02.57:279][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.07.08-14.02.57:279][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.07.08-14.02.57:279][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.07.08-14.02.57:279][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.07.08-14.02.57:279][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.07.08-14.02.57:279][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.07.08-14.02.57:279][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.07.08-14.02.57:279][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.07.08-14.02.57:279][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.07.08-14.02.57:301][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.07.08-14.02.57:301][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.07.08-14.02.57:312][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2020.07.08-14.02.57:321][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.07.08-14.02.57:330][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.07.08-14.02.57:340][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.07.08-14.02.57:348][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.07.08-14.02.57:357][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.07.08-14.02.57:367][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.07.08-14.02.57:392][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.07.08-14.02.57:392][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.07.08-14.02.57:407][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.07.08-14.02.57:407][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.07.08-14.02.57:416][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.07.08-14.02.57:425][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.07.08-14.02.57:433][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.07.08-14.02.57:442][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.07.08-14.02.57:442][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.07.08-14.02.57:450][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.07.08-14.02.57:509][  0]LogShaderCompilers: Guid format shader working directory is -8 characters bigger than the processId version (D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Intermediate/Shaders/WorkingDirectory/7112/).
+[2020.07.08-14.02.57:510][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/FX22k/AppData/Local/Temp/UnrealShaderWorkingDir/EEC114C142F2B722FA3F2E9A1BD1F838/'.
+[2020.07.08-14.02.57:510][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.07.08-14.02.57:510][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.07.08-14.02.57:510][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.07.08-14.02.58:444][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.07.08-14.02.58:500][  0]LogDerivedDataCache: Loaded boot cache 0.06s 75MB C:/Users/FX22k/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.07.08-14.02.58:500][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/FX22k/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2020.07.08-14.02.58:500][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.07.08-14.02.58:500][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.07.08-14.02.58:500][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.07.08-14.02.58:500][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.07.08-14.02.58:512][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.07.08-14.02.58:512][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.07.08-14.02.58:512][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.07.08-14.02.58:513][  0]LogDerivedDataCache: Using Local data cache path C:/Users/FX22k/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.07.08-14.02.58:513][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.07.08-14.02.58:513][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.07.08-14.02.58:561][  0]LogSlate: Using FreeType 2.10.0
+[2020.07.08-14.02.58:562][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.07.08-14.02.58:586][  0]LogAssetRegistry: FAssetRegistry took 0.0029 seconds to start up
+[2020.07.08-14.02.58:883][  0]LogInit: Selected Device Profile: [Windows]
+[2020.07.08-14.02.59:007][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.07.08-14.02.59:007][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.07.08-14.02.59:007][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.07.08-14.02.59:007][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.07.08-14.02.59:007][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.07.08-14.02.59:020][  0]LogNetVersion: TheyLive 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 1881850289)
+[2020.07.08-14.02.59:447][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (000001E3BC615BC0), frame # 0
+[2020.07.08-14.02.59:447][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001E3BD55AAC0), frame # 0
+[2020.07.08-14.02.59:448][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001E3BD5A5E00), frame # 0
+[2020.07.08-14.02.59:516][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.062020 seconds
+[2020.07.08-14.02.59:522][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2020.07.08-14.02.59:522][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2020.07.08-14.02.59:522][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.07.08-14.02.59:857][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.07.08-14.02.59:861][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.07.08-14.02.59:944][  0]SourceControl: Source control is disabled
+[2020.07.08-14.02.59:944][  0]SourceControl: Source control is disabled
+[2020.07.08-14.02.59:947][  0]SourceControl: Source control is disabled
+[2020.07.08-14.02.59:950][  0]SourceControl: Source control is disabled
+[2020.07.08-14.02.59:957][  0]SourceControl: Source control is disabled
+[2020.07.08-14.03.00:221][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.07.08-14.03.00:244][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.07.08-14.03.00:244][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.07.08-14.03.00:299][  0]LogOcInput: OculusInput pre-init called
+[2020.07.08-14.03.00:312][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.07.08-14.03.00:312][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.07.08-14.03.00:381][  0]LogEngine: Initializing Engine...
+[2020.07.08-14.03.00:383][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.07.08-14.03.00:383][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2020.07.08-14.03.00:384][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.07.08-14.03.00:513][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.07.08-14.03.00:521][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.07.08-14.03.00:521][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001E3BFEE0600), frame # 0
+[2020.07.08-14.03.00:522][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001E3BFE93B00), frame # 0
+[2020.07.08-14.03.00:545][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.08-14.03.00:545][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.08-14.03.00:545][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.08-14.03.00:545][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.08-14.03.00:545][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.08-14.03.00:545][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.08-14.03.00:545][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.08-14.03.00:545][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.08-14.03.00:546][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.08-14.03.00:546][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.08-14.03.00:657][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.08-14.03.00:657][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.07.08-14.03.00:657][  0]LogAudioMixer: Display: 2: FrontCenter
+[2020.07.08-14.03.00:657][  0]LogAudioMixer: Display: 3: LowFrequency
+[2020.07.08-14.03.00:657][  0]LogAudioMixer: Display: 4: BackLeft
+[2020.07.08-14.03.00:657][  0]LogAudioMixer: Display: 5: BackRight
+[2020.07.08-14.03.00:657][  0]LogAudioMixer: Display: 6: SideLeft
+[2020.07.08-14.03.00:657][  0]LogAudioMixer: Display: 7: SideRight
+[2020.07.08-14.03.01:027][  0]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2020.07.08-14.03.01:031][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.07.08-14.03.01:033][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.07.08-14.03.01:033][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.07.08-14.03.01:034][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.07.08-14.03.01:035][  0]LogInit: FAudioDevice initialized.
+[2020.07.08-14.03.01:035][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.07.08-14.03.01:089][  0]LogDerivedDataCache: Saved boot cache 0.05s 75MB C:/Users/FX22k/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.07.08-14.03.01:095][  0]LogInit: Texture streaming: Enabled
+[2020.07.08-14.03.01:112][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.07.08-14.03.01:112][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.07.08-14.03.01:123][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.07.08-14.03.01:211][  0]LogInit: Transaction tracking system initialized
+[2020.07.08-14.03.01:231][  0]BlueprintLog: New page: Editor Load
+[2020.07.08-14.03.01:299][  0]LocalizationService: Localization service is disabled
+[2020.07.08-14.03.01:460][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.07.08-14.03.01:460][  0]LogCook: Display: Mobile HDR setting 1
+[2020.07.08-14.03.01:592][  0]LogFileCache: Scanning file cache for directory 'D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Content/' took 0.03s
+[2020.07.08-14.03.01:791][  0]SourceControl: Source control is disabled
+[2020.07.08-14.03.01:791][  0]LogUnrealEdMisc: Loading editor; pre map load, took 8.419
+[2020.07.08-14.03.01:791][  0]Cmd: MAP LOAD FILE="D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Content/ThirdPersonBP/Maps/Main.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.07.08-14.03.01:791][  0]LogEditorServer: Warning: Can't find file 'D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Content/ThirdPersonBP/Maps/Main.umap'
+[2020.07.08-14.03.01:791][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.07.08-14.03.01:791][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.085ms to complete.
+[2020.07.08-14.03.01:791][  0]LogFileHelpers: Loading map 'Main' took 0.000
+[2020.07.08-14.03.01:793][  0]LogUnrealEdMisc: Total Editor Startup Time, took 8.421
+[2020.07.08-14.03.01:921][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.08-14.03.01:928][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.08-14.03.01:935][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.08-14.03.01:944][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.08-14.03.01:953][  0]LogCollectionManager: Loaded 0 collections in 0.001937 seconds
+[2020.07.08-14.03.01:964][  0]LogFileCache: Scanning file cache for directory 'D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Collections/' took 0.00s
+[2020.07.08-14.03.01:964][  0]LogFileCache: Scanning file cache for directory 'D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Content/Developers/FX22k/Collections/' took 0.00s
+[2020.07.08-14.03.01:964][  0]LogFileCache: Scanning file cache for directory 'D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Content/Collections/' took 0.00s
+[2020.07.08-14.03.01:964][  0]LogContentBrowser: Native class hierarchy populated in 0.0079 seconds. Added 3427 classes and 821 folders.
+[2020.07.08-14.03.01:967][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.07.08-14.03.02:022][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.07.08-14.03.02:023][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 2 classes and 0 folders.
+[2020.07.08-14.03.02:120][  0]LogSlate: Took 0.000241 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.07.08-14.03.02:121][  0]LogSlate: Took 0.000153 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.07.08-14.03.02:127][  0]LogSlate: Took 0.000257 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.07.08-14.03.02:193][  0]LogRenderer: Reallocating scene render targets to support 1208x572 Format 10 NumSamples 1 (Frame:1).
+[2020.07.08-14.03.02:276][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.07.08-14.03.02:276][  0]LogLoad: (Engine Initialization) Total time: 8.90 seconds
+[2020.07.08-14.03.02:276][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.07.08-14.03.02:347][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.07.08-14.03.02:381][  0]LogSlate: Took 0.000180 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.07.08-14.03.02:433][  1]LogAssetRegistry: Asset discovery search completed in 3.8479 seconds
+[2020.07.08-14.03.02:439][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000007 seconds (updated 0 objects)
+[2020.07.08-14.03.03:754][  5]LogSlate: Took 0.000171 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.07.08-14.03.28:866][ 81]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.07.08-14.03.29:189][ 82]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.07.08-14.03.29:882][ 84]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.07.08-14.03.30:550][ 86]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.07.08-14.03.30:550][ 86]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.07.08-14.03.30:890][ 87]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.07.08-14.03.31:227][ 88]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.07.08-14.03.31:565][ 89]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.07.08-14.03.31:899][ 90]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.07.08-14.03.32:234][ 91]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.07.08-14.03.32:234][ 91]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.07.08-14.03.32:234][ 91]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.07.08-14.03.32:568][ 92]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.07.08-14.03.32:568][ 92]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.07.08-21.34.35:333][898]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{9bf8c3eb-f548-4c0d-b4fa-1b2aa4e35652}.
+[2020.07.08-21.34.35:335][898]LogTemp: Resetting audio stream to device id 
+[2020.07.08-21.34.35:592][898]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.08-21.34.35:592][898]LogAudioMixer: Display: 1: FrontRight
+[2020.07.08-21.34.35:592][898]LogAudioMixer: Display: 2: FrontCenter
+[2020.07.08-21.34.35:592][898]LogAudioMixer: Display: 3: LowFrequency
+[2020.07.08-21.34.35:592][898]LogAudioMixer: Display: 4: BackLeft
+[2020.07.08-21.34.35:592][898]LogAudioMixer: Display: 5: BackRight
+[2020.07.08-21.34.35:592][898]LogAudioMixer: Display: 6: SideLeft
+[2020.07.08-21.34.35:593][898]LogAudioMixer: Display: 7: SideRight
+[2020.07.08-21.34.36:657][899]LogTemp: Resetting audio stream to device id 
+[2020.07.08-21.34.36:694][899]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.08-21.34.36:694][899]LogAudioMixer: Display: 1: FrontRight
+[2020.07.08-21.34.36:694][899]LogAudioMixer: Display: 2: FrontCenter
+[2020.07.08-21.34.36:694][899]LogAudioMixer: Display: 3: LowFrequency
+[2020.07.08-21.34.36:694][899]LogAudioMixer: Display: 4: BackLeft
+[2020.07.08-21.34.36:694][899]LogAudioMixer: Display: 5: BackRight
+[2020.07.08-21.34.36:694][899]LogAudioMixer: Display: 6: SideLeft
+[2020.07.08-21.34.36:694][899]LogAudioMixer: Display: 7: SideRight
+[2020.07.08-21.40.55:507][ 15]LogRenderer: Reallocating scene render targets to support 1208x600 Format 10 NumSamples 1 (Frame:20).
+[2020.07.08-21.54.29:915][444]LogTemp: Resetting audio stream to device id 
+[2020.07.08-21.54.29:964][444]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.08-21.54.29:964][444]LogAudioMixer: Display: 1: FrontRight
+[2020.07.08-21.54.29:964][444]LogAudioMixer: Display: 2: FrontCenter
+[2020.07.08-21.54.29:965][444]LogAudioMixer: Display: 3: LowFrequency
+[2020.07.08-21.54.29:965][444]LogAudioMixer: Display: 4: BackLeft
+[2020.07.08-21.54.29:965][444]LogAudioMixer: Display: 5: BackRight
+[2020.07.08-21.54.29:965][444]LogAudioMixer: Display: 6: SideLeft
+[2020.07.08-21.54.29:965][444]LogAudioMixer: Display: 7: SideRight
+[2020.07.08-21.54.34:720][444]LogAudioMixer: Error: XAudio2 Error: XAudio2System->CreateMasteringVoice( &OutputAudioStreamMasteringVoice, AudioStreamInfo.DeviceInfo.NumChannels, AudioStreamInfo.DeviceInfo.SampleRate, 0, nullptr, nullptr, AudioCategory_GameEffects) -> 0x88960004: UNKNOWN (line: 1171)
+[2020.07.08-21.54.34:811][445]LogTemp: Resetting audio stream to device id 
+[2020.07.08-21.54.34:824][445]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.08-21.54.34:824][445]LogAudioMixer: Display: 1: FrontRight
+[2020.07.08-21.54.34:824][445]LogAudioMixer: Display: 2: FrontCenter
+[2020.07.08-21.54.34:824][445]LogAudioMixer: Display: 3: LowFrequency
+[2020.07.08-21.54.34:824][445]LogAudioMixer: Display: 4: BackLeft
+[2020.07.08-21.54.34:824][445]LogAudioMixer: Display: 5: BackRight
+[2020.07.08-21.54.34:824][445]LogAudioMixer: Display: 6: SideLeft
+[2020.07.08-21.54.34:824][445]LogAudioMixer: Display: 7: SideRight
+[2020.07.08-21.54.35:101][446]LogTemp: Resetting audio stream to device id 
+[2020.07.08-21.54.35:113][446]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.08-21.54.35:113][446]LogAudioMixer: Display: 1: FrontRight
+[2020.07.08-21.54.35:113][446]LogAudioMixer: Display: 2: FrontCenter
+[2020.07.08-21.54.35:113][446]LogAudioMixer: Display: 3: LowFrequency
+[2020.07.08-21.54.35:113][446]LogAudioMixer: Display: 4: BackLeft
+[2020.07.08-21.54.35:113][446]LogAudioMixer: Display: 5: BackRight
+[2020.07.08-21.54.35:113][446]LogAudioMixer: Display: 6: SideLeft
+[2020.07.08-21.54.35:113][446]LogAudioMixer: Display: 7: SideRight
+[2020.07.08-21.54.35:367][446]LogAudioMixer: Error: XAudio2 Error: XAudio2System->CreateMasteringVoice( &OutputAudioStreamMasteringVoice, AudioStreamInfo.DeviceInfo.NumChannels, AudioStreamInfo.DeviceInfo.SampleRate, 0, nullptr, nullptr, AudioCategory_GameEffects) -> 0x8889000A: UNKNOWN (line: 1171)
+[2020.07.08-21.54.36:115][449]LogTemp: Resetting audio stream to device id 
+[2020.07.08-21.54.36:121][449]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.08-21.54.36:121][449]LogAudioMixer: Display: 1: FrontRight
+[2020.07.08-21.54.36:121][449]LogAudioMixer: Display: 2: FrontCenter
+[2020.07.08-21.54.36:121][449]LogAudioMixer: Display: 3: LowFrequency
+[2020.07.08-21.54.36:122][449]LogAudioMixer: Display: 4: BackLeft
+[2020.07.08-21.54.36:122][449]LogAudioMixer: Display: 5: BackRight
+[2020.07.08-21.54.36:122][449]LogAudioMixer: Display: 6: SideLeft
+[2020.07.08-21.54.36:122][449]LogAudioMixer: Display: 7: SideRight
+[2020.07.08-21.54.36:302][449]LogAudioMixer: Error: XAudio2 Error: XAudio2System->CreateMasteringVoice( &OutputAudioStreamMasteringVoice, AudioStreamInfo.DeviceInfo.NumChannels, AudioStreamInfo.DeviceInfo.SampleRate, 0, nullptr, nullptr, AudioCategory_GameEffects) -> 0x8889000A: UNKNOWN (line: 1171)
+[2020.07.08-21.54.37:120][452]LogTemp: Resetting audio stream to device id 
+[2020.07.08-21.54.37:125][452]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.08-21.54.37:125][452]LogAudioMixer: Display: 1: FrontRight
+[2020.07.08-21.54.37:125][452]LogAudioMixer: Display: 2: FrontCenter
+[2020.07.08-21.54.37:125][452]LogAudioMixer: Display: 3: LowFrequency
+[2020.07.08-21.54.37:125][452]LogAudioMixer: Display: 4: BackLeft
+[2020.07.08-21.54.37:125][452]LogAudioMixer: Display: 5: BackRight
+[2020.07.08-21.54.37:125][452]LogAudioMixer: Display: 6: SideLeft
+[2020.07.08-21.54.37:125][452]LogAudioMixer: Display: 7: SideRight
+[2020.07.08-21.54.37:313][452]LogAudioMixer: Error: XAudio2 Error: XAudio2System->CreateMasteringVoice( &OutputAudioStreamMasteringVoice, AudioStreamInfo.DeviceInfo.NumChannels, AudioStreamInfo.DeviceInfo.SampleRate, 0, nullptr, nullptr, AudioCategory_GameEffects) -> 0x8889000A: UNKNOWN (line: 1171)
+[2020.07.08-21.54.38:142][455]LogTemp: Resetting audio stream to device id 
+[2020.07.08-21.54.38:154][455]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.08-21.54.38:155][455]LogAudioMixer: Display: 1: FrontRight
+[2020.07.08-21.54.38:155][455]LogAudioMixer: Display: 2: FrontCenter
+[2020.07.08-21.54.38:155][455]LogAudioMixer: Display: 3: LowFrequency
+[2020.07.08-21.54.38:155][455]LogAudioMixer: Display: 4: BackLeft
+[2020.07.08-21.54.38:155][455]LogAudioMixer: Display: 5: BackRight
+[2020.07.08-21.54.38:155][455]LogAudioMixer: Display: 6: SideLeft
+[2020.07.08-21.54.38:155][455]LogAudioMixer: Display: 7: SideRight
+[2020.07.08-21.54.38:457][455]LogAudioMixer: Error: XAudio2 Error: XAudio2System->CreateMasteringVoice( &OutputAudioStreamMasteringVoice, AudioStreamInfo.DeviceInfo.NumChannels, AudioStreamInfo.DeviceInfo.SampleRate, 0, nullptr, nullptr, AudioCategory_GameEffects) -> 0x8889000A: UNKNOWN (line: 1171)
+[2020.07.08-21.54.39:168][458]LogTemp: Resetting audio stream to device id 
+[2020.07.08-21.54.39:188][458]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.08-21.54.39:188][458]LogAudioMixer: Display: 1: FrontRight
+[2020.07.08-21.54.39:188][458]LogAudioMixer: Display: 2: FrontCenter
+[2020.07.08-21.54.39:188][458]LogAudioMixer: Display: 3: LowFrequency
+[2020.07.08-21.54.39:188][458]LogAudioMixer: Display: 4: BackLeft
+[2020.07.08-21.54.39:188][458]LogAudioMixer: Display: 5: BackRight
+[2020.07.08-21.54.39:188][458]LogAudioMixer: Display: 6: SideLeft
+[2020.07.08-21.54.39:188][458]LogAudioMixer: Display: 7: SideRight
+[2020.07.08-21.54.39:418][458]LogAudioMixer: Error: XAudio2 Error: XAudio2System->CreateMasteringVoice( &OutputAudioStreamMasteringVoice, AudioStreamInfo.DeviceInfo.NumChannels, AudioStreamInfo.DeviceInfo.SampleRate, 0, nullptr, nullptr, AudioCategory_GameEffects) -> 0x8889000A: UNKNOWN (line: 1171)
+[2020.07.08-21.54.40:152][461]LogTemp: Resetting audio stream to device id 
+[2020.07.08-21.54.40:160][461]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.08-21.54.40:160][461]LogAudioMixer: Display: 1: FrontRight
+[2020.07.08-21.54.40:160][461]LogAudioMixer: Display: 2: FrontCenter
+[2020.07.08-21.54.40:160][461]LogAudioMixer: Display: 3: LowFrequency
+[2020.07.08-21.54.40:160][461]LogAudioMixer: Display: 4: BackLeft
+[2020.07.08-21.54.40:160][461]LogAudioMixer: Display: 5: BackRight
+[2020.07.08-21.54.40:160][461]LogAudioMixer: Display: 6: SideLeft
+[2020.07.08-21.54.40:160][461]LogAudioMixer: Display: 7: SideRight
+[2020.07.08-21.54.40:289][461]LogAudioMixer: Error: XAudio2 Error: XAudio2System->CreateMasteringVoice( &OutputAudioStreamMasteringVoice, AudioStreamInfo.DeviceInfo.NumChannels, AudioStreamInfo.DeviceInfo.SampleRate, 0, nullptr, nullptr, AudioCategory_GameEffects) -> 0x8889000A: UNKNOWN (line: 1171)
+[2020.07.08-21.54.41:162][464]LogTemp: Resetting audio stream to device id 
+[2020.07.08-21.54.41:167][464]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.08-21.54.41:167][464]LogAudioMixer: Display: 1: FrontRight
+[2020.07.08-21.54.41:167][464]LogAudioMixer: Display: 2: FrontCenter
+[2020.07.08-21.54.41:167][464]LogAudioMixer: Display: 3: LowFrequency
+[2020.07.08-21.54.41:167][464]LogAudioMixer: Display: 4: BackLeft
+[2020.07.08-21.54.41:167][464]LogAudioMixer: Display: 5: BackRight
+[2020.07.08-21.54.41:167][464]LogAudioMixer: Display: 6: SideLeft
+[2020.07.08-21.54.41:167][464]LogAudioMixer: Display: 7: SideRight
+[2020.07.08-21.54.41:295][464]LogAudioMixer: Error: XAudio2 Error: XAudio2System->CreateMasteringVoice( &OutputAudioStreamMasteringVoice, AudioStreamInfo.DeviceInfo.NumChannels, AudioStreamInfo.DeviceInfo.SampleRate, 0, nullptr, nullptr, AudioCategory_GameEffects) -> 0x8889000A: UNKNOWN (line: 1171)
+[2020.07.08-21.54.42:171][467]LogTemp: Resetting audio stream to device id 
+[2020.07.08-21.54.42:180][467]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.08-21.54.42:181][467]LogAudioMixer: Display: 1: FrontRight
+[2020.07.08-21.54.42:181][467]LogAudioMixer: Display: 2: FrontCenter
+[2020.07.08-21.54.42:181][467]LogAudioMixer: Display: 3: LowFrequency
+[2020.07.08-21.54.42:181][467]LogAudioMixer: Display: 4: BackLeft
+[2020.07.08-21.54.42:181][467]LogAudioMixer: Display: 5: BackRight
+[2020.07.08-21.54.42:181][467]LogAudioMixer: Display: 6: SideLeft
+[2020.07.08-21.54.42:181][467]LogAudioMixer: Display: 7: SideRight
+[2020.07.08-21.54.42:321][467]LogAudioMixer: Error: XAudio2 Error: XAudio2System->CreateMasteringVoice( &OutputAudioStreamMasteringVoice, AudioStreamInfo.DeviceInfo.NumChannels, AudioStreamInfo.DeviceInfo.SampleRate, 0, nullptr, nullptr, AudioCategory_GameEffects) -> 0x8889000A: UNKNOWN (line: 1171)
+[2020.07.08-21.54.43:176][470]LogTemp: Resetting audio stream to device id 
+[2020.07.08-21.54.43:182][470]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.08-21.54.43:182][470]LogAudioMixer: Display: 1: FrontRight
+[2020.07.08-21.54.43:182][470]LogAudioMixer: Display: 2: FrontCenter
+[2020.07.08-21.54.43:182][470]LogAudioMixer: Display: 3: LowFrequency
+[2020.07.08-21.54.43:182][470]LogAudioMixer: Display: 4: BackLeft
+[2020.07.08-21.54.43:182][470]LogAudioMixer: Display: 5: BackRight
+[2020.07.08-21.54.43:182][470]LogAudioMixer: Display: 6: SideLeft
+[2020.07.08-21.54.43:182][470]LogAudioMixer: Display: 7: SideRight
+[2020.07.08-21.54.43:300][470]LogAudioMixer: Error: XAudio2 Error: XAudio2System->CreateMasteringVoice( &OutputAudioStreamMasteringVoice, AudioStreamInfo.DeviceInfo.NumChannels, AudioStreamInfo.DeviceInfo.SampleRate, 0, nullptr, nullptr, AudioCategory_GameEffects) -> 0x8889000A: UNKNOWN (line: 1171)
+[2020.07.08-21.54.44:191][473]LogTemp: Resetting audio stream to device id 
+[2020.07.08-21.54.44:195][473]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.08-21.54.44:195][473]LogAudioMixer: Display: 1: FrontRight
+[2020.07.08-21.54.44:195][473]LogAudioMixer: Display: 2: FrontCenter
+[2020.07.08-21.54.44:195][473]LogAudioMixer: Display: 3: LowFrequency
+[2020.07.08-21.54.44:195][473]LogAudioMixer: Display: 4: BackLeft
+[2020.07.08-21.54.44:195][473]LogAudioMixer: Display: 5: BackRight
+[2020.07.08-21.54.44:195][473]LogAudioMixer: Display: 6: SideLeft
+[2020.07.08-21.54.44:195][473]LogAudioMixer: Display: 7: SideRight
+[2020.07.08-21.54.44:314][473]LogAudioMixer: Error: XAudio2 Error: XAudio2System->CreateMasteringVoice( &OutputAudioStreamMasteringVoice, AudioStreamInfo.DeviceInfo.NumChannels, AudioStreamInfo.DeviceInfo.SampleRate, 0, nullptr, nullptr, AudioCategory_GameEffects) -> 0x8889000A: UNKNOWN (line: 1171)
+[2020.07.08-21.54.45:201][476]LogTemp: Resetting audio stream to device id 
+[2020.07.08-21.54.45:210][476]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.08-21.54.45:210][476]LogAudioMixer: Display: 1: FrontRight
+[2020.07.08-21.54.45:210][476]LogAudioMixer: Display: 2: FrontCenter
+[2020.07.08-21.54.45:210][476]LogAudioMixer: Display: 3: LowFrequency
+[2020.07.08-21.54.45:210][476]LogAudioMixer: Display: 4: BackLeft
+[2020.07.08-21.54.45:210][476]LogAudioMixer: Display: 5: BackRight
+[2020.07.08-21.54.45:210][476]LogAudioMixer: Display: 6: SideLeft
+[2020.07.08-21.54.45:210][476]LogAudioMixer: Display: 7: SideRight
+[2020.07.08-21.54.45:343][476]LogAudioMixer: Error: XAudio2 Error: XAudio2System->CreateMasteringVoice( &OutputAudioStreamMasteringVoice, AudioStreamInfo.DeviceInfo.NumChannels, AudioStreamInfo.DeviceInfo.SampleRate, 0, nullptr, nullptr, AudioCategory_GameEffects) -> 0x8889000A: UNKNOWN (line: 1171)
+[2020.07.08-21.54.46:210][479]LogTemp: Resetting audio stream to device id 
+[2020.07.08-21.54.46:226][479]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.08-21.54.46:226][479]LogAudioMixer: Display: 1: FrontRight
+[2020.07.08-21.54.46:226][479]LogAudioMixer: Display: 2: FrontCenter
+[2020.07.08-21.54.46:226][479]LogAudioMixer: Display: 3: LowFrequency
+[2020.07.08-21.54.46:226][479]LogAudioMixer: Display: 4: BackLeft
+[2020.07.08-21.54.46:228][479]LogAudioMixer: Display: 5: BackRight
+[2020.07.08-21.54.46:228][479]LogAudioMixer: Display: 6: SideLeft
+[2020.07.08-21.54.46:228][479]LogAudioMixer: Display: 7: SideRight
+[2020.07.08-21.54.46:368][479]LogAudioMixer: Error: XAudio2 Error: XAudio2System->CreateMasteringVoice( &OutputAudioStreamMasteringVoice, AudioStreamInfo.DeviceInfo.NumChannels, AudioStreamInfo.DeviceInfo.SampleRate, 0, nullptr, nullptr, AudioCategory_GameEffects) -> 0x8889000A: UNKNOWN (line: 1171)
+[2020.07.08-21.54.47:204][482]LogTemp: Resetting audio stream to device id 
+[2020.07.08-21.54.47:209][482]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.08-21.54.47:209][482]LogAudioMixer: Display: 1: FrontRight
+[2020.07.08-21.54.47:209][482]LogAudioMixer: Display: 2: FrontCenter
+[2020.07.08-21.54.47:209][482]LogAudioMixer: Display: 3: LowFrequency
+[2020.07.08-21.54.47:209][482]LogAudioMixer: Display: 4: BackLeft
+[2020.07.08-21.54.47:209][482]LogAudioMixer: Display: 5: BackRight
+[2020.07.08-21.54.47:209][482]LogAudioMixer: Display: 6: SideLeft
+[2020.07.08-21.54.47:209][482]LogAudioMixer: Display: 7: SideRight
+[2020.07.08-21.54.47:337][482]LogAudioMixer: Error: XAudio2 Error: XAudio2System->CreateMasteringVoice( &OutputAudioStreamMasteringVoice, AudioStreamInfo.DeviceInfo.NumChannels, AudioStreamInfo.DeviceInfo.SampleRate, 0, nullptr, nullptr, AudioCategory_GameEffects) -> 0x8889000A: UNKNOWN (line: 1171)
+[2020.07.08-21.54.48:206][485]LogTemp: Resetting audio stream to device id 
+[2020.07.08-21.54.48:212][485]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.08-21.54.48:212][485]LogAudioMixer: Display: 1: FrontRight
+[2020.07.08-21.54.48:212][485]LogAudioMixer: Display: 2: FrontCenter
+[2020.07.08-21.54.48:213][485]LogAudioMixer: Display: 3: LowFrequency
+[2020.07.08-21.54.48:213][485]LogAudioMixer: Display: 4: BackLeft
+[2020.07.08-21.54.48:213][485]LogAudioMixer: Display: 5: BackRight
+[2020.07.08-21.54.48:213][485]LogAudioMixer: Display: 6: SideLeft
+[2020.07.08-21.54.48:213][485]LogAudioMixer: Display: 7: SideRight
+[2020.07.08-21.54.48:347][485]LogAudioMixer: Error: XAudio2 Error: XAudio2System->CreateMasteringVoice( &OutputAudioStreamMasteringVoice, AudioStreamInfo.DeviceInfo.NumChannels, AudioStreamInfo.DeviceInfo.SampleRate, 0, nullptr, nullptr, AudioCategory_GameEffects) -> 0x8889000A: UNKNOWN (line: 1171)
+[2020.07.08-21.54.49:214][488]LogTemp: Resetting audio stream to device id 
+[2020.07.08-21.54.49:229][488]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.08-21.54.49:229][488]LogAudioMixer: Display: 1: FrontRight
+[2020.07.08-21.54.49:229][488]LogAudioMixer: Display: 2: FrontCenter
+[2020.07.08-21.54.49:229][488]LogAudioMixer: Display: 3: LowFrequency
+[2020.07.08-21.54.49:229][488]LogAudioMixer: Display: 4: BackLeft
+[2020.07.08-21.54.49:229][488]LogAudioMixer: Display: 5: BackRight
+[2020.07.08-21.54.49:229][488]LogAudioMixer: Display: 6: SideLeft
+[2020.07.08-21.54.49:229][488]LogAudioMixer: Display: 7: SideRight
+[2020.07.08-21.54.49:388][488]LogAudioMixer: Error: XAudio2 Error: XAudio2System->CreateMasteringVoice( &OutputAudioStreamMasteringVoice, AudioStreamInfo.DeviceInfo.NumChannels, AudioStreamInfo.DeviceInfo.SampleRate, 0, nullptr, nullptr, AudioCategory_GameEffects) -> 0x8889000A: UNKNOWN (line: 1171)
+[2020.07.08-21.54.50:215][491]LogTemp: Resetting audio stream to device id 
+[2020.07.08-21.54.50:221][491]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.08-21.54.50:221][491]LogAudioMixer: Display: 1: FrontRight
+[2020.07.08-21.54.50:221][491]LogAudioMixer: Display: 2: FrontCenter
+[2020.07.08-21.54.50:221][491]LogAudioMixer: Display: 3: LowFrequency
+[2020.07.08-21.54.50:221][491]LogAudioMixer: Display: 4: BackLeft
+[2020.07.08-21.54.50:221][491]LogAudioMixer: Display: 5: BackRight
+[2020.07.08-21.54.50:221][491]LogAudioMixer: Display: 6: SideLeft
+[2020.07.08-21.54.50:221][491]LogAudioMixer: Display: 7: SideRight
+[2020.07.08-21.54.50:362][491]LogAudioMixer: Error: XAudio2 Error: XAudio2System->CreateMasteringVoice( &OutputAudioStreamMasteringVoice, AudioStreamInfo.DeviceInfo.NumChannels, AudioStreamInfo.DeviceInfo.SampleRate, 0, nullptr, nullptr, AudioCategory_GameEffects) -> 0x8889000A: UNKNOWN (line: 1171)
+[2020.07.08-21.54.51:218][494]LogTemp: Resetting audio stream to device id 
+[2020.07.08-21.54.51:227][494]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.08-21.54.51:227][494]LogAudioMixer: Display: 1: FrontRight
+[2020.07.08-21.54.51:227][494]LogAudioMixer: Display: 2: FrontCenter
+[2020.07.08-21.54.51:227][494]LogAudioMixer: Display: 3: LowFrequency
+[2020.07.08-21.54.51:227][494]LogAudioMixer: Display: 4: BackLeft
+[2020.07.08-21.54.51:227][494]LogAudioMixer: Display: 5: BackRight
+[2020.07.08-21.54.51:227][494]LogAudioMixer: Display: 6: SideLeft
+[2020.07.08-21.54.51:227][494]LogAudioMixer: Display: 7: SideRight
+[2020.07.08-21.54.51:374][494]LogAudioMixer: Error: XAudio2 Error: XAudio2System->CreateMasteringVoice( &OutputAudioStreamMasteringVoice, AudioStreamInfo.DeviceInfo.NumChannels, AudioStreamInfo.DeviceInfo.SampleRate, 0, nullptr, nullptr, AudioCategory_GameEffects) -> 0x8889000A: UNKNOWN (line: 1171)
+[2020.07.08-21.54.52:220][497]LogTemp: Resetting audio stream to device id 
+[2020.07.08-21.54.52:229][497]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.08-21.54.52:229][497]LogAudioMixer: Display: 1: FrontRight
+[2020.07.08-21.54.52:229][497]LogAudioMixer: Display: 2: FrontCenter
+[2020.07.08-21.54.52:229][497]LogAudioMixer: Display: 3: LowFrequency
+[2020.07.08-21.54.52:229][497]LogAudioMixer: Display: 4: BackLeft
+[2020.07.08-21.54.52:229][497]LogAudioMixer: Display: 5: BackRight
+[2020.07.08-21.54.52:229][497]LogAudioMixer: Display: 6: SideLeft
+[2020.07.08-21.54.52:229][497]LogAudioMixer: Display: 7: SideRight
+[2020.07.08-21.54.52:388][497]LogAudioMixer: Error: XAudio2 Error: XAudio2System->CreateMasteringVoice( &OutputAudioStreamMasteringVoice, AudioStreamInfo.DeviceInfo.NumChannels, AudioStreamInfo.DeviceInfo.SampleRate, 0, nullptr, nullptr, AudioCategory_GameEffects) -> 0x8889000A: UNKNOWN (line: 1171)
+[2020.07.08-21.54.53:229][500]LogTemp: Resetting audio stream to device id 
+[2020.07.08-21.54.53:234][500]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.08-21.54.53:234][500]LogAudioMixer: Display: 1: FrontRight
+[2020.07.08-21.54.53:234][500]LogAudioMixer: Display: 2: FrontCenter
+[2020.07.08-21.54.53:234][500]LogAudioMixer: Display: 3: LowFrequency
+[2020.07.08-21.54.53:234][500]LogAudioMixer: Display: 4: BackLeft
+[2020.07.08-21.54.53:234][500]LogAudioMixer: Display: 5: BackRight
+[2020.07.08-21.54.53:234][500]LogAudioMixer: Display: 6: SideLeft
+[2020.07.08-21.54.53:234][500]LogAudioMixer: Display: 7: SideRight
+[2020.07.08-21.54.53:356][500]LogAudioMixer: Error: XAudio2 Error: XAudio2System->CreateMasteringVoice( &OutputAudioStreamMasteringVoice, AudioStreamInfo.DeviceInfo.NumChannels, AudioStreamInfo.DeviceInfo.SampleRate, 0, nullptr, nullptr, AudioCategory_GameEffects) -> 0x8889000A: UNKNOWN (line: 1171)
+[2020.07.08-21.54.54:237][503]LogTemp: Resetting audio stream to device id 
+[2020.07.08-21.54.54:246][503]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.08-21.54.54:246][503]LogAudioMixer: Display: 1: FrontRight
+[2020.07.08-21.54.54:246][503]LogAudioMixer: Display: 2: FrontCenter
+[2020.07.08-21.54.54:246][503]LogAudioMixer: Display: 3: LowFrequency
+[2020.07.08-21.54.54:246][503]LogAudioMixer: Display: 4: BackLeft
+[2020.07.08-21.54.54:246][503]LogAudioMixer: Display: 5: BackRight
+[2020.07.08-21.54.54:246][503]LogAudioMixer: Display: 6: SideLeft
+[2020.07.08-21.54.54:246][503]LogAudioMixer: Display: 7: SideRight
+[2020.07.08-21.54.54:392][503]LogAudioMixer: Error: XAudio2 Error: XAudio2System->CreateMasteringVoice( &OutputAudioStreamMasteringVoice, AudioStreamInfo.DeviceInfo.NumChannels, AudioStreamInfo.DeviceInfo.SampleRate, 0, nullptr, nullptr, AudioCategory_GameEffects) -> 0x8889000A: UNKNOWN (line: 1171)
+[2020.07.08-21.54.55:237][506]LogTemp: Resetting audio stream to device id 
+[2020.07.08-21.54.55:241][506]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.08-21.54.55:241][506]LogAudioMixer: Display: 1: FrontRight
+[2020.07.08-21.54.55:241][506]LogAudioMixer: Display: 2: FrontCenter
+[2020.07.08-21.54.55:241][506]LogAudioMixer: Display: 3: LowFrequency
+[2020.07.08-21.54.55:241][506]LogAudioMixer: Display: 4: BackLeft
+[2020.07.08-21.54.55:241][506]LogAudioMixer: Display: 5: BackRight
+[2020.07.08-21.54.55:241][506]LogAudioMixer: Display: 6: SideLeft
+[2020.07.08-21.54.55:241][506]LogAudioMixer: Display: 7: SideRight
+[2020.07.08-21.54.55:345][506]LogAudioMixer: Error: XAudio2 Error: XAudio2System->CreateMasteringVoice( &OutputAudioStreamMasteringVoice, AudioStreamInfo.DeviceInfo.NumChannels, AudioStreamInfo.DeviceInfo.SampleRate, 0, nullptr, nullptr, AudioCategory_GameEffects) -> 0x8889000A: UNKNOWN (line: 1171)
+[2020.07.08-21.54.56:244][509]LogTemp: Resetting audio stream to device id 
+[2020.07.08-21.54.56:250][509]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.08-21.54.56:250][509]LogAudioMixer: Display: 1: FrontRight
+[2020.07.08-21.54.56:250][509]LogAudioMixer: Display: 2: FrontCenter
+[2020.07.08-21.54.56:251][509]LogAudioMixer: Display: 3: LowFrequency
+[2020.07.08-21.54.56:251][509]LogAudioMixer: Display: 4: BackLeft
+[2020.07.08-21.54.56:251][509]LogAudioMixer: Display: 5: BackRight
+[2020.07.08-21.54.56:251][509]LogAudioMixer: Display: 6: SideLeft
+[2020.07.08-21.54.56:251][509]LogAudioMixer: Display: 7: SideRight
+[2020.07.08-21.54.56:410][509]LogAudioMixer: Error: XAudio2 Error: XAudio2System->CreateMasteringVoice( &OutputAudioStreamMasteringVoice, AudioStreamInfo.DeviceInfo.NumChannels, AudioStreamInfo.DeviceInfo.SampleRate, 0, nullptr, nullptr, AudioCategory_GameEffects) -> 0x8889000A: UNKNOWN (line: 1171)
+[2020.07.08-21.54.57:250][512]LogTemp: Resetting audio stream to device id 
+[2020.07.08-21.54.57:266][512]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.08-21.54.57:266][512]LogAudioMixer: Display: 1: FrontRight
+[2020.07.08-21.54.57:266][512]LogAudioMixer: Display: 2: FrontCenter
+[2020.07.08-21.54.57:267][512]LogAudioMixer: Display: 3: LowFrequency
+[2020.07.08-21.54.57:267][512]LogAudioMixer: Display: 4: BackLeft
+[2020.07.08-21.54.57:267][512]LogAudioMixer: Display: 5: BackRight
+[2020.07.08-21.54.57:267][512]LogAudioMixer: Display: 6: SideLeft
+[2020.07.08-21.54.57:267][512]LogAudioMixer: Display: 7: SideRight
+[2020.07.08-21.54.57:426][512]LogAudioMixer: Error: XAudio2 Error: XAudio2System->CreateMasteringVoice( &OutputAudioStreamMasteringVoice, AudioStreamInfo.DeviceInfo.NumChannels, AudioStreamInfo.DeviceInfo.SampleRate, 0, nullptr, nullptr, AudioCategory_GameEffects) -> 0x8889000A: UNKNOWN (line: 1171)
+[2020.07.08-21.54.58:244][515]LogTemp: Resetting audio stream to device id 
+[2020.07.08-21.54.58:249][515]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.08-21.54.58:249][515]LogAudioMixer: Display: 1: FrontRight
+[2020.07.08-21.54.58:249][515]LogAudioMixer: Display: 2: FrontCenter
+[2020.07.08-21.54.58:249][515]LogAudioMixer: Display: 3: LowFrequency
+[2020.07.08-21.54.58:249][515]LogAudioMixer: Display: 4: BackLeft
+[2020.07.08-21.54.58:250][515]LogAudioMixer: Display: 5: BackRight
+[2020.07.08-21.54.58:250][515]LogAudioMixer: Display: 6: SideLeft
+[2020.07.08-21.54.58:250][515]LogAudioMixer: Display: 7: SideRight
+[2020.07.08-21.54.58:374][515]LogAudioMixer: Error: XAudio2 Error: XAudio2System->CreateMasteringVoice( &OutputAudioStreamMasteringVoice, AudioStreamInfo.DeviceInfo.NumChannels, AudioStreamInfo.DeviceInfo.SampleRate, 0, nullptr, nullptr, AudioCategory_GameEffects) -> 0x8889000A: UNKNOWN (line: 1171)
+[2020.07.08-21.54.59:245][518]LogTemp: Resetting audio stream to device id 
+[2020.07.08-21.54.59:250][518]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.08-21.54.59:250][518]LogAudioMixer: Display: 1: FrontRight
+[2020.07.08-21.54.59:250][518]LogAudioMixer: Display: 2: FrontCenter
+[2020.07.08-21.54.59:250][518]LogAudioMixer: Display: 3: LowFrequency
+[2020.07.08-21.54.59:250][518]LogAudioMixer: Display: 4: BackLeft
+[2020.07.08-21.54.59:250][518]LogAudioMixer: Display: 5: BackRight
+[2020.07.08-21.54.59:250][518]LogAudioMixer: Display: 6: SideLeft
+[2020.07.08-21.54.59:250][518]LogAudioMixer: Display: 7: SideRight
+[2020.07.08-21.54.59:415][518]LogAudioMixer: Error: XAudio2 Error: XAudio2System->CreateMasteringVoice( &OutputAudioStreamMasteringVoice, AudioStreamInfo.DeviceInfo.NumChannels, AudioStreamInfo.DeviceInfo.SampleRate, 0, nullptr, nullptr, AudioCategory_GameEffects) -> 0x8889000A: UNKNOWN (line: 1171)
+[2020.07.08-21.55.00:253][521]LogTemp: Resetting audio stream to device id 
+[2020.07.08-21.55.00:264][521]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.08-21.55.00:264][521]LogAudioMixer: Display: 1: FrontRight
+[2020.07.08-21.55.00:264][521]LogAudioMixer: Display: 2: FrontCenter
+[2020.07.08-21.55.00:264][521]LogAudioMixer: Display: 3: LowFrequency
+[2020.07.08-21.55.00:264][521]LogAudioMixer: Display: 4: BackLeft
+[2020.07.08-21.55.00:264][521]LogAudioMixer: Display: 5: BackRight
+[2020.07.08-21.55.00:264][521]LogAudioMixer: Display: 6: SideLeft
+[2020.07.08-21.55.00:264][521]LogAudioMixer: Display: 7: SideRight
+[2020.07.08-21.55.00:488][521]LogAudioMixer: Error: XAudio2 Error: XAudio2System->CreateMasteringVoice( &OutputAudioStreamMasteringVoice, AudioStreamInfo.DeviceInfo.NumChannels, AudioStreamInfo.DeviceInfo.SampleRate, 0, nullptr, nullptr, AudioCategory_GameEffects) -> 0x8889000A: UNKNOWN (line: 1171)
+[2020.07.08-21.55.01:255][524]LogTemp: Resetting audio stream to device id 
+[2020.07.08-21.55.01:261][524]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.08-21.55.01:261][524]LogAudioMixer: Display: 1: FrontRight
+[2020.07.08-21.55.01:261][524]LogAudioMixer: Display: 2: FrontCenter
+[2020.07.08-21.55.01:261][524]LogAudioMixer: Display: 3: LowFrequency
+[2020.07.08-21.55.01:261][524]LogAudioMixer: Display: 4: BackLeft
+[2020.07.08-21.55.01:261][524]LogAudioMixer: Display: 5: BackRight
+[2020.07.08-21.55.01:261][524]LogAudioMixer: Display: 6: SideLeft
+[2020.07.08-21.55.01:261][524]LogAudioMixer: Display: 7: SideRight
+[2020.07.08-21.55.01:386][524]LogAudioMixer: Error: XAudio2 Error: XAudio2System->CreateMasteringVoice( &OutputAudioStreamMasteringVoice, AudioStreamInfo.DeviceInfo.NumChannels, AudioStreamInfo.DeviceInfo.SampleRate, 0, nullptr, nullptr, AudioCategory_GameEffects) -> 0x8889000A: UNKNOWN (line: 1171)
+[2020.07.08-21.55.02:262][527]LogTemp: Resetting audio stream to device id 
+[2020.07.08-21.55.02:266][527]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.08-21.55.02:266][527]LogAudioMixer: Display: 1: FrontRight
+[2020.07.08-21.55.02:266][527]LogAudioMixer: Display: 2: FrontCenter
+[2020.07.08-21.55.02:266][527]LogAudioMixer: Display: 3: LowFrequency
+[2020.07.08-21.55.02:266][527]LogAudioMixer: Display: 4: BackLeft
+[2020.07.08-21.55.02:266][527]LogAudioMixer: Display: 5: BackRight
+[2020.07.08-21.55.02:266][527]LogAudioMixer: Display: 6: SideLeft
+[2020.07.08-21.55.02:266][527]LogAudioMixer: Display: 7: SideRight
+[2020.07.08-21.55.02:379][527]LogAudioMixer: Error: XAudio2 Error: XAudio2System->CreateMasteringVoice( &OutputAudioStreamMasteringVoice, AudioStreamInfo.DeviceInfo.NumChannels, AudioStreamInfo.DeviceInfo.SampleRate, 0, nullptr, nullptr, AudioCategory_GameEffects) -> 0x8889000A: UNKNOWN (line: 1171)
+[2020.07.08-21.55.03:266][530]LogTemp: Resetting audio stream to device id 
+[2020.07.08-21.55.03:275][530]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.08-21.55.03:275][530]LogAudioMixer: Display: 1: FrontRight
+[2020.07.08-21.55.03:275][530]LogAudioMixer: Display: 2: FrontCenter
+[2020.07.08-21.55.03:275][530]LogAudioMixer: Display: 3: LowFrequency
+[2020.07.08-21.55.03:275][530]LogAudioMixer: Display: 4: BackLeft
+[2020.07.08-21.55.03:275][530]LogAudioMixer: Display: 5: BackRight
+[2020.07.08-21.55.03:276][530]LogAudioMixer: Display: 6: SideLeft
+[2020.07.08-21.55.03:276][530]LogAudioMixer: Display: 7: SideRight
+[2020.07.08-21.55.03:455][530]LogAudioMixer: Error: XAudio2 Error: XAudio2System->CreateMasteringVoice( &OutputAudioStreamMasteringVoice, AudioStreamInfo.DeviceInfo.NumChannels, AudioStreamInfo.DeviceInfo.SampleRate, 0, nullptr, nullptr, AudioCategory_GameEffects) -> 0x8889000A: UNKNOWN (line: 1171)
+[2020.07.08-21.55.04:272][533]LogTemp: Resetting audio stream to device id 
+[2020.07.08-21.55.04:279][533]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.08-21.55.04:279][533]LogAudioMixer: Display: 1: FrontRight
+[2020.07.08-21.55.04:279][533]LogAudioMixer: Display: 2: FrontCenter
+[2020.07.08-21.55.04:279][533]LogAudioMixer: Display: 3: LowFrequency
+[2020.07.08-21.55.04:280][533]LogAudioMixer: Display: 4: BackLeft
+[2020.07.08-21.55.04:280][533]LogAudioMixer: Display: 5: BackRight
+[2020.07.08-21.55.04:280][533]LogAudioMixer: Display: 6: SideLeft
+[2020.07.08-21.55.04:280][533]LogAudioMixer: Display: 7: SideRight
+[2020.07.08-21.55.04:466][533]LogAudioMixer: Error: XAudio2 Error: XAudio2System->CreateMasteringVoice( &OutputAudioStreamMasteringVoice, AudioStreamInfo.DeviceInfo.NumChannels, AudioStreamInfo.DeviceInfo.SampleRate, 0, nullptr, nullptr, AudioCategory_GameEffects) -> 0x8889000A: UNKNOWN (line: 1171)
+[2020.07.08-21.55.05:283][536]LogTemp: Resetting audio stream to device id 
+[2020.07.08-21.55.05:290][536]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.08-21.55.05:290][536]LogAudioMixer: Display: 1: FrontRight
+[2020.07.08-21.55.05:290][536]LogAudioMixer: Display: 2: FrontCenter
+[2020.07.08-21.55.05:290][536]LogAudioMixer: Display: 3: LowFrequency
+[2020.07.08-21.55.05:290][536]LogAudioMixer: Display: 4: BackLeft
+[2020.07.08-21.55.05:290][536]LogAudioMixer: Display: 5: BackRight
+[2020.07.08-21.55.05:290][536]LogAudioMixer: Display: 6: SideLeft
+[2020.07.08-21.55.05:290][536]LogAudioMixer: Display: 7: SideRight
+[2020.07.08-21.55.05:477][536]LogAudioMixer: Error: XAudio2 Error: XAudio2System->CreateMasteringVoice( &OutputAudioStreamMasteringVoice, AudioStreamInfo.DeviceInfo.NumChannels, AudioStreamInfo.DeviceInfo.SampleRate, 0, nullptr, nullptr, AudioCategory_GameEffects) -> 0x8889000A: UNKNOWN (line: 1171)
+[2020.07.08-21.55.06:288][539]LogTemp: Resetting audio stream to device id 
+[2020.07.08-21.55.06:296][539]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.08-21.55.06:296][539]LogAudioMixer: Display: 1: FrontRight
+[2020.07.08-21.55.06:296][539]LogAudioMixer: Display: 2: FrontCenter
+[2020.07.08-21.55.06:296][539]LogAudioMixer: Display: 3: LowFrequency
+[2020.07.08-21.55.06:296][539]LogAudioMixer: Display: 4: BackLeft
+[2020.07.08-21.55.06:296][539]LogAudioMixer: Display: 5: BackRight
+[2020.07.08-21.55.06:296][539]LogAudioMixer: Display: 6: SideLeft
+[2020.07.08-21.55.06:296][539]LogAudioMixer: Display: 7: SideRight
+[2020.07.08-21.55.06:410][539]LogAudioMixer: Error: XAudio2 Error: XAudio2System->CreateMasteringVoice( &OutputAudioStreamMasteringVoice, AudioStreamInfo.DeviceInfo.NumChannels, AudioStreamInfo.DeviceInfo.SampleRate, 0, nullptr, nullptr, AudioCategory_GameEffects) -> 0x8889000A: UNKNOWN (line: 1171)
+[2020.07.08-21.55.07:295][542]LogTemp: Resetting audio stream to device id 
+[2020.07.08-21.55.07:301][542]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.08-21.55.07:301][542]LogAudioMixer: Display: 1: FrontRight
+[2020.07.08-21.55.07:301][542]LogAudioMixer: Display: 2: FrontCenter
+[2020.07.08-21.55.07:301][542]LogAudioMixer: Display: 3: LowFrequency
+[2020.07.08-21.55.07:301][542]LogAudioMixer: Display: 4: BackLeft
+[2020.07.08-21.55.07:301][542]LogAudioMixer: Display: 5: BackRight
+[2020.07.08-21.55.07:301][542]LogAudioMixer: Display: 6: SideLeft
+[2020.07.08-21.55.07:301][542]LogAudioMixer: Display: 7: SideRight
+[2020.07.08-21.55.07:438][542]LogAudioMixer: Error: XAudio2 Error: XAudio2System->CreateMasteringVoice( &OutputAudioStreamMasteringVoice, AudioStreamInfo.DeviceInfo.NumChannels, AudioStreamInfo.DeviceInfo.SampleRate, 0, nullptr, nullptr, AudioCategory_GameEffects) -> 0x8889000A: UNKNOWN (line: 1171)
+[2020.07.08-21.55.08:299][545]LogTemp: Resetting audio stream to device id 
+[2020.07.08-21.55.08:307][545]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.08-21.55.08:307][545]LogAudioMixer: Display: 1: FrontRight
+[2020.07.08-21.55.08:308][545]LogAudioMixer: Display: 2: FrontCenter
+[2020.07.08-21.55.08:308][545]LogAudioMixer: Display: 3: LowFrequency
+[2020.07.08-21.55.08:308][545]LogAudioMixer: Display: 4: BackLeft
+[2020.07.08-21.55.08:308][545]LogAudioMixer: Display: 5: BackRight
+[2020.07.08-21.55.08:308][545]LogAudioMixer: Display: 6: SideLeft
+[2020.07.08-21.55.08:308][545]LogAudioMixer: Display: 7: SideRight
+[2020.07.08-21.55.08:459][545]LogAudioMixer: Error: XAudio2 Error: XAudio2System->CreateMasteringVoice( &OutputAudioStreamMasteringVoice, AudioStreamInfo.DeviceInfo.NumChannels, AudioStreamInfo.DeviceInfo.SampleRate, 0, nullptr, nullptr, AudioCategory_GameEffects) -> 0x8889000A: UNKNOWN (line: 1171)
+[2020.07.08-21.55.09:300][548]LogTemp: Resetting audio stream to device id 
+[2020.07.08-21.55.09:305][548]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.08-21.55.09:305][548]LogAudioMixer: Display: 1: FrontRight
+[2020.07.08-21.55.09:305][548]LogAudioMixer: Display: 2: FrontCenter
+[2020.07.08-21.55.09:305][548]LogAudioMixer: Display: 3: LowFrequency
+[2020.07.08-21.55.09:305][548]LogAudioMixer: Display: 4: BackLeft
+[2020.07.08-21.55.09:305][548]LogAudioMixer: Display: 5: BackRight
+[2020.07.08-21.55.09:305][548]LogAudioMixer: Display: 6: SideLeft
+[2020.07.08-21.55.09:305][548]LogAudioMixer: Display: 7: SideRight
+[2020.07.08-21.55.09:468][548]LogAudioMixer: Error: XAudio2 Error: XAudio2System->CreateMasteringVoice( &OutputAudioStreamMasteringVoice, AudioStreamInfo.DeviceInfo.NumChannels, AudioStreamInfo.DeviceInfo.SampleRate, 0, nullptr, nullptr, AudioCategory_GameEffects) -> 0x8889000A: UNKNOWN (line: 1171)
+[2020.07.08-21.55.10:303][551]LogTemp: Resetting audio stream to device id 
+[2020.07.08-21.55.10:308][551]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.08-21.55.10:308][551]LogAudioMixer: Display: 1: FrontRight
+[2020.07.08-21.55.10:308][551]LogAudioMixer: Display: 2: FrontCenter
+[2020.07.08-21.55.10:308][551]LogAudioMixer: Display: 3: LowFrequency
+[2020.07.08-21.55.10:308][551]LogAudioMixer: Display: 4: BackLeft
+[2020.07.08-21.55.10:308][551]LogAudioMixer: Display: 5: BackRight
+[2020.07.08-21.55.10:308][551]LogAudioMixer: Display: 6: SideLeft
+[2020.07.08-21.55.10:308][551]LogAudioMixer: Display: 7: SideRight
+[2020.07.08-21.55.10:449][551]LogAudioMixer: Error: XAudio2 Error: XAudio2System->CreateMasteringVoice( &OutputAudioStreamMasteringVoice, AudioStreamInfo.DeviceInfo.NumChannels, AudioStreamInfo.DeviceInfo.SampleRate, 0, nullptr, nullptr, AudioCategory_GameEffects) -> 0x8889000A: UNKNOWN (line: 1171)
+[2020.07.08-21.55.11:307][554]LogTemp: Resetting audio stream to device id 
+[2020.07.08-21.55.11:313][554]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.08-21.55.11:313][554]LogAudioMixer: Display: 1: FrontRight
+[2020.07.08-21.55.11:313][554]LogAudioMixer: Display: 2: FrontCenter
+[2020.07.08-21.55.11:313][554]LogAudioMixer: Display: 3: LowFrequency
+[2020.07.08-21.55.11:313][554]LogAudioMixer: Display: 4: BackLeft
+[2020.07.08-21.55.11:313][554]LogAudioMixer: Display: 5: BackRight
+[2020.07.08-21.55.11:313][554]LogAudioMixer: Display: 6: SideLeft
+[2020.07.08-21.55.11:313][554]LogAudioMixer: Display: 7: SideRight
+[2020.07.08-21.55.11:437][554]LogAudioMixer: Error: XAudio2 Error: XAudio2System->CreateMasteringVoice( &OutputAudioStreamMasteringVoice, AudioStreamInfo.DeviceInfo.NumChannels, AudioStreamInfo.DeviceInfo.SampleRate, 0, nullptr, nullptr, AudioCategory_GameEffects) -> 0x8889000A: UNKNOWN (line: 1171)
+[2020.07.08-21.55.11:980][556]LogTemp: Resetting audio stream to device id 
+[2020.07.08-21.55.11:991][556]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.08-21.55.11:991][556]LogAudioMixer: Display: 1: FrontRight
+[2020.07.08-21.55.11:991][556]LogAudioMixer: Display: 2: FrontCenter
+[2020.07.08-21.55.11:992][556]LogAudioMixer: Display: 3: LowFrequency
+[2020.07.08-21.55.11:992][556]LogAudioMixer: Display: 4: BackLeft
+[2020.07.08-21.55.11:992][556]LogAudioMixer: Display: 5: BackRight
+[2020.07.08-21.55.11:992][556]LogAudioMixer: Display: 6: SideLeft
+[2020.07.08-21.55.11:992][556]LogAudioMixer: Display: 7: SideRight
+[2020.07.08-21.55.12:169][556]LogAudioMixer: Error: XAudio2 Error: XAudio2System->CreateMasteringVoice( &OutputAudioStreamMasteringVoice, AudioStreamInfo.DeviceInfo.NumChannels, AudioStreamInfo.DeviceInfo.SampleRate, 0, nullptr, nullptr, AudioCategory_GameEffects) -> 0x8889000A: UNKNOWN (line: 1171)
+[2020.07.08-21.55.12:992][559]LogTemp: Resetting audio stream to device id 
+[2020.07.08-21.55.13:000][559]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.08-21.55.13:000][559]LogAudioMixer: Display: 1: FrontRight
+[2020.07.08-21.55.13:000][559]LogAudioMixer: Display: 2: FrontCenter
+[2020.07.08-21.55.13:000][559]LogAudioMixer: Display: 3: LowFrequency
+[2020.07.08-21.55.13:000][559]LogAudioMixer: Display: 4: BackLeft
+[2020.07.08-21.55.13:000][559]LogAudioMixer: Display: 5: BackRight
+[2020.07.08-21.55.13:000][559]LogAudioMixer: Display: 6: SideLeft
+[2020.07.08-21.55.13:000][559]LogAudioMixer: Display: 7: SideRight
+[2020.07.08-21.55.13:204][559]LogAudioMixer: Error: XAudio2 Error: XAudio2System->CreateMasteringVoice( &OutputAudioStreamMasteringVoice, AudioStreamInfo.DeviceInfo.NumChannels, AudioStreamInfo.DeviceInfo.SampleRate, 0, nullptr, nullptr, AudioCategory_GameEffects) -> 0x8889000A: UNKNOWN (line: 1171)
+[2020.07.08-21.55.14:002][562]LogTemp: Resetting audio stream to device id 
+[2020.07.08-21.55.14:016][562]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.08-21.55.14:016][562]LogAudioMixer: Display: 1: FrontRight
+[2020.07.08-21.55.14:016][562]LogAudioMixer: Display: 2: FrontCenter
+[2020.07.08-21.55.14:016][562]LogAudioMixer: Display: 3: LowFrequency
+[2020.07.08-21.55.14:016][562]LogAudioMixer: Display: 4: BackLeft
+[2020.07.08-21.55.14:016][562]LogAudioMixer: Display: 5: BackRight
+[2020.07.08-21.55.14:016][562]LogAudioMixer: Display: 6: SideLeft
+[2020.07.08-21.55.14:016][562]LogAudioMixer: Display: 7: SideRight
+[2020.07.08-21.55.14:195][562]LogAudioMixer: Error: XAudio2 Error: XAudio2System->CreateMasteringVoice( &OutputAudioStreamMasteringVoice, AudioStreamInfo.DeviceInfo.NumChannels, AudioStreamInfo.DeviceInfo.SampleRate, 0, nullptr, nullptr, AudioCategory_GameEffects) -> 0x8889000A: UNKNOWN (line: 1171)
+[2020.07.08-21.55.15:004][565]LogTemp: Resetting audio stream to device id 
+[2020.07.08-21.55.15:008][565]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.08-21.55.15:008][565]LogAudioMixer: Display: 1: FrontRight
+[2020.07.08-21.55.15:008][565]LogAudioMixer: Display: 2: FrontCenter
+[2020.07.08-21.55.15:008][565]LogAudioMixer: Display: 3: LowFrequency
+[2020.07.08-21.55.15:008][565]LogAudioMixer: Display: 4: BackLeft
+[2020.07.08-21.55.15:008][565]LogAudioMixer: Display: 5: BackRight
+[2020.07.08-21.55.15:008][565]LogAudioMixer: Display: 6: SideLeft
+[2020.07.08-21.55.15:008][565]LogAudioMixer: Display: 7: SideRight
+[2020.07.08-21.55.15:125][565]LogAudioMixer: Error: XAudio2 Error: XAudio2System->CreateMasteringVoice( &OutputAudioStreamMasteringVoice, AudioStreamInfo.DeviceInfo.NumChannels, AudioStreamInfo.DeviceInfo.SampleRate, 0, nullptr, nullptr, AudioCategory_GameEffects) -> 0x8889000A: UNKNOWN (line: 1171)
+[2020.07.08-21.55.16:090][568]LogTemp: Resetting audio stream to device id 
+[2020.07.08-21.55.16:095][568]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.08-21.55.16:095][568]LogAudioMixer: Display: 1: FrontRight
+[2020.07.08-21.55.16:095][568]LogAudioMixer: Display: 2: FrontCenter
+[2020.07.08-21.55.16:095][568]LogAudioMixer: Display: 3: LowFrequency
+[2020.07.08-21.55.16:095][568]LogAudioMixer: Display: 4: BackLeft
+[2020.07.08-21.55.16:095][568]LogAudioMixer: Display: 5: BackRight
+[2020.07.08-21.55.16:095][568]LogAudioMixer: Display: 6: SideLeft
+[2020.07.08-21.55.16:095][568]LogAudioMixer: Display: 7: SideRight
+[2020.07.08-21.55.16:261][568]LogAudioMixer: Error: XAudio2 Error: XAudio2System->CreateMasteringVoice( &OutputAudioStreamMasteringVoice, AudioStreamInfo.DeviceInfo.NumChannels, AudioStreamInfo.DeviceInfo.SampleRate, 0, nullptr, nullptr, AudioCategory_GameEffects) -> 0x8889000A: UNKNOWN (line: 1171)
+[2020.07.08-21.55.17:096][571]LogTemp: Resetting audio stream to device id 
+[2020.07.08-21.55.17:105][571]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.08-21.55.17:105][571]LogAudioMixer: Display: 1: FrontRight
+[2020.07.08-21.55.17:105][571]LogAudioMixer: Display: 2: FrontCenter
+[2020.07.08-21.55.17:105][571]LogAudioMixer: Display: 3: LowFrequency
+[2020.07.08-21.55.17:105][571]LogAudioMixer: Display: 4: BackLeft
+[2020.07.08-21.55.17:105][571]LogAudioMixer: Display: 5: BackRight
+[2020.07.08-21.55.17:105][571]LogAudioMixer: Display: 6: SideLeft
+[2020.07.08-21.55.17:105][571]LogAudioMixer: Display: 7: SideRight
+[2020.07.08-21.55.17:289][571]LogAudioMixer: Error: XAudio2 Error: XAudio2System->CreateMasteringVoice( &OutputAudioStreamMasteringVoice, AudioStreamInfo.DeviceInfo.NumChannels, AudioStreamInfo.DeviceInfo.SampleRate, 0, nullptr, nullptr, AudioCategory_GameEffects) -> 0x8889000A: UNKNOWN (line: 1171)
+[2020.07.08-21.55.18:101][574]LogTemp: Resetting audio stream to device id 
+[2020.07.08-21.55.18:113][574]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.08-21.55.18:113][574]LogAudioMixer: Display: 1: FrontRight
+[2020.07.08-21.55.18:113][574]LogAudioMixer: Display: 2: FrontCenter
+[2020.07.08-21.55.18:113][574]LogAudioMixer: Display: 3: LowFrequency
+[2020.07.08-21.55.18:113][574]LogAudioMixer: Display: 4: BackLeft
+[2020.07.08-21.55.18:113][574]LogAudioMixer: Display: 5: BackRight
+[2020.07.08-21.55.18:113][574]LogAudioMixer: Display: 6: SideLeft
+[2020.07.08-21.55.18:113][574]LogAudioMixer: Display: 7: SideRight
+[2020.07.08-21.55.18:255][574]LogAudioMixer: Error: XAudio2 Error: XAudio2System->CreateMasteringVoice( &OutputAudioStreamMasteringVoice, AudioStreamInfo.DeviceInfo.NumChannels, AudioStreamInfo.DeviceInfo.SampleRate, 0, nullptr, nullptr, AudioCategory_GameEffects) -> 0x8889000A: UNKNOWN (line: 1171)
+[2020.07.08-21.55.19:110][577]LogTemp: Resetting audio stream to device id 
+[2020.07.08-21.55.19:115][577]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.08-21.55.19:115][577]LogAudioMixer: Display: 1: FrontRight
+[2020.07.08-21.55.19:115][577]LogAudioMixer: Display: 2: FrontCenter
+[2020.07.08-21.55.19:115][577]LogAudioMixer: Display: 3: LowFrequency
+[2020.07.08-21.55.19:115][577]LogAudioMixer: Display: 4: BackLeft
+[2020.07.08-21.55.19:115][577]LogAudioMixer: Display: 5: BackRight
+[2020.07.08-21.55.19:115][577]LogAudioMixer: Display: 6: SideLeft
+[2020.07.08-21.55.19:115][577]LogAudioMixer: Display: 7: SideRight
+[2020.07.08-21.55.19:262][577]LogAudioMixer: Error: XAudio2 Error: XAudio2System->CreateMasteringVoice( &OutputAudioStreamMasteringVoice, AudioStreamInfo.DeviceInfo.NumChannels, AudioStreamInfo.DeviceInfo.SampleRate, 0, nullptr, nullptr, AudioCategory_GameEffects) -> 0x8889000A: UNKNOWN (line: 1171)
+[2020.07.08-21.55.20:119][580]LogTemp: Resetting audio stream to device id 
+[2020.07.08-21.55.20:124][580]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.08-21.55.20:124][580]LogAudioMixer: Display: 1: FrontRight
+[2020.07.08-21.55.20:124][580]LogAudioMixer: Display: 2: FrontCenter
+[2020.07.08-21.55.20:124][580]LogAudioMixer: Display: 3: LowFrequency
+[2020.07.08-21.55.20:124][580]LogAudioMixer: Display: 4: BackLeft
+[2020.07.08-21.55.20:124][580]LogAudioMixer: Display: 5: BackRight
+[2020.07.08-21.55.20:124][580]LogAudioMixer: Display: 6: SideLeft
+[2020.07.08-21.55.20:124][580]LogAudioMixer: Display: 7: SideRight
+[2020.07.08-21.55.20:258][580]LogAudioMixer: Error: XAudio2 Error: XAudio2System->CreateMasteringVoice( &OutputAudioStreamMasteringVoice, AudioStreamInfo.DeviceInfo.NumChannels, AudioStreamInfo.DeviceInfo.SampleRate, 0, nullptr, nullptr, AudioCategory_GameEffects) -> 0x8889000A: UNKNOWN (line: 1171)
+[2020.07.08-21.55.20:689][586]LogUObjectHash: Compacting FUObjectHashTables data took  18.28ms
+[2020.07.08-21.55.21:470][586]LogSlate: Window 'TheyLive - Unreal Editor' being destroyed
+[2020.07.08-21.55.21:472][586]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.07.08-21.55.21:847][586]LogTemp: Resetting audio stream to device id 
+[2020.07.08-21.55.21:854][586]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.08-21.55.21:854][586]LogAudioMixer: Display: 1: FrontRight
+[2020.07.08-21.55.21:854][586]LogAudioMixer: Display: 2: FrontCenter
+[2020.07.08-21.55.21:854][586]LogAudioMixer: Display: 3: LowFrequency
+[2020.07.08-21.55.21:854][586]LogAudioMixer: Display: 4: BackLeft
+[2020.07.08-21.55.21:854][586]LogAudioMixer: Display: 5: BackRight
+[2020.07.08-21.55.21:854][586]LogAudioMixer: Display: 6: SideLeft
+[2020.07.08-21.55.21:854][586]LogAudioMixer: Display: 7: SideRight
+[2020.07.08-21.55.22:064][586]LogAudioMixer: Error: XAudio2 Error: XAudio2System->CreateMasteringVoice( &OutputAudioStreamMasteringVoice, AudioStreamInfo.DeviceInfo.NumChannels, AudioStreamInfo.DeviceInfo.SampleRate, 0, nullptr, nullptr, AudioCategory_GameEffects) -> 0x8889000A: UNKNOWN (line: 1171)
+[2020.07.08-21.55.22:070][587]Cmd: QUIT_EDITOR
+[2020.07.08-21.55.22:070][587]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2020.07.08-21.55.22:104][587]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2020.07.08-21.55.22:108][587]LogTemp: Resetting audio stream to device id 
+[2020.07.08-21.55.22:116][587]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.08-21.55.22:116][587]LogAudioMixer: Display: 1: FrontRight
+[2020.07.08-21.55.22:116][587]LogAudioMixer: Display: 2: FrontCenter
+[2020.07.08-21.55.22:116][587]LogAudioMixer: Display: 3: LowFrequency
+[2020.07.08-21.55.22:116][587]LogAudioMixer: Display: 4: BackLeft
+[2020.07.08-21.55.22:116][587]LogAudioMixer: Display: 5: BackRight
+[2020.07.08-21.55.22:116][587]LogAudioMixer: Display: 6: SideLeft
+[2020.07.08-21.55.22:116][587]LogAudioMixer: Display: 7: SideRight
+[2020.07.08-21.55.22:321][587]LogAudioMixer: Error: XAudio2 Error: XAudio2System->CreateMasteringVoice( &OutputAudioStreamMasteringVoice, AudioStreamInfo.DeviceInfo.NumChannels, AudioStreamInfo.DeviceInfo.SampleRate, 0, nullptr, nullptr, AudioCategory_GameEffects) -> 0x8889000A: UNKNOWN (line: 1171)
+[2020.07.08-21.55.23:322][587]LogAudioMixer: Warning: Timed out waiting to flush the source manager command queue (1).
+[2020.07.08-21.55.24:323][587]LogAudioMixer: Warning: Timed out waiting to flush the source manager command queue (2).
+[2020.07.08-21.55.24:326][587]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2020.07.08-21.55.24:326][587]LogWindows: Windows GetLastError: The operation completed successfully. (0)
+[2020.07.08-21.55.30:002][587]LogWindows: Error: === Critical error: ===
+[2020.07.08-21.55.30:003][587]LogWindows: Error: 
+[2020.07.08-21.55.30:003][587]LogWindows: Error: Assertion failed: OutputAudioStreamMasteringVoice || bIsUsingNullDevice [File:D:/Build/++UE4+Licensee/Sync/Engine/Source/Runtime/Windows/AudioMixerXAudio2/Private/AudioMixerPlatformXAudio2.cpp] [Line: 970] 
+[2020.07.08-21.55.30:003][587]LogWindows: Error: 
+[2020.07.08-21.55.30:003][587]LogWindows: Error: 
+[2020.07.08-21.55.30:003][587]LogWindows: Error: 
+[2020.07.08-21.55.30:003][587]LogWindows: Error: [Callstack] 0x00007fff0f92a799 KERNELBASE.dll!UnknownFunction []
+[2020.07.08-21.55.30:003][587]LogWindows: Error: [Callstack] 0x00007ffec453eb46 UE4Editor-Core.dll!UnknownFunction []
+[2020.07.08-21.55.30:003][587]LogWindows: Error: [Callstack] 0x00007ffec4541f28 UE4Editor-Core.dll!UnknownFunction []
+[2020.07.08-21.55.30:003][587]LogWindows: Error: [Callstack] 0x00007ffec42ce53d UE4Editor-Core.dll!UnknownFunction []
+[2020.07.08-21.55.30:003][587]LogWindows: Error: [Callstack] 0x00007ffec42597b5 UE4Editor-Core.dll!UnknownFunction []
+[2020.07.08-21.55.30:003][587]LogWindows: Error: [Callstack] 0x00007ffec425baf0 UE4Editor-Core.dll!UnknownFunction []
+[2020.07.08-21.55.30:003][587]LogWindows: Error: [Callstack] 0x00007ffe3a262d13 UE4Editor-AudioMixerXAudio2.dll!UnknownFunction []
+[2020.07.08-21.55.30:003][587]LogWindows: Error: [Callstack] 0x00007ffecb33e054 UE4Editor-AudioMixer.dll!UnknownFunction []
+[2020.07.08-21.55.30:003][587]LogWindows: Error: [Callstack] 0x00007ffe631133d6 UE4Editor-Engine.dll!UnknownFunction []
+[2020.07.08-21.55.30:003][587]LogWindows: Error: [Callstack] 0x00007ffe630cd5bf UE4Editor-Engine.dll!UnknownFunction []
+[2020.07.08-21.55.30:003][587]LogWindows: Error: [Callstack] 0x00007ffe631044cf UE4Editor-Engine.dll!UnknownFunction []
+[2020.07.08-21.55.30:003][587]LogWindows: Error: [Callstack] 0x00007ffe630e1de6 UE4Editor-Engine.dll!UnknownFunction []
+[2020.07.08-21.55.30:003][587]LogWindows: Error: [Callstack] 0x00007ffe630cd647 UE4Editor-Engine.dll!UnknownFunction []
+[2020.07.08-21.55.30:003][587]LogWindows: Error: [Callstack] 0x00007ffe3f4b149e UE4Editor-Niagara.dll!UnknownFunction []
+[2020.07.08-21.55.30:003][587]LogWindows: Error: [Callstack] 0x00007ffe3f44338f UE4Editor-Niagara.dll!UnknownFunction []
+[2020.07.08-21.55.30:003][587]LogWindows: Error: [Callstack] 0x00007ffe3f4a180b UE4Editor-Niagara.dll!UnknownFunction []
+[2020.07.08-21.55.30:003][587]LogWindows: Error: [Callstack] 0x00007ffe3f465ba6 UE4Editor-Niagara.dll!UnknownFunction []
+[2020.07.08-21.55.30:003][587]LogWindows: Error: [Callstack] 0x00007ffe630db900 UE4Editor-Engine.dll!UnknownFunction []
+[2020.07.08-21.55.30:004][587]LogWindows: Error: [Callstack] 0x00007ffe630e1ddc UE4Editor-Engine.dll!UnknownFunction []
+[2020.07.08-21.55.30:004][587]LogWindows: Error: [Callstack] 0x00007ffe630cd647 UE4Editor-Engine.dll!UnknownFunction []
+[2020.07.08-21.55.30:004][587]LogWindows: Error: [Callstack] 0x00007ffe3f4b149e UE4Editor-Niagara.dll!UnknownFunction []
+[2020.07.08-21.55.30:004][587]LogWindows: Error: [Callstack] 0x00007ffe3f44338f UE4Editor-Niagara.dll!UnknownFunction []
+[2020.07.08-21.55.30:004][587]LogWindows: Error: [Callstack] 0x00007ffe3f4a180b UE4Editor-Niagara.dll!UnknownFunction []
+[2020.07.08-21.55.30:004][587]LogWindows: Error: [Callstack] 0x00007ffe3f465b66 UE4Editor-Niagara.dll!UnknownFunction []
+[2020.07.08-21.55.30:004][587]LogWindows: Error: [Callstack] 0x00007ffe630db900 UE4Editor-Engine.dll!UnknownFunction []
+[2020.07.08-21.55.30:004][587]LogWindows: Error: [Callstack] 0x00007ffe630e1ddc UE4Editor-Engine.dll!UnknownFunction []
+[2020.07.08-21.55.30:004][587]LogWindows: Error: [Callstack] 0x00007ffe630cd647 UE4Editor-Engine.dll!UnknownFunction []
+[2020.07.08-21.55.30:004][587]LogWindows: Error: [Callstack] 0x00007ffe3f4b149e UE4Editor-Niagara.dll!UnknownFunction []
+[2020.07.08-21.55.30:004][587]LogWindows: Error: [Callstack] 0x00007ffe3f44338f UE4Editor-Niagara.dll!UnknownFunction []
+[2020.07.08-21.55.30:004][587]LogWindows: Error: [Callstack] 0x00007ffe3f4a180b UE4Editor-Niagara.dll!UnknownFunction []
+[2020.07.08-21.55.30:004][587]LogWindows: Error: [Callstack] 0x00007ffe3f465ba6 UE4Editor-Niagara.dll!UnknownFunction []
+[2020.07.08-21.55.30:004][587]LogWindows: Error: [Callstack] 0x00007ffe630db900 UE4Editor-Engine.dll!UnknownFunction []
+[2020.07.08-21.55.30:004][587]LogWindows: Error: [Callstack] 0x00007ffe630e1ddc UE4Editor-Engine.dll!UnknownFunction []
+[2020.07.08-21.55.30:004][587]LogWindows: Error: [Callstack] 0x00007ffe630ce1b6 UE4Editor-Engine.dll!UnknownFunction []
+[2020.07.08-21.55.30:004][587]LogWindows: Error: [Callstack] 0x00007ffe6310859f UE4Editor-Engine.dll!UnknownFunction []
+[2020.07.08-21.55.30:004][587]LogWindows: Error: [Callstack] 0x00007ffe630cd688 UE4Editor-Engine.dll!UnknownFunction []
+[2020.07.08-21.55.30:004][587]LogWindows: Error: [Callstack] 0x00007ffe63ff600d UE4Editor-Engine.dll!UnknownFunction []
+[2020.07.08-21.55.30:004][587]LogWindows: Error: [Callstack] 0x00007ff688c6adcc UE4Editor.exe!UnknownFunction []
+[2020.07.08-21.55.30:004][587]LogWindows: Error: [Callstack] 0x00007ff688c6bb07 UE4Editor.exe!UnknownFunction []
+[2020.07.08-21.55.30:004][587]LogWindows: Error: [Callstack] 0x00007ff688c6bb5a UE4Editor.exe!UnknownFunction []
+[2020.07.08-21.55.30:004][587]LogWindows: Error: [Callstack] 0x00007ff688c7e31d UE4Editor.exe!UnknownFunction []
+[2020.07.08-21.55.30:004][587]LogWindows: Error: [Callstack] 0x00007ff688c8145a UE4Editor.exe!UnknownFunction []
+[2020.07.08-21.55.30:004][587]LogWindows: Error: [Callstack] 0x00007fff11937bd4 KERNEL32.DLL!UnknownFunction []
+[2020.07.08-21.55.30:005][587]LogWindows: Error: [Callstack] 0x00007fff11d8ce51 ntdll.dll!UnknownFunction []
+[2020.07.08-21.55.30:005][587]LogWindows: Error: 
+[2020.07.08-21.55.30:032][587]LogExit: Executing StaticShutdownAfterError
+[2020.07.08-21.55.30:055][587]LogWindows: FPlatformMisc::RequestExit(1)
+[2020.07.08-21.55.30:055][587]LogCore: Engine exit requested (reason: Win RequestExit; note: exit was already requested)
+[2020.07.08-21.55.30:068][587]Log file closed, 07/08/20 17:55:30
