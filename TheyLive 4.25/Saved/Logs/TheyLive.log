@@ -2265,3 +2265,15 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.07.13-13.19.04:562][951]LogSavePackage: Moving 'D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Saved/CaveLevel_Auto1A8A0A72F42A06BFDEB9F51AF3EDC85E7.tmp' to 'D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Autosaves/Game/Maps/CaveLevel_Auto1.umap'
 [2020.07.13-13.19.04:569][951]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/CaveLevel' took 1.157
 [2020.07.13-13.19.04:569][951]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.157
+[2020.07.13-13.24.15:487][308]LogUObjectHash: Compacting FUObjectHashTables data took   1.82ms
+[2020.07.13-13.24.15:522][308]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/CaveLevel" FILE="D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Content/Maps/CaveLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.07.13-13.24.15:550][308]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2020.07.13-13.24.16:476][308]LogSavePackage: Moving 'D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Saved/CaveLevel113BD4D94068A9032D3FE88DD554B76E.tmp' to 'D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Content/Maps/CaveLevel.umap'
+[2020.07.13-13.24.16:523][308]LogFileHelpers: Saving map 'CaveLevel' took 1.002
+[2020.07.13-13.24.16:524][308]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/CaveLevel_BuiltData" FILE="D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Content/Maps/CaveLevel_BuiltData.uasset" SILENT=true
+[2020.07.13-13.24.16:952][308]LogSavePackage: Moving 'D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Saved/CaveLevel_BuiltData990465664DAA3E86980A2FB1079596EE.tmp' to 'D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Content/Maps/CaveLevel_BuiltData.uasset'
+[2020.07.13-13.24.16:957][308]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/CaveLevel_BuiltData" FILE="D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Content/Maps/CaveLevel_BuiltData.uasset" SILENT=true
+[2020.07.13-13.24.17:204][308]LogSavePackage: Moving 'D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Saved/CaveLevel_BuiltData7CBE20AC423E9F43F23D908DF4D603C5.tmp' to 'D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Content/Maps/CaveLevel_BuiltData.uasset'
+[2020.07.13-13.24.17:231][308]AssetCheck: New page: Asset Save: multiple assets
+[2020.07.13-13.24.17:232][308]LogContentValidation: Display: Validating World /Game/Maps/CaveLevel.CaveLevel
+[2020.07.13-13.24.17:232][308]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/CaveLevel_BuiltData.CaveLevel_BuiltData
