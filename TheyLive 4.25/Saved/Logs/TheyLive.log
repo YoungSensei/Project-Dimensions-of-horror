@@ -2260,3 +2260,8 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.07.13-13.10.09:642][851]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000023A46E21C00), frame # 1306851
 [2020.07.13-13.10.09:648][851]LogUObjectHash: Compacting FUObjectHashTables data took   1.81ms
 [2020.07.13-13.10.09:684][852]LogPlayLevel: Display: Destroying online subsystem :Context_50
+[2020.07.13-13.19.03:445][951]LogUObjectHash: Compacting FUObjectHashTables data took   2.94ms
+[2020.07.13-13.19.03:468][951]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/CaveLevel" FILE="D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Autosaves/Game/Maps/CaveLevel_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2020.07.13-13.19.04:562][951]LogSavePackage: Moving 'D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Saved/CaveLevel_Auto1A8A0A72F42A06BFDEB9F51AF3EDC85E7.tmp' to 'D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Autosaves/Game/Maps/CaveLevel_Auto1.umap'
+[2020.07.13-13.19.04:569][951]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/CaveLevel' took 1.157
+[2020.07.13-13.19.04:569][951]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.157
