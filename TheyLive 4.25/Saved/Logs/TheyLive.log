@@ -1221,3 +1221,108 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.07.15-13.05.02:890][557]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.740
 [2020.07.15-13.15.03:205][567]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
 [2020.07.15-13.15.03:208][567]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/CaveLevel' took 0.024
+[2020.07.15-13.24.31:418][915]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (spruce_full_82)
+[2020.07.15-13.24.55:245][248]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_Fire15)
+[2020.07.15-13.24.57:707][392]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_Fire10)
+[2020.07.15-13.24.59:553][501]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_Fire13)
+[2020.07.15-13.25.01:591][621]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_Fire14)
+[2020.07.15-13.25.05:546][854]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_Fire9)
+[2020.07.15-13.25.12:005][222]Cmd: TRANSACTION UNDO
+[2020.07.15-13.25.12:005][222]LogEditorTransaction: Undo Move Actors
+[2020.07.15-13.25.17:945][536]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_Fire16)
+[2020.07.15-13.25.31:572][335]MapCheck: New page: Map Check
+[2020.07.15-13.25.31:595][335]Cmd: MAP REBUILD ALLVISIBLE
+[2020.07.15-13.25.31:596][335]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2020.07.15-13.25.56:455][335]LogWorld: UWorld::CleanupWorld for CaveLevel, bSessionEnded=true, bCleanupResources=false
+[2020.07.15-13.25.56:957][335]LightingResults: New page: Lighting Build - Jul 15, 2020, 5:25:56 AM
+[2020.07.15-13.25.57:028][335]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2020.07.15-13.25.57:033][335]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2020.07.15-13.25.57:033][335]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2020.07.15-13.25.57:034][335]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2020.07.15-13.25.57:034][335]LogSwarmInterface: [TryOpenConnection] Local Process ID is 29352
+[2020.07.15-13.26.01:549][335]LightingResults: Warning: No importance volume found and the scene is so large that the automatically synthesized volume will not yield good results.  Please add a tightly bounding lightmass importance volume to optimize your scene's quality and lighting build times.
+[2020.07.15-13.26.01:562][335]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2020.07.15-13.26.01:562][335]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2020.07.15-13.26.01:562][335]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2020.07.15-13.26.01:562][335]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2020.07.15-13.26.01:562][335]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2020.07.15-13.26.02:041][335]LogEditorBuildUtils: Build time 0:30
+[2020.07.15-13.26.02:269][336]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2020.07.15-13.26.03:034][336]LogSavePackage: Moving '../../../../../../Users/Kyle/Documents/GitHub/Project-Dimensions-of-horror/TheyLive 4.25/Saved/CaveLevel_Auto2CDA22D364148C189D7EF02842BB8F9E4.tmp' to '../../../../../../Users/Kyle/Documents/GitHub/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Autosaves/Game/Maps/CaveLevel_Auto2.umap'
+[2020.07.15-13.26.03:040][336]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/CaveLevel' took 0.789
+[2020.07.15-13.26.03:040][336]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.789
+[2020.07.15-13.26.03:458][338]LogUObjectHash: Compacting FUObjectHashTables data took   0.27ms
+[2020.07.15-13.26.33:843][428]Job is a success!
+[2020.07.15-13.26.34:562][429]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.172s
+[2020.07.15-13.26.34:562][429]LogVolumetricLightmapImport:      Indirection Texture 32x32x32 = 0.1Mb
+[2020.07.15-13.26.34:562][429]LogVolumetricLightmapImport:      BrickData (all levels) 4.5Mb (trimmed 0.4Mb due to 0.010000 MinBrickError)
+[2020.07.15-13.26.34:562][429]LogVolumetricLightmapImport:      Bricks at depth
+[2020.07.15-13.26.34:562][429]LogVolumetricLightmapImport:          0: 1.0% covering 100.0% of volume
+[2020.07.15-13.26.34:562][429]LogVolumetricLightmapImport:          1: 6.1% covering 10.0% of volume
+[2020.07.15-13.26.34:562][429]LogVolumetricLightmapImport:          2: 93.0% covering 2.4% of volume
+[2020.07.15-13.26.34:562][429]LogVolumetricLightmapImport:      Bricks in each level
+[2020.07.15-13.26.34:562][429]LogVolumetricLightmapImport:          CaveLevel 			 838 bricks 	 100.0% (Persistent Level)
+[2020.07.15-13.26.35:816][429]LightingResults: Warning: PointLight21 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2020.07.15-13.26.35:816][429]LightingResults: Warning: PointLight19 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2020.07.15-13.26.35:816][429]LightingResults: Warning: SpotLight_1 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2020.07.15-13.26.36:804][429]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 1024X1024)
+[2020.07.15-13.26.36:804][429]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 1024X1024)
+[2020.07.15-13.26.36:804][429]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 1024X1024)
+[2020.07.15-13.26.36:804][429]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 1024X1024)
+[2020.07.15-13.26.36:804][429]LogTexture: Display: Building textures: HQ_Lightmap1_3 (AutoDXT, 1024X1024)
+[2020.07.15-13.26.36:804][429]LogTexture: Display: Building textures: LQ_Lightmap_1_3 (DXT1, 1024X1024)
+[2020.07.15-13.26.36:804][429]LogTexture: Display: Building textures: HQ_Lightmap1_4 (AutoDXT, 1024X1024)
+[2020.07.15-13.26.36:804][429]LogTexture: Display: Building textures: LQ_Lightmap_1_4 (DXT1, 1024X1024)
+[2020.07.15-13.26.36:804][429]LogTexture: Display: Building textures: LQ_Lightmap_1_5 (DXT1, 1024X1024)
+[2020.07.15-13.26.36:804][429]LogTexture: Display: Building textures: HQ_Lightmap1_5 (AutoDXT, 1024X1024)
+[2020.07.15-13.26.36:804][429]LogTexture: Display: Building textures: HQ_Lightmap1_6 (AutoDXT, 1024X1024)
+[2020.07.15-13.26.36:804][429]LogTexture: Display: Building textures: LQ_Lightmap_1_6 (DXT1, 1024X1024)
+[2020.07.15-13.26.36:804][429]LogTexture: Display: Building textures: HQ_Lightmap0_7 (AutoDXT, 512X512)
+[2020.07.15-13.26.36:804][429]LogTexture: Display: Building textures: LQ_Lightmap_0_7 (DXT1, 512X512)
+[2020.07.15-13.26.36:804][429]LogTexture: Display: Building textures: HQ_Lightmap0_8 (AutoDXT, 64X64)
+[2020.07.15-13.26.36:805][429]LogTexture: Display: Building textures: LQ_Lightmap_0_8 (DXT1, 64X64)
+[2020.07.15-13.26.37:005][429]LogTexture: Display: Building textures: ShadowMapTexture2D_17 (BGRA8, 1024X32)
+[2020.07.15-13.26.37:005][429]LogTexture: Display: Building textures: ShadowMapTexture2D_16 (BGRA8, 1024X64)
+[2020.07.15-13.26.37:005][429]LogTexture: Display: Building textures: ShadowMapTexture2D_18 (BGRA8, 1024X64)
+[2020.07.15-13.26.37:005][429]LogTexture: Display: Building textures: ShadowMapTexture2D_14 (BGRA8, 256X512)
+[2020.07.15-13.26.37:005][429]LogTexture: Display: Building textures: ShadowMapTexture2D_15 (BGRA8, 1024X512)
+[2020.07.15-13.26.37:173][429]LogTexture: Display: Building textures: ShadowMapTexture2D_13 (BGRA8, 1024X1024)
+[2020.07.15-13.26.37:173][429]Lightmass on MSI-KYLE: 33.0 sec total, 752 ms importing, 1.34 sec setup, 8.18 sec photons, 22.7 sec processing, 0 ms extra exporting [5323/5323 mappings]. Threads: 4:09 min total, 2:14 min processing.
+[2020.07.15-13.26.37:239][429]LogStaticLightingSystem: CaveLevel_BuiltData storing lightmap data for 863 meshes in 17 LightmapResourceClusters (50.8 Meshes per cluster).
+[2020.07.15-13.26.37:369][429]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2020.07.15-13.26.37:646][429]LogStaticLightingSystem: Illumination: 40.3 sec (990 ms encoding lightmaps, 285 ms encoding shadowmaps)
+[2020.07.15-13.26.37:646][429]LogStaticLightingSystem: Lightmap texture memory:  12.5 MB (6.5 MB streaming, 6.0 MB non-streaming), 16 textures
+[2020.07.15-13.26.37:646][429]LogStaticLightingSystem: Shadowmap texture memory: 9.5 MB (3.5 MB streaming, 6.0 MB non-streaming), 6 textures
+[2020.07.15-13.26.42:586][429]DumpUnbuiltLightIteractions
+[2020.07.15-13.26.42:586][429]Lights with unbuilt interactions: 0
+[2020.07.15-13.26.42:586][429]
+[2020.07.15-13.26.42:586][429]Primitives with unbuilt interactions: 0
+[2020.07.15-13.26.42:801][430]Cmd: MAP CHECK NOTIFYRESULTS
+[2020.07.15-13.26.42:801][430]MapCheck: New page: CaveLevel - Jul 15, 2020, 5:26:42 AM
+[2020.07.15-13.26.42:804][430]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 2.827ms to complete.
+[2020.07.15-13.36.11:874][277]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2020.07.15-13.36.12:583][277]LogSavePackage: Moving '../../../../../../Users/Kyle/Documents/GitHub/Project-Dimensions-of-horror/TheyLive 4.25/Saved/CaveLevel_Auto320D0ECB94F14F8F237F572B70C809DF7.tmp' to '../../../../../../Users/Kyle/Documents/GitHub/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Autosaves/Game/Maps/CaveLevel_Auto3.umap'
+[2020.07.15-13.36.12:594][277]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/CaveLevel' took 0.733
+[2020.07.15-13.36.12:594][277]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.733
+[2020.07.15-13.46.12:901][ 72]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2020.07.15-13.46.12:903][ 72]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/CaveLevel' took 0.014
+[2020.07.15-13.50.15:154][866]LogSlate: Window 'Message Log' being destroyed
+[2020.07.15-13.50.15:160][866]LogSlate: Window 'Message Log' being destroyed
+[2020.07.15-13.56.13:601][608]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2020.07.15-13.56.13:605][608]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/CaveLevel' took 0.018
+[2020.07.15-14.06.14:156][437]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2020.07.15-14.06.14:158][437]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/CaveLevel' took 0.016
+[2020.07.15-14.16.14:876][233]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2020.07.15-14.16.14:879][233]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/CaveLevel' took 0.016
+[2020.07.15-14.19.12:604][ 85]LogUObjectHash: Compacting FUObjectHashTables data took   0.28ms
+[2020.07.15-14.19.13:322][ 85]LogSavePackage: Moving '../../../../../../Users/Kyle/Documents/GitHub/Project-Dimensions-of-horror/TheyLive 4.25/Saved/CaveLevel87F24EAE46F54B4869EB188CBBB3AB69.tmp' to '../../../../../../Users/Kyle/Documents/GitHub/Project-Dimensions-of-horror/TheyLive 4.25/Content/Maps/CaveLevel.umap'
+[2020.07.15-14.19.13:676][ 85]LogSavePackage: Moving '../../../../../../Users/Kyle/Documents/GitHub/Project-Dimensions-of-horror/TheyLive 4.25/Saved/CaveLevel_BuiltData06B2760844AB05C91B51F1957E112627.tmp' to '../../../../../../Users/Kyle/Documents/GitHub/Project-Dimensions-of-horror/TheyLive 4.25/Content/Maps/CaveLevel_BuiltData.uasset'
+[2020.07.15-14.19.13:689][ 85]AssetCheck: New page: Asset Save: multiple assets
+[2020.07.15-14.19.13:689][ 85]LogContentValidation: Display: Validating World /Game/Maps/CaveLevel.CaveLevel
+[2020.07.15-14.19.13:689][ 85]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/CaveLevel_BuiltData.CaveLevel_BuiltData
+[2020.07.15-14.21.57:275][518]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2020.07.15-14.21.58:017][518]LogSavePackage: Moving '../../../../../../Users/Kyle/Documents/GitHub/Project-Dimensions-of-horror/TheyLive 4.25/Saved/CaveLevelC66B98604DE5C1BA10EFB989ED206455.tmp' to '../../../../../../Users/Kyle/Documents/GitHub/Project-Dimensions-of-horror/TheyLive 4.25/Content/Maps/CaveLevel.umap'
+[2020.07.15-14.21.58:396][518]LogSavePackage: Moving '../../../../../../Users/Kyle/Documents/GitHub/Project-Dimensions-of-horror/TheyLive 4.25/Saved/CaveLevel_BuiltDataEAAFF81942D6586C6CF878A82C1230FA.tmp' to '../../../../../../Users/Kyle/Documents/GitHub/Project-Dimensions-of-horror/TheyLive 4.25/Content/Maps/CaveLevel_BuiltData.uasset'
+[2020.07.15-14.21.58:412][518]AssetCheck: New page: Asset Save: multiple assets
+[2020.07.15-14.21.58:412][518]LogContentValidation: Display: Validating World /Game/Maps/CaveLevel.CaveLevel
+[2020.07.15-14.21.58:412][518]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/CaveLevel_BuiltData.CaveLevel_BuiltData
