@@ -6357,3 +6357,53 @@ Please see Output Log for details.
 [2020.07.24-18.49.40:257][754]AssetCheck: New page: Asset Save: multiple assets
 [2020.07.24-18.49.40:257][754]LogContentValidation: Display: Validating World /Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
 [2020.07.24-18.49.40:257][754]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
+[2020.07.24-18.51.46:383][235]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.07.24-18.51.52:275][235]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.07.24-18.51.58:220][235]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.07.24-18.51.58:220][235]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.07.24-18.51.58:220][235]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.07.24-18.51.58:220][235]LogTemp: Resetting audio stream to device id 
+[2020.07.24-18.52.46:066][235]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.07.24-18.52.46:074][235]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.24-18.52.46:074][235]LogAudioMixer: Display: 1: FrontRight
+[2020.07.24-18.52.46:074][235]LogAudioMixer: Display: 2: FrontCenter
+[2020.07.24-18.52.46:074][235]LogAudioMixer: Display: 3: LowFrequency
+[2020.07.24-18.52.46:074][235]LogAudioMixer: Display: 4: BackLeft
+[2020.07.24-18.52.46:074][235]LogAudioMixer: Display: 5: BackRight
+[2020.07.24-18.52.46:074][235]LogAudioMixer: Display: 6: SideLeft
+[2020.07.24-18.52.46:074][235]LogAudioMixer: Display: 7: SideRight
+[2020.07.24-18.52.55:477][235]LogUObjectHash: Compacting FUObjectHashTables data took  32.15ms
+[2020.07.24-18.52.57:703][235]LogTemp: Resetting audio stream to device id 
+[2020.07.24-18.52.57:729][235]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.24-18.52.57:729][235]LogAudioMixer: Display: 1: FrontRight
+[2020.07.24-18.52.57:729][235]LogAudioMixer: Display: 2: FrontCenter
+[2020.07.24-18.52.57:729][235]LogAudioMixer: Display: 3: LowFrequency
+[2020.07.24-18.52.57:729][235]LogAudioMixer: Display: 4: BackLeft
+[2020.07.24-18.52.57:729][235]LogAudioMixer: Display: 5: BackRight
+[2020.07.24-18.52.57:729][235]LogAudioMixer: Display: 6: SideLeft
+[2020.07.24-18.52.57:729][235]LogAudioMixer: Display: 7: SideRight
+[2020.07.24-18.53.07:929][235]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.07.24-18.53.07:929][235]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2020.07.24-18.53.07:962][235]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.24-18.53.09:239][235]LogTemp: Resetting audio stream to device id 
+[2020.07.24-18.53.09:365][235]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.24-18.53.09:365][235]LogAudioMixer: Display: 1: FrontRight
+[2020.07.24-18.53.09:365][235]LogAudioMixer: Display: 2: FrontCenter
+[2020.07.24-18.53.09:365][235]LogAudioMixer: Display: 3: LowFrequency
+[2020.07.24-18.53.09:365][235]LogAudioMixer: Display: 4: BackLeft
+[2020.07.24-18.53.09:365][235]LogAudioMixer: Display: 5: BackRight
+[2020.07.24-18.53.09:365][235]LogAudioMixer: Display: 6: SideLeft
+[2020.07.24-18.53.09:365][235]LogAudioMixer: Display: 7: SideRight
+[2020.07.24-18.53.09:741][235]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2020.07.24-18.53.09:742][235]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2020.07.24-18.53.09:742][235]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.24-18.53.15:287][235]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2020.07.24-18.53.15:287][235]LogWorld: UWorld::CleanupWorld for World_18, bSessionEnded=true, bCleanupResources=true
+[2020.07.24-18.53.15:288][235]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.24-18.53.16:028][235]LogSlate: Window 'TheyLive - Unreal Editor' being destroyed
+[2020.07.24-18.53.16:046][235]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.07.24-18.53.24:280][236]Cmd: QUIT_EDITOR
+[2020.07.24-18.53.24:280][236]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2020.07.24-18.53.24:689][236]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2020.07.24-18.53.25:789][236]LogAudioMixer: Warning: Timed out waiting to flush the source manager command queue (1).
+[2020.07.24-18.53.26:899][236]LogAudioMixer: Warning: Timed out waiting to flush the source manager command queue (2).
