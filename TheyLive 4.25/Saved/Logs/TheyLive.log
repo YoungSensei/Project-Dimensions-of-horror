@@ -1,8 +1,8 @@
-﻿Log file open, 09/20/20 18:42:19
+﻿Log file open, 09/30/20 09:14:28
 LogInit: Display: Running engine for game: TheyLive
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.180019
+LogStats: Stats thread started at 0.231854
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -139,12 +139,12 @@ LogInit: Build: ++UE4+Release-4.25-CL-13942748
 LogInit: Engine Version: 4.25.3-13942748+++UE4+Release-4.25
 LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
 LogInit: Net CL: 13144385
-LogInit: OS: Windows 10 (Release 1909) (), CPU: Intel(R) Core(TM) i7-10750H CPU @ 2.60GHz, GPU: NVIDIA GeForce RTX 2080 Super
+LogInit: OS: Windows 10 (Release 1909) (), CPU: Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz, GPU: Intel(R) UHD Graphics 630
 LogInit: Compiled (64-bit): Jul 25 2020 02:07:48
 LogInit: Compiled with Visual C++: 19.24.28315.00
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.25
-LogInit: Command Line:  -EpicPortal -epicusername=daltmorter -epicuserid=f124510884484bb1ac5102a2d7c932c7 -epiclocale=en
+LogInit: Command Line: 
 LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/Win64/
 LogInit: Allocator: TBB
 LogInit: Installed Engine Build: 1
@@ -176,7 +176,7 @@ LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 3
 LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
 LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
 LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
-LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/dalto/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Engine.ini]
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Engine.ini]
 LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
 LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
 LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
@@ -194,529 +194,992 @@ LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2020.09.20-22.42.19:601][  0]LogConfig: Setting CVar [[r.VSync:0]]
-[2020.09.20-22.42.19:601][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
-[2020.09.20-22.42.19:601][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/dalto/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Engine.ini]
-[2020.09.20-22.42.19:601][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2020.09.20-22.42.19:601][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:0]]
-[2020.09.20-22.42.19:601][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/dalto/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Engine.ini]
-[2020.09.20-22.42.19:601][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/dalto/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Engine.ini]
-[2020.09.20-22.42.19:601][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2020.09.20-22.42.19:601][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2020.09.20-22.42.19:601][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2020.09.20-22.42.19:601][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2020.09.20-22.42.19:601][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2020.09.20-22.42.19:601][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2020.09.20-22.42.19:601][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2020.09.20-22.42.19:601][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2020.09.20-22.42.19:601][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2020.09.20-22.42.19:601][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2020.09.20-22.42.19:601][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2020.09.20-22.42.19:601][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2020.09.20-22.42.19:601][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2020.09.20-22.42.19:601][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
-[2020.09.20-22.42.19:601][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/dalto/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Engine.ini]
-[2020.09.20-22.42.19:601][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2020.09.20-22.42.19:601][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2020.09.20-22.42.19:601][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2020.09.20-22.42.19:601][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2020.09.20-22.42.19:601][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2020.09.20-22.42.19:601][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2020.09.20-22.42.19:601][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
-[2020.09.20-22.42.19:601][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2020.09.20-22.42.19:601][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2020.09.20-22.42.19:601][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2020.09.20-22.42.19:601][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2020.09.20-22.42.19:601][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2020.09.20-22.42.19:601][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2020.09.20-22.42.19:601][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/dalto/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Engine.ini]
-[2020.09.20-22.42.19:601][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/dalto/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Engine.ini]
-[2020.09.20-22.42.19:604][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/dalto/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Scalability.ini]
-[2020.09.20-22.42.19:604][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2020.09.20-22.42.19:604][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2020.09.20-22.42.19:604][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/dalto/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Scalability.ini]
-[2020.09.20-22.42.19:604][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2020.09.20-22.42.19:604][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/dalto/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Scalability.ini]
-[2020.09.20-22.42.19:604][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2020.09.20-22.42.19:604][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2020.09.20-22.42.19:604][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2020.09.20-22.42.19:604][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2020.09.20-22.42.19:604][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2020.09.20-22.42.19:604][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2020.09.20-22.42.19:604][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2020.09.20-22.42.19:604][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2020.09.20-22.42.19:604][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2020.09.20-22.42.19:604][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2020.09.20-22.42.19:604][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2020.09.20-22.42.19:604][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2020.09.20-22.42.19:604][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2020.09.20-22.42.19:604][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2020.09.20-22.42.19:604][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2020.09.20-22.42.19:604][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2020.09.20-22.42.19:604][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2020.09.20-22.42.19:604][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2020.09.20-22.42.19:604][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/dalto/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Scalability.ini]
-[2020.09.20-22.42.19:604][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2020.09.20-22.42.19:604][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2020.09.20-22.42.19:605][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2020.09.20-22.42.19:605][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2020.09.20-22.42.19:605][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2020.09.20-22.42.19:605][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2020.09.20-22.42.19:605][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2020.09.20-22.42.19:605][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2020.09.20-22.42.19:605][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2020.09.20-22.42.19:605][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2020.09.20-22.42.19:605][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2020.09.20-22.42.19:605][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2020.09.20-22.42.19:605][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2020.09.20-22.42.19:605][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2020.09.20-22.42.19:605][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2020.09.20-22.42.19:605][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2020.09.20-22.42.19:605][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2020.09.20-22.42.19:605][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2020.09.20-22.42.19:605][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2020.09.20-22.42.19:605][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2020.09.20-22.42.19:605][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2020.09.20-22.42.19:605][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2020.09.20-22.42.19:605][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2020.09.20-22.42.19:605][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2020.09.20-22.42.19:605][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2020.09.20-22.42.19:605][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2020.09.20-22.42.19:605][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2020.09.20-22.42.19:605][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2020.09.20-22.42.19:605][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2020.09.20-22.42.19:605][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2020.09.20-22.42.19:605][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/dalto/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Scalability.ini]
-[2020.09.20-22.42.19:605][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2020.09.20-22.42.19:605][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2020.09.20-22.42.19:605][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2020.09.20-22.42.19:605][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2020.09.20-22.42.19:605][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2020.09.20-22.42.19:605][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2020.09.20-22.42.19:605][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2020.09.20-22.42.19:605][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2020.09.20-22.42.19:605][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2020.09.20-22.42.19:605][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/dalto/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Scalability.ini]
-[2020.09.20-22.42.19:605][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2020.09.20-22.42.19:605][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2020.09.20-22.42.19:605][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2020.09.20-22.42.19:605][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2020.09.20-22.42.19:605][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2020.09.20-22.42.19:605][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2020.09.20-22.42.19:605][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2020.09.20-22.42.19:605][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2020.09.20-22.42.19:605][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2020.09.20-22.42.19:605][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2020.09.20-22.42.19:605][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2020.09.20-22.42.19:605][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
-[2020.09.20-22.42.19:605][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2020.09.20-22.42.19:605][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2020.09.20-22.42.19:605][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2020.09.20-22.42.19:605][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2020.09.20-22.42.19:605][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2020.09.20-22.42.19:605][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2020.09.20-22.42.19:605][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2020.09.20-22.42.19:605][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2020.09.20-22.42.19:605][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2020.09.20-22.42.19:605][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2020.09.20-22.42.19:606][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2020.09.20-22.42.19:606][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2020.09.20-22.42.19:606][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2020.09.20-22.42.19:606][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2020.09.20-22.42.19:606][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/dalto/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Scalability.ini]
-[2020.09.20-22.42.19:606][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2020.09.20-22.42.19:606][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2020.09.20-22.42.19:606][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/dalto/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Scalability.ini]
-[2020.09.20-22.42.19:606][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2020.09.20-22.42.19:606][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2020.09.20-22.42.19:606][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2020.09.20-22.42.19:606][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
-[2020.09.20-22.42.19:606][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
-[2020.09.20-22.42.19:606][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
-[2020.09.20-22.42.19:606][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
-[2020.09.20-22.42.19:606][  0]LogInit: Selected Device Profile: [Windows]
-[2020.09.20-22.42.19:606][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2020.09.20-22.42.19:606][  0]LogHAL: Display: Platform has ~ 16 GB [16991240192 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2020.09.20-22.42.19:606][  0]LogInit: Going up to parent DeviceProfile []
-[2020.09.20-22.42.19:606][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/dalto/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Scalability.ini]
-[2020.09.20-22.42.19:606][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2020.09.20-22.42.19:606][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2020.09.20-22.42.19:606][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/dalto/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Scalability.ini]
-[2020.09.20-22.42.19:606][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2020.09.20-22.42.19:606][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/dalto/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Scalability.ini]
-[2020.09.20-22.42.19:606][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2020.09.20-22.42.19:606][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2020.09.20-22.42.19:606][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2020.09.20-22.42.19:606][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2020.09.20-22.42.19:606][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2020.09.20-22.42.19:606][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2020.09.20-22.42.19:606][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2020.09.20-22.42.19:606][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2020.09.20-22.42.19:606][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2020.09.20-22.42.19:606][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2020.09.20-22.42.19:606][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2020.09.20-22.42.19:606][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2020.09.20-22.42.19:606][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2020.09.20-22.42.19:606][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2020.09.20-22.42.19:606][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2020.09.20-22.42.19:606][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2020.09.20-22.42.19:606][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2020.09.20-22.42.19:606][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2020.09.20-22.42.19:606][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/dalto/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Scalability.ini]
-[2020.09.20-22.42.19:606][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2020.09.20-22.42.19:606][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2020.09.20-22.42.19:606][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2020.09.20-22.42.19:606][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2020.09.20-22.42.19:606][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2020.09.20-22.42.19:606][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2020.09.20-22.42.19:606][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2020.09.20-22.42.19:606][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2020.09.20-22.42.19:606][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2020.09.20-22.42.19:606][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2020.09.20-22.42.19:606][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2020.09.20-22.42.19:606][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2020.09.20-22.42.19:606][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2020.09.20-22.42.19:606][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2020.09.20-22.42.19:606][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2020.09.20-22.42.19:606][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2020.09.20-22.42.19:606][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2020.09.20-22.42.19:606][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2020.09.20-22.42.19:606][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2020.09.20-22.42.19:606][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2020.09.20-22.42.19:606][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2020.09.20-22.42.19:606][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2020.09.20-22.42.19:606][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2020.09.20-22.42.19:606][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2020.09.20-22.42.19:606][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2020.09.20-22.42.19:606][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2020.09.20-22.42.19:606][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2020.09.20-22.42.19:606][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2020.09.20-22.42.19:606][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2020.09.20-22.42.19:606][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2020.09.20-22.42.19:606][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/dalto/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Scalability.ini]
-[2020.09.20-22.42.19:606][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2020.09.20-22.42.19:606][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2020.09.20-22.42.19:606][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2020.09.20-22.42.19:606][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2020.09.20-22.42.19:606][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2020.09.20-22.42.19:606][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2020.09.20-22.42.19:606][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2020.09.20-22.42.19:606][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2020.09.20-22.42.19:607][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2020.09.20-22.42.19:607][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/dalto/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Scalability.ini]
-[2020.09.20-22.42.19:607][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2020.09.20-22.42.19:607][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2020.09.20-22.42.19:607][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2020.09.20-22.42.19:607][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2020.09.20-22.42.19:607][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2020.09.20-22.42.19:607][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2020.09.20-22.42.19:607][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2020.09.20-22.42.19:607][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2020.09.20-22.42.19:607][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2020.09.20-22.42.19:607][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2020.09.20-22.42.19:607][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2020.09.20-22.42.19:607][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
-[2020.09.20-22.42.19:607][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2020.09.20-22.42.19:607][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2020.09.20-22.42.19:607][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2020.09.20-22.42.19:607][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2020.09.20-22.42.19:607][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2020.09.20-22.42.19:607][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2020.09.20-22.42.19:607][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2020.09.20-22.42.19:607][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2020.09.20-22.42.19:607][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2020.09.20-22.42.19:607][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2020.09.20-22.42.19:607][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2020.09.20-22.42.19:607][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2020.09.20-22.42.19:607][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2020.09.20-22.42.19:607][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2020.09.20-22.42.19:607][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/dalto/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Scalability.ini]
-[2020.09.20-22.42.19:607][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2020.09.20-22.42.19:607][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2020.09.20-22.42.19:607][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/dalto/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Scalability.ini]
-[2020.09.20-22.42.19:607][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2020.09.20-22.42.19:607][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2020.09.20-22.42.19:607][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2020.09.20-22.42.19:607][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
-[2020.09.20-22.42.19:607][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
-[2020.09.20-22.42.19:607][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
-[2020.09.20-22.42.19:607][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
-[2020.09.20-22.42.19:607][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2020.09.20-22.42.19:607][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2020.09.20-22.42.19:607][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
-[2020.09.20-22.42.19:607][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
-[2020.09.20-22.42.19:607][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/dalto/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Engine.ini]
-[2020.09.20-22.42.19:607][  0]LogInit: Computer: MSI
-[2020.09.20-22.42.19:607][  0]LogInit: User: dalto
-[2020.09.20-22.42.19:607][  0]LogInit: CPU Page size=4096, Cores=6
-[2020.09.20-22.42.19:607][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2020.09.20-22.42.19:608][  0]LogMemory: Memory total: Physical=15.8GB (16GB approx)
-[2020.09.20-22.42.19:608][  0]LogMemory: Platform Memory Stats for Windows
-[2020.09.20-22.42.19:608][  0]LogMemory: Process Physical Memory: 115.56 MB used, 115.56 MB peak
-[2020.09.20-22.42.19:608][  0]LogMemory: Process Virtual Memory: 113.41 MB used, 113.41 MB peak
-[2020.09.20-22.42.19:608][  0]LogMemory: Physical Memory: 9606.48 MB used,  6597.63 MB free, 16204.11 MB total
-[2020.09.20-22.42.19:608][  0]LogMemory: Virtual Memory: 5181.14 MB used,  134212544.00 MB free, 134217728.00 MB total
-[2020.09.20-22.42.19:788][  0]LogWindows: WindowsPlatformFeatures enabled
-[2020.09.20-22.42.19:821][  0]LogInit: Physics initialised using underlying interface: PhysX
-[2020.09.20-22.42.19:822][  0]LogInit: Using OS detected language (en-US).
-[2020.09.20-22.42.19:822][  0]LogInit: Using OS detected locale (en-US).
-[2020.09.20-22.42.19:826][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2020.09.20-22.42.19:959][  0]LogInit: Setting process to per monitor DPI aware
-[2020.09.20-22.42.20:055][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2020.09.20-22.42.20:055][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2020.09.20-22.42.20:268][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2020.09.20-22.42.20:268][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
-[2020.09.20-22.42.20:268][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
-[2020.09.20-22.42.20:268][  0]LogD3D11RHI: D3D11 adapters:
-[2020.09.20-22.42.20:354][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 2080 Super' (Feature Level 11_0)
-[2020.09.20-22.42.20:354][  0]LogD3D11RHI:       8010/0/8102 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2020.09.20-22.42.20:396][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics' (Feature Level 11_0)
-[2020.09.20-22.42.20:396][  0]LogD3D11RHI:       128/0/8102 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2020.09.20-22.42.20:398][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2020.09.20-22.42.20:398][  0]LogD3D11RHI:       0/0/8102 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2020.09.20-22.42.20:398][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2020.09.20-22.42.20:405][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2020.09.20-22.42.20:405][  0]LogD3D11RHI:     GPU DeviceId: 0x1e93 (for the marketing name, search the web for "GPU Device Id")
-[2020.09.20-22.42.20:405][  0]LogWindows: EnumDisplayDevices:
-[2020.09.20-22.42.20:405][  0]LogWindows:    0. 'Intel(R) UHD Graphics' (P:0 D:0)
-[2020.09.20-22.42.20:405][  0]LogWindows:    1. 'Intel(R) UHD Graphics' (P:0 D:0)
-[2020.09.20-22.42.20:406][  0]LogWindows:    2. 'Intel(R) UHD Graphics' (P:0 D:0)
-[2020.09.20-22.42.20:406][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2080 Super' (P:1 D:1)
-[2020.09.20-22.42.20:406][  0]LogWindows:    4. 'NVIDIA GeForce RTX 2080 Super' (P:0 D:0)
-[2020.09.20-22.42.20:406][  0]LogWindows:    5. 'NVIDIA GeForce RTX 2080 Super' (P:0 D:0)
-[2020.09.20-22.42.20:406][  0]LogWindows:    6. 'NVIDIA GeForce RTX 2080 Super' (P:0 D:0)
-[2020.09.20-22.42.20:406][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
-[2020.09.20-22.42.20:406][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 2080 Super
-[2020.09.20-22.42.20:406][  0]LogD3D11RHI:   Driver Version: 452.06 (internal:27.21.14.5206, unified:452.06)
-[2020.09.20-22.42.20:406][  0]LogD3D11RHI:      Driver Date: 8-12-2020
-[2020.09.20-22.42.20:406][  0]LogRHI: Texture pool is 5607 MB (70% of 8010 MB)
-[2020.09.20-22.42.20:462][  0]LogD3D11RHI: RHI has support for 64 bit atomics
-[2020.09.20-22.42.20:463][  0]LogD3D11RHI: [Aftermath] Enabled and primed
-[2020.09.20-22.42.20:463][  0]LogD3D11RHI: Async texture creation enabled
-[2020.09.20-22.42.20:463][  0]LogD3D11RHI: Array index from any shader is supported
-[2020.09.20-22.42.20:483][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2020.09.20-22.42.20:740][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
-[2020.09.20-22.42.20:767][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
-[2020.09.20-22.42.20:767][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
-[2020.09.20-22.42.20:767][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
-[2020.09.20-22.42.20:767][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
-[2020.09.20-22.42.20:767][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
-[2020.09.20-22.42.20:767][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
-[2020.09.20-22.42.20:767][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
-[2020.09.20-22.42.20:767][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
-[2020.09.20-22.42.20:767][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
-[2020.09.20-22.42.20:767][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
-[2020.09.20-22.42.20:789][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
-[2020.09.20-22.42.20:789][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
-[2020.09.20-22.42.20:799][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
-[2020.09.20-22.42.20:808][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
-[2020.09.20-22.42.20:817][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
-[2020.09.20-22.42.20:825][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
-[2020.09.20-22.42.20:833][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
-[2020.09.20-22.42.20:842][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
-[2020.09.20-22.42.20:851][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
-[2020.09.20-22.42.20:875][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
-[2020.09.20-22.42.20:875][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
-[2020.09.20-22.42.20:890][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
-[2020.09.20-22.42.20:890][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
-[2020.09.20-22.42.20:901][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
-[2020.09.20-22.42.20:910][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
-[2020.09.20-22.42.20:919][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
-[2020.09.20-22.42.20:928][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
-[2020.09.20-22.42.20:928][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2020.09.20-22.42.20:936][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
-[2020.09.20-22.42.20:994][  0]LogShaderCompilers: Guid format shader working directory is -26 characters bigger than the processId version (../../../../../../Users/dalto/Project-Dimensions-of-horror/TheyLive 4.25/Intermediate/Shaders/WorkingDirectory/9232/).
-[2020.09.20-22.42.20:994][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/dalto/AppData/Local/Temp/UnrealShaderWorkingDir/207EE10C4624112BEC2A969FB55D36AB/'.
-[2020.09.20-22.42.20:995][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2020.09.20-22.42.20:995][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2020.09.20-22.42.20:995][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2020.09.20-22.42.21:689][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2020.09.20-22.42.21:734][  0]LogDerivedDataCache: Loaded boot cache 0.04s 75MB C:/Users/dalto/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
-[2020.09.20-22.42.21:734][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/dalto/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
-[2020.09.20-22.42.21:734][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/dalto/Project-Dimensions-of-horror/TheyLive 4.25/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2020.09.20-22.42.21:734][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2020.09.20-22.42.21:734][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/dalto/Project-Dimensions-of-horror/TheyLive 4.25/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2020.09.20-22.42.21:734][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2020.09.20-22.42.21:742][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2020.09.20-22.42.21:742][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2020.09.20-22.42.21:742][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2020.09.20-22.42.21:744][  0]LogDerivedDataCache: Using Local data cache path C:/Users/dalto/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2020.09.20-22.42.21:744][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2020.09.20-22.42.21:744][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2020.09.20-22.42.21:787][  0]LogSlate: Using FreeType 2.10.0
-[2020.09.20-22.42.21:788][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2020.09.20-22.42.21:810][  0]LogAssetRegistry: FAssetRegistry took 0.0021 seconds to start up
-[2020.09.20-22.42.22:022][  0]LogInit: Selected Device Profile: [Windows]
-[2020.09.20-22.42.22:125][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2020.09.20-22.42.22:125][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
-[2020.09.20-22.42.22:125][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2020.09.20-22.42.22:125][  0]LogMeshReduction: No distributed automatic mesh merging module available
-[2020.09.20-22.42.22:125][  0]LogMeshMerging: No distributed automatic mesh merging module available
-[2020.09.20-22.42.22:193][  0]LogNetVersion: TheyLive 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 1881850289)
-[2020.09.20-22.42.22:571][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (000002B94C2793C0), frame # 0
-[2020.09.20-22.42.22:571][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002B94C1DC680), frame # 0
-[2020.09.20-22.42.22:572][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002B94C202000), frame # 0
-[2020.09.20-22.42.22:618][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.042530 seconds
-[2020.09.20-22.42.22:623][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
-[2020.09.20-22.42.22:623][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
-[2020.09.20-22.42.22:623][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2020.09.20-22.42.22:961][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2020.09.20-22.42.22:966][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2020.09.20-22.42.23:043][  0]SourceControl: Source control is disabled
-[2020.09.20-22.42.23:043][  0]SourceControl: Source control is disabled
-[2020.09.20-22.42.23:047][  0]SourceControl: Source control is disabled
-[2020.09.20-22.42.23:050][  0]SourceControl: Source control is disabled
-[2020.09.20-22.42.23:057][  0]SourceControl: Source control is disabled
-[2020.09.20-22.42.23:303][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2020.09.20-22.42.23:323][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2020.09.20-22.42.23:323][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2020.09.20-22.42.23:370][  0]LogOcInput: OculusInput pre-init called
-[2020.09.20-22.42.23:380][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
-[2020.09.20-22.42.23:380][  0]LogWindows: File 'OVRPlugin.dll' does not exist
-[2020.09.20-22.42.23:435][  0]LogEngine: Initializing Engine...
-[2020.09.20-22.42.23:437][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2020.09.20-22.42.23:437][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
-[2020.09.20-22.42.23:437][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
-[2020.09.20-22.42.23:540][  0]LogInit: Initializing FReadOnlyCVARCache
-[2020.09.20-22.42.23:547][  0]LogAIModule: Creating AISystem for world Untitled
-[2020.09.20-22.42.23:547][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002B94EA70800), frame # 0
-[2020.09.20-22.42.23:547][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002B94EA6DE40), frame # 0
-[2020.09.20-22.42.23:567][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2020.09.20-22.42.23:567][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2020.09.20-22.42.23:567][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2020.09.20-22.42.23:567][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2020.09.20-22.42.23:567][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2020.09.20-22.42.23:567][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2020.09.20-22.42.23:567][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2020.09.20-22.42.23:567][  0]LogAudio: Display: AudioDevice MaxSources: 32
-[2020.09.20-22.42.23:567][  0]LogAudio: Display: Using built-in audio occlusion.
-[2020.09.20-22.42.23:567][  0]LogAudioMixer: Display: Initializing audio mixer.
-[2020.09.20-22.42.23:637][  0]LogAudioMixer: Display: 0: FrontLeft
-[2020.09.20-22.42.23:637][  0]LogAudioMixer: Display: 1: FrontRight
-[2020.09.20-22.42.23:637][  0]LogAudioMixer: Display: 2: FrontCenter
-[2020.09.20-22.42.23:637][  0]LogAudioMixer: Display: 3: LowFrequency
-[2020.09.20-22.42.23:637][  0]LogAudioMixer: Display: 4: BackLeft
-[2020.09.20-22.42.23:637][  0]LogAudioMixer: Display: 5: BackRight
-[2020.09.20-22.42.23:637][  0]LogAudioMixer: Display: 6: SideLeft
-[2020.09.20-22.42.23:637][  0]LogAudioMixer: Display: 7: SideRight
-[2020.09.20-22.42.23:850][  0]LogAudioMixer: Display: Using Audio Device Headphones (Dalton’s AirPods #2 Stereo)
-[2020.09.20-22.42.23:855][  0]LogAudioMixer: Display: Initializing Sound Submixes...
-[2020.09.20-22.42.23:858][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
-[2020.09.20-22.42.23:858][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
-[2020.09.20-22.42.23:859][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
-[2020.09.20-22.42.23:859][  0]LogInit: FAudioDevice initialized.
-[2020.09.20-22.42.23:860][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2020.09.20-22.42.23:902][  0]LogDerivedDataCache: Saved boot cache 0.04s 75MB C:/Users/dalto/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
-[2020.09.20-22.42.23:903][  0]LogInit: Texture streaming: Enabled
-[2020.09.20-22.42.23:918][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2020.09.20-22.42.23:918][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
-[2020.09.20-22.42.23:922][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
-[2020.09.20-22.42.23:984][  0]LogInit: Transaction tracking system initialized
-[2020.09.20-22.42.24:008][  0]BlueprintLog: New page: Editor Load
-[2020.09.20-22.42.24:080][  0]LocalizationService: Localization service is disabled
-[2020.09.20-22.42.24:221][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2020.09.20-22.42.24:222][  0]LogCook: Display: Mobile HDR setting 1
-[2020.09.20-22.42.24:364][  0]LogFileCache: Scanning file cache for directory 'C:/Users/dalto/Project-Dimensions-of-horror/TheyLive 4.25/Content/' took 0.08s
-[2020.09.20-22.42.24:549][  0]SourceControl: Source control is disabled
-[2020.09.20-22.42.24:549][  0]LogUnrealEdMisc: Loading editor; pre map load, took 7.203
-[2020.09.20-22.42.24:550][  0]Cmd: MAP LOAD FILE="../../../../../../Users/dalto/Project-Dimensions-of-horror/TheyLive 4.25/Content/Maps/CaveLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2020.09.20-22.42.24:550][  0]LightingResults: New page: Lighting Build
-[2020.09.20-22.42.24:550][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
-[2020.09.20-22.42.24:551][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.09.20-22.42.24:551][  0]MapCheck: New page: Map Check
-[2020.09.20-22.42.24:551][  0]LightingResults: New page: Lighting Build
-[2020.09.20-22.42.24:559][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002B94EA70800), frame # 0
-[2020.09.20-22.42.24:559][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002B94EA6DE40), frame # 0
-[2020.09.20-22.42.24:560][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
-[2020.09.20-22.42.25:012][  0]LogLinker: Warning: While loading '../../../../../../Users/dalto/Project-Dimensions-of-horror/TheyLive 4.25/Content/ImportedAnimations/Zombies/ZombieModel/ZombieAttack.uasset' failed to load '/Game/ThirdPersonBP/Blueprints/Ai/hit': Can't find file.
-[2020.09.20-22.42.25:012][  0]LogLinker: Warning: While loading '../../../../../../Users/dalto/Project-Dimensions-of-horror/TheyLive 4.25/Content/ImportedAnimations/Zombies/ZombieModel/ZombieAttack.uasset' failed to load '/Game/ThirdPersonBP/Blueprints/Ai/hit': Can't find file.
-[2020.09.20-22.42.25:012][  0]LogLinker: Warning: While loading '../../../../../../Users/dalto/Project-Dimensions-of-horror/TheyLive 4.25/Content/ImportedAnimations/Zombies/ZombieModel/ZombieAttack.uasset' failed to load '/Game/ThirdPersonBP/Blueprints/Ai/hit': Can't find file.
-[2020.09.20-22.42.25:012][  0]LogLinker: Warning: While loading '../../../../../../Users/dalto/Project-Dimensions-of-horror/TheyLive 4.25/Content/ImportedAnimations/Zombies/ZombieModel/ZombieAttack.uasset' failed to load '/Game/ThirdPersonBP/Blueprints/Ai/hit': Can't find file.
-[2020.09.20-22.42.25:012][  0]LogLinker: Warning: While loading '../../../../../../Users/dalto/Project-Dimensions-of-horror/TheyLive 4.25/Content/Blueprints/RangedAI/RangedAI.uasset' failed to load '/Game/ThirdPersonBP/Blueprints/Ai/hit': Can't find file.
-[2020.09.20-22.42.25:012][  0]LogLinker: Warning: While loading '../../../../../../Users/dalto/Project-Dimensions-of-horror/TheyLive 4.25/Content/Blueprints/RangedAI/RangedAI.uasset' failed to load '/Game/ThirdPersonBP/Blueprints/Ai/hit': Can't find file.
-[2020.09.20-22.42.25:012][  0]LogLinker: Warning: While loading '../../../../../../Users/dalto/Project-Dimensions-of-horror/TheyLive 4.25/Content/Blueprints/RangedAI/RangedAI.uasset' failed to load '/Game/ThirdPersonBP/Blueprints/Ai/hit': Can't find file.
-[2020.09.20-22.42.25:013][  0]LogLinker: Warning: While loading '../../../../../../Users/dalto/Project-Dimensions-of-horror/TheyLive 4.25/Content/Blueprints/RangedAI/RangedAI.uasset' failed to load '/Game/ThirdPersonBP/Blueprints/Ai/hit': Can't find file.
-[2020.09.20-22.42.25:302][  0]LogLinker: Warning: While loading '../../../../../../Users/dalto/Project-Dimensions-of-horror/TheyLive 4.25/Content/PN_interactiveSpruceForest/Materials/MasterMaterials/MA_Summer.uasset' failed to load '/Game/PN_interactiveSpruceForest/Textures/MasterTextures/ModelTextures/Bark_N': Can't find file.
-[2020.09.20-22.42.25:302][  0]LogLinker: Warning: While loading '../../../../../../Users/dalto/Project-Dimensions-of-horror/TheyLive 4.25/Content/PN_interactiveSpruceForest/Materials/MasterMaterials/MA_Summer.uasset' failed to load '/Game/PN_interactiveSpruceForest/Textures/MasterTextures/ModelTextures/Bark_N': Can't find file.
-[2020.09.20-22.42.25:304][  0]LogLinker: Warning: While loading '../../../../../../Users/dalto/Project-Dimensions-of-horror/TheyLive 4.25/Content/PN_interactiveSpruceForest/Materials/MasterMaterials/MA_Summer.uasset' failed to load '/Game/PN_interactiveSpruceForest/Textures/MasterTextures/ModelTextures/Bark_N': Can't find file.
-[2020.09.20-22.42.25:304][  0]LogLinker: Warning: While loading '../../../../../../Users/dalto/Project-Dimensions-of-horror/TheyLive 4.25/Content/PN_interactiveSpruceForest/Materials/MasterMaterials/MA_Summer.uasset' failed to load '/Game/PN_interactiveSpruceForest/Textures/MasterTextures/ModelTextures/Bark_N': Can't find file.
-[2020.09.20-22.42.25:749][  0]LogLinker: Warning: While loading '../../../../../../Users/dalto/Project-Dimensions-of-horror/TheyLive 4.25/Content/PN_interactiveSpruceForest/Materials/MasterMaterials/MA_Summer.uasset' failed to load '/Game/PN_interactiveSpruceForest/Textures/MasterTextures/ModelTextures/Bark_N': Can't find file.
-[2020.09.20-22.42.25:749][  0]LoadErrors: Failed to load /Game/PN_interactiveSpruceForest/Textures/MasterTextures/ModelTextures/Bark_N.Bark_N Referenced by MaterialExpressionTextureSample_9
-[2020.09.20-22.42.25:749][  0]LogLinker: Warning: While loading '../../../../../../Users/dalto/Project-Dimensions-of-horror/TheyLive 4.25/Content/PN_interactiveSpruceForest/Materials/MasterMaterials/MA_Summer.uasset' failed to load '/Game/PN_interactiveSpruceForest/Textures/MasterTextures/ModelTextures/Bark_N': Can't find file.
-[2020.09.20-22.42.25:749][  0]LoadErrors: Failed to load /Game/PN_interactiveSpruceForest/Textures/MasterTextures/ModelTextures/Bark_N.Bark_N Referenced by MaterialExpressionTextureSample_9
-[2020.09.20-22.42.26:197][  0]LogMaterial: Display: Missing cached shader map for material MA_Summer, compiling. 
-[2020.09.20-22.42.26:216][  0]LogMaterial: Warning: C:\Users\dalto\Project-Dimensions-of-horror\TheyLive 4.25\Content\PN_interactiveSpruceForest\Materials\MaterialInstances\full\high\spruce_full_03_trunk.uasset: Failed to compile Material Instance with Base MA_Summer for platform PCD3D_SM5, Default Material will be used in game.
-[2020.09.20-22.42.26:216][  0]LogMaterial: Display: 	(Node TextureSample) Texture Sample> Missing input texture
-[2020.09.20-22.42.26:216][  0]LogMaterial: Display: 	(Node MakeMaterialAttributes) Error on property Normal
-[2020.09.20-22.42.26:227][  0]LogMaterial: Display: Missing cached shader map for material MA_Summer, compiling. 
-[2020.09.20-22.42.26:242][  0]LogMaterial: Warning: C:\Users\dalto\Project-Dimensions-of-horror\TheyLive 4.25\Content\PN_interactiveSpruceForest\Materials\MaterialInstances\full\high\spruce_full_02_trunk.uasset: Failed to compile Material Instance with Base MA_Summer for platform PCD3D_SM5, Default Material will be used in game.
-[2020.09.20-22.42.26:242][  0]LogMaterial: Display: 	(Node TextureSample) Texture Sample> Missing input texture
-[2020.09.20-22.42.26:242][  0]LogMaterial: Display: 	(Node MakeMaterialAttributes) Error on property Normal
-[2020.09.20-22.42.26:251][  0]LogMaterial: Display: Missing cached shader map for material MA_Summer, compiling. 
-[2020.09.20-22.42.26:266][  0]LogMaterial: Warning: C:\Users\dalto\Project-Dimensions-of-horror\TheyLive 4.25\Content\PN_interactiveSpruceForest\Materials\MaterialInstances\full\high\spruce_full_01_trunk.uasset: Failed to compile Material Instance with Base MA_Summer for platform PCD3D_SM5, Default Material will be used in game.
-[2020.09.20-22.42.26:266][  0]LogMaterial: Display: 	(Node TextureSample) Texture Sample> Missing input texture
-[2020.09.20-22.42.26:266][  0]LogMaterial: Display: 	(Node MakeMaterialAttributes) Error on property Normal
-[2020.09.20-22.42.26:278][  0]LogAIModule: Creating AISystem for world CaveLevel
-[2020.09.20-22.42.26:281][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002B970773A00), frame # 0
-[2020.09.20-22.42.26:282][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002B971424900), frame # 0
-[2020.09.20-22.42.26:379][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2020.09.20-22.42.26:488][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
-[2020.09.20-22.42.26:488][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2020.09.20-22.42.26:489][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.217ms to complete.
-[2020.09.20-22.42.26:489][  0]LogFileHelpers: Loading map 'CaveLevel' took 1.939
-[2020.09.20-22.42.26:490][  0]LogUnrealEdMisc: Total Editor Startup Time, took 9.143
-[2020.09.20-22.42.26:629][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.09.20-22.42.26:638][  0]LogCollectionManager: Loaded 0 collections in 0.001796 seconds
-[2020.09.20-22.42.26:652][  0]LogFileCache: Scanning file cache for directory 'C:/Users/dalto/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Collections/' took 0.00s
-[2020.09.20-22.42.26:652][  0]LogFileCache: Scanning file cache for directory 'C:/Users/dalto/Project-Dimensions-of-horror/TheyLive 4.25/Content/Developers/dalto/Collections/' took 0.00s
-[2020.09.20-22.42.26:652][  0]LogFileCache: Scanning file cache for directory 'C:/Users/dalto/Project-Dimensions-of-horror/TheyLive 4.25/Content/Collections/' took 0.00s
-[2020.09.20-22.42.26:652][  0]LogContentBrowser: Native class hierarchy populated in 0.0077 seconds. Added 3427 classes and 821 folders.
-[2020.09.20-22.42.26:654][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2020.09.20-22.42.26:740][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2020.09.20-22.42.26:741][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 2 classes and 0 folders.
-[2020.09.20-22.42.27:107][  0]LogSlate: Took 0.000309 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2020.09.20-22.42.27:110][  0]LogSlate: Took 0.000209 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2020.09.20-22.42.27:112][  0]LogSlate: Took 0.000172 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2020.09.20-22.42.27:227][  0]LogRenderer: Reallocating scene render targets to support 1528x600 Format 10 NumSamples 1 (Frame:1).
-[2020.09.20-22.42.27:272][  0]LogSlate: Took 0.000199 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2020.09.20-22.42.27:308][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2020.09.20-22.42.27:308][  0]LogLoad: (Engine Initialization) Total time: 9.96 seconds
-[2020.09.20-22.42.27:308][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2020.09.20-22.42.27:491][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2020.09.20-22.42.27:596][  0]LogSlate: Took 0.000173 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
-[2020.09.20-22.42.27:613][  1]LogAssetRegistry: Asset discovery search completed in 5.8046 seconds
-[2020.09.20-22.42.27:615][  1]LogAssetManager: Warning: Found Duplicate PrimaryAssetID Map:/Game/Maps/CaveLevel, this must be resolved before saving. Path /Game/Maps/CaveLevel.CaveLevel is replacing path /Game/Maps/CaveLevel_BACKUP_1627.CaveLevel
-[2020.09.20-22.42.27:618][  1]LogAssetManager: Warning: Found Duplicate PrimaryAssetID Map:/Game/Maps/CaveLevel, this must be resolved before saving. Path /Game/Maps/CaveLevel_BACKUP_1627.CaveLevel is replacing path /Game/Maps/CaveLevel_BACKUP_1729.CaveLevel
-[2020.09.20-22.42.27:620][  1]LogAssetManager: Warning: Found Duplicate PrimaryAssetID Map:/Game/Maps/CaveLevel, this must be resolved before saving. Path /Game/Maps/CaveLevel_BACKUP_1729.CaveLevel is replacing path /Game/Maps/CaveLevel_BASE_1627.CaveLevel
-[2020.09.20-22.42.27:623][  1]LogAssetManager: Warning: Found Duplicate PrimaryAssetID Map:/Game/Maps/CaveLevel, this must be resolved before saving. Path /Game/Maps/CaveLevel_BASE_1627.CaveLevel is replacing path /Game/Maps/CaveLevel_BASE_1729.CaveLevel
-[2020.09.20-22.42.27:625][  1]LogAssetManager: Warning: Found Duplicate PrimaryAssetID Map:/Game/Maps/CaveLevel, this must be resolved before saving. Path /Game/Maps/CaveLevel_BASE_1729.CaveLevel is replacing path /Game/Maps/CaveLevel_LOCAL_1627.CaveLevel
-[2020.09.20-22.42.27:627][  1]LogAssetManager: Warning: Found Duplicate PrimaryAssetID Map:/Game/Maps/CaveLevel, this must be resolved before saving. Path /Game/Maps/CaveLevel_LOCAL_1627.CaveLevel is replacing path /Game/Maps/CaveLevel_LOCAL_1729.CaveLevel
-[2020.09.20-22.42.27:627][  1]LogAssetManager: Warning: Found Duplicate PrimaryAssetID Map:/Game/Maps/CaveLevel, this must be resolved before saving. Path /Game/Maps/CaveLevel_LOCAL_1729.CaveLevel is replacing path /Game/Maps/CaveLevel_REMOTE_1627.CaveLevel
-[2020.09.20-22.42.27:627][  1]LogAssetManager: Warning: Found Duplicate PrimaryAssetID Map:/Game/Maps/CaveLevel, this must be resolved before saving. Path /Game/Maps/CaveLevel_REMOTE_1627.CaveLevel is replacing path /Game/Maps/CaveLevel_REMOTE_1729.CaveLevel
-[2020.09.20-22.42.27:630][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000002 seconds (updated 0 objects)
-[2020.09.20-22.42.29:892][ 92]LogSlate: Window 'Message Log' being destroyed
-[2020.09.20-22.42.29:926][ 92]LogSlate: Window 'Message Log' being destroyed
-[2020.09.20-22.42.40:707][648]LogSlate: Window 'Source Control Login' being destroyed
-[2020.09.20-22.42.55:134][434]LogSlate: Window 'Source Control Login' being destroyed
-[2020.09.20-22.43.02:931][856]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Content' is outside repository at 'C:/Users/dalto/Project-Dimensions-of-horror'
-[2020.09.20-22.43.02:931][856]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/2D/Paper2D/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/2D/Paper2D/Content' is outside repository at 'C:/Users/dalto/Project-Dimensions-of-horror'
-[2020.09.20-22.43.02:931][856]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Developer/AnimationSharing/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Developer/AnimationSharing/Content' is outside repository at 'C:/Users/dalto/Project-Dimensions-of-horror'
-[2020.09.20-22.43.02:931][856]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Editor/GeometryMode/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Editor/GeometryMode/Content' is outside repository at 'C:/Users/dalto/Project-Dimensions-of-horror'
-[2020.09.20-22.43.02:931][856]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Enterprise/DatasmithContent/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Enterprise/DatasmithContent/Content' is outside repository at 'C:/Users/dalto/Project-Dimensions-of-horror'
-[2020.09.20-22.43.02:931][856]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Experimental/ChaosClothEditor/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Experimental/ChaosClothEditor/Content' is outside repository at 'C:/Users/dalto/Project-Dimensions-of-horror'
-[2020.09.20-22.43.02:931][856]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Experimental/ChaosNiagara/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Experimental/ChaosNiagara/Content' is outside repository at 'C:/Users/dalto/Project-Dimensions-of-horror'
-[2020.09.20-22.43.02:931][856]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Experimental/ChaosSolverPlugin/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Experimental/ChaosSolverPlugin/Content' is outside repository at 'C:/Users/dalto/Project-Dimensions-of-horror'
-[2020.09.20-22.43.02:931][856]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content' is outside repository at 'C:/Users/dalto/Project-Dimensions-of-horror'
-[2020.09.20-22.43.02:931][856]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Experimental/GeometryProcessing/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Experimental/GeometryProcessing/Content' is outside repository at 'C:/Users/dalto/Project-Dimensions-of-horror'
-[2020.09.20-22.43.02:931][856]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/FX/Niagara/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/FX/Niagara/Content' is outside repository at 'C:/Users/dalto/Project-Dimensions-of-horror'
-[2020.09.20-22.43.02:931][856]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Lumin/MagicLeap/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Lumin/MagicLeap/Content' is outside repository at 'C:/Users/dalto/Project-Dimensions-of-horror'
-[2020.09.20-22.43.02:931][856]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Lumin/MagicLeapPassableWorld/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Lumin/MagicLeapPassableWorld/Content' is outside repository at 'C:/Users/dalto/Project-Dimensions-of-horror'
-[2020.09.20-22.43.02:931][856]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Media/MediaCompositing/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Media/MediaCompositing/Content' is outside repository at 'C:/Users/dalto/Project-Dimensions-of-horror'
-[2020.09.20-22.43.02:931][856]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/MovieScene/MovieRenderPipeline/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/MovieScene/MovieRenderPipeline/Content' is outside repository at 'C:/Users/dalto/Project-Dimensions-of-horror'
-[2020.09.20-22.43.02:931][856]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Runtime/Oculus/OculusVR/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Runtime/Oculus/OculusVR/Content' is outside repository at 'C:/Users/dalto/Project-Dimensions-of-horror'
-[2020.09.20-22.43.02:931][856]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Runtime/PostSplashScreen/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Runtime/PostSplashScreen/Content' is outside repository at 'C:/Users/dalto/Project-Dimensions-of-horror'
-[2020.09.20-22.43.02:931][856]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Runtime/Steam/SteamVR/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Runtime/Steam/SteamVR/Content' is outside repository at 'C:/Users/dalto/Project-Dimensions-of-horror'
-[2020.09.20-22.43.10:378][856]LogSlate: Window 'Submit Files' being destroyed
-[2020.09.20-22.43.11:294][856]SourceControl: Error: fatal: cannot do a partial commit during a merge.
-[2020.09.20-22.43.17:337][195]LogSlate: Window 'Message Log' being destroyed
-[2020.09.20-22.43.17:341][195]LogSlate: Window 'Message Log' being destroyed
+[2020.09.30-13.14.29:133][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.09.30-13.14.29:133][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.09.30-13.14.29:133][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Engine.ini]
+[2020.09.30-13.14.29:133][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.09.30-13.14.29:133][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:0]]
+[2020.09.30-13.14.29:133][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Engine.ini]
+[2020.09.30-13.14.29:133][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Engine.ini]
+[2020.09.30-13.14.29:133][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.09.30-13.14.29:133][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.09.30-13.14.29:133][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.09.30-13.14.29:133][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.09.30-13.14.29:133][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.09.30-13.14.29:133][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.09.30-13.14.29:133][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.09.30-13.14.29:133][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.09.30-13.14.29:133][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.09.30-13.14.29:133][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.09.30-13.14.29:133][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.09.30-13.14.29:133][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.09.30-13.14.29:133][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.09.30-13.14.29:133][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.09.30-13.14.29:133][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Engine.ini]
+[2020.09.30-13.14.29:133][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.09.30-13.14.29:133][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.09.30-13.14.29:133][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.09.30-13.14.29:133][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.09.30-13.14.29:133][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.09.30-13.14.29:133][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.09.30-13.14.29:133][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.09.30-13.14.29:133][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.09.30-13.14.29:133][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.09.30-13.14.29:133][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.09.30-13.14.29:133][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.09.30-13.14.29:133][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.09.30-13.14.29:133][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.09.30-13.14.29:133][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Engine.ini]
+[2020.09.30-13.14.29:133][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Engine.ini]
+[2020.09.30-13.14.29:135][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Scalability.ini]
+[2020.09.30-13.14.29:135][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.09.30-13.14.29:135][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.09.30-13.14.29:135][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Scalability.ini]
+[2020.09.30-13.14.29:135][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.09.30-13.14.29:135][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Scalability.ini]
+[2020.09.30-13.14.29:135][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.09.30-13.14.29:135][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.09.30-13.14.29:135][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.09.30-13.14.29:135][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.09.30-13.14.29:135][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.09.30-13.14.29:135][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.09.30-13.14.29:135][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.09.30-13.14.29:135][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.09.30-13.14.29:135][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.09.30-13.14.29:135][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.09.30-13.14.29:135][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.09.30-13.14.29:135][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.09.30-13.14.29:135][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.09.30-13.14.29:135][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.09.30-13.14.29:135][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.09.30-13.14.29:135][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.09.30-13.14.29:135][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.09.30-13.14.29:136][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.09.30-13.14.29:136][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Scalability.ini]
+[2020.09.30-13.14.29:136][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.09.30-13.14.29:136][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.09.30-13.14.29:136][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.09.30-13.14.29:136][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.09.30-13.14.29:136][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.09.30-13.14.29:136][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.09.30-13.14.29:136][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.09.30-13.14.29:136][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.09.30-13.14.29:136][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.09.30-13.14.29:136][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.09.30-13.14.29:136][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.09.30-13.14.29:136][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.09.30-13.14.29:136][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.09.30-13.14.29:136][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.09.30-13.14.29:136][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.09.30-13.14.29:136][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.09.30-13.14.29:136][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.09.30-13.14.29:136][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.09.30-13.14.29:136][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.09.30-13.14.29:136][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.09.30-13.14.29:136][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.09.30-13.14.29:136][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.09.30-13.14.29:136][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.09.30-13.14.29:136][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.09.30-13.14.29:136][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.09.30-13.14.29:136][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.09.30-13.14.29:136][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.09.30-13.14.29:136][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.09.30-13.14.29:136][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.09.30-13.14.29:136][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.09.30-13.14.29:136][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Scalability.ini]
+[2020.09.30-13.14.29:136][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.09.30-13.14.29:136][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.09.30-13.14.29:136][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.09.30-13.14.29:136][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.09.30-13.14.29:136][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.09.30-13.14.29:136][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.09.30-13.14.29:136][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.09.30-13.14.29:136][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.09.30-13.14.29:136][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.09.30-13.14.29:136][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Scalability.ini]
+[2020.09.30-13.14.29:136][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.09.30-13.14.29:136][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.09.30-13.14.29:136][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.09.30-13.14.29:136][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.09.30-13.14.29:136][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.09.30-13.14.29:136][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.09.30-13.14.29:136][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.09.30-13.14.29:136][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.09.30-13.14.29:136][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.09.30-13.14.29:136][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.09.30-13.14.29:136][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.09.30-13.14.29:136][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.09.30-13.14.29:136][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.09.30-13.14.29:136][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.09.30-13.14.29:136][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.09.30-13.14.29:136][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.09.30-13.14.29:136][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.09.30-13.14.29:136][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.09.30-13.14.29:136][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.09.30-13.14.29:136][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.09.30-13.14.29:136][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.09.30-13.14.29:136][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.09.30-13.14.29:136][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.09.30-13.14.29:136][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.09.30-13.14.29:136][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.09.30-13.14.29:136][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.09.30-13.14.29:136][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Scalability.ini]
+[2020.09.30-13.14.29:136][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.09.30-13.14.29:136][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.09.30-13.14.29:136][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Scalability.ini]
+[2020.09.30-13.14.29:136][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.09.30-13.14.29:136][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.09.30-13.14.29:136][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.09.30-13.14.29:136][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.09.30-13.14.29:136][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.09.30-13.14.29:136][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.09.30-13.14.29:136][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.09.30-13.14.29:137][  0]LogInit: Selected Device Profile: [Windows]
+[2020.09.30-13.14.29:137][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.09.30-13.14.29:137][  0]LogHAL: Display: Platform has ~ 16 GB [17015910400 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.09.30-13.14.29:137][  0]LogInit: Going up to parent DeviceProfile []
+[2020.09.30-13.14.29:137][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Scalability.ini]
+[2020.09.30-13.14.29:137][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.09.30-13.14.29:137][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.09.30-13.14.29:137][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Scalability.ini]
+[2020.09.30-13.14.29:137][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.09.30-13.14.29:137][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Scalability.ini]
+[2020.09.30-13.14.29:137][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.09.30-13.14.29:137][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.09.30-13.14.29:137][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.09.30-13.14.29:137][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.09.30-13.14.29:137][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.09.30-13.14.29:137][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.09.30-13.14.29:137][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.09.30-13.14.29:137][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.09.30-13.14.29:137][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.09.30-13.14.29:137][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.09.30-13.14.29:137][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.09.30-13.14.29:137][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.09.30-13.14.29:137][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.09.30-13.14.29:137][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.09.30-13.14.29:137][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.09.30-13.14.29:137][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.09.30-13.14.29:137][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.09.30-13.14.29:137][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.09.30-13.14.29:137][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Scalability.ini]
+[2020.09.30-13.14.29:137][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.09.30-13.14.29:137][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.09.30-13.14.29:137][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.09.30-13.14.29:137][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.09.30-13.14.29:137][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.09.30-13.14.29:137][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.09.30-13.14.29:137][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.09.30-13.14.29:137][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.09.30-13.14.29:137][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.09.30-13.14.29:137][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.09.30-13.14.29:137][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.09.30-13.14.29:137][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.09.30-13.14.29:137][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.09.30-13.14.29:137][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.09.30-13.14.29:137][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.09.30-13.14.29:137][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.09.30-13.14.29:137][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.09.30-13.14.29:137][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.09.30-13.14.29:137][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.09.30-13.14.29:137][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.09.30-13.14.29:137][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.09.30-13.14.29:137][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.09.30-13.14.29:137][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.09.30-13.14.29:137][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.09.30-13.14.29:137][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.09.30-13.14.29:137][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.09.30-13.14.29:137][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.09.30-13.14.29:137][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.09.30-13.14.29:137][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.09.30-13.14.29:137][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.09.30-13.14.29:137][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Scalability.ini]
+[2020.09.30-13.14.29:137][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.09.30-13.14.29:137][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.09.30-13.14.29:137][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.09.30-13.14.29:137][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.09.30-13.14.29:137][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.09.30-13.14.29:137][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.09.30-13.14.29:137][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.09.30-13.14.29:137][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.09.30-13.14.29:137][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.09.30-13.14.29:137][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Scalability.ini]
+[2020.09.30-13.14.29:137][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.09.30-13.14.29:137][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.09.30-13.14.29:137][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.09.30-13.14.29:138][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.09.30-13.14.29:138][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.09.30-13.14.29:138][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.09.30-13.14.29:138][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.09.30-13.14.29:138][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.09.30-13.14.29:138][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.09.30-13.14.29:138][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.09.30-13.14.29:138][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.09.30-13.14.29:138][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.09.30-13.14.29:138][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.09.30-13.14.29:138][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.09.30-13.14.29:138][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.09.30-13.14.29:138][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.09.30-13.14.29:138][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.09.30-13.14.29:138][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.09.30-13.14.29:138][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.09.30-13.14.29:138][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.09.30-13.14.29:138][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.09.30-13.14.29:138][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.09.30-13.14.29:138][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.09.30-13.14.29:138][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.09.30-13.14.29:138][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.09.30-13.14.29:138][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.09.30-13.14.29:138][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Scalability.ini]
+[2020.09.30-13.14.29:138][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.09.30-13.14.29:138][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.09.30-13.14.29:138][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Scalability.ini]
+[2020.09.30-13.14.29:138][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.09.30-13.14.29:138][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.09.30-13.14.29:138][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.09.30-13.14.29:138][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.09.30-13.14.29:138][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.09.30-13.14.29:138][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.09.30-13.14.29:138][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.09.30-13.14.29:138][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.09.30-13.14.29:143][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.09.30-13.14.29:143][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.09.30-13.14.29:143][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2020.09.30-13.14.29:143][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Engine.ini]
+[2020.09.30-13.14.29:143][  0]LogInit: Computer: MSI
+[2020.09.30-13.14.29:143][  0]LogInit: User: FX22k
+[2020.09.30-13.14.29:143][  0]LogInit: CPU Page size=4096, Cores=6
+[2020.09.30-13.14.29:143][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.09.30-13.14.29:143][  0]LogMemory: Memory total: Physical=15.8GB (16GB approx)
+[2020.09.30-13.14.29:143][  0]LogMemory: Platform Memory Stats for Windows
+[2020.09.30-13.14.29:143][  0]LogMemory: Process Physical Memory: 115.64 MB used, 115.65 MB peak
+[2020.09.30-13.14.29:143][  0]LogMemory: Process Virtual Memory: 113.55 MB used, 113.55 MB peak
+[2020.09.30-13.14.29:143][  0]LogMemory: Physical Memory: 10197.59 MB used,  6030.04 MB free, 16227.64 MB total
+[2020.09.30-13.14.29:143][  0]LogMemory: Virtual Memory: 5181.14 MB used,  134212544.00 MB free, 134217728.00 MB total
+[2020.09.30-13.14.29:414][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.09.30-13.14.29:553][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2020.09.30-13.14.29:554][  0]LogInit: Using OS detected language (en-US).
+[2020.09.30-13.14.29:554][  0]LogInit: Using OS detected locale (en-US).
+[2020.09.30-13.14.29:558][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2020.09.30-13.14.29:772][  0]LogInit: Setting process to per monitor DPI aware
+[2020.09.30-13.14.29:852][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.09.30-13.14.29:852][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.09.30-13.14.32:167][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.09.30-13.14.32:167][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.09.30-13.14.32:167][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.09.30-13.14.32:167][  0]LogD3D11RHI: D3D11 adapters:
+[2020.09.30-13.14.32:254][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 2080' (Feature Level 11_0)
+[2020.09.30-13.14.32:254][  0]LogD3D11RHI:       8010/0/8113 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2020.09.30-13.14.32:285][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics 630' (Feature Level 11_0)
+[2020.09.30-13.14.32:285][  0]LogD3D11RHI:       128/0/8113 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2020.09.30-13.14.32:286][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.09.30-13.14.32:286][  0]LogD3D11RHI:       0/0/8113 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.09.30-13.14.32:286][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.09.30-13.14.32:326][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.09.30-13.14.32:326][  0]LogD3D11RHI:     GPU DeviceId: 0x1e90 (for the marketing name, search the web for "GPU Device Id")
+[2020.09.30-13.14.32:326][  0]LogWindows: EnumDisplayDevices:
+[2020.09.30-13.14.32:326][  0]LogWindows:    0. 'Intel(R) UHD Graphics 630' (P:1 D:1)
+[2020.09.30-13.14.32:326][  0]LogWindows:    1. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2020.09.30-13.14.32:327][  0]LogWindows:    2. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2020.09.30-13.14.32:327][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2080' (P:0 D:0)
+[2020.09.30-13.14.32:327][  0]LogWindows:    4. 'NVIDIA GeForce RTX 2080' (P:0 D:0)
+[2020.09.30-13.14.32:327][  0]LogWindows:    5. 'NVIDIA GeForce RTX 2080' (P:0 D:0)
+[2020.09.30-13.14.32:328][  0]LogWindows:    6. 'NVIDIA GeForce RTX 2080' (P:0 D:0)
+[2020.09.30-13.14.32:328][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2020.09.30-13.14.32:328][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 2080
+[2020.09.30-13.14.32:328][  0]LogD3D11RHI:   Driver Version: 445.75 (internal:26.21.14.4575, unified:445.75)
+[2020.09.30-13.14.32:328][  0]LogD3D11RHI:      Driver Date: 3-17-2020
+[2020.09.30-13.14.32:328][  0]LogRHI: Texture pool is 5607 MB (70% of 8010 MB)
+[2020.09.30-13.14.32:380][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2020.09.30-13.14.32:382][  0]LogD3D11RHI: [Aftermath] Enabled and primed
+[2020.09.30-13.14.32:382][  0]LogD3D11RHI: Async texture creation enabled
+[2020.09.30-13.14.32:382][  0]LogD3D11RHI: Array index from any shader is supported
+[2020.09.30-13.14.32:405][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.09.30-13.14.32:702][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.09.30-13.14.32:723][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.09.30-13.14.32:723][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.09.30-13.14.32:723][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.09.30-13.14.32:723][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.09.30-13.14.32:723][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.09.30-13.14.32:723][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.09.30-13.14.32:723][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.09.30-13.14.32:723][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.09.30-13.14.32:723][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.09.30-13.14.32:723][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.09.30-13.14.32:754][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.09.30-13.14.32:754][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.09.30-13.14.32:772][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2020.09.30-13.14.32:780][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.09.30-13.14.32:789][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.09.30-13.14.32:797][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.09.30-13.14.32:806][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.09.30-13.14.32:814][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.09.30-13.14.32:823][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.09.30-13.14.32:852][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.09.30-13.14.32:852][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.09.30-13.14.32:866][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.09.30-13.14.32:866][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.09.30-13.14.32:874][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.09.30-13.14.32:883][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.09.30-13.14.32:890][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.09.30-13.14.32:900][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.09.30-13.14.32:900][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.09.30-13.14.32:940][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.09.30-13.14.33:019][  0]LogShaderCompilers: Guid format shader working directory is -9 characters bigger than the processId version (D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Intermediate/Shaders/WorkingDirectory/10628/).
+[2020.09.30-13.14.33:019][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/FX22k/AppData/Local/Temp/UnrealShaderWorkingDir/A198B410453014B53563B08A9F1D1CC1/'.
+[2020.09.30-13.14.33:019][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.09.30-13.14.33:019][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.09.30-13.14.33:019][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.09.30-13.14.35:685][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.09.30-13.14.35:737][  0]LogDerivedDataCache: Loaded boot cache 0.05s 75MB C:/Users/FX22k/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.09.30-13.14.35:737][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/FX22k/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2020.09.30-13.14.35:737][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.09.30-13.14.35:737][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.09.30-13.14.35:737][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.09.30-13.14.35:737][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.09.30-13.14.35:753][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.09.30-13.14.35:753][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.09.30-13.14.35:753][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.09.30-13.14.35:755][  0]LogDerivedDataCache: Using Local data cache path C:/Users/FX22k/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.09.30-13.14.35:755][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.09.30-13.14.35:755][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.09.30-13.14.35:800][  0]LogSlate: Using FreeType 2.10.0
+[2020.09.30-13.14.35:810][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.09.30-13.14.35:834][  0]LogAssetRegistry: FAssetRegistry took 0.0024 seconds to start up
+[2020.09.30-13.14.36:057][  0]LogInit: Selected Device Profile: [Windows]
+[2020.09.30-13.14.36:237][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.09.30-13.14.36:237][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.09.30-13.14.36:237][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.09.30-13.14.36:237][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.09.30-13.14.36:237][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.09.30-13.14.36:279][  0]LogNetVersion: TheyLive 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 1881850289)
+[2020.09.30-13.14.37:257][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (000002181F8C3740), frame # 0
+[2020.09.30-13.14.37:257][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002181F8BE980), frame # 0
+[2020.09.30-13.14.37:259][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002181F90DE00), frame # 0
+[2020.09.30-13.14.37:360][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.085129 seconds
+[2020.09.30-13.14.37:365][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2020.09.30-13.14.37:365][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2020.09.30-13.14.37:365][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.09.30-13.14.37:933][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.09.30-13.14.37:937][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.09.30-13.14.38:032][  0]SourceControl: Source control is disabled
+[2020.09.30-13.14.38:032][  0]SourceControl: Source control is disabled
+[2020.09.30-13.14.38:035][  0]SourceControl: Source control is disabled
+[2020.09.30-13.14.38:038][  0]SourceControl: Source control is disabled
+[2020.09.30-13.14.38:045][  0]SourceControl: Source control is disabled
+[2020.09.30-13.14.38:285][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.09.30-13.14.38:303][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.09.30-13.14.38:303][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.09.30-13.14.38:375][  0]LogOcInput: OculusInput pre-init called
+[2020.09.30-13.14.38:386][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.09.30-13.14.38:386][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.09.30-13.14.38:461][  0]LogEngine: Initializing Engine...
+[2020.09.30-13.14.38:461][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.09.30-13.14.38:461][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2020.09.30-13.14.38:463][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.09.30-13.14.38:752][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.09.30-13.14.38:760][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.09.30-13.14.38:760][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000021822088600), frame # 0
+[2020.09.30-13.14.38:760][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002182204F380), frame # 0
+[2020.09.30-13.14.38:764][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.09.30-13.14.38:764][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.09.30-13.14.38:764][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.09.30-13.14.38:764][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.09.30-13.14.38:764][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.09.30-13.14.38:764][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.09.30-13.14.38:764][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.09.30-13.14.38:765][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.09.30-13.14.38:765][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.09.30-13.14.38:765][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.09.30-13.14.38:869][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.09.30-13.14.38:869][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.09.30-13.14.38:869][  0]LogAudioMixer: Display: 2: FrontCenter
+[2020.09.30-13.14.38:869][  0]LogAudioMixer: Display: 3: LowFrequency
+[2020.09.30-13.14.38:869][  0]LogAudioMixer: Display: 4: BackLeft
+[2020.09.30-13.14.38:869][  0]LogAudioMixer: Display: 5: BackRight
+[2020.09.30-13.14.38:869][  0]LogAudioMixer: Display: 6: SideLeft
+[2020.09.30-13.14.38:869][  0]LogAudioMixer: Display: 7: SideRight
+[2020.09.30-13.14.39:171][  0]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2020.09.30-13.14.39:172][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.09.30-13.14.39:185][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.09.30-13.14.39:185][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.09.30-13.14.39:186][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.09.30-13.14.39:187][  0]LogInit: FAudioDevice initialized.
+[2020.09.30-13.14.39:187][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.09.30-13.14.39:232][  0]LogDerivedDataCache: Saved boot cache 0.05s 75MB C:/Users/FX22k/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.09.30-13.14.39:237][  0]LogInit: Texture streaming: Enabled
+[2020.09.30-13.14.39:252][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.09.30-13.14.39:252][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.09.30-13.14.39:258][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.09.30-13.14.39:347][  0]LogInit: Transaction tracking system initialized
+[2020.09.30-13.14.39:369][  0]BlueprintLog: New page: Editor Load
+[2020.09.30-13.14.39:443][  0]LocalizationService: Localization service is disabled
+[2020.09.30-13.14.39:835][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.09.30-13.14.39:835][  0]LogCook: Display: Mobile HDR setting 1
+[2020.09.30-13.14.39:983][  0]LogFileCache: Scanning file cache for directory 'D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Content/' took 0.05s
+[2020.09.30-13.14.40:182][  0]SourceControl: Source control is disabled
+[2020.09.30-13.14.40:182][  0]LogUnrealEdMisc: Loading editor; pre map load, took 14.165
+[2020.09.30-13.14.40:182][  0]Cmd: MAP LOAD FILE="D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Content/Maps/CaveLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.09.30-13.14.40:189][  0]LightingResults: New page: Lighting Build
+[2020.09.30-13.14.40:190][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.09.30-13.14.40:190][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.30-13.14.40:190][  0]MapCheck: New page: Map Check
+[2020.09.30-13.14.40:190][  0]LightingResults: New page: Lighting Build
+[2020.09.30-13.14.40:199][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000021822088600), frame # 0
+[2020.09.30-13.14.40:199][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002182204F380), frame # 0
+[2020.09.30-13.14.40:199][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2020.09.30-13.14.44:543][  0]LogLinker: Warning: While loading 'D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Content/PN_interactiveSpruceForest/Materials/MasterMaterials/MA_Summer.uasset' failed to load '/Game/PN_interactiveSpruceForest/Textures/MasterTextures/ModelTextures/Bark_N': Can't find file.
+[2020.09.30-13.14.44:543][  0]LogLinker: Warning: While loading 'D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Content/PN_interactiveSpruceForest/Materials/MasterMaterials/MA_Summer.uasset' failed to load '/Game/PN_interactiveSpruceForest/Textures/MasterTextures/ModelTextures/Bark_N': Can't find file.
+[2020.09.30-13.14.44:609][  0]LogLinker: Warning: While loading 'D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Content/PN_interactiveSpruceForest/Materials/MasterMaterials/MA_Summer.uasset' failed to load '/Game/PN_interactiveSpruceForest/Textures/MasterTextures/ModelTextures/Bark_N': Can't find file.
+[2020.09.30-13.14.44:609][  0]LogLinker: Warning: While loading 'D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Content/PN_interactiveSpruceForest/Materials/MasterMaterials/MA_Summer.uasset' failed to load '/Game/PN_interactiveSpruceForest/Textures/MasterTextures/ModelTextures/Bark_N': Can't find file.
+[2020.09.30-13.14.45:527][  0]LogLinker: Warning: While loading 'D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Content/PN_interactiveSpruceForest/Materials/MasterMaterials/MA_Summer.uasset' failed to load '/Game/PN_interactiveSpruceForest/Textures/MasterTextures/ModelTextures/Bark_N': Can't find file.
+[2020.09.30-13.14.45:527][  0]LoadErrors: Failed to load /Game/PN_interactiveSpruceForest/Textures/MasterTextures/ModelTextures/Bark_N.Bark_N Referenced by MaterialExpressionTextureSample_9
+[2020.09.30-13.14.45:527][  0]LogLinker: Warning: While loading 'D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Content/PN_interactiveSpruceForest/Materials/MasterMaterials/MA_Summer.uasset' failed to load '/Game/PN_interactiveSpruceForest/Textures/MasterTextures/ModelTextures/Bark_N': Can't find file.
+[2020.09.30-13.14.45:527][  0]LoadErrors: Failed to load /Game/PN_interactiveSpruceForest/Textures/MasterTextures/ModelTextures/Bark_N.Bark_N Referenced by MaterialExpressionTextureSample_9
+[2020.09.30-13.14.48:113][  0]LogMaterial: Display: Missing cached shader map for material MA_Summer, compiling. 
+[2020.09.30-13.14.48:151][  0]LogMaterial: Warning: D:\UEprojet\Project-Dimensions-of-horror\TheyLive 4.25\Content\PN_interactiveSpruceForest\Materials\MaterialInstances\full\high\spruce_full_03_trunk.uasset: Failed to compile Material Instance with Base MA_Summer for platform PCD3D_SM5, Default Material will be used in game.
+[2020.09.30-13.14.48:151][  0]LogMaterial: Display: 	(Node TextureSample) Texture Sample> Missing input texture
+[2020.09.30-13.14.48:151][  0]LogMaterial: Display: 	(Node MakeMaterialAttributes) Error on property Normal
+[2020.09.30-13.14.48:196][  0]LogMaterial: Display: Missing cached shader map for material MA_Summer, compiling. 
+[2020.09.30-13.14.48:220][  0]LogMaterial: Warning: D:\UEprojet\Project-Dimensions-of-horror\TheyLive 4.25\Content\PN_interactiveSpruceForest\Materials\MaterialInstances\full\high\spruce_full_02_trunk.uasset: Failed to compile Material Instance with Base MA_Summer for platform PCD3D_SM5, Default Material will be used in game.
+[2020.09.30-13.14.48:220][  0]LogMaterial: Display: 	(Node TextureSample) Texture Sample> Missing input texture
+[2020.09.30-13.14.48:220][  0]LogMaterial: Display: 	(Node MakeMaterialAttributes) Error on property Normal
+[2020.09.30-13.14.48:243][  0]LogMaterial: Display: Missing cached shader map for material MA_Summer, compiling. 
+[2020.09.30-13.14.48:275][  0]LogMaterial: Warning: D:\UEprojet\Project-Dimensions-of-horror\TheyLive 4.25\Content\PN_interactiveSpruceForest\Materials\MaterialInstances\full\high\spruce_full_01_trunk.uasset: Failed to compile Material Instance with Base MA_Summer for platform PCD3D_SM5, Default Material will be used in game.
+[2020.09.30-13.14.48:275][  0]LogMaterial: Display: 	(Node TextureSample) Texture Sample> Missing input texture
+[2020.09.30-13.14.48:275][  0]LogMaterial: Display: 	(Node MakeMaterialAttributes) Error on property Normal
+[2020.09.30-13.14.48:644][  0]LogAIModule: Creating AISystem for world CaveLevel
+[2020.09.30-13.14.48:644][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000021842400C00), frame # 0
+[2020.09.30-13.14.48:644][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002184233CE00), frame # 0
+[2020.09.30-13.14.49:117][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.09.30-13.14.49:241][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.96ms
+[2020.09.30-13.14.49:242][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.09.30-13.14.49:242][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.16ms to complete.
+[2020.09.30-13.14.49:242][  0]LogFileHelpers: Loading map 'CaveLevel' took 9.059
+[2020.09.30-13.14.49:245][  0]LogUnrealEdMisc: Total Editor Startup Time, took 23.227
+[2020.09.30-13.14.49:435][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.30-13.14.49:452][  0]LogCollectionManager: Loaded 0 collections in 0.001855 seconds
+[2020.09.30-13.14.49:477][  0]LogFileCache: Scanning file cache for directory 'D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Collections/' took 0.00s
+[2020.09.30-13.14.49:477][  0]LogFileCache: Scanning file cache for directory 'D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Content/Developers/FX22k/Collections/' took 0.00s
+[2020.09.30-13.14.49:477][  0]LogFileCache: Scanning file cache for directory 'D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Content/Collections/' took 0.00s
+[2020.09.30-13.14.49:477][  0]LogContentBrowser: Native class hierarchy populated in 0.0081 seconds. Added 3427 classes and 821 folders.
+[2020.09.30-13.14.49:483][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.09.30-13.14.49:939][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.09.30-13.14.49:951][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 2 classes and 0 folders.
+[2020.09.30-13.14.50:283][  0]LogSlate: Took 0.006132 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.09.30-13.14.50:293][  0]LogSlate: Took 0.006949 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.09.30-13.14.50:306][  0]LogSlate: Took 0.006584 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.09.30-13.14.50:497][  0]LogRenderer: Reallocating scene render targets to support 1208x572 Format 10 NumSamples 1 (Frame:1).
+[2020.09.30-13.14.50:608][  0]LogSlate: Took 0.017108 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.09.30-13.14.50:702][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.09.30-13.14.50:702][  0]LogLoad: (Engine Initialization) Total time: 24.69 seconds
+[2020.09.30-13.14.50:702][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.09.30-13.14.50:770][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.09.30-13.14.50:920][  0]LogSlate: Took 0.008424 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2020.09.30-13.14.51:069][  2]LogAssetRegistry: Asset discovery search completed in 15.2361 seconds
+[2020.09.30-13.14.51:078][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000003 seconds (updated 0 objects)
+[2020.09.30-13.14.51:860][ 28]LogSlate: Took 0.000254 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.09.30-13.15.26:011][647]LogSlate: Window 'Message Log' being destroyed
+[2020.09.30-13.15.26:019][647]LogSlate: Window 'Message Log' being destroyed
+[2020.09.30-13.16.49:852][642]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Closet.Closet
+[2020.09.30-13.16.50:327][642]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 125 classes and 0 folders.
+[2020.09.30-13.16.51:311][642]LogSlate: Took 0.005281 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.09.30-13.16.51:415][643]LogSlate: Took 0.005708 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.09.30-13.17.43:934][357]LogRenderer: Reallocating scene render targets to support 1208x708 Format 10 NumSamples 1 (Frame:1).
+[2020.09.30-13.18.53:496][516]BlueprintLog: New page: Compile Closet
+[2020.09.30-13.18.53:544][516]LogUObjectHash: Compacting FUObjectHashTables data took   2.31ms
+[2020.09.30-13.24.51:004][418]LogUObjectHash: Compacting FUObjectHashTables data took   2.33ms
+[2020.09.30-13.24.51:007][418]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/CaveLevel' took 0.023
+[2020.09.30-13.24.51:008][418]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Closet] ([1] browsable assets)...
+[2020.09.30-13.24.51:032][418]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Closet.Closet]
+[2020.09.30-13.24.51:032][418]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Closet]
+[2020.09.30-13.24.51:032][418]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Closet" FILE="D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Autosaves/Game/Blueprints/Closet_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2020.09.30-13.24.51:098][418]LogSavePackage: Moving 'D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Closet_Auto1D5632AF842EB8740B60F5686F1FC4394.tmp' to 'D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Autosaves/Game/Blueprints/Closet_Auto1.uasset'
+[2020.09.30-13.24.51:100][418]LogFileHelpers: Auto-saving content packages took 0.093
+[2020.09.30-13.35.35:165][955]LogUObjectHash: Compacting FUObjectHashTables data took   2.38ms
+[2020.09.30-13.35.35:167][955]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/CaveLevel' took 0.022
+[2020.09.30-13.35.35:168][955]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Closet] ([1] browsable assets)...
+[2020.09.30-13.35.35:186][955]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Closet.Closet]
+[2020.09.30-13.35.35:186][955]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Closet]
+[2020.09.30-13.35.35:186][955]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Closet" FILE="D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Autosaves/Game/Blueprints/Closet_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2020.09.30-13.35.35:234][955]LogSavePackage: Moving 'D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Closet_Auto2B65579C3496010F771F3FCBF10054A6C.tmp' to 'D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Autosaves/Game/Blueprints/Closet_Auto2.uasset'
+[2020.09.30-13.35.35:236][955]LogFileHelpers: Auto-saving content packages took 0.069
+[2020.09.30-13.39.33:468][551]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2020.09.30-13.42.47:920][879]LogSlate: Window 'Pick Parent Class' being destroyed
+[2020.09.30-13.42.57:029][421]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Locker.Locker
+[2020.09.30-13.43.00:834][613]LogSlate: Window 'Locker' being destroyed
+[2020.09.30-13.46.30:166][131]BlueprintLog: New page: Compile Locker
+[2020.09.30-13.46.30:170][131]LogBlueprint: Warning: [Compiler Locker] Could not find a variable named "Is Closed" in 'Locker_C'.
+Make sure 'Locker_C' has been compiled for  Get Is Closed
+[2020.09.30-13.46.30:171][131]LogBlueprint: Error: [Compiler Locker] The type of  Object  is undetermined.  Connect something to  Cast To ThirdPersonCharacter  to imply a specific type.
+[2020.09.30-13.46.30:172][131]LogBlueprint: Error: [Compiler Locker] The property associated with  Is Closed  could not be found in '/Game/Blueprints/Locker.Locker_C'
+[2020.09.30-13.46.30:172][131]LogBlueprint: Error: [Compiler Locker] The current value of the ' Object ' pin is invalid: Unsupported type Wildcard on pin Object
+[2020.09.30-13.46.30:227][131]LogUObjectHash: Compacting FUObjectHashTables data took   2.51ms
+[2020.09.30-13.47.14:961][673]LogUObjectHash: Compacting FUObjectHashTables data took   2.39ms
+[2020.09.30-13.47.14:963][673]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/CaveLevel' took 0.033
+[2020.09.30-13.47.14:963][673]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Closet] ([1] browsable assets)...
+[2020.09.30-13.47.14:982][673]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Closet.Closet]
+[2020.09.30-13.47.14:983][673]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Closet]
+[2020.09.30-13.47.14:983][673]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Closet" FILE="D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Autosaves/Game/Blueprints/Closet_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2020.09.30-13.47.15:032][673]LogSavePackage: Moving 'D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Closet_Auto38E8290504F1109BB2E76A681048C911D.tmp' to 'D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Autosaves/Game/Blueprints/Closet_Auto3.uasset'
+[2020.09.30-13.47.15:043][673]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Locker] ([1] browsable assets)...
+[2020.09.30-13.47.15:043][673]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Locker]
+[2020.09.30-13.47.15:043][673]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Locker" FILE="D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Autosaves/Game/Blueprints/Locker_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2020.09.30-13.47.15:069][673]LogSavePackage: Moving 'D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Locker_Auto35798640641FD7552FD2EAABBFAE6905D.tmp' to 'D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Autosaves/Game/Blueprints/Locker_Auto3.uasset'
+[2020.09.30-13.47.15:070][673]LogFileHelpers: Auto-saving content packages took 0.106
+[2020.09.30-13.48.40:524][174]BlueprintLog: New page: Compile Locker
+[2020.09.30-13.48.40:530][174]LogBlueprint: Error: [Compiler Locker] The type of  Object  is undetermined.  Connect something to  Cast To ThirdPersonCharacter  to imply a specific type.
+[2020.09.30-13.48.40:530][174]LogBlueprint: Error: [Compiler Locker] The current value of the ' Object ' pin is invalid: Unsupported type Wildcard on pin Object
+[2020.09.30-13.48.40:572][174]LogUObjectHash: Compacting FUObjectHashTables data took   2.98ms
+[2020.09.30-13.49.03:357][521]BlueprintLog: New page: Compile Locker
+[2020.09.30-13.49.03:405][521]LogUObjectHash: Compacting FUObjectHashTables data took   2.55ms
+[2020.09.30-13.57.14:168][ 67]BlueprintLog: New page: Compile Locker
+[2020.09.30-13.57.14:246][ 67]LogUObjectHash: Compacting FUObjectHashTables data took   2.85ms
+[2020.09.30-13.57.19:768][391]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Locker" FILE="D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Content/Blueprints/Locker.uasset" SILENT=true
+[2020.09.30-13.57.19:806][391]LogSavePackage: Moving 'D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Locker462DD65F4EBA248E7C1BF2981FDA282B.tmp' to 'D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Content/Blueprints/Locker.uasset'
+[2020.09.30-13.57.19:840][391]AssetCheck: New page: Asset Save: Locker
+[2020.09.30-13.57.19:841][391]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Locker.Locker
+[2020.09.30-13.57.40:025][555]LogMovieScene: Warning: Removing section /Game/Cinematic/Shot4.Shot4:MovieScene_0.MovieSceneCameraCutTrack_1:Camera Cuts with empty range
+[2020.09.30-13.57.40:026][555]LogMovieScene: Warning: Removing section /Game/Cinematic/Shot4.Shot4:MovieScene_0.MovieSceneCameraCutTrack_1:Camera Cuts with empty range
+[2020.09.30-13.57.40:026][555]LogMovieScene: Warning: Removing section /Game/Cinematic/Shot4.Shot4:MovieScene_0.MovieSceneCameraCutTrack_1:Camera Cuts with empty range
+[2020.09.30-13.57.40:026][555]LogMovieScene: Warning: Removing section /Game/Cinematic/Shot3.Shot3:MovieScene_0.MovieSceneCameraCutTrack_1:Camera Cuts with empty range
+[2020.09.30-13.57.40:026][555]LogMovieScene: Warning: Removing section /Game/Cinematic/Shot3.Shot3:MovieScene_0.MovieSceneCameraCutTrack_1:Camera Cuts with empty range
+[2020.09.30-13.57.40:026][555]LogMovieScene: Warning: Removing section /Game/Cinematic/Shot3.Shot3:MovieScene_0.MovieSceneCameraCutTrack_1:Camera Cuts with empty range
+[2020.09.30-13.57.40:097][555]LogMovieScene: Warning: Removing section /Game/Cinematic/Shot6.Shot6:MovieScene_0.MovieSceneCameraCutTrack_1:Camera Cuts with empty range
+[2020.09.30-13.57.40:097][555]LogMovieScene: Warning: Removing section /Game/Cinematic/Shot6.Shot6:MovieScene_0.MovieSceneCameraCutTrack_1:Camera Cuts with empty range
+[2020.09.30-13.57.40:097][555]LogMovieScene: Warning: Removing section /Game/Cinematic/Shot6.Shot6:MovieScene_0.MovieSceneCameraCutTrack_1:Camera Cuts with empty range
+[2020.09.30-13.57.40:097][555]LogMovieScene: Warning: Removing section /Game/Cinematic/Shot6.Shot6:MovieScene_0.MovieSceneCameraCutTrack_1:Camera Cuts with empty range
+[2020.09.30-13.57.40:103][555]LogMovieScene: Warning: Removing section /Game/Cinematic/Shot5.Shot5:MovieScene_0.MovieSceneCameraCutTrack_1:Camera Cuts with empty range
+[2020.09.30-13.57.40:103][555]LogMovieScene: Warning: Removing section /Game/Cinematic/Shot5.Shot5:MovieScene_0.MovieSceneCameraCutTrack_1:Camera Cuts with empty range
+[2020.09.30-13.57.40:103][555]LogMovieScene: Warning: Removing section /Game/Cinematic/Shot5.Shot5:MovieScene_0.MovieSceneCameraCutTrack_1:Camera Cuts with empty range
+[2020.09.30-13.57.40:451][555]LogMovieScene: Warning: Removing section /Game/Cinematic/Shot2.Shot2:MovieScene_0.MovieSceneCameraCutTrack_1:Camera Cuts with empty range
+[2020.09.30-13.57.40:494][555]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/outer1.outer1
+[2020.09.30-13.57.40:528][555]LogUObjectHash: Compacting FUObjectHashTables data took   3.49ms
+[2020.09.30-13.57.43:434][555]LogSlate: Window 'Save Content' being destroyed
+[2020.09.30-13.57.43:448][555]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Closet" FILE="D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Content/Blueprints/Closet.uasset" SILENT=true
+[2020.09.30-13.57.43:491][555]LogSavePackage: Moving 'D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Closet9FF6BD8245F4FD1BB62DE08B6C6C3683.tmp' to 'D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Content/Blueprints/Closet.uasset'
+[2020.09.30-13.57.43:508][555]Cmd: MAP LOAD FILE="D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Content/Maps/outer1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.09.30-13.57.43:508][555]LightingResults: New page: Lighting Build
+[2020.09.30-13.57.43:510][555]LoadErrors: New page: Loading map: outer1.umap
+[2020.09.30-13.57.43:559][555]LogWorld: UWorld::CleanupWorld for CaveLevel, bSessionEnded=true, bCleanupResources=true
+[2020.09.30-13.57.43:559][555]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.30-13.57.43:560][555]MapCheck: New page: Map Check
+[2020.09.30-13.57.43:560][555]LightingResults: New page: Lighting Build
+[2020.09.30-13.57.43:660][555]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000021842400C00), frame # 95555
+[2020.09.30-13.57.43:660][555]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002184233CE00), frame # 95555
+[2020.09.30-13.57.43:663][555]LogUObjectHash: Compacting FUObjectHashTables data took   2.26ms
+[2020.09.30-13.57.43:901][555]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.09.30-13.57.43:901][555]LogAIModule: Creating AISystem for world outer1
+[2020.09.30-13.57.43:901][555]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002185C0AB000), frame # 95555
+[2020.09.30-13.57.43:901][555]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000021882657B00), frame # 95555
+[2020.09.30-13.57.43:935][555]LogUObjectHash: Compacting FUObjectHashTables data took   1.87ms
+[2020.09.30-13.57.43:986][555]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.09.30-13.57.43:987][555]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.098ms to complete.
+[2020.09.30-13.57.43:987][555]LogFileHelpers: Loading map 'outer1' took 0.478
+[2020.09.30-13.57.44:078][555]AssetCheck: New page: Asset Save: Closet
+[2020.09.30-13.57.44:078][555]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Closet.Closet
+[2020.09.30-13.57.46:273][677]LogEditorViewport: Clicking on Actor (LMB): Closet_C (Closet)
+[2020.09.30-13.57.47:846][766]Cmd: DELETE
+[2020.09.30-13.57.47:846][766]Cmd: ACTOR DELETE
+[2020.09.30-13.57.47:864][766]LogEditorActor: Deleted Actor: Closet_C
+[2020.09.30-13.57.47:899][766]LogUObjectHash: Compacting FUObjectHashTables data took   2.11ms
+[2020.09.30-13.57.47:901][766]LogEditorActor: Deleted 1 Actors (0.048 secs)
+[2020.09.30-13.58.19:003][613]LogTemp: Repeating last play command: Selected Viewport
+[2020.09.30-13.58.19:037][613]BlueprintLog: New page: Pre-Play auto-recompile
+[2020.09.30-13.58.19:037][613]LogPlayLevel: [PlayLevel] Compiling Closet before play...
+[2020.09.30-13.58.19:040][613]LogBlueprint: Error: [Compiler Closet] This blueprint (self) is not a Controller, therefore ' Target ' must have a connection.
+[2020.09.30-13.58.19:040][613]LogBlueprint: Error: [Compiler Closet] The type of  Object  is undetermined.  Connect something to  Cast To ThirdPersonCharacter  to imply a specific type.
+[2020.09.30-13.58.19:040][613]LogBlueprint: Error: [Compiler Closet] The current value of the ' Object ' pin is invalid: Unsupported type Object Wildcard on pin Object
+[2020.09.30-13.58.19:090][613]LogUObjectHash: Compacting FUObjectHashTables data took   2.56ms
+[2020.09.30-13.58.19:097][613]LogPlayLevel: PlayLevel: Blueprint regeneration took 60 ms (1 blueprints)
+[2020.09.30-13.58.19:097][613]BlueprintLog: Warning: Blueprint failed to compile:  Closet
+[2020.09.30-13.58.19:098][613]LogCustomDialog: Dialog displayed:
+[2020.09.30-13.58.25:283][613]LogSlate: Window 'Blueprint Compilation Errors' being destroyed
+[2020.09.30-13.58.28:628][800]LogSlate: Window 'Message Log' being destroyed
+[2020.09.30-13.58.28:635][800]LogSlate: Window 'Message Log' being destroyed
+[2020.09.30-13.58.32:379][ 24]LogD3D11RHI: Display: Temp texture streaming buffer not large enough, needed 16777216 bytes
+[2020.09.30-13.58.33:664][ 99]BlueprintLog: New page: Compile Locker
+[2020.09.30-13.58.33:729][ 99]LogUObjectHash: Compacting FUObjectHashTables data took   3.61ms
+[2020.09.30-13.58.37:530][324]LogTemp: Repeating last play command: Selected Viewport
+[2020.09.30-13.58.37:558][324]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.09.30-13.58.37:558][324]BlueprintLog: Warning: Blueprint failed to compile:  Closet
+[2020.09.30-13.58.37:558][324]LogCustomDialog: Dialog displayed:
+[2020.09.30-13.58.48:299][324]LogSlate: Window 'Blueprint Compilation Errors' being destroyed
+[2020.09.30-13.58.55:517][671]LogSlate: Window 'Message Log' being destroyed
+[2020.09.30-13.58.55:527][671]LogSlate: Window 'Message Log' being destroyed
+[2020.09.30-13.59.06:003][296]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2020.09.30-13.59.06:004][296]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.30-13.59.14:106][766]LogUObjectHash: Compacting FUObjectHashTables data took   2.23ms
+[2020.09.30-13.59.17:675][766]LogSlate: Window 'Delete Assets' being destroyed
+[2020.09.30-13.59.19:993][766]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/Blueprints/Closet.Closet
+[2020.09.30-13.59.24:322][766]LogUObjectHash: Compacting FUObjectHashTables data took   1.97ms
+[2020.09.30-13.59.24:558][766]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
+[2020.09.30-13.59.24:581][766]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2020.09.30-13.59.24:604][766]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2020.09.30-13.59.29:671][ 49]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/outer1" FILE="D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Content/Maps/outer1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.09.30-13.59.29:697][ 49]LogUObjectHash: Compacting FUObjectHashTables data took   1.82ms
+[2020.09.30-13.59.29:785][ 49]LogSavePackage: Moving 'D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Saved/outer17BC04410446735F7FFD7F59D61DE19DE.tmp' to 'D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Content/Maps/outer1.umap'
+[2020.09.30-13.59.29:833][ 49]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/outer1_BuiltData" FILE="D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Content/Maps/outer1_BuiltData.uasset" SILENT=true
+[2020.09.30-13.59.29:904][ 49]LogSavePackage: Moving 'D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Saved/outer1_BuiltDataEEFC2C424CAB32C359DB7197130109B3.tmp' to 'D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Content/Maps/outer1_BuiltData.uasset'
+[2020.09.30-13.59.29:923][ 49]AssetCheck: New page: Asset Save: multiple assets
+[2020.09.30-13.59.29:923][ 49]LogContentValidation: Display: Validating World /Game/Maps/outer1.outer1
+[2020.09.30-13.59.29:923][ 49]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/outer1_BuiltData.outer1_BuiltData
+[2020.09.30-13.59.33:527][260]LogTemp: Repeating last play command: Selected Viewport
+[2020.09.30-13.59.33:553][260]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.09.30-13.59.33:562][260]PIE: New page: PIE session: outer1 (Sep 30, 2020, 5:59:33 AM)
+[2020.09.30-13.59.33:571][260]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2020.09.30-13.59.33:574][260]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2020.09.30-13.59.33:575][260]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_outer1
+[2020.09.30-13.59.33:597][260]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022071s)
+[2020.09.30-13.59.33:599][260]LogAIModule: Creating AISystem for world outer1
+[2020.09.30-13.59.33:599][260]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002193F3B5A00), frame # 100260
+[2020.09.30-13.59.33:599][260]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000218104EB9C0), frame # 100260
+[2020.09.30-13.59.33:600][260]LogPlayLevel: PIE: World Init took: (0.002217s)
+[2020.09.30-13.59.33:600][260]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/outer1.outer1 to /Game/Maps/UEDPIE_0_outer1.outer1 (0.024458s)
+[2020.09.30-13.59.33:624][260]LogUObjectHash: Compacting FUObjectHashTables data took   1.96ms
+[2020.09.30-13.59.33:629][260]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.09.30-13.59.33:629][260]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.09.30-13.59.33:629][260]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.09.30-13.59.33:629][260]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.09.30-13.59.33:629][260]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.09.30-13.59.33:629][260]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.09.30-13.59.33:629][260]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.09.30-13.59.33:629][260]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.09.30-13.59.33:630][260]LogAudio: Display: Using built-in audio occlusion.
+[2020.09.30-13.59.33:630][260]LogAudioMixer: Display: Initializing audio mixer.
+[2020.09.30-13.59.33:638][260]LogAudioMixer: Display: 0: FrontLeft
+[2020.09.30-13.59.33:638][260]LogAudioMixer: Display: 1: FrontRight
+[2020.09.30-13.59.33:638][260]LogAudioMixer: Display: 2: FrontCenter
+[2020.09.30-13.59.33:638][260]LogAudioMixer: Display: 3: LowFrequency
+[2020.09.30-13.59.33:638][260]LogAudioMixer: Display: 4: BackLeft
+[2020.09.30-13.59.33:638][260]LogAudioMixer: Display: 5: BackRight
+[2020.09.30-13.59.33:638][260]LogAudioMixer: Display: 6: SideLeft
+[2020.09.30-13.59.33:638][260]LogAudioMixer: Display: 7: SideRight
+[2020.09.30-13.59.33:690][260]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2020.09.30-13.59.33:691][260]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.09.30-13.59.33:691][260]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.09.30-13.59.33:691][260]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.09.30-13.59.33:692][260]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.09.30-13.59.33:704][260]LogInit: FAudioDevice initialized.
+[2020.09.30-13.59.33:716][260]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2020.09.30-13.59.33:726][260]LogWorld: Bringing World /Game/Maps/UEDPIE_0_outer1.outer1 up for play (max tick rate 60) at 2020.09.30-09.59.33
+[2020.09.30-13.59.33:737][260]LogWorld: Bringing up level for play took: 0.014640
+[2020.09.30-13.59.33:738][260]LogOnline: OSS: Creating online subsystem instance for: :Context_19
+[2020.09.30-13.59.33:761][260]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0013 seconds. Added 20 classes and 0 folders.
+[2020.09.30-13.59.33:781][260]PIE: Server logged in
+[2020.09.30-13.59.33:795][260]PIE: Play in editor total start time 0.245 seconds.
+[2020.09.30-13.59.33:816][260]LogAudio: Warning: Detected orphaned looping sound 'Ominous-Pursuit_Looping__online-audio-converter_com_'.
+[2020.09.30-13.59.38:091][494]LogD3D11RHI: Display: Temp texture streaming buffer not large enough, needed 16777216 bytes
+[2020.09.30-13.59.52:010][326]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.30-13.59.52:010][326]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_outer1
+[2020.09.30-13.59.52:011][326]LogWorld: UWorld::CleanupWorld for outer1, bSessionEnded=true, bCleanupResources=true
+[2020.09.30-13.59.52:012][326]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.30-13.59.52:022][326]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.09.30-13.59.52:027][326]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.30-13.59.52:082][326]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.30-13.59.52:086][326]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000218104EB9C0), frame # 101326
+[2020.09.30-13.59.52:086][326]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002193F3B5A00), frame # 101326
+[2020.09.30-13.59.52:127][326]LogUObjectHash: Compacting FUObjectHashTables data took   5.97ms
+[2020.09.30-13.59.52:175][327]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2020.09.30-14.00.05:008][ 95]BlueprintLog: New page: Compile Locker
+[2020.09.30-14.00.05:070][ 95]LogUObjectHash: Compacting FUObjectHashTables data took   3.25ms
+[2020.09.30-14.00.18:935][919]LogTemp: Repeating last play command: Selected Viewport
+[2020.09.30-14.00.18:964][919]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.09.30-14.00.18:964][919]PIE: New page: PIE session: outer1 (Sep 30, 2020, 6:00:18 AM)
+[2020.09.30-14.00.18:964][919]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_outer1
+[2020.09.30-14.00.18:980][919]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015445s)
+[2020.09.30-14.00.18:981][919]LogAIModule: Creating AISystem for world outer1
+[2020.09.30-14.00.18:981][919]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000218DDBF9A00), frame # 102919
+[2020.09.30-14.00.18:981][919]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000218DDDF7240), frame # 102919
+[2020.09.30-14.00.18:981][919]LogPlayLevel: PIE: World Init took: (0.000887s)
+[2020.09.30-14.00.18:981][919]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/outer1.outer1 to /Game/Maps/UEDPIE_0_outer1.outer1 (0.016437s)
+[2020.09.30-14.00.19:007][919]LogUObjectHash: Compacting FUObjectHashTables data took   2.87ms
+[2020.09.30-14.00.19:010][919]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.09.30-14.00.19:010][919]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.09.30-14.00.19:010][919]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.09.30-14.00.19:010][919]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.09.30-14.00.19:010][919]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.09.30-14.00.19:010][919]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.09.30-14.00.19:010][919]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.09.30-14.00.19:010][919]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.09.30-14.00.19:010][919]LogAudio: Display: Using built-in audio occlusion.
+[2020.09.30-14.00.19:010][919]LogAudioMixer: Display: Initializing audio mixer.
+[2020.09.30-14.00.19:015][919]LogAudioMixer: Display: 0: FrontLeft
+[2020.09.30-14.00.19:015][919]LogAudioMixer: Display: 1: FrontRight
+[2020.09.30-14.00.19:015][919]LogAudioMixer: Display: 2: FrontCenter
+[2020.09.30-14.00.19:015][919]LogAudioMixer: Display: 3: LowFrequency
+[2020.09.30-14.00.19:015][919]LogAudioMixer: Display: 4: BackLeft
+[2020.09.30-14.00.19:015][919]LogAudioMixer: Display: 5: BackRight
+[2020.09.30-14.00.19:015][919]LogAudioMixer: Display: 6: SideLeft
+[2020.09.30-14.00.19:015][919]LogAudioMixer: Display: 7: SideRight
+[2020.09.30-14.00.19:060][919]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2020.09.30-14.00.19:060][919]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.09.30-14.00.19:060][919]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.09.30-14.00.19:060][919]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.09.30-14.00.19:060][919]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.09.30-14.00.19:072][919]LogInit: FAudioDevice initialized.
+[2020.09.30-14.00.19:082][919]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2020.09.30-14.00.19:087][919]LogWorld: Bringing World /Game/Maps/UEDPIE_0_outer1.outer1 up for play (max tick rate 60) at 2020.09.30-10.00.19
+[2020.09.30-14.00.19:087][919]LogWorld: Bringing up level for play took: 0.003978
+[2020.09.30-14.00.19:088][919]LogOnline: OSS: Creating online subsystem instance for: :Context_20
+[2020.09.30-14.00.19:095][919]PIE: Server logged in
+[2020.09.30-14.00.19:096][919]PIE: Play in editor total start time 0.139 seconds.
+[2020.09.30-14.00.19:115][919]LogAudio: Warning: Detected orphaned looping sound 'Ominous-Pursuit_Looping__online-audio-converter_com_'.
+[2020.09.30-14.00.29:381][533]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.30-14.00.29:381][533]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_outer1
+[2020.09.30-14.00.29:382][533]LogWorld: UWorld::CleanupWorld for outer1, bSessionEnded=true, bCleanupResources=true
+[2020.09.30-14.00.29:383][533]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.30-14.00.29:391][533]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.09.30-14.00.29:397][533]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.30-14.00.29:449][533]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.30-14.00.29:450][533]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000218DDDF7240), frame # 103533
+[2020.09.30-14.00.29:450][533]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000218DDBF9A00), frame # 103533
+[2020.09.30-14.00.29:453][533]LogUObjectHash: Compacting FUObjectHashTables data took   2.33ms
+[2020.09.30-14.00.29:493][534]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2020.09.30-14.04.10:614][900]LogTemp: Repeating last play command: Selected Viewport
+[2020.09.30-14.04.10:639][900]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.09.30-14.04.10:639][900]PIE: New page: PIE session: outer1 (Sep 30, 2020, 6:04:10 AM)
+[2020.09.30-14.04.10:639][900]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_outer1
+[2020.09.30-14.04.10:654][900]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015562s)
+[2020.09.30-14.04.10:655][900]LogAIModule: Creating AISystem for world outer1
+[2020.09.30-14.04.10:655][900]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000021887666400), frame # 105900
+[2020.09.30-14.04.10:655][900]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000218DCF9FB00), frame # 105900
+[2020.09.30-14.04.10:655][900]LogPlayLevel: PIE: World Init took: (0.001191s)
+[2020.09.30-14.04.10:655][900]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/outer1.outer1 to /Game/Maps/UEDPIE_0_outer1.outer1 (0.016872s)
+[2020.09.30-14.04.10:681][900]LogUObjectHash: Compacting FUObjectHashTables data took   2.21ms
+[2020.09.30-14.04.10:685][900]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.09.30-14.04.10:685][900]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.09.30-14.04.10:685][900]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.09.30-14.04.10:685][900]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.09.30-14.04.10:685][900]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.09.30-14.04.10:685][900]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.09.30-14.04.10:685][900]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.09.30-14.04.10:685][900]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.09.30-14.04.10:686][900]LogAudio: Display: Using built-in audio occlusion.
+[2020.09.30-14.04.10:686][900]LogAudioMixer: Display: Initializing audio mixer.
+[2020.09.30-14.04.10:691][900]LogAudioMixer: Display: 0: FrontLeft
+[2020.09.30-14.04.10:691][900]LogAudioMixer: Display: 1: FrontRight
+[2020.09.30-14.04.10:691][900]LogAudioMixer: Display: 2: FrontCenter
+[2020.09.30-14.04.10:691][900]LogAudioMixer: Display: 3: LowFrequency
+[2020.09.30-14.04.10:691][900]LogAudioMixer: Display: 4: BackLeft
+[2020.09.30-14.04.10:691][900]LogAudioMixer: Display: 5: BackRight
+[2020.09.30-14.04.10:691][900]LogAudioMixer: Display: 6: SideLeft
+[2020.09.30-14.04.10:691][900]LogAudioMixer: Display: 7: SideRight
+[2020.09.30-14.04.10:737][900]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2020.09.30-14.04.10:737][900]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.09.30-14.04.10:737][900]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.09.30-14.04.10:737][900]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.09.30-14.04.10:737][900]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.09.30-14.04.10:749][900]LogInit: FAudioDevice initialized.
+[2020.09.30-14.04.10:760][900]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2020.09.30-14.04.10:763][900]LogWorld: Bringing World /Game/Maps/UEDPIE_0_outer1.outer1 up for play (max tick rate 60) at 2020.09.30-10.04.10
+[2020.09.30-14.04.10:764][900]LogWorld: Bringing up level for play took: 0.002942
+[2020.09.30-14.04.10:764][900]LogOnline: OSS: Creating online subsystem instance for: :Context_21
+[2020.09.30-14.04.10:769][900]PIE: Server logged in
+[2020.09.30-14.04.10:770][900]PIE: Play in editor total start time 0.133 seconds.
+[2020.09.30-14.04.10:791][900]LogAudio: Warning: Detected orphaned looping sound 'Ominous-Pursuit_Looping__online-audio-converter_com_'.
+[2020.09.30-14.04.36:668][450]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.30-14.04.36:668][450]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_outer1
+[2020.09.30-14.04.36:668][450]LogWorld: UWorld::CleanupWorld for outer1, bSessionEnded=true, bCleanupResources=true
+[2020.09.30-14.04.36:668][450]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.30-14.04.36:680][450]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.09.30-14.04.36:686][450]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.30-14.04.36:710][450]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.30-14.04.36:733][450]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000218DCF9FB00), frame # 107450
+[2020.09.30-14.04.36:733][450]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000021887666400), frame # 107450
+[2020.09.30-14.04.36:736][450]LogUObjectHash: Compacting FUObjectHashTables data took   2.44ms
+[2020.09.30-14.04.36:780][451]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2020.09.30-14.06.49:826][567]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Locker" FILE="D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Content/Blueprints/Locker.uasset" SILENT=true
+[2020.09.30-14.06.49:873][567]LogSavePackage: Moving 'D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Locker9CF7723D45CA6EA7CF7ED29D0C65115C.tmp' to 'D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Content/Blueprints/Locker.uasset'
+[2020.09.30-14.06.49:888][567]AssetCheck: New page: Asset Save: Locker
+[2020.09.30-14.06.49:888][567]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Locker.Locker
+[2020.09.30-14.10.24:950][676]LogUObjectHash: Compacting FUObjectHashTables data took   3.62ms
+[2020.09.30-14.10.24:965][676]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/outer1" FILE="D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Autosaves/Game/Maps/outer1_Auto4.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2020.09.30-14.10.25:059][676]LogSavePackage: Moving 'D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Saved/outer1_Auto4CB7302864F75E817CBA68D939E30D94D.tmp' to 'D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Autosaves/Game/Maps/outer1_Auto4.umap'
+[2020.09.30-14.10.25:062][676]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/outer1' took 0.147
+[2020.09.30-14.10.25:063][676]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.147
+[2020.09.30-14.18.44:807][807]LogSlate: Took 0.008856 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2020.09.30-14.19.10:477][297]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2020.09.30-14.19.10:678][297]LogUObjectHash: Compacting FUObjectHashTables data took   5.35ms
+[2020.09.30-14.19.45:144][316]BlueprintLog: New page: Compile Locker
+[2020.09.30-14.19.45:272][316]LogUObjectHash: Compacting FUObjectHashTables data took   3.41ms
+[2020.09.30-14.19.49:414][535]LogSavePackage: Moving 'D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Saved/ThirdPersonCharacter269EE1D047D19F279C086799556D3559.tmp' to 'D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2020.09.30-14.19.49:440][535]AssetCheck: New page: Asset Save: ThirdPersonCharacter
+[2020.09.30-14.19.49:440][535]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2020.09.30-14.19.52:122][694]LogTemp: Repeating last play command: Selected Viewport
+[2020.09.30-14.19.52:151][694]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.09.30-14.19.52:152][694]PIE: New page: PIE session: outer1 (Sep 30, 2020, 6:19:52 AM)
+[2020.09.30-14.19.52:152][694]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_outer1
+[2020.09.30-14.19.52:168][694]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016447s)
+[2020.09.30-14.19.52:169][694]LogAIModule: Creating AISystem for world outer1
+[2020.09.30-14.19.52:169][694]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000218D09D3E00), frame # 130694
+[2020.09.30-14.19.52:169][694]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002192F7D2480), frame # 130694
+[2020.09.30-14.19.52:169][694]LogPlayLevel: PIE: World Init took: (0.001097s)
+[2020.09.30-14.19.52:169][694]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/outer1.outer1 to /Game/Maps/UEDPIE_0_outer1.outer1 (0.017665s)
+[2020.09.30-14.19.52:202][694]LogUObjectHash: Compacting FUObjectHashTables data took   3.34ms
+[2020.09.30-14.19.52:204][694]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.09.30-14.19.52:204][694]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.09.30-14.19.52:204][694]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.09.30-14.19.52:204][694]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.09.30-14.19.52:204][694]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.09.30-14.19.52:204][694]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.09.30-14.19.52:204][694]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.09.30-14.19.52:204][694]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.09.30-14.19.52:204][694]LogAudio: Display: Using built-in audio occlusion.
+[2020.09.30-14.19.52:204][694]LogAudioMixer: Display: Initializing audio mixer.
+[2020.09.30-14.19.52:210][694]LogAudioMixer: Display: 0: FrontLeft
+[2020.09.30-14.19.52:210][694]LogAudioMixer: Display: 1: FrontRight
+[2020.09.30-14.19.52:210][694]LogAudioMixer: Display: 2: FrontCenter
+[2020.09.30-14.19.52:210][694]LogAudioMixer: Display: 3: LowFrequency
+[2020.09.30-14.19.52:210][694]LogAudioMixer: Display: 4: BackLeft
+[2020.09.30-14.19.52:210][694]LogAudioMixer: Display: 5: BackRight
+[2020.09.30-14.19.52:210][694]LogAudioMixer: Display: 6: SideLeft
+[2020.09.30-14.19.52:210][694]LogAudioMixer: Display: 7: SideRight
+[2020.09.30-14.19.52:254][694]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2020.09.30-14.19.52:255][694]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.09.30-14.19.52:255][694]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.09.30-14.19.52:255][694]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.09.30-14.19.52:255][694]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.09.30-14.19.52:267][694]LogInit: FAudioDevice initialized.
+[2020.09.30-14.19.52:277][694]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2020.09.30-14.19.52:280][694]LogWorld: Bringing World /Game/Maps/UEDPIE_0_outer1.outer1 up for play (max tick rate 60) at 2020.09.30-10.19.52
+[2020.09.30-14.19.52:281][694]LogWorld: Bringing up level for play took: 0.002992
+[2020.09.30-14.19.52:281][694]LogOnline: OSS: Creating online subsystem instance for: :Context_22
+[2020.09.30-14.19.52:287][694]PIE: Server logged in
+[2020.09.30-14.19.52:287][694]PIE: Play in editor total start time 0.141 seconds.
+[2020.09.30-14.19.52:311][694]LogAudio: Warning: Detected orphaned looping sound 'Ominous-Pursuit_Looping__online-audio-converter_com_'.
+[2020.09.30-14.20.48:269][ 48]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.30-14.20.48:269][ 48]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_outer1
+[2020.09.30-14.20.48:269][ 48]LogWorld: UWorld::CleanupWorld for outer1, bSessionEnded=true, bCleanupResources=true
+[2020.09.30-14.20.48:270][ 48]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.30-14.20.48:283][ 48]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.09.30-14.20.48:289][ 48]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.30-14.20.48:354][ 48]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.30-14.20.48:355][ 48]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002192F7D2480), frame # 134048
+[2020.09.30-14.20.48:355][ 48]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000218D09D3E00), frame # 134048
+[2020.09.30-14.20.48:358][ 48]LogUObjectHash: Compacting FUObjectHashTables data took   2.67ms
+[2020.09.30-14.20.48:403][ 49]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2020.09.30-14.21.21:499][ 22]LogUObjectHash: Compacting FUObjectHashTables data took   2.36ms
+[2020.09.30-14.21.21:512][ 22]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/outer1" FILE="D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Autosaves/Game/Maps/outer1_Auto5.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2020.09.30-14.21.21:594][ 22]LogSavePackage: Moving 'D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Saved/outer1_Auto5EF31049E4B8252C09AC9C4A1C5895534.tmp' to 'D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Autosaves/Game/Maps/outer1_Auto5.umap'
+[2020.09.30-14.21.21:601][ 22]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/outer1' took 0.134
+[2020.09.30-14.21.21:601][ 22]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.134
+[2020.09.30-14.21.21:601][ 22]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Locker] ([1] browsable assets)...
+[2020.09.30-14.21.21:612][ 22]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Locker.Locker]
+[2020.09.30-14.21.21:612][ 22]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Locker]
+[2020.09.30-14.21.21:612][ 22]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Locker" FILE="D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Autosaves/Game/Blueprints/Locker_Auto5.uasset" SILENT=false AUTOSAVING=true
+[2020.09.30-14.21.21:647][ 22]LogSavePackage: Moving 'D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Locker_Auto58A1EA10C40F3882B10640AB65A73B697.tmp' to 'D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Autosaves/Game/Blueprints/Locker_Auto5.uasset'
+[2020.09.30-14.21.21:649][ 22]LogFileHelpers: Auto-saving content packages took 0.048
+[2020.09.30-14.21.30:279][539]LogTemp: Repeating last play command: Selected Viewport
+[2020.09.30-14.21.30:305][539]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.09.30-14.21.30:306][539]PIE: New page: PIE session: outer1 (Sep 30, 2020, 6:21:30 AM)
+[2020.09.30-14.21.30:306][539]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_outer1
+[2020.09.30-14.21.30:324][539]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018257s)
+[2020.09.30-14.21.30:325][539]LogAIModule: Creating AISystem for world outer1
+[2020.09.30-14.21.30:325][539]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000218C66D2800), frame # 136539
+[2020.09.30-14.21.30:325][539]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002192F7D3D80), frame # 136539
+[2020.09.30-14.21.30:325][539]LogPlayLevel: PIE: World Init took: (0.001095s)
+[2020.09.30-14.21.30:325][539]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/outer1.outer1 to /Game/Maps/UEDPIE_0_outer1.outer1 (0.019472s)
+[2020.09.30-14.21.30:354][539]LogUObjectHash: Compacting FUObjectHashTables data took   2.23ms
+[2020.09.30-14.21.30:356][539]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.09.30-14.21.30:356][539]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.09.30-14.21.30:356][539]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.09.30-14.21.30:356][539]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.09.30-14.21.30:356][539]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.09.30-14.21.30:356][539]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.09.30-14.21.30:356][539]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.09.30-14.21.30:356][539]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.09.30-14.21.30:356][539]LogAudio: Display: Using built-in audio occlusion.
+[2020.09.30-14.21.30:356][539]LogAudioMixer: Display: Initializing audio mixer.
+[2020.09.30-14.21.30:361][539]LogAudioMixer: Display: 0: FrontLeft
+[2020.09.30-14.21.30:361][539]LogAudioMixer: Display: 1: FrontRight
+[2020.09.30-14.21.30:361][539]LogAudioMixer: Display: 2: FrontCenter
+[2020.09.30-14.21.30:361][539]LogAudioMixer: Display: 3: LowFrequency
+[2020.09.30-14.21.30:361][539]LogAudioMixer: Display: 4: BackLeft
+[2020.09.30-14.21.30:361][539]LogAudioMixer: Display: 5: BackRight
+[2020.09.30-14.21.30:361][539]LogAudioMixer: Display: 6: SideLeft
+[2020.09.30-14.21.30:361][539]LogAudioMixer: Display: 7: SideRight
+[2020.09.30-14.21.30:407][539]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2020.09.30-14.21.30:408][539]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.09.30-14.21.30:408][539]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.09.30-14.21.30:408][539]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.09.30-14.21.30:408][539]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.09.30-14.21.30:420][539]LogInit: FAudioDevice initialized.
+[2020.09.30-14.21.30:424][539]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2020.09.30-14.21.30:427][539]LogWorld: Bringing World /Game/Maps/UEDPIE_0_outer1.outer1 up for play (max tick rate 60) at 2020.09.30-10.21.30
+[2020.09.30-14.21.30:428][539]LogWorld: Bringing up level for play took: 0.002793
+[2020.09.30-14.21.30:428][539]LogOnline: OSS: Creating online subsystem instance for: :Context_23
+[2020.09.30-14.21.30:434][539]PIE: Server logged in
+[2020.09.30-14.21.30:434][539]PIE: Play in editor total start time 0.135 seconds.
+[2020.09.30-14.21.30:458][539]LogAudio: Warning: Detected orphaned looping sound 'Ominous-Pursuit_Looping__online-audio-converter_com_'.
+[2020.09.30-14.21.42:119][234]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.30-14.21.42:119][234]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_outer1
+[2020.09.30-14.21.42:119][234]LogWorld: UWorld::CleanupWorld for outer1, bSessionEnded=true, bCleanupResources=true
+[2020.09.30-14.21.42:119][234]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.30-14.21.42:129][234]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.09.30-14.21.42:133][234]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.30-14.21.42:164][234]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.30-14.21.42:193][234]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002192F7D3D80), frame # 137234
+[2020.09.30-14.21.42:193][234]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000218C66D2800), frame # 137234
+[2020.09.30-14.21.42:196][234]LogUObjectHash: Compacting FUObjectHashTables data took   2.47ms
+[2020.09.30-14.21.42:232][235]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2020.09.30-14.22.45:752][ 11]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2020.09.30-14.22.45:902][ 11]LogUObjectHash: Compacting FUObjectHashTables data took   3.32ms
+[2020.09.30-14.22.48:044][121]BlueprintLog: New page: Compile Locker
+[2020.09.30-14.22.48:127][121]LogBlueprint: Warning: [Compiler Locker] Could not find a variable named "sightmenu" in 'Locker_C'.
+Make sure 'Locker_C' has been compiled for  Get sightmenu
+[2020.09.30-14.22.48:127][121]LogBlueprint: Warning: [Compiler Locker] Could not find a variable named "sightmenu" in 'Locker_C'.
+Make sure 'Locker_C' has been compiled for  Set sightmenu
+[2020.09.30-14.22.48:128][121]LogBlueprint: Error: [Compiler Locker] In use pin  <Unnamed>  no longer exists on node  Exit Sightjack . Please refresh node or break links to remove pin.
+[2020.09.30-14.22.48:128][121]LogBlueprint: Error: [Compiler Locker] In use pin  <Unnamed>  no longer exists on node  Exit Sightjack . Please refresh node or break links to remove pin.
+[2020.09.30-14.22.48:128][121]LogBlueprint: Error: [Compiler Locker] Could not find a function named "Exit Sightjack" in 'Locker_C'.
+Make sure 'Locker_C' has been compiled for  Exit Sightjack
+[2020.09.30-14.22.48:128][121]LogBlueprint: Warning: [Compiler Locker] Could not find a variable named "PostProcess" in 'Locker_C'.
+Make sure 'Locker_C' has been compiled for  Get PostProcess
+[2020.09.30-14.22.48:128][121]LogBlueprint: Warning: [Compiler Locker] Could not find a variable named "senceEnemy" in 'Locker_C'.
+Make sure 'Locker_C' has been compiled for  Set senceEnemy
+[2020.09.30-14.22.48:128][121]LogBlueprint: Warning: [Compiler Locker] Could not find a variable named "SightMode" in 'Locker_C'.
+Make sure 'Locker_C' has been compiled for  Set SightMode
+[2020.09.30-14.22.48:128][121]LogBlueprint: Warning: [Compiler Locker] Could not find a variable named "Sightjacking" in 'Locker_C'.
+Make sure 'Locker_C' has been compiled for  Set Sightjacking
+[2020.09.30-14.22.48:129][121]LogBlueprint: Error: [Compiler Locker] This blueprint (self) is not a UserWidget, therefore ' Target ' must have a connection.
+[2020.09.30-14.22.48:129][121]LogBlueprint: Error: [Compiler Locker] The property associated with  Sightmenu  could not be found in '/Game/Blueprints/Locker.Locker_C'
+[2020.09.30-14.22.48:130][121]LogBlueprint: Error: [Compiler Locker] The property associated with  Sightjacking  could not be found in '/Game/Blueprints/Locker.Locker_C'
+[2020.09.30-14.22.48:130][121]LogBlueprint: Error: [Compiler Locker] The property associated with  Sight Mode  could not be found in '/Game/Blueprints/Locker.Locker_C'
+[2020.09.30-14.22.48:130][121]LogBlueprint: Error: [Compiler Locker] The property associated with  Sence Enemy  could not be found in '/Game/Blueprints/Locker.Locker_C'
+[2020.09.30-14.22.48:130][121]LogBlueprint: Error: [Compiler Locker] The property associated with  Post Process  could not be found in '/Game/Blueprints/Locker.Locker_C'
+[2020.09.30-14.22.48:130][121]LogBlueprint: Error: [Compiler Locker] The property associated with  Sightmenu  could not be found in '/Game/Blueprints/Locker.Locker_C'
+[2020.09.30-14.22.48:187][121]LogUObjectHash: Compacting FUObjectHashTables data took   3.43ms
+[2020.09.30-14.23.17:278][810]BlueprintLog: New page: Compile Locker
+[2020.09.30-14.23.17:345][810]LogUObjectHash: Compacting FUObjectHashTables data took   3.34ms
+[2020.09.30-14.31.33:612][468]LogUObjectHash: Compacting FUObjectHashTables data took   3.51ms
+[2020.09.30-14.31.33:617][468]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/outer1" FILE="D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Autosaves/Game/Maps/outer1_Auto6.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2020.09.30-14.31.33:711][468]LogSavePackage: Moving 'D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Saved/outer1_Auto6DB9F38DC49D0A2BFB501BD87C3921658.tmp' to 'D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Autosaves/Game/Maps/outer1_Auto6.umap'
+[2020.09.30-14.31.33:718][468]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/outer1' took 0.138
+[2020.09.30-14.31.33:718][468]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.138
+[2020.09.30-14.31.33:718][468]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter] ([1] browsable assets)...
+[2020.09.30-14.31.33:739][468]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter]
+[2020.09.30-14.31.33:739][468]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter]
+[2020.09.30-14.31.33:901][468]LogSavePackage: Moving 'D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Saved/ThirdPersonCharacter_Auto6ADDC9DC84E72D15BA8286EAA72FF4FC0.tmp' to 'D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_Auto6.uasset'
+[2020.09.30-14.31.33:903][468]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Locker] ([1] browsable assets)...
+[2020.09.30-14.31.33:920][468]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Locker.Locker]
+[2020.09.30-14.31.33:920][468]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Locker]
+[2020.09.30-14.31.33:920][468]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Locker" FILE="D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Autosaves/Game/Blueprints/Locker_Auto6.uasset" SILENT=false AUTOSAVING=true
+[2020.09.30-14.31.33:961][468]LogSavePackage: Moving 'D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Locker_Auto65CA520AC4243A65E391ED2A825DF101B.tmp' to 'D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Autosaves/Game/Blueprints/Locker_Auto6.uasset'
+[2020.09.30-14.31.33:962][468]LogFileHelpers: Auto-saving content packages took 0.244
+[2020.10.01-18.45.45:521][767]LogUObjectHash: Compacting FUObjectHashTables data took  22.35ms
+[2020.10.01-18.45.45:646][767]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/outer1" FILE="D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Content/Maps/outer1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.10.01-18.45.45:682][767]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2020.10.01-18.45.45:825][767]LogSavePackage: Moving 'D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Saved/outer188F5B5CF415AD6FD27C0279FE645FF86.tmp' to 'D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Content/Maps/outer1.umap'
+[2020.10.01-18.45.45:919][767]LogFileHelpers: Saving map 'outer1' took 0.280
+[2020.10.01-18.45.45:920][767]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/outer1_BuiltData" FILE="D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Content/Maps/outer1_BuiltData.uasset" SILENT=true
+[2020.10.01-18.45.46:032][767]LogSavePackage: Moving 'D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Saved/outer1_BuiltData4D5AC5CE43C701BD64DDF6A3684975E8.tmp' to 'D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Content/Maps/outer1_BuiltData.uasset'
+[2020.10.01-18.45.46:222][767]LogSavePackage: Moving 'D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Saved/ThirdPersonCharacter9A245F0B4BD595F6D9BA3093E4758E55.tmp' to 'D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2020.10.01-18.45.46:228][767]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Locker" FILE="D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Content/Blueprints/Locker.uasset" SILENT=true
+[2020.10.01-18.45.46:266][767]LogSavePackage: Moving 'D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Locker16E2FC7B466E5646EB5EBF92406298F1.tmp' to 'D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Content/Blueprints/Locker.uasset'
+[2020.10.01-18.45.46:350][767]AssetCheck: New page: Asset Save: multiple assets
+[2020.10.01-18.45.46:350][767]LogContentValidation: Display: Validating World /Game/Maps/outer1.outer1
+[2020.10.01-18.45.46:350][767]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/outer1_BuiltData.outer1_BuiltData
+[2020.10.01-18.45.46:350][767]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2020.10.01-18.45.46:351][767]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Locker.Locker
