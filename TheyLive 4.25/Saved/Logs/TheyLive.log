@@ -1,8 +1,8 @@
-﻿Log file open, 10/28/20 12:04:12
+﻿Log file open, 10/28/20 12:41:50
 LogInit: Display: Running engine for game: TheyLive
 LogPlatformFile: Not using cached read wrapper
-LogTaskGraph: Started task graph with 5 named threads and 47 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.184353
+LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.192241
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -135,17 +135,17 @@ LogInit:  - BufferSize = 65536
 LogOnline: OSS: Creating online subsystem instance for: NULL
 LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
 LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
-LogInit: Build: ++UE4+Release-4.25-CL-13942748
-LogInit: Engine Version: 4.25.3-13942748+++UE4+Release-4.25
+LogInit: Build: ++UE4+Release-4.25-CL-14469661
+LogInit: Engine Version: 4.25.4-14469661+++UE4+Release-4.25
 LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
 LogInit: Net CL: 13144385
-LogInit: OS: Windows 10 (Release 1909) (), CPU: Intel(R) Core(TM) i9-9900K CPU @ 3.60GHz, GPU: NVIDIA GeForce RTX 2080
-LogInit: Compiled (64-bit): Jul 25 2020 02:07:48
+LogInit: OS: Windows 10 (Release 1909) (), CPU: Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz, GPU: Intel(R) UHD Graphics 630
+LogInit: Compiled (64-bit): Oct 11 2020 08:10:49
 LogInit: Compiled with Visual C++: 19.24.28315.00
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.25
 LogInit: Command Line: 
-LogInit: Base Directory: D:/Unreal/unreal/UE_4.25/Engine/Binaries/Win64/
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/Win64/
 LogInit: Allocator: TBB
 LogInit: Installed Engine Build: 1
 LogDevObjectVersion: Number of dev versions registered: 26
@@ -176,7 +176,7 @@ LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 3
 LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
 LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
 LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
-LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [F:/Dimensions_of_horror/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Engine.ini]
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Engine.ini]
 LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
 LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
 LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
@@ -194,526 +194,772 @@ LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2020.10.28-16.04.13:146][  0]LogConfig: Setting CVar [[r.VSync:0]]
-[2020.10.28-16.04.13:146][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
-[2020.10.28-16.04.13:146][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [F:/Dimensions_of_horror/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Engine.ini]
-[2020.10.28-16.04.13:146][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2020.10.28-16.04.13:146][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:0]]
-[2020.10.28-16.04.13:146][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [F:/Dimensions_of_horror/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Engine.ini]
-[2020.10.28-16.04.13:146][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [F:/Dimensions_of_horror/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Engine.ini]
-[2020.10.28-16.04.13:146][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2020.10.28-16.04.13:146][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2020.10.28-16.04.13:146][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2020.10.28-16.04.13:146][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2020.10.28-16.04.13:146][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2020.10.28-16.04.13:146][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2020.10.28-16.04.13:146][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2020.10.28-16.04.13:146][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2020.10.28-16.04.13:146][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2020.10.28-16.04.13:146][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2020.10.28-16.04.13:146][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2020.10.28-16.04.13:146][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2020.10.28-16.04.13:146][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2020.10.28-16.04.13:146][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
-[2020.10.28-16.04.13:146][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [F:/Dimensions_of_horror/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Engine.ini]
-[2020.10.28-16.04.13:146][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2020.10.28-16.04.13:146][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2020.10.28-16.04.13:146][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2020.10.28-16.04.13:146][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2020.10.28-16.04.13:146][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2020.10.28-16.04.13:146][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2020.10.28-16.04.13:146][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
-[2020.10.28-16.04.13:146][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2020.10.28-16.04.13:146][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2020.10.28-16.04.13:146][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2020.10.28-16.04.13:146][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2020.10.28-16.04.13:146][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2020.10.28-16.04.13:146][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2020.10.28-16.04.13:146][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [F:/Dimensions_of_horror/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Engine.ini]
-[2020.10.28-16.04.13:146][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [F:/Dimensions_of_horror/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Engine.ini]
-[2020.10.28-16.04.13:151][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [F:/Dimensions_of_horror/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Scalability.ini]
-[2020.10.28-16.04.13:151][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2020.10.28-16.04.13:151][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2020.10.28-16.04.13:151][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [F:/Dimensions_of_horror/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Scalability.ini]
-[2020.10.28-16.04.13:151][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2020.10.28-16.04.13:151][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [F:/Dimensions_of_horror/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Scalability.ini]
-[2020.10.28-16.04.13:151][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2020.10.28-16.04.13:151][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2020.10.28-16.04.13:151][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2020.10.28-16.04.13:151][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2020.10.28-16.04.13:151][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2020.10.28-16.04.13:151][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2020.10.28-16.04.13:151][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2020.10.28-16.04.13:151][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2020.10.28-16.04.13:151][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2020.10.28-16.04.13:151][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2020.10.28-16.04.13:151][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2020.10.28-16.04.13:151][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2020.10.28-16.04.13:151][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2020.10.28-16.04.13:151][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2020.10.28-16.04.13:151][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2020.10.28-16.04.13:151][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2020.10.28-16.04.13:151][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2020.10.28-16.04.13:151][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2020.10.28-16.04.13:151][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [F:/Dimensions_of_horror/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Scalability.ini]
-[2020.10.28-16.04.13:151][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2020.10.28-16.04.13:151][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2020.10.28-16.04.13:151][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2020.10.28-16.04.13:151][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2020.10.28-16.04.13:151][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2020.10.28-16.04.13:151][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2020.10.28-16.04.13:151][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2020.10.28-16.04.13:151][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2020.10.28-16.04.13:151][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2020.10.28-16.04.13:151][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2020.10.28-16.04.13:151][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2020.10.28-16.04.13:151][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2020.10.28-16.04.13:151][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2020.10.28-16.04.13:151][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2020.10.28-16.04.13:151][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2020.10.28-16.04.13:151][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2020.10.28-16.04.13:151][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2020.10.28-16.04.13:151][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2020.10.28-16.04.13:151][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2020.10.28-16.04.13:151][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2020.10.28-16.04.13:151][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2020.10.28-16.04.13:151][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2020.10.28-16.04.13:151][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2020.10.28-16.04.13:151][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2020.10.28-16.04.13:151][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2020.10.28-16.04.13:151][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2020.10.28-16.04.13:151][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2020.10.28-16.04.13:151][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2020.10.28-16.04.13:151][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2020.10.28-16.04.13:151][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2020.10.28-16.04.13:151][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [F:/Dimensions_of_horror/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Scalability.ini]
-[2020.10.28-16.04.13:151][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2020.10.28-16.04.13:151][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2020.10.28-16.04.13:151][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2020.10.28-16.04.13:151][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2020.10.28-16.04.13:151][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2020.10.28-16.04.13:151][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2020.10.28-16.04.13:151][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2020.10.28-16.04.13:151][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2020.10.28-16.04.13:151][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2020.10.28-16.04.13:151][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [F:/Dimensions_of_horror/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Scalability.ini]
-[2020.10.28-16.04.13:151][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2020.10.28-16.04.13:151][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2020.10.28-16.04.13:151][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2020.10.28-16.04.13:151][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2020.10.28-16.04.13:151][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2020.10.28-16.04.13:151][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2020.10.28-16.04.13:151][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2020.10.28-16.04.13:151][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2020.10.28-16.04.13:151][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2020.10.28-16.04.13:151][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2020.10.28-16.04.13:151][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2020.10.28-16.04.13:151][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
-[2020.10.28-16.04.13:151][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2020.10.28-16.04.13:151][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2020.10.28-16.04.13:151][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2020.10.28-16.04.13:151][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2020.10.28-16.04.13:151][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2020.10.28-16.04.13:151][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2020.10.28-16.04.13:151][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2020.10.28-16.04.13:151][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2020.10.28-16.04.13:152][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2020.10.28-16.04.13:152][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2020.10.28-16.04.13:152][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2020.10.28-16.04.13:152][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2020.10.28-16.04.13:152][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2020.10.28-16.04.13:152][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2020.10.28-16.04.13:152][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [F:/Dimensions_of_horror/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Scalability.ini]
-[2020.10.28-16.04.13:152][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2020.10.28-16.04.13:152][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2020.10.28-16.04.13:152][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [F:/Dimensions_of_horror/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Scalability.ini]
-[2020.10.28-16.04.13:152][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2020.10.28-16.04.13:152][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2020.10.28-16.04.13:152][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2020.10.28-16.04.13:152][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
-[2020.10.28-16.04.13:152][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
-[2020.10.28-16.04.13:152][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
-[2020.10.28-16.04.13:152][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
-[2020.10.28-16.04.13:152][  0]LogInit: Selected Device Profile: [Windows]
-[2020.10.28-16.04.13:152][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2020.10.28-16.04.13:152][  0]LogHAL: Display: Platform has ~ 64 GB [68644487168 / 68719476736 / 64], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2020.10.28-16.04.13:152][  0]LogInit: Going up to parent DeviceProfile []
-[2020.10.28-16.04.13:152][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [F:/Dimensions_of_horror/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Scalability.ini]
-[2020.10.28-16.04.13:152][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2020.10.28-16.04.13:152][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2020.10.28-16.04.13:152][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [F:/Dimensions_of_horror/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Scalability.ini]
-[2020.10.28-16.04.13:152][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2020.10.28-16.04.13:152][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [F:/Dimensions_of_horror/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Scalability.ini]
-[2020.10.28-16.04.13:152][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2020.10.28-16.04.13:152][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2020.10.28-16.04.13:152][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2020.10.28-16.04.13:152][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2020.10.28-16.04.13:152][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2020.10.28-16.04.13:152][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2020.10.28-16.04.13:152][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2020.10.28-16.04.13:152][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2020.10.28-16.04.13:152][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2020.10.28-16.04.13:152][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2020.10.28-16.04.13:152][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2020.10.28-16.04.13:152][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2020.10.28-16.04.13:152][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2020.10.28-16.04.13:152][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2020.10.28-16.04.13:152][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2020.10.28-16.04.13:152][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2020.10.28-16.04.13:152][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2020.10.28-16.04.13:152][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2020.10.28-16.04.13:152][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [F:/Dimensions_of_horror/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Scalability.ini]
-[2020.10.28-16.04.13:152][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2020.10.28-16.04.13:152][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2020.10.28-16.04.13:152][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2020.10.28-16.04.13:152][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2020.10.28-16.04.13:152][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2020.10.28-16.04.13:152][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2020.10.28-16.04.13:152][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2020.10.28-16.04.13:152][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2020.10.28-16.04.13:152][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2020.10.28-16.04.13:152][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2020.10.28-16.04.13:152][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2020.10.28-16.04.13:152][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2020.10.28-16.04.13:152][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2020.10.28-16.04.13:152][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2020.10.28-16.04.13:152][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2020.10.28-16.04.13:152][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2020.10.28-16.04.13:152][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2020.10.28-16.04.13:152][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2020.10.28-16.04.13:152][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2020.10.28-16.04.13:152][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2020.10.28-16.04.13:152][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2020.10.28-16.04.13:152][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2020.10.28-16.04.13:152][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2020.10.28-16.04.13:152][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2020.10.28-16.04.13:152][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2020.10.28-16.04.13:152][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2020.10.28-16.04.13:152][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2020.10.28-16.04.13:152][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2020.10.28-16.04.13:152][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2020.10.28-16.04.13:152][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2020.10.28-16.04.13:152][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [F:/Dimensions_of_horror/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Scalability.ini]
-[2020.10.28-16.04.13:152][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2020.10.28-16.04.13:152][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2020.10.28-16.04.13:152][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2020.10.28-16.04.13:152][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2020.10.28-16.04.13:152][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2020.10.28-16.04.13:152][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2020.10.28-16.04.13:152][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2020.10.28-16.04.13:152][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2020.10.28-16.04.13:152][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2020.10.28-16.04.13:152][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [F:/Dimensions_of_horror/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Scalability.ini]
-[2020.10.28-16.04.13:152][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2020.10.28-16.04.13:152][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2020.10.28-16.04.13:152][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2020.10.28-16.04.13:153][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2020.10.28-16.04.13:153][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2020.10.28-16.04.13:153][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2020.10.28-16.04.13:153][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2020.10.28-16.04.13:153][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2020.10.28-16.04.13:153][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2020.10.28-16.04.13:153][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2020.10.28-16.04.13:153][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2020.10.28-16.04.13:153][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
-[2020.10.28-16.04.13:153][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2020.10.28-16.04.13:153][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2020.10.28-16.04.13:153][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2020.10.28-16.04.13:153][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2020.10.28-16.04.13:153][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2020.10.28-16.04.13:153][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2020.10.28-16.04.13:153][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2020.10.28-16.04.13:153][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2020.10.28-16.04.13:153][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2020.10.28-16.04.13:153][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2020.10.28-16.04.13:153][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2020.10.28-16.04.13:153][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2020.10.28-16.04.13:153][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2020.10.28-16.04.13:153][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2020.10.28-16.04.13:153][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [F:/Dimensions_of_horror/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Scalability.ini]
-[2020.10.28-16.04.13:153][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2020.10.28-16.04.13:153][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2020.10.28-16.04.13:153][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [F:/Dimensions_of_horror/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Scalability.ini]
-[2020.10.28-16.04.13:153][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2020.10.28-16.04.13:153][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2020.10.28-16.04.13:153][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2020.10.28-16.04.13:153][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
-[2020.10.28-16.04.13:153][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
-[2020.10.28-16.04.13:153][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
-[2020.10.28-16.04.13:153][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
-[2020.10.28-16.04.13:153][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2020.10.28-16.04.13:153][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2020.10.28-16.04.13:153][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
-[2020.10.28-16.04.13:153][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
-[2020.10.28-16.04.13:153][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [F:/Dimensions_of_horror/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Engine.ini]
-[2020.10.28-16.04.13:153][  0]LogInit: Computer: DESKTOP-SIHJ10F
-[2020.10.28-16.04.13:153][  0]LogInit: User: mzx98
-[2020.10.28-16.04.13:153][  0]LogInit: CPU Page size=4096, Cores=8
-[2020.10.28-16.04.13:153][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2020.10.28-16.04.13:153][  0]LogMemory: Memory total: Physical=63.9GB (64GB approx)
-[2020.10.28-16.04.13:153][  0]LogMemory: Platform Memory Stats for Windows
-[2020.10.28-16.04.13:153][  0]LogMemory: Process Physical Memory: 116.61 MB used, 116.61 MB peak
-[2020.10.28-16.04.13:153][  0]LogMemory: Process Virtual Memory: 114.64 MB used, 114.64 MB peak
-[2020.10.28-16.04.13:153][  0]LogMemory: Physical Memory: 27287.55 MB used,  38176.93 MB free, 65464.48 MB total
-[2020.10.28-16.04.13:153][  0]LogMemory: Virtual Memory: 5201.27 MB used,  134212528.00 MB free, 134217728.00 MB total
-[2020.10.28-16.04.13:166][  0]LogWindows: WindowsPlatformFeatures enabled
-[2020.10.28-16.04.13:201][  0]LogInit: Physics initialised using underlying interface: PhysX
-[2020.10.28-16.04.13:202][  0]LogInit: Using OS detected language (zh-CN).
-[2020.10.28-16.04.13:202][  0]LogInit: Using OS detected locale (zh-CN).
-[2020.10.28-16.04.13:203][  0]LogTextLocalizationManager: No specific localization for 'zh-CN' exists, so the 'zh-Hans' localization will be used.
-[2020.10.28-16.04.13:280][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Editor/zh/Editor.locres' could not be opened for reading!
-[2020.10.28-16.04.13:281][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/EditorTutorials/zh/EditorTutorials.locres' could not be opened for reading!
-[2020.10.28-16.04.13:281][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Keywords/zh/Keywords.locres' could not be opened for reading!
-[2020.10.28-16.04.13:281][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Category/zh/Category.locres' could not be opened for reading!
-[2020.10.28-16.04.13:281][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/ToolTips/zh/ToolTips.locres' could not be opened for reading!
-[2020.10.28-16.04.13:281][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/PropertyNames/zh/PropertyNames.locres' could not be opened for reading!
-[2020.10.28-16.04.13:281][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Engine/zh/Engine.locres' could not be opened for reading!
-[2020.10.28-16.04.13:281][  0]LogTextLocalizationResource: LocRes '../../../Engine/Plugins/Online/Android/OnlineSubsystemGooglePlay/Content/Localization/OnlineSubsystemGooglePlay/zh/OnlineSubsystemGooglePlay.locres' could not be opened for reading!
-[2020.10.28-16.04.13:281][  0]LogTextLocalizationResource: LocRes '../../../Engine/Plugins/Online/IOS/OnlineSubsystemIOS/Content/Localization/OnlineSubsystemIOS/zh/OnlineSubsystemIOS.locres' could not be opened for reading!
-[2020.10.28-16.04.13:281][  0]LogTextLocalizationResource: LocRes '../../../Engine/Plugins/Online/OnlineSubsystem/Content/Localization/OnlineSubsystem/zh/OnlineSubsystem.locres' could not be opened for reading!
-[2020.10.28-16.04.13:281][  0]LogTextLocalizationResource: LocRes '../../../Engine/Plugins/Online/OnlineSubsystemUtils/Content/Localization/OnlineSubsystemUtils/zh/OnlineSubsystemUtils.locres' could not be opened for reading!
-[2020.10.28-16.04.13:327][  0]LogInit: Setting process to per monitor DPI aware
-[2020.10.28-16.04.13:379][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2020.10.28-16.04.13:379][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2020.10.28-16.04.13:541][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2020.10.28-16.04.13:541][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
-[2020.10.28-16.04.13:541][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
-[2020.10.28-16.04.13:541][  0]LogD3D11RHI: D3D11 adapters:
-[2020.10.28-16.04.13:618][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 2080' (Feature Level 11_0)
-[2020.10.28-16.04.13:618][  0]LogD3D11RHI:       8010/0/32732 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2020.10.28-16.04.13:621][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2020.10.28-16.04.13:621][  0]LogD3D11RHI:       0/0/32732 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2020.10.28-16.04.13:621][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2020.10.28-16.04.13:633][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2020.10.28-16.04.13:633][  0]LogD3D11RHI:     GPU DeviceId: 0x1e87 (for the marketing name, search the web for "GPU Device Id")
-[2020.10.28-16.04.13:633][  0]LogWindows: EnumDisplayDevices:
-[2020.10.28-16.04.13:633][  0]LogWindows:    0. 'NVIDIA GeForce RTX 2080' (P:0 D:1)
-[2020.10.28-16.04.13:634][  0]LogWindows:    1. 'NVIDIA GeForce RTX 2080' (P:1 D:1)
-[2020.10.28-16.04.13:634][  0]LogWindows:    2. 'NVIDIA GeForce RTX 2080' (P:0 D:0)
-[2020.10.28-16.04.13:635][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2080' (P:0 D:0)
-[2020.10.28-16.04.13:636][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2020.10.28-16.04.13:636][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 2080
-[2020.10.28-16.04.13:636][  0]LogD3D11RHI:   Driver Version: 445.87 (internal:26.21.14.4587, unified:445.87)
-[2020.10.28-16.04.13:636][  0]LogD3D11RHI:      Driver Date: 4-3-2020
-[2020.10.28-16.04.13:636][  0]LogRHI: Texture pool is 5607 MB (70% of 8010 MB)
-[2020.10.28-16.04.13:673][  0]LogD3D11RHI: RHI has support for 64 bit atomics
-[2020.10.28-16.04.13:675][  0]LogD3D11RHI: [Aftermath] Enabled and primed
-[2020.10.28-16.04.13:675][  0]LogD3D11RHI: Async texture creation enabled
-[2020.10.28-16.04.13:675][  0]LogD3D11RHI: Array index from any shader is supported
-[2020.10.28-16.04.13:690][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2020.10.28-16.04.14:057][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
-[2020.10.28-16.04.14:075][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
-[2020.10.28-16.04.14:075][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
-[2020.10.28-16.04.14:075][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
-[2020.10.28-16.04.14:075][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
-[2020.10.28-16.04.14:075][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
-[2020.10.28-16.04.14:075][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
-[2020.10.28-16.04.14:075][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
-[2020.10.28-16.04.14:075][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
-[2020.10.28-16.04.14:075][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
-[2020.10.28-16.04.14:075][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
-[2020.10.28-16.04.14:097][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
-[2020.10.28-16.04.14:097][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
-[2020.10.28-16.04.14:107][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
-[2020.10.28-16.04.14:116][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
-[2020.10.28-16.04.14:125][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
-[2020.10.28-16.04.14:134][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
-[2020.10.28-16.04.14:143][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
-[2020.10.28-16.04.14:152][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
-[2020.10.28-16.04.14:161][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
-[2020.10.28-16.04.14:182][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
-[2020.10.28-16.04.14:182][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
-[2020.10.28-16.04.14:195][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
-[2020.10.28-16.04.14:195][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
-[2020.10.28-16.04.14:205][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
-[2020.10.28-16.04.14:215][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
-[2020.10.28-16.04.14:223][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
-[2020.10.28-16.04.14:232][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
-[2020.10.28-16.04.14:232][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2020.10.28-16.04.14:243][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
-[2020.10.28-16.04.14:321][  0]LogShaderCompilers: Guid format shader working directory is -21 characters bigger than the processId version (F:/Dimensions_of_horror/Project-Dimensions-of-horror/TheyLive 4.25/Intermediate/Shaders/WorkingDirectory/25788/).
-[2020.10.28-16.04.14:321][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/mzx98/AppData/Local/Temp/UnrealShaderWorkingDir/0A1A49DE4929DF56030619A7F8348A69/'.
-[2020.10.28-16.04.14:322][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2020.10.28-16.04.14:322][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2020.10.28-16.04.14:322][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2020.10.28-16.04.14:918][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2020.10.28-16.04.14:959][  0]LogDerivedDataCache: Loaded boot cache 0.04s 75MB C:/Users/mzx98/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
-[2020.10.28-16.04.14:960][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/mzx98/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
-[2020.10.28-16.04.14:960][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file F:/Dimensions_of_horror/Project-Dimensions-of-horror/TheyLive 4.25/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2020.10.28-16.04.14:960][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2020.10.28-16.04.14:960][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file F:/Dimensions_of_horror/Project-Dimensions-of-horror/TheyLive 4.25/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2020.10.28-16.04.14:960][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2020.10.28-16.04.14:968][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2020.10.28-16.04.14:968][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2020.10.28-16.04.14:968][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2020.10.28-16.04.14:969][  0]LogDerivedDataCache: Using Local data cache path C:/Users/mzx98/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2020.10.28-16.04.14:969][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2020.10.28-16.04.14:969][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2020.10.28-16.04.15:010][  0]LogSlate: Using FreeType 2.10.0
-[2020.10.28-16.04.15:011][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2020.10.28-16.04.15:032][  0]LogAssetRegistry: FAssetRegistry took 0.0020 seconds to start up
-[2020.10.28-16.04.15:217][  0]LogInit: Selected Device Profile: [Windows]
-[2020.10.28-16.04.15:320][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2020.10.28-16.04.15:320][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
-[2020.10.28-16.04.15:320][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2020.10.28-16.04.15:320][  0]LogMeshReduction: No distributed automatic mesh merging module available
-[2020.10.28-16.04.15:320][  0]LogMeshMerging: No distributed automatic mesh merging module available
-[2020.10.28-16.04.15:337][  0]LogNetVersion: TheyLive 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 1881850289)
-[2020.10.28-16.04.15:681][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (0000022A3BBB1DC0), frame # 0
-[2020.10.28-16.04.15:681][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000022A3BB24400), frame # 0
-[2020.10.28-16.04.15:682][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000022A3BB64A00), frame # 0
-[2020.10.28-16.04.15:739][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 2 prioritized culture(s) in 0.051909 seconds
-[2020.10.28-16.04.15:743][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
-[2020.10.28-16.04.15:743][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
-[2020.10.28-16.04.15:743][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2020.10.28-16.04.16:123][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2020.10.28-16.04.16:128][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2020.10.28-16.04.16:217][  0]SourceControl: 源码管理已禁用
-[2020.10.28-16.04.16:217][  0]SourceControl: 源码管理已禁用
-[2020.10.28-16.04.16:222][  0]SourceControl: 源码管理已禁用
-[2020.10.28-16.04.16:226][  0]SourceControl: 源码管理已禁用
-[2020.10.28-16.04.16:234][  0]SourceControl: 源码管理已禁用
-[2020.10.28-16.04.16:539][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2020.10.28-16.04.16:566][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2020.10.28-16.04.16:566][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2020.10.28-16.04.16:616][  0]LogOcInput: OculusInput pre-init called
-[2020.10.28-16.04.16:628][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
-[2020.10.28-16.04.16:628][  0]LogWindows: File 'OVRPlugin.dll' does not exist
-[2020.10.28-16.04.16:686][  0]LogEngine: Initializing Engine...
-[2020.10.28-16.04.16:688][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2020.10.28-16.04.16:688][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
-[2020.10.28-16.04.16:689][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
-[2020.10.28-16.04.16:778][  0]LogInit: Initializing FReadOnlyCVARCache
-[2020.10.28-16.04.16:785][  0]LogAIModule: Creating AISystem for world Untitled
-[2020.10.28-16.04.16:785][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000022A3E28FC00), frame # 0
-[2020.10.28-16.04.16:785][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000022A3E304B80), frame # 0
-[2020.10.28-16.04.16:798][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2020.10.28-16.04.16:798][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2020.10.28-16.04.16:798][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2020.10.28-16.04.16:798][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2020.10.28-16.04.16:798][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2020.10.28-16.04.16:798][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2020.10.28-16.04.16:798][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2020.10.28-16.04.16:798][  0]LogAudio: Display: AudioDevice MaxSources: 32
-[2020.10.28-16.04.16:798][  0]LogAudio: Display: Using built-in audio occlusion.
-[2020.10.28-16.04.16:798][  0]LogAudioMixer: Display: Initializing audio mixer.
-[2020.10.28-16.04.16:812][  0]LogAudioMixer: Display: 0: FrontLeft
-[2020.10.28-16.04.16:812][  0]LogAudioMixer: Display: 1: FrontRight
-[2020.10.28-16.04.16:848][  0]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
-[2020.10.28-16.04.16:853][  0]LogAudioMixer: Display: Initializing Sound Submixes...
-[2020.10.28-16.04.16:855][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
-[2020.10.28-16.04.16:855][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
-[2020.10.28-16.04.16:856][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
-[2020.10.28-16.04.16:857][  0]LogInit: FAudioDevice initialized.
-[2020.10.28-16.04.16:857][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2020.10.28-16.04.16:898][  0]LogDerivedDataCache: Saved boot cache 0.04s 75MB C:/Users/mzx98/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
-[2020.10.28-16.04.16:898][  0]LogInit: Texture streaming: Enabled
-[2020.10.28-16.04.16:919][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2020.10.28-16.04.16:919][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
-[2020.10.28-16.04.16:923][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
-[2020.10.28-16.04.16:968][  0]LogInit: Transaction tracking system initialized
-[2020.10.28-16.04.16:994][  0]BlueprintLog: New page: 编辑器加载
-[2020.10.28-16.04.17:077][  0]LocalizationService: 本地化服务已禁用
-[2020.10.28-16.04.17:223][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2020.10.28-16.04.17:223][  0]LogCook: Display: Mobile HDR setting 1
-[2020.10.28-16.04.17:383][  0]LogFileCache: Scanning file cache for directory 'F:/Dimensions_of_horror/Project-Dimensions-of-horror/TheyLive 4.25/Content/' took 0.05s
-[2020.10.28-16.04.17:568][  0]SourceControl: 源码管理已禁用
-[2020.10.28-16.04.17:568][  0]LogUnrealEdMisc: Loading editor; pre map load, took 5.928
-[2020.10.28-16.04.17:568][  0]Cmd: MAP LOAD FILE="F:/Dimensions_of_horror/Project-Dimensions-of-horror/TheyLive 4.25/Content/Maps/CaveLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2020.10.28-16.04.17:568][  0]LightingResults: New page: 光照构建
-[2020.10.28-16.04.17:568][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
-[2020.10.28-16.04.17:568][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.10.28-16.04.17:569][  0]MapCheck: New page: 地图检测
-[2020.10.28-16.04.17:569][  0]LightingResults: New page: 光照构建
-[2020.10.28-16.04.17:578][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000022A3E28FC00), frame # 0
-[2020.10.28-16.04.17:578][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000022A3E304B80), frame # 0
-[2020.10.28-16.04.17:579][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
-[2020.10.28-16.04.18:116][  0]LogLinker: Warning: 加载“F:/Dimensions_of_horror/Project-Dimensions-of-horror/TheyLive 4.25/Content/PN_interactiveSpruceForest/Materials/MasterMaterials/MA_Summer.uasset”时未能加载“/Game/PN_interactiveSpruceForest/Textures/MasterTextures/ModelTextures/Bark_N”：无法找到文件。
-[2020.10.28-16.04.18:116][  0]LogLinker: Warning: 加载“F:/Dimensions_of_horror/Project-Dimensions-of-horror/TheyLive 4.25/Content/PN_interactiveSpruceForest/Materials/MasterMaterials/MA_Summer.uasset”时未能加载“/Game/PN_interactiveSpruceForest/Textures/MasterTextures/ModelTextures/Bark_N”：无法找到文件。
-[2020.10.28-16.04.18:118][  0]LogLinker: Warning: 加载“F:/Dimensions_of_horror/Project-Dimensions-of-horror/TheyLive 4.25/Content/PN_interactiveSpruceForest/Materials/MasterMaterials/MA_Summer.uasset”时未能加载“/Game/PN_interactiveSpruceForest/Textures/MasterTextures/ModelTextures/Bark_N”：无法找到文件。
-[2020.10.28-16.04.18:118][  0]LogLinker: Warning: 加载“F:/Dimensions_of_horror/Project-Dimensions-of-horror/TheyLive 4.25/Content/PN_interactiveSpruceForest/Materials/MasterMaterials/MA_Summer.uasset”时未能加载“/Game/PN_interactiveSpruceForest/Textures/MasterTextures/ModelTextures/Bark_N”：无法找到文件。
-[2020.10.28-16.04.18:445][  0]LogLinker: Warning: 加载“F:/Dimensions_of_horror/Project-Dimensions-of-horror/TheyLive 4.25/Content/PN_interactiveSpruceForest/Materials/MasterMaterials/MA_Summer.uasset”时未能加载“/Game/PN_interactiveSpruceForest/Textures/MasterTextures/ModelTextures/Bark_N”：无法找到文件。
-[2020.10.28-16.04.18:446][  0]LoadErrors: 加载失败 /Game/PN_interactiveSpruceForest/Textures/MasterTextures/ModelTextures/Bark_N.Bark_N 引用者 MaterialExpressionTextureSample_9
-[2020.10.28-16.04.18:446][  0]LogLinker: Warning: 加载“F:/Dimensions_of_horror/Project-Dimensions-of-horror/TheyLive 4.25/Content/PN_interactiveSpruceForest/Materials/MasterMaterials/MA_Summer.uasset”时未能加载“/Game/PN_interactiveSpruceForest/Textures/MasterTextures/ModelTextures/Bark_N”：无法找到文件。
-[2020.10.28-16.04.18:446][  0]LoadErrors: 加载失败 /Game/PN_interactiveSpruceForest/Textures/MasterTextures/ModelTextures/Bark_N.Bark_N 引用者 MaterialExpressionTextureSample_9
-[2020.10.28-16.04.18:816][  0]LogMaterial: Display: Missing cached shader map for material MA_Summer, compiling. 
-[2020.10.28-16.04.18:831][  0]LogMaterial: Warning: F:\Dimensions_of_horror\Project-Dimensions-of-horror\TheyLive 4.25\Content\PN_interactiveSpruceForest\Materials\MaterialInstances\full\high\spruce_full_03_trunk.uasset: Failed to compile Material Instance with Base MA_Summer for platform PCD3D_SM5, Default Material will be used in game.
-[2020.10.28-16.04.18:831][  0]LogMaterial: Display: 	(Node TextureSample) Texture Sample> Missing input texture
-[2020.10.28-16.04.18:831][  0]LogMaterial: Display: 	(Node MakeMaterialAttributes) Error on property Normal
-[2020.10.28-16.04.18:855][  0]LogMaterial: Display: Missing cached shader map for material MA_Summer, compiling. 
-[2020.10.28-16.04.18:870][  0]LogMaterial: Warning: F:\Dimensions_of_horror\Project-Dimensions-of-horror\TheyLive 4.25\Content\PN_interactiveSpruceForest\Materials\MaterialInstances\full\high\spruce_full_02_trunk.uasset: Failed to compile Material Instance with Base MA_Summer for platform PCD3D_SM5, Default Material will be used in game.
-[2020.10.28-16.04.18:870][  0]LogMaterial: Display: 	(Node TextureSample) Texture Sample> Missing input texture
-[2020.10.28-16.04.18:870][  0]LogMaterial: Display: 	(Node MakeMaterialAttributes) Error on property Normal
-[2020.10.28-16.04.18:880][  0]LogMaterial: Display: Missing cached shader map for material MA_Summer, compiling. 
-[2020.10.28-16.04.18:896][  0]LogMaterial: Warning: F:\Dimensions_of_horror\Project-Dimensions-of-horror\TheyLive 4.25\Content\PN_interactiveSpruceForest\Materials\MaterialInstances\full\high\spruce_full_01_trunk.uasset: Failed to compile Material Instance with Base MA_Summer for platform PCD3D_SM5, Default Material will be used in game.
-[2020.10.28-16.04.18:896][  0]LogMaterial: Display: 	(Node TextureSample) Texture Sample> Missing input texture
-[2020.10.28-16.04.18:896][  0]LogMaterial: Display: 	(Node MakeMaterialAttributes) Error on property Normal
-[2020.10.28-16.04.18:999][  0]LogAIModule: Creating AISystem for world CaveLevel
-[2020.10.28-16.04.18:999][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000022A6026BE00), frame # 0
-[2020.10.28-16.04.18:999][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000022A53368540), frame # 0
-[2020.10.28-16.04.19:136][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2020.10.28-16.04.19:213][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
-[2020.10.28-16.04.19:213][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2020.10.28-16.04.19:214][  0]MapCheck: 地图检测完成：0个错误、0个警告、完成用时0.143毫秒。
-[2020.10.28-16.04.19:214][  0]LogFileHelpers: Loading map 'CaveLevel' took 1.646
-[2020.10.28-16.04.19:215][  0]LogUnrealEdMisc: Total Editor Startup Time, took 7.575
-[2020.10.28-16.04.19:361][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.10.28-16.04.19:368][  0]LogCollectionManager: Loaded 0 collections in 0.000695 seconds
-[2020.10.28-16.04.19:378][  0]LogFileCache: Scanning file cache for directory 'F:/Dimensions_of_horror/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Collections/' took 0.00s
-[2020.10.28-16.04.19:378][  0]LogFileCache: Scanning file cache for directory 'F:/Dimensions_of_horror/Project-Dimensions-of-horror/TheyLive 4.25/Content/Developers/mzx98/Collections/' took 0.00s
-[2020.10.28-16.04.19:378][  0]LogFileCache: Scanning file cache for directory 'F:/Dimensions_of_horror/Project-Dimensions-of-horror/TheyLive 4.25/Content/Collections/' took 0.00s
-[2020.10.28-16.04.19:378][  0]LogContentBrowser: Native class hierarchy populated in 0.0066 seconds. Added 3427 classes and 821 folders.
-[2020.10.28-16.04.19:380][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2020.10.28-16.04.19:433][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2020.10.28-16.04.19:434][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 2 classes and 0 folders.
-[2020.10.28-16.04.19:606][  0]LogSlate: Took 0.000152 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2020.10.28-16.04.19:608][  0]LogSlate: Took 0.001090 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
-[2020.10.28-16.04.19:608][  0]LogSlate: Took 0.000136 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2020.10.28-16.04.19:610][  0]LogSlate: Took 0.000173 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2020.10.28-16.04.19:682][  0]LogRenderer: Reallocating scene render targets to support 1208x532 Format 10 NumSamples 1 (Frame:1).
-[2020.10.28-16.04.19:712][  0]LogSlate: Took 0.000157 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2020.10.28-16.04.19:753][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2020.10.28-16.04.19:753][  0]LogLoad: (Engine Initialization) Total time: 8.11 seconds
-[2020.10.28-16.04.19:753][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2020.10.28-16.04.19:818][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2020.10.28-16.04.19:919][  0]LogSlate: Took 0.000111 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
-[2020.10.28-16.04.19:954][  1]LogAssetRegistry: Asset discovery search completed in 4.9221 seconds
-[2020.10.28-16.04.19:958][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000002 seconds (updated 0 objects)
-[2020.10.28-16.04.21:274][151]LogSlate: Window '消息日志' being destroyed
-[2020.10.28-16.04.21:283][151]LogSlate: Window '消息日志' being destroyed
-[2020.10.28-16.04.22:791][325]LogSlate: Took 0.000201 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2020.10.28-16.04.24:939][525]LogFileCache: Retrieving MD5 hashes for directory 'F:/Dimensions_of_horror/Project-Dimensions-of-horror/TheyLive 4.25/Content/' took 5.17s
-[2020.10.28-16.04.34:278][513]LogMaterial: Display: Missing cached shader map for material MA_Summer, compiling. 
-[2020.10.28-16.04.34:293][513]LogMaterial: Warning: F:\Dimensions_of_horror\Project-Dimensions-of-horror\TheyLive 4.25\Content\PN_interactiveSpruceForest\Materials\MaterialInstances\full\low\spruce_full_01_low_trunk.uasset: Failed to compile Material Instance with Base MA_Summer for platform PCD3D_SM5, Default Material will be used in game.
-[2020.10.28-16.04.34:293][513]LogMaterial: Display: 	(Node TextureSample) Texture Sample> Missing input texture
-[2020.10.28-16.04.34:293][513]LogMaterial: Display: 	(Node MakeMaterialAttributes) Error on property Normal
-[2020.10.28-16.04.34:297][513]LogMaterial: Display: Missing cached shader map for material MA_Summer, compiling. 
-[2020.10.28-16.04.34:310][513]LogMaterial: Warning: F:\Dimensions_of_horror\Project-Dimensions-of-horror\TheyLive 4.25\Content\PN_interactiveSpruceForest\Materials\MaterialInstances\full\low\spruce_full_03_low_trunk.uasset: Failed to compile Material Instance with Base MA_Summer for platform PCD3D_SM5, Default Material will be used in game.
-[2020.10.28-16.04.34:310][513]LogMaterial: Display: 	(Node TextureSample) Texture Sample> Missing input texture
-[2020.10.28-16.04.34:310][513]LogMaterial: Display: 	(Node MakeMaterialAttributes) Error on property Normal
-[2020.10.28-16.04.34:321][513]LogMaterial: Display: Missing cached shader map for material MA_Summer, compiling. 
-[2020.10.28-16.04.34:334][513]LogMaterial: Warning: F:\Dimensions_of_horror\Project-Dimensions-of-horror\TheyLive 4.25\Content\PN_interactiveSpruceForest\Materials\MaterialInstances\full\low\spruce_full_02_low_trunk.uasset: Failed to compile Material Instance with Base MA_Summer for platform PCD3D_SM5, Default Material will be used in game.
-[2020.10.28-16.04.34:334][513]LogMaterial: Display: 	(Node TextureSample) Texture Sample> Missing input texture
-[2020.10.28-16.04.34:334][513]LogMaterial: Display: 	(Node MakeMaterialAttributes) Error on property Normal
-[2020.10.28-16.04.34:681][513]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/Parkour.Parkour
-[2020.10.28-16.04.34:700][513]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
-[2020.10.28-16.04.34:704][513]Cmd: MAP LOAD FILE="F:/Dimensions_of_horror/Project-Dimensions-of-horror/TheyLive 4.25/Content/Maps/Parkour.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2020.10.28-16.04.34:704][513]LightingResults: New page: 光照构建
-[2020.10.28-16.04.34:704][513]LoadErrors: New page: 正在加载地图：Parkour.umap
-[2020.10.28-16.04.34:732][513]LogWorld: UWorld::CleanupWorld for CaveLevel, bSessionEnded=true, bCleanupResources=true
-[2020.10.28-16.04.34:733][513]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.10.28-16.04.34:733][513]MapCheck: New page: 地图检测
-[2020.10.28-16.04.34:733][513]LightingResults: New page: 光照构建
-[2020.10.28-16.04.34:765][513]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000022A6026BE00), frame # 1513
-[2020.10.28-16.04.34:765][513]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000022A53368540), frame # 1513
-[2020.10.28-16.04.34:768][513]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
-[2020.10.28-16.04.35:146][513]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2020.10.28-16.04.35:146][513]LogAIModule: Creating AISystem for world Parkour
-[2020.10.28-16.04.35:146][513]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000022ACE035A00), frame # 1513
-[2020.10.28-16.04.35:146][513]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000022A6591CE00), frame # 1513
-[2020.10.28-16.04.35:171][513]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
-[2020.10.28-16.04.35:195][513]Cmd: MAP CHECKDEP NOCLEARLOG
-[2020.10.28-16.04.35:195][513]MapCheck: 地图检测完成：0个错误、0个警告、完成用时0.137毫秒。
-[2020.10.28-16.04.35:195][513]LogFileHelpers: Loading map 'Parkour' took 0.492
-[2020.10.28-16.04.42:976][365]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
-[2020.10.28-16.04.45:630][631]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2020.10.28-16.41.51:147][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.10.28-16.41.51:147][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.10.28-16.41.51:148][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Engine.ini]
+[2020.10.28-16.41.51:148][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.10.28-16.41.51:148][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:0]]
+[2020.10.28-16.41.51:148][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Engine.ini]
+[2020.10.28-16.41.51:148][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Engine.ini]
+[2020.10.28-16.41.51:148][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.10.28-16.41.51:148][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.10.28-16.41.51:148][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.10.28-16.41.51:148][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.10.28-16.41.51:148][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.10.28-16.41.51:148][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.10.28-16.41.51:148][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.10.28-16.41.51:148][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.10.28-16.41.51:148][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.10.28-16.41.51:148][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.10.28-16.41.51:148][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.10.28-16.41.51:148][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.10.28-16.41.51:148][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.10.28-16.41.51:148][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.10.28-16.41.51:148][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Engine.ini]
+[2020.10.28-16.41.51:148][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.10.28-16.41.51:148][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.10.28-16.41.51:148][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.10.28-16.41.51:148][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.10.28-16.41.51:148][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.10.28-16.41.51:148][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.10.28-16.41.51:148][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.10.28-16.41.51:148][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.10.28-16.41.51:148][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.10.28-16.41.51:148][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.10.28-16.41.51:148][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.10.28-16.41.51:148][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.10.28-16.41.51:148][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.10.28-16.41.51:148][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Engine.ini]
+[2020.10.28-16.41.51:148][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Engine.ini]
+[2020.10.28-16.41.51:150][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Scalability.ini]
+[2020.10.28-16.41.51:150][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.10.28-16.41.51:150][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.10.28-16.41.51:150][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Scalability.ini]
+[2020.10.28-16.41.51:150][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.10.28-16.41.51:150][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Scalability.ini]
+[2020.10.28-16.41.51:150][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.10.28-16.41.51:150][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.10.28-16.41.51:150][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.10.28-16.41.51:150][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.10.28-16.41.51:150][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.10.28-16.41.51:150][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.10.28-16.41.51:150][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.10.28-16.41.51:150][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.10.28-16.41.51:150][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.10.28-16.41.51:150][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.10.28-16.41.51:150][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.10.28-16.41.51:150][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.10.28-16.41.51:150][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.10.28-16.41.51:150][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.10.28-16.41.51:150][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.10.28-16.41.51:150][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.10.28-16.41.51:150][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.10.28-16.41.51:150][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.10.28-16.41.51:150][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Scalability.ini]
+[2020.10.28-16.41.51:150][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.10.28-16.41.51:150][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.10.28-16.41.51:150][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.10.28-16.41.51:150][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.10.28-16.41.51:150][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.10.28-16.41.51:150][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.10.28-16.41.51:150][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.10.28-16.41.51:150][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.10.28-16.41.51:150][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.10.28-16.41.51:150][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.10.28-16.41.51:150][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.10.28-16.41.51:150][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.10.28-16.41.51:150][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.10.28-16.41.51:150][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.10.28-16.41.51:151][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.10.28-16.41.51:151][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.10.28-16.41.51:151][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.10.28-16.41.51:151][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.10.28-16.41.51:151][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.10.28-16.41.51:151][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.10.28-16.41.51:151][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.10.28-16.41.51:151][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.10.28-16.41.51:151][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.10.28-16.41.51:151][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.10.28-16.41.51:151][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.10.28-16.41.51:151][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.10.28-16.41.51:151][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.10.28-16.41.51:151][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.10.28-16.41.51:151][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.10.28-16.41.51:151][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.10.28-16.41.51:151][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Scalability.ini]
+[2020.10.28-16.41.51:151][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.10.28-16.41.51:151][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.10.28-16.41.51:151][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.10.28-16.41.51:151][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.10.28-16.41.51:151][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.10.28-16.41.51:151][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.10.28-16.41.51:151][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.10.28-16.41.51:151][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.10.28-16.41.51:151][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.10.28-16.41.51:151][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Scalability.ini]
+[2020.10.28-16.41.51:151][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.10.28-16.41.51:151][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.10.28-16.41.51:151][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.10.28-16.41.51:151][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.10.28-16.41.51:151][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.10.28-16.41.51:151][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.10.28-16.41.51:151][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.10.28-16.41.51:151][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.10.28-16.41.51:151][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.10.28-16.41.51:151][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.10.28-16.41.51:151][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.10.28-16.41.51:151][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.10.28-16.41.51:151][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.10.28-16.41.51:151][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.10.28-16.41.51:151][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.10.28-16.41.51:151][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.10.28-16.41.51:151][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.10.28-16.41.51:151][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.10.28-16.41.51:151][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.10.28-16.41.51:151][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.10.28-16.41.51:151][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.10.28-16.41.51:151][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.10.28-16.41.51:151][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.10.28-16.41.51:151][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.10.28-16.41.51:151][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.10.28-16.41.51:151][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.10.28-16.41.51:151][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Scalability.ini]
+[2020.10.28-16.41.51:151][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.10.28-16.41.51:151][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.10.28-16.41.51:151][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Scalability.ini]
+[2020.10.28-16.41.51:151][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.10.28-16.41.51:151][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.10.28-16.41.51:151][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.10.28-16.41.51:151][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.10.28-16.41.51:151][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.10.28-16.41.51:151][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.10.28-16.41.51:151][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.10.28-16.41.51:151][  0]LogInit: Selected Device Profile: [Windows]
+[2020.10.28-16.41.51:151][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.10.28-16.41.51:151][  0]LogHAL: Display: Platform has ~ 16 GB [17015910400 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.10.28-16.41.51:151][  0]LogInit: Going up to parent DeviceProfile []
+[2020.10.28-16.41.51:151][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Scalability.ini]
+[2020.10.28-16.41.51:151][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.10.28-16.41.51:151][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.10.28-16.41.51:151][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Scalability.ini]
+[2020.10.28-16.41.51:151][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.10.28-16.41.51:151][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Scalability.ini]
+[2020.10.28-16.41.51:151][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.10.28-16.41.51:151][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.10.28-16.41.51:151][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.10.28-16.41.51:151][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.10.28-16.41.51:151][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.10.28-16.41.51:151][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.10.28-16.41.51:152][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.10.28-16.41.51:152][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.10.28-16.41.51:152][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.10.28-16.41.51:152][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.10.28-16.41.51:152][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.10.28-16.41.51:152][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.10.28-16.41.51:152][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.10.28-16.41.51:152][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.10.28-16.41.51:152][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.10.28-16.41.51:152][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.10.28-16.41.51:152][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.10.28-16.41.51:152][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.10.28-16.41.51:152][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Scalability.ini]
+[2020.10.28-16.41.51:152][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.10.28-16.41.51:152][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.10.28-16.41.51:152][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.10.28-16.41.51:152][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.10.28-16.41.51:152][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.10.28-16.41.51:152][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.10.28-16.41.51:152][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.10.28-16.41.51:152][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.10.28-16.41.51:152][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.10.28-16.41.51:152][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.10.28-16.41.51:152][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.10.28-16.41.51:152][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.10.28-16.41.51:152][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.10.28-16.41.51:152][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.10.28-16.41.51:152][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.10.28-16.41.51:152][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.10.28-16.41.51:152][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.10.28-16.41.51:152][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.10.28-16.41.51:152][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.10.28-16.41.51:152][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.10.28-16.41.51:152][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.10.28-16.41.51:152][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.10.28-16.41.51:152][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.10.28-16.41.51:152][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.10.28-16.41.51:152][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.10.28-16.41.51:152][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.10.28-16.41.51:152][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.10.28-16.41.51:152][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.10.28-16.41.51:152][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.10.28-16.41.51:152][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.10.28-16.41.51:152][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Scalability.ini]
+[2020.10.28-16.41.51:152][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.10.28-16.41.51:152][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.10.28-16.41.51:152][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.10.28-16.41.51:152][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.10.28-16.41.51:152][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.10.28-16.41.51:152][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.10.28-16.41.51:152][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.10.28-16.41.51:152][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.10.28-16.41.51:152][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.10.28-16.41.51:152][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Scalability.ini]
+[2020.10.28-16.41.51:152][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.10.28-16.41.51:152][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.10.28-16.41.51:152][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.10.28-16.41.51:152][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.10.28-16.41.51:152][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.10.28-16.41.51:152][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.10.28-16.41.51:152][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.10.28-16.41.51:152][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.10.28-16.41.51:152][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.10.28-16.41.51:152][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.10.28-16.41.51:152][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.10.28-16.41.51:152][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.10.28-16.41.51:152][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.10.28-16.41.51:152][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.10.28-16.41.51:152][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.10.28-16.41.51:152][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.10.28-16.41.51:152][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.10.28-16.41.51:152][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.10.28-16.41.51:152][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.10.28-16.41.51:152][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.10.28-16.41.51:152][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.10.28-16.41.51:152][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.10.28-16.41.51:152][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.10.28-16.41.51:152][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.10.28-16.41.51:152][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.10.28-16.41.51:152][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.10.28-16.41.51:152][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Scalability.ini]
+[2020.10.28-16.41.51:152][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.10.28-16.41.51:152][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.10.28-16.41.51:152][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Scalability.ini]
+[2020.10.28-16.41.51:152][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.10.28-16.41.51:152][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.10.28-16.41.51:152][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.10.28-16.41.51:152][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.10.28-16.41.51:153][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.10.28-16.41.51:153][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.10.28-16.41.51:153][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.10.28-16.41.51:153][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.10.28-16.41.51:153][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.10.28-16.41.51:153][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.10.28-16.41.51:153][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2020.10.28-16.41.51:153][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Engine.ini]
+[2020.10.28-16.41.51:153][  0]LogInit: Computer: MSI
+[2020.10.28-16.41.51:153][  0]LogInit: User: FX22k
+[2020.10.28-16.41.51:153][  0]LogInit: CPU Page size=4096, Cores=6
+[2020.10.28-16.41.51:153][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.10.28-16.41.51:153][  0]LogMemory: Memory total: Physical=15.8GB (16GB approx)
+[2020.10.28-16.41.51:153][  0]LogMemory: Platform Memory Stats for Windows
+[2020.10.28-16.41.51:153][  0]LogMemory: Process Physical Memory: 115.57 MB used, 115.57 MB peak
+[2020.10.28-16.41.51:153][  0]LogMemory: Process Virtual Memory: 101.24 MB used, 101.24 MB peak
+[2020.10.28-16.41.51:153][  0]LogMemory: Physical Memory: 9223.89 MB used,  7003.75 MB free, 16227.64 MB total
+[2020.10.28-16.41.51:153][  0]LogMemory: Virtual Memory: 5168.86 MB used,  134212560.00 MB free, 134217728.00 MB total
+[2020.10.28-16.41.51:426][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.10.28-16.41.51:457][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2020.10.28-16.41.51:458][  0]LogInit: Using OS detected language (en-US).
+[2020.10.28-16.41.51:458][  0]LogInit: Using OS detected locale (en-US).
+[2020.10.28-16.41.51:462][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2020.10.28-16.41.51:615][  0]LogInit: Setting process to per monitor DPI aware
+[2020.10.28-16.41.51:645][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.10.28-16.41.51:645][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.10.28-16.41.51:813][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.10.28-16.41.51:813][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.10.28-16.41.51:813][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.10.28-16.41.51:813][  0]LogD3D11RHI: D3D11 adapters:
+[2020.10.28-16.41.51:895][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 2080' (Feature Level 11_0)
+[2020.10.28-16.41.51:895][  0]LogD3D11RHI:       8010/0/8113 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2020.10.28-16.41.51:923][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics 630' (Feature Level 11_0)
+[2020.10.28-16.41.51:923][  0]LogD3D11RHI:       128/0/8113 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2020.10.28-16.41.51:925][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.10.28-16.41.51:925][  0]LogD3D11RHI:       0/0/8113 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.10.28-16.41.51:925][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.10.28-16.41.51:963][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.10.28-16.41.51:963][  0]LogD3D11RHI:     GPU DeviceId: 0x1e90 (for the marketing name, search the web for "GPU Device Id")
+[2020.10.28-16.41.51:963][  0]LogWindows: EnumDisplayDevices:
+[2020.10.28-16.41.51:963][  0]LogWindows:    0. 'Intel(R) UHD Graphics 630' (P:1 D:1)
+[2020.10.28-16.41.51:963][  0]LogWindows:    1. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2020.10.28-16.41.51:964][  0]LogWindows:    2. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2020.10.28-16.41.51:964][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2080' (P:0 D:0)
+[2020.10.28-16.41.51:964][  0]LogWindows:    4. 'NVIDIA GeForce RTX 2080' (P:0 D:0)
+[2020.10.28-16.41.51:964][  0]LogWindows:    5. 'NVIDIA GeForce RTX 2080' (P:0 D:0)
+[2020.10.28-16.41.51:965][  0]LogWindows:    6. 'NVIDIA GeForce RTX 2080' (P:0 D:0)
+[2020.10.28-16.41.51:965][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2020.10.28-16.41.51:965][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 2080
+[2020.10.28-16.41.51:965][  0]LogD3D11RHI:   Driver Version: 445.75 (internal:26.21.14.4575, unified:445.75)
+[2020.10.28-16.41.51:965][  0]LogD3D11RHI:      Driver Date: 3-17-2020
+[2020.10.28-16.41.51:965][  0]LogRHI: Texture pool is 5607 MB (70% of 8010 MB)
+[2020.10.28-16.41.52:007][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2020.10.28-16.41.52:007][  0]LogD3D11RHI: Async texture creation enabled
+[2020.10.28-16.41.52:007][  0]LogD3D11RHI: Array index from any shader is supported
+[2020.10.28-16.41.52:035][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.10.28-16.41.52:314][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.10.28-16.41.52:334][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.10.28-16.41.52:334][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.10.28-16.41.52:334][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.10.28-16.41.52:334][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.10.28-16.41.52:334][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.10.28-16.41.52:334][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.10.28-16.41.52:334][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.10.28-16.41.52:334][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.10.28-16.41.52:334][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.10.28-16.41.52:334][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.10.28-16.41.52:355][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.10.28-16.41.52:355][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.10.28-16.41.52:365][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2020.10.28-16.41.52:373][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.10.28-16.41.52:381][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.10.28-16.41.52:389][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.10.28-16.41.52:397][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.10.28-16.41.52:405][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.10.28-16.41.52:414][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.10.28-16.41.52:441][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.10.28-16.41.52:441][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.10.28-16.41.52:456][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.10.28-16.41.52:456][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.10.28-16.41.52:465][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.10.28-16.41.52:473][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.10.28-16.41.52:481][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.10.28-16.41.52:490][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.10.28-16.41.52:490][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.10.28-16.41.52:497][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.10.28-16.41.52:550][  0]LogShaderCompilers: Guid format shader working directory is -8 characters bigger than the processId version (D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Intermediate/Shaders/WorkingDirectory/3500/).
+[2020.10.28-16.41.52:550][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/FX22k/AppData/Local/Temp/UnrealShaderWorkingDir/A55CA5C645124EEABD06B8B45C5CF4E6/'.
+[2020.10.28-16.41.52:551][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.10.28-16.41.52:551][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.10.28-16.41.52:551][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.10.28-16.41.53:211][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.10.28-16.41.53:255][  0]LogDerivedDataCache: Loaded boot cache 0.04s 75MB C:/Users/FX22k/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.10.28-16.41.53:255][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/FX22k/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2020.10.28-16.41.53:255][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.10.28-16.41.53:255][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.10.28-16.41.53:255][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.10.28-16.41.53:255][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.10.28-16.41.53:265][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.10.28-16.41.53:265][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.10.28-16.41.53:265][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.10.28-16.41.53:266][  0]LogDerivedDataCache: Using Local data cache path C:/Users/FX22k/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.10.28-16.41.53:266][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.10.28-16.41.53:266][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.10.28-16.41.53:310][  0]LogSlate: Using FreeType 2.10.0
+[2020.10.28-16.41.53:310][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.10.28-16.41.53:332][  0]LogAssetRegistry: FAssetRegistry took 0.0024 seconds to start up
+[2020.10.28-16.41.53:542][  0]LogInit: Selected Device Profile: [Windows]
+[2020.10.28-16.41.53:642][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.10.28-16.41.53:642][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.10.28-16.41.53:642][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.10.28-16.41.53:642][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.10.28-16.41.53:642][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.10.28-16.41.53:655][  0]LogNetVersion: TheyLive 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 1881850289)
+[2020.10.28-16.41.54:025][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (0000024E8F79F880), frame # 0
+[2020.10.28-16.41.54:025][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000024E8F7B2AC0), frame # 0
+[2020.10.28-16.41.54:026][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000024E8F7F6000), frame # 0
+[2020.10.28-16.41.54:093][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.061211 seconds
+[2020.10.28-16.41.54:097][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2020.10.28-16.41.54:097][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2020.10.28-16.41.54:097][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.10.28-16.41.54:383][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.10.28-16.41.54:387][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.10.28-16.41.54:454][  0]SourceControl: Source control is disabled
+[2020.10.28-16.41.54:454][  0]SourceControl: Source control is disabled
+[2020.10.28-16.41.54:457][  0]SourceControl: Source control is disabled
+[2020.10.28-16.41.54:461][  0]SourceControl: Source control is disabled
+[2020.10.28-16.41.54:466][  0]SourceControl: Source control is disabled
+[2020.10.28-16.41.54:672][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.10.28-16.41.54:689][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.10.28-16.41.54:689][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.10.28-16.41.54:733][  0]LogOcInput: OculusInput pre-init called
+[2020.10.28-16.41.54:743][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.10.28-16.41.54:743][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.10.28-16.41.54:804][  0]LogEngine: Initializing Engine...
+[2020.10.28-16.41.54:805][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.10.28-16.41.54:805][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2020.10.28-16.41.54:806][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.10.28-16.41.54:913][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.10.28-16.41.54:920][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.10.28-16.41.54:920][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000024E95B68800), frame # 0
+[2020.10.28-16.41.54:920][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000024E95B37380), frame # 0
+[2020.10.28-16.41.54:938][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.28-16.41.54:938][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.28-16.41.54:938][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.28-16.41.54:938][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.28-16.41.54:938][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.28-16.41.54:938][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.28-16.41.54:938][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.28-16.41.54:938][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.28-16.41.54:938][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.28-16.41.54:938][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.28-16.41.55:037][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.28-16.41.55:037][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.10.28-16.41.55:037][  0]LogAudioMixer: Display: 2: FrontCenter
+[2020.10.28-16.41.55:037][  0]LogAudioMixer: Display: 3: LowFrequency
+[2020.10.28-16.41.55:038][  0]LogAudioMixer: Display: 4: BackLeft
+[2020.10.28-16.41.55:038][  0]LogAudioMixer: Display: 5: BackRight
+[2020.10.28-16.41.55:038][  0]LogAudioMixer: Display: 6: SideLeft
+[2020.10.28-16.41.55:038][  0]LogAudioMixer: Display: 7: SideRight
+[2020.10.28-16.41.55:316][  0]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2020.10.28-16.41.55:320][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.28-16.41.55:322][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.28-16.41.55:322][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.28-16.41.55:323][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.28-16.41.55:324][  0]LogInit: FAudioDevice initialized.
+[2020.10.28-16.41.55:324][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.10.28-16.41.55:367][  0]LogDerivedDataCache: Saved boot cache 0.04s 75MB C:/Users/FX22k/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.10.28-16.41.55:372][  0]LogInit: Texture streaming: Enabled
+[2020.10.28-16.41.55:387][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.10.28-16.41.55:387][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.10.28-16.41.55:392][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.10.28-16.41.55:464][  0]LogInit: Transaction tracking system initialized
+[2020.10.28-16.41.55:483][  0]BlueprintLog: New page: Editor Load
+[2020.10.28-16.41.55:542][  0]LocalizationService: Localization service is disabled
+[2020.10.28-16.41.55:675][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.10.28-16.41.55:675][  0]LogCook: Display: Mobile HDR setting 1
+[2020.10.28-16.41.55:798][  0]LogFileCache: Scanning file cache for directory 'D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Content/' took 0.08s
+[2020.10.28-16.41.55:980][  0]SourceControl: Source control is disabled
+[2020.10.28-16.41.55:980][  0]LogUnrealEdMisc: Loading editor; pre map load, took 6.337
+[2020.10.28-16.41.55:980][  0]Cmd: MAP LOAD FILE="D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Content/Maps/CaveLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.10.28-16.41.55:980][  0]LightingResults: New page: Lighting Build
+[2020.10.28-16.41.55:981][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.10.28-16.41.55:981][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.28-16.41.55:981][  0]MapCheck: New page: Map Check
+[2020.10.28-16.41.55:981][  0]LightingResults: New page: Lighting Build
+[2020.10.28-16.41.55:992][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000024E95B68800), frame # 0
+[2020.10.28-16.41.55:992][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000024E95B37380), frame # 0
+[2020.10.28-16.41.55:992][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2020.10.28-16.41.56:648][  0]LogLinker: Warning: While loading 'D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Content/PN_interactiveSpruceForest/Materials/MasterMaterials/MA_Summer.uasset' failed to load '/Game/PN_interactiveSpruceForest/Textures/MasterTextures/ModelTextures/Bark_N': Can't find file.
+[2020.10.28-16.41.56:648][  0]LogLinker: Warning: While loading 'D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Content/PN_interactiveSpruceForest/Materials/MasterMaterials/MA_Summer.uasset' failed to load '/Game/PN_interactiveSpruceForest/Textures/MasterTextures/ModelTextures/Bark_N': Can't find file.
+[2020.10.28-16.41.56:651][  0]LogLinker: Warning: While loading 'D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Content/PN_interactiveSpruceForest/Materials/MasterMaterials/MA_Summer.uasset' failed to load '/Game/PN_interactiveSpruceForest/Textures/MasterTextures/ModelTextures/Bark_N': Can't find file.
+[2020.10.28-16.41.56:651][  0]LogLinker: Warning: While loading 'D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Content/PN_interactiveSpruceForest/Materials/MasterMaterials/MA_Summer.uasset' failed to load '/Game/PN_interactiveSpruceForest/Textures/MasterTextures/ModelTextures/Bark_N': Can't find file.
+[2020.10.28-16.41.57:126][  0]LogLinker: Warning: While loading 'D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Content/PN_interactiveSpruceForest/Materials/MasterMaterials/MA_Summer.uasset' failed to load '/Game/PN_interactiveSpruceForest/Textures/MasterTextures/ModelTextures/Bark_N': Can't find file.
+[2020.10.28-16.41.57:126][  0]LoadErrors: Failed to load /Game/PN_interactiveSpruceForest/Textures/MasterTextures/ModelTextures/Bark_N.Bark_N Referenced by MaterialExpressionTextureSample_9
+[2020.10.28-16.41.57:126][  0]LogLinker: Warning: While loading 'D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Content/PN_interactiveSpruceForest/Materials/MasterMaterials/MA_Summer.uasset' failed to load '/Game/PN_interactiveSpruceForest/Textures/MasterTextures/ModelTextures/Bark_N': Can't find file.
+[2020.10.28-16.41.57:126][  0]LoadErrors: Failed to load /Game/PN_interactiveSpruceForest/Textures/MasterTextures/ModelTextures/Bark_N.Bark_N Referenced by MaterialExpressionTextureSample_9
+[2020.10.28-16.41.57:565][  0]LogMaterial: Display: Missing cached shader map for material MA_Summer, compiling. 
+[2020.10.28-16.41.57:582][  0]LogMaterial: Warning: D:\UEprojet\Project-Dimensions-of-horror\TheyLive 4.25\Content\PN_interactiveSpruceForest\Materials\MaterialInstances\full\high\spruce_full_03_trunk.uasset: Failed to compile Material Instance with Base MA_Summer for platform PCD3D_SM5, Default Material will be used in game.
+[2020.10.28-16.41.57:582][  0]LogMaterial: Display: 	(Node TextureSample) Texture Sample> Missing input texture
+[2020.10.28-16.41.57:582][  0]LogMaterial: Display: 	(Node MakeMaterialAttributes) Error on property Normal
+[2020.10.28-16.41.57:595][  0]LogMaterial: Display: Missing cached shader map for material MA_Summer, compiling. 
+[2020.10.28-16.41.57:610][  0]LogMaterial: Warning: D:\UEprojet\Project-Dimensions-of-horror\TheyLive 4.25\Content\PN_interactiveSpruceForest\Materials\MaterialInstances\full\high\spruce_full_02_trunk.uasset: Failed to compile Material Instance with Base MA_Summer for platform PCD3D_SM5, Default Material will be used in game.
+[2020.10.28-16.41.57:610][  0]LogMaterial: Display: 	(Node TextureSample) Texture Sample> Missing input texture
+[2020.10.28-16.41.57:610][  0]LogMaterial: Display: 	(Node MakeMaterialAttributes) Error on property Normal
+[2020.10.28-16.41.57:622][  0]LogMaterial: Display: Missing cached shader map for material MA_Summer, compiling. 
+[2020.10.28-16.41.57:637][  0]LogMaterial: Warning: D:\UEprojet\Project-Dimensions-of-horror\TheyLive 4.25\Content\PN_interactiveSpruceForest\Materials\MaterialInstances\full\high\spruce_full_01_trunk.uasset: Failed to compile Material Instance with Base MA_Summer for platform PCD3D_SM5, Default Material will be used in game.
+[2020.10.28-16.41.57:637][  0]LogMaterial: Display: 	(Node TextureSample) Texture Sample> Missing input texture
+[2020.10.28-16.41.57:637][  0]LogMaterial: Display: 	(Node MakeMaterialAttributes) Error on property Normal
+[2020.10.28-16.41.57:677][  0]LogAIModule: Creating AISystem for world CaveLevel
+[2020.10.28-16.41.57:677][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000024EC23EA000), frame # 0
+[2020.10.28-16.41.57:677][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000024EC23EFB00), frame # 0
+[2020.10.28-16.41.57:766][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.10.28-16.41.57:856][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2020.10.28-16.41.57:856][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.10.28-16.41.57:856][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.149ms to complete.
+[2020.10.28-16.41.57:856][  0]LogFileHelpers: Loading map 'CaveLevel' took 1.877
+[2020.10.28-16.41.57:858][  0]LogUnrealEdMisc: Total Editor Startup Time, took 8.216
+[2020.10.28-16.41.57:979][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.28-16.41.57:987][  0]LogCollectionManager: Loaded 0 collections in 0.001746 seconds
+[2020.10.28-16.41.58:000][  0]LogFileCache: Scanning file cache for directory 'D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Collections/' took 0.00s
+[2020.10.28-16.41.58:000][  0]LogFileCache: Scanning file cache for directory 'D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Content/Developers/FX22k/Collections/' took 0.00s
+[2020.10.28-16.41.58:000][  0]LogFileCache: Scanning file cache for directory 'D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Content/Collections/' took 0.00s
+[2020.10.28-16.41.58:000][  0]LogContentBrowser: Native class hierarchy populated in 0.0077 seconds. Added 3427 classes and 821 folders.
+[2020.10.28-16.41.58:002][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.10.28-16.41.58:055][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.10.28-16.41.58:061][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 2 classes and 0 folders.
+[2020.10.28-16.41.58:263][  0]LogSlate: Took 0.000153 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.10.28-16.41.58:265][  0]LogSlate: Took 0.000137 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.10.28-16.41.58:270][  0]LogSlate: Took 0.000182 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.10.28-16.41.58:365][  0]LogRenderer: Reallocating scene render targets to support 1208x572 Format 10 NumSamples 1 (Frame:1).
+[2020.10.28-16.41.58:407][  0]LogSlate: Took 0.000191 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.10.28-16.41.58:570][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.10.28-16.41.58:570][  0]LogLoad: (Engine Initialization) Total time: 8.93 seconds
+[2020.10.28-16.41.58:570][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.10.28-16.41.58:639][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.10.28-16.41.58:776][  0]LogSlate: Took 0.000152 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2020.10.28-16.41.58:865][  2]LogAssetRegistry: Asset discovery search completed in 5.5334 seconds
+[2020.10.28-16.41.58:873][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000003 seconds (updated 0 objects)
+[2020.10.28-16.42.01:500][152]LogSlate: Window 'Message Log' being destroyed
+[2020.10.28-16.42.01:506][152]LogSlate: Window 'Message Log' being destroyed
+[2020.10.28-16.42.03:807][286]LogFileCache: Retrieving MD5 hashes for directory 'D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Content/' took 5.21s
+[2020.10.28-16.42.08:034][535]LogMaterial: Display: Missing cached shader map for material Material_0, compiling. 
+[2020.10.28-16.42.08:108][535]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 34
+[2020.10.28-16.42.08:108][535]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 29
+[2020.10.28-16.42.08:108][535]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 24
+[2020.10.28-16.42.08:108][535]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 19
+[2020.10.28-16.42.08:108][535]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 14
+[2020.10.28-16.42.08:108][535]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 9
+[2020.10.28-16.42.08:108][535]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 4
+[2020.10.28-16.42.16:991][ 54]LogMaterial: Display: Missing cached shader map for material Material_1, compiling. 
+[2020.10.28-16.42.17:024][ 54]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 34
+[2020.10.28-16.42.17:024][ 54]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 29
+[2020.10.28-16.42.17:024][ 54]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 24
+[2020.10.28-16.42.17:024][ 54]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 19
+[2020.10.28-16.42.17:024][ 54]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 14
+[2020.10.28-16.42.17:024][ 54]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 9
+[2020.10.28-16.42.17:024][ 54]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 4
+[2020.10.28-16.42.17:131][ 56]LogMaterial: Display: Missing cached shader map for material Material_2, compiling. 
+[2020.10.28-16.42.17:146][ 56]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 34
+[2020.10.28-16.42.17:535][ 71]LogMaterial: Display: Missing cached shader map for material Material_3, compiling. 
+[2020.10.28-16.42.17:681][ 73]LogMaterial: Display: Missing cached shader map for material Material_4, compiling. 
+[2020.10.28-16.42.18:817][119]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 97
+[2020.10.28-16.42.18:885][121]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 87
+[2020.10.28-16.42.18:962][123]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 77
+[2020.10.28-16.42.19:256][134]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 67
+[2020.10.28-16.42.19:406][143]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 58
+[2020.10.28-16.42.19:692][160]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 50
+[2020.10.28-16.42.19:745][163]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 43
+[2020.10.28-16.42.19:882][171]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 37
+[2020.10.28-16.42.22:710][310]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 32
+[2020.10.28-16.42.22:861][319]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 27
+[2020.10.28-16.42.22:995][327]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 23
+[2020.10.28-16.42.23:814][376]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 20
+[2020.10.28-16.42.24:112][394]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 17
+[2020.10.28-16.42.24:164][397]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 14
+[2020.10.28-16.42.24:400][411]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 12
+[2020.10.28-16.42.24:531][418]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 10
+[2020.10.28-16.42.24:593][421]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 8
+[2020.10.28-16.42.24:660][425]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 6
+[2020.10.28-16.42.24:726][429]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 5
+[2020.10.28-16.42.25:487][474]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 4
+[2020.10.28-16.42.25:503][475]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 3
+[2020.10.28-16.42.25:521][476]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 2
+[2020.10.28-16.42.25:552][478]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 1
+[2020.10.28-16.45.51:068][892]LogSlate: Took 0.000152 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.10.28-16.45.51:086][892]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Blueprints/Widgets/MainMenu.MainMenu
+[2020.10.28-16.45.51:289][892]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 125 classes and 0 folders.
+[2020.10.28-16.45.52:460][892]LogSlate: Took 0.000226 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.10.28-16.46.00:070][339]LogSlate: Took 0.006208 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.10.28-16.46.26:173][902]LogSlate: Window 'MainMenu' being destroyed
+[2020.10.28-16.46.26:182][902]LogSlate: Window 'MainMenu' being destroyed
+[2020.10.28-16.46.26:185][902]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2020.10.28-16.46.26:185][902]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.28-16.46.26:190][902]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2020.10.28-16.46.26:190][902]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.28-16.47.57:359][781]LogTexture: Display: Building textures: pillar1_low_initialShadingGroup_OcclusionRoughnessMetallic (AutoDXT, 1024X1024)
+[2020.10.28-16.47.57:359][781]LogTexture: Display: Building textures: T_M_window5_C_5B4ECD71493C0DFFAC92368DD08215E5_BaseColor (DXT1, 128X128)
+[2020.10.28-16.47.57:359][781]LogTexture: Display: Building textures: TexturesCom_Bricks_Rough_2x2_512_roughness (AutoDXT, 512X512)
+[2020.10.28-16.47.57:359][781]LogTexture: Display: Building textures: pillar6_low_blinn2SG_BaseColor (AutoDXT, 1024X1024)
+[2020.10.28-16.47.57:359][781]LogTexture: Display: Building textures: pillar1_low_initialShadingGroup_Normal (BC5, 512X512)
+[2020.10.28-16.47.57:359][781]LogTexture: Display: Building textures: TexturesCom_Bricks_Rough_2x2_512_normal (BC5, 512X512)
+[2020.10.28-16.47.57:359][781]LogTexture: Display: Building textures: C_low_blinn3SG_OcclusionRoughnessMetallic (AutoDXT, 1024X1024)
+[2020.10.28-16.47.57:359][781]LogTexture: Display: Building textures: C_low_blinn3SG_Normal (BC5, 1024X1024)
+[2020.10.28-16.47.57:359][781]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 128X128)
+[2020.10.28-16.47.57:359][781]LogTexture: Display: Building textures: stair1_initialShadingGroup_OcclusionRoughnessMetallic (AutoDXT, 1024X1024)
+[2020.10.28-16.47.57:359][781]LogTexture: Display: Building textures: pillar6_low_blinn2SG_Normal (BC5, 1024X1024)
+[2020.10.28-16.47.57:359][781]LogTexture: Display: Building textures: TexturesCom_Concrete_RoughWall_1K_albedo__1_ (AutoDXT, 1024X1024)
+[2020.10.28-16.47.57:359][781]LogTexture: Display: Building textures: door1_school_blinn2SG_OcclusionRoughnessMetallic (AutoDXT, 1024X1024)
+[2020.10.28-16.47.57:359][781]LogTexture: Display: Building textures: door1_school_blinn2SG_Normal (BC5, 1024X1024)
+[2020.10.28-16.47.57:359][781]LogTexture: Display: Building textures: door1_school_blinn2SG_BaseColor (AutoDXT, 1024X1024)
+[2020.10.28-16.47.57:359][781]LogTexture: Display: Building textures: B_low_blinn2SG_OcclusionRoughnessMetallic (AutoDXT, 1024X1024)
+[2020.10.28-16.47.57:359][781]LogTexture: Display: Building textures: stair1_initialShadingGroup_Normal (BC5, 1024X1024)
+[2020.10.28-16.47.57:359][781]LogTexture: Display: Building textures: B_low_blinn2SG_Normal (BC5, 1024X1024)
+[2020.10.28-16.47.57:359][781]LogTexture: Display: Building textures: B_low_blinn2SG_BaseColor (AutoDXT, 1024X1024)
+[2020.10.28-16.47.57:359][781]LogTexture: Display: Building textures: lowPoly_A_initialShadingGroup_OcclusionRoughnessMetallic (AutoDXT, 1024X1024)
+[2020.10.28-16.47.57:359][781]LogTexture: Display: Building textures: lowPoly_A_initialShadingGroup_Normal (BC5, 1024X1024)
+[2020.10.28-16.47.57:359][781]LogTexture: Display: Building textures: lowPoly_A_initialShadingGroup_BaseColor (AutoDXT, 1024X1024)
+[2020.10.28-16.47.57:359][781]LogTexture: Display: Building textures: pillar6_low_initialShadingGroup_OcclusionRoughnessMetallic (AutoDXT, 1024X1024)
+[2020.10.28-16.47.57:359][781]LogStaticMesh: Building static mesh dun2...
+[2020.10.28-16.47.57:366][781]LogTexture: Display: Building textures: pillar6_low_initialShadingGroup_Normal (BC5, 1024X1024)
+[2020.10.28-16.47.57:366][781]LogStaticMesh: Built static mesh [0.01s] /Game/School/Obj/dun2.dun2
+[2020.10.28-16.47.57:395][781]LogStaticMesh: Building static mesh dun1...
+[2020.10.28-16.47.57:400][781]LogStaticMesh: Built static mesh [0.01s] /Game/School/Obj/dun1.dun1
+[2020.10.28-16.47.57:401][781]LogStaticMesh: Building static mesh door3...
+[2020.10.28-16.47.57:415][781]LogStaticMesh: Built static mesh [0.01s] /Game/School/Obj/door3.door3
+[2020.10.28-16.47.57:974][781]LogTexture: Display: Building textures: pillar6_low_initialShadingGroup_BaseColor (AutoDXT, 1024X1024)
+[2020.10.28-16.47.57:974][781]LogTexture: Display: Building textures: pillar6_low_blinn2SG_OcclusionRoughnessMetallic (AutoDXT, 1024X1024)
+[2020.10.28-16.47.57:974][781]LogTexture: Display: Building textures: TexturesCom_Overlay_Abstract31_512_overlay (AutoDXT, 512X512)
+[2020.10.28-16.47.57:974][781]LogTexture: Display: Building textures: TexturesCom_Animated_Raindrops_512_mask (AutoDXT, 512X512)
+[2020.10.28-16.47.57:974][781]LogTexture: Display: Building textures: TexturesCom_Bricks_Rough_2x2_512_ao (AutoDXT, 512X512)
+[2020.10.28-16.47.57:974][781]LogTexture: Display: Building textures: TexturesCom_Concrete_RoughWall_1K_ao__1_ (AutoDXT, 1024X1024)
+[2020.10.28-16.47.58:884][781]LogTexture: Display: Building textures: TexturesCom_Concrete_RoughWall_1K_normal__1_ (BC5, 1024X1024)
+[2020.10.28-16.47.58:884][781]LogTexture: Display: Building textures: C_low_blinn3SG_BaseColor (AutoDXT, 1024X1024)
+[2020.10.28-16.47.58:884][781]LogTexture: Display: Building textures: TexturesCom_DecalsLeaking0193_1_masked_S (AutoDXT, 640X1024)
+[2020.10.28-16.47.58:884][781]LogTexture: Display: Building textures: TexturesCom_DecalsLeaking0257_1_masked_S (AutoDXT, 1024X576)
+[2020.10.28-16.47.58:884][781]LogTexture: Display: Building textures: TexturesCom_Bricks_Rough_2x2_512_albedo (AutoDXT, 512X512)
+[2020.10.28-16.47.58:884][781]LogTexture: Display: Building textures: roof4_initialShadingGroup_Normal_OpenGL (BC5, 512X512)
+[2020.10.28-16.47.58:884][781]LogTexture: Display: Building textures: roof4_initialShadingGroup_Mixed_AO (AutoDXT, 512X512)
+[2020.10.28-16.47.58:886][781]LogMaterial: Display: Missing cached shader map for material wall, compiling. 
+[2020.10.28-16.47.58:920][781]LogMaterial: Display: Missing cached shader map for material T_M_window5_wall2_5B4ECD71493C0DFFAC92368DD08215E5_BaseColor_Mat, compiling. 
+[2020.10.28-16.47.58:931][781]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 24
+[2020.10.28-16.47.58:931][781]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 20
+[2020.10.28-16.47.58:931][781]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 16
+[2020.10.28-16.47.58:931][781]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 12
+[2020.10.28-16.47.58:931][781]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 8
+[2020.10.28-16.47.58:931][781]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
+[2020.10.28-16.47.58:931][781]LogMaterial: Display: Missing cached shader map for material Pillar, compiling. 
+[2020.10.28-16.47.58:943][781]LogStaticMesh: Building static mesh dun5...
+[2020.10.28-16.47.58:945][781]LogStaticMesh: Built static mesh [0.00s] /Game/School/Obj/dun5.dun5
+[2020.10.28-16.47.58:946][781]LogStaticMesh: Building static mesh dun4...
+[2020.10.28-16.47.58:950][781]LogStaticMesh: Built static mesh [0.00s] /Game/School/Obj/dun4.dun4
+[2020.10.28-16.47.58:951][781]LogStaticMesh: Building static mesh dun3...
+[2020.10.28-16.47.58:956][781]LogStaticMesh: Built static mesh [0.00s] /Game/School/Obj/dun3.dun3
+[2020.10.28-16.47.58:957][781]LogMaterial: Display: Missing cached shader map for material glass, compiling. 
+[2020.10.28-16.47.58:965][781]LogMaterial: Display: Missing cached shader map for material MA_Summer, compiling. 
+[2020.10.28-16.47.58:981][781]LogMaterial: Warning: D:\UEprojet\Project-Dimensions-of-horror\TheyLive 4.25\Content\PN_interactiveSpruceForest\Materials\MaterialInstances\full\low\spruce_full_01_low_trunk.uasset: Failed to compile Material Instance with Base MA_Summer for platform PCD3D_SM5, Default Material will be used in game.
+[2020.10.28-16.47.58:981][781]LogMaterial: Display: 	(Node TextureSample) Texture Sample> Missing input texture
+[2020.10.28-16.47.58:981][781]LogMaterial: Display: 	(Node MakeMaterialAttributes) Error on property Normal
+[2020.10.28-16.47.59:043][781]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 52
+[2020.10.28-16.47.59:043][781]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 45
+[2020.10.28-16.47.59:043][781]LogStaticMesh: Building static mesh yangtai...
+[2020.10.28-16.47.59:103][781]LogStaticMesh: Built static mesh [0.06s] /Game/School/Obj/yangtai.yangtai
+[2020.10.28-16.47.59:110][781]LogStaticMesh: Building static mesh window5...
+[2020.10.28-16.47.59:128][781]LogStaticMesh: Built static mesh [0.02s] /Game/School/Obj/window5.window5
+[2020.10.28-16.47.59:131][781]LogStaticMesh: Building static mesh window4...
+[2020.10.28-16.47.59:153][781]LogStaticMesh: Built static mesh [0.02s] /Game/School/Obj/window4.window4
+[2020.10.28-16.47.59:236][781]LogStaticMesh: Building static mesh ban1...
+[2020.10.28-16.47.59:248][781]LogStaticMesh: Built static mesh [0.01s] /Game/School/Obj/ban1.ban1
+[2020.10.28-16.47.59:249][781]LogStaticMesh: Building static mesh chuanglian1...
+[2020.10.28-16.47.59:263][781]LogStaticMesh: Built static mesh [0.01s] /Game/School/Obj/chuanglian1.chuanglian1
+[2020.10.28-16.47.59:264][781]LogStaticMesh: Building static mesh chuanglian3...
+[2020.10.28-16.47.59:274][781]LogStaticMesh: Built static mesh [0.01s] /Game/School/Obj/chuanglian3.chuanglian3
+[2020.10.28-16.47.59:275][781]LogStaticMesh: Building static mesh door2...
+[2020.10.28-16.47.59:290][781]LogStaticMesh: Built static mesh [0.01s] /Game/School/Obj/door2.door2
+[2020.10.28-16.47.59:291][781]LogStaticMesh: Building static mesh door1_group1_pCube1...
+[2020.10.28-16.47.59:310][781]LogStaticMesh: Built static mesh [0.02s] /Game/School/Obj/door1_group1_pCube1.door1_group1_pCube1
+[2020.10.28-16.47.59:315][781]LogStaticMesh: Building static mesh gongmen...
+[2020.10.28-16.47.59:325][781]LogStaticMesh: Built static mesh [0.01s] /Game/School/Obj/gongmen.gongmen
+[2020.10.28-16.47.59:326][781]LogStaticMesh: Building static mesh pillar3...
+[2020.10.28-16.47.59:335][781]LogStaticMesh: Built static mesh [0.01s] /Game/School/Obj/pillar3.pillar3
+[2020.10.28-16.47.59:337][781]LogStaticMesh: Building static mesh pillar5...
+[2020.10.28-16.47.59:339][781]LogStaticMesh: Built static mesh [0.00s] /Game/School/Obj/pillar5.pillar5
+[2020.10.28-16.47.59:341][781]LogStaticMesh: Building static mesh pillar...
+[2020.10.28-16.47.59:343][781]LogStaticMesh: Built static mesh [0.00s] /Game/School/Obj/pillar.pillar
+[2020.10.28-16.47.59:343][781]LogStaticMesh: Building static mesh pillar2...
+[2020.10.28-16.47.59:349][781]LogStaticMesh: Built static mesh [0.01s] /Game/School/Obj/pillar2.pillar2
+[2020.10.28-16.47.59:351][781]LogStaticMesh: Building static mesh pillar6_low...
+[2020.10.28-16.47.59:401][781]LogStaticMesh: Built static mesh [0.05s] /Game/School/Obj/pillar6_low.pillar6_low
+[2020.10.28-16.47.59:410][781]LogStaticMesh: Building static mesh roof3...
+[2020.10.28-16.47.59:414][781]LogStaticMesh: Built static mesh [0.01s] /Game/School/Obj/roof3.roof3
+[2020.10.28-16.47.59:415][781]LogStaticMesh: Building static mesh roof4...
+[2020.10.28-16.47.59:452][781]LogStaticMesh: Built static mesh [0.04s] /Game/School/Obj/roof4.roof4
+[2020.10.28-16.47.59:455][781]LogStaticMesh: Building static mesh roof1...
+[2020.10.28-16.47.59:459][781]LogStaticMesh: Built static mesh [0.00s] /Game/School/Obj/roof1.roof1
+[2020.10.28-16.47.59:460][781]LogStaticMesh: Building static mesh roof2_modelPanel2ViewSelectedSet_pCube561...
+[2020.10.28-16.47.59:523][781]LogStaticMesh: Built static mesh [0.06s] /Game/School/Obj/roof2_modelPanel2ViewSelectedSet_pCube561.roof2_modelPanel2ViewSelectedSet_pCube561
+[2020.10.28-16.47.59:531][781]LogStaticMesh: Building static mesh roof2_pCube561...
+[2020.10.28-16.47.59:885][781]LogStaticMesh: Built static mesh [0.35s] /Game/School/Obj/roof2_pCube561.roof2_pCube561
+[2020.10.28-16.48.00:289][781]LogStaticMesh: Building static mesh stair1...
+[2020.10.28-16.48.00:298][781]LogStaticMesh: Built static mesh [0.01s] /Game/School/Texture/stair1.stair1
+[2020.10.28-16.48.00:301][781]LogStaticMesh: Building static mesh stair2...
+[2020.10.28-16.48.00:317][781]LogStaticMesh: Built static mesh [0.02s] /Game/School/Texture/stair2.stair2
+[2020.10.28-16.48.00:319][781]LogStaticMesh: Building static mesh wall1...
+[2020.10.28-16.48.00:330][781]LogStaticMesh: Built static mesh [0.01s] /Game/School/Obj/wall1.wall1
+[2020.10.28-16.48.00:332][781]LogStaticMesh: Building static mesh window...
+[2020.10.28-16.48.00:341][781]LogStaticMesh: Built static mesh [0.01s] /Game/School/Obj/window.window
+[2020.10.28-16.48.00:343][781]LogStaticMesh: Building static mesh window2_pCube562...
+[2020.10.28-16.48.00:392][781]LogStaticMesh: Built static mesh [0.05s] /Game/School/Obj/window2_pCube562.window2_pCube562
+[2020.10.28-16.48.00:400][781]LogStaticMesh: Building static mesh window3_pCube565...
+[2020.10.28-16.48.00:447][781]LogStaticMesh: Built static mesh [0.05s] /Game/School/Obj/window3_pCube565.window3_pCube565
+[2020.10.28-16.48.00:514][781]LogMaterial: Display: Missing cached shader map for material wall_2, compiling. 
+[2020.10.28-16.48.00:534][781]LogMaterial: Display: Missing cached shader map for material M_Door, compiling. 
+[2020.10.28-16.48.00:553][781]LogMaterial: Display: Missing cached shader map for material M_flower, compiling. 
+[2020.10.28-16.48.00:573][781]LogMaterial: Display: Missing cached shader map for material M_B, compiling. 
+[2020.10.28-16.48.00:624][781]LogMaterial: Display: Missing cached shader map for material M_A, compiling. 
+[2020.10.28-16.48.00:686][781]LogMaterial: Display: Missing cached shader map for material M_glass2, compiling. 
+[2020.10.28-16.48.00:769][781]LogMaterial: Display: Missing cached shader map for material M_pillar6, compiling. 
+[2020.10.28-16.48.00:798][781]LogMaterial: Display: Missing cached shader map for material wall2_2, compiling. 
+[2020.10.28-16.48.00:819][781]LogMaterial: Display: Missing cached shader map for material wall2, compiling. 
+[2020.10.28-16.48.00:863][781]LogMaterial: Display: Missing cached shader map for material C, compiling. 
+[2020.10.28-16.48.00:883][781]LogMaterial: Display: Missing cached shader map for material initialShadingGroup, compiling. 
+[2020.10.28-16.48.00:908][781]LogMaterial: Display: Missing cached shader map for material MA_Summer, compiling. 
+[2020.10.28-16.48.00:933][781]LogMaterial: Warning: D:\UEprojet\Project-Dimensions-of-horror\TheyLive 4.25\Content\PN_interactiveSpruceForest\Materials\MaterialInstances\full\low\spruce_full_03_low_trunk.uasset: Failed to compile Material Instance with Base MA_Summer for platform PCD3D_SM5, Default Material will be used in game.
+[2020.10.28-16.48.00:933][781]LogMaterial: Display: 	(Node TextureSample) Texture Sample> Missing input texture
+[2020.10.28-16.48.00:933][781]LogMaterial: Display: 	(Node MakeMaterialAttributes) Error on property Normal
+[2020.10.28-16.48.00:941][781]LogMaterial: Display: Missing cached shader map for material NewBaseFlattenMaterial, compiling. 
+[2020.10.28-16.48.01:035][781]LogMaterial: Display: Missing cached shader map for material decal_2, compiling. 
+[2020.10.28-16.48.01:063][781]LogMaterial: Display: Missing cached shader map for material decal, compiling. 
+[2020.10.28-16.48.01:084][781]LogMaterial: Display: Missing cached shader map for material wall_3, compiling. 
+[2020.10.28-16.48.01:142][781]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 576
+[2020.10.28-16.48.01:142][781]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 566
+[2020.10.28-16.48.01:142][781]LogMaterial: Display: Missing cached shader map for material MA_Summer, compiling. 
+[2020.10.28-16.48.01:166][781]LogMaterial: Warning: D:\UEprojet\Project-Dimensions-of-horror\TheyLive 4.25\Content\PN_interactiveSpruceForest\Materials\MaterialInstances\full\low\spruce_full_02_low_trunk.uasset: Failed to compile Material Instance with Base MA_Summer for platform PCD3D_SM5, Default Material will be used in game.
+[2020.10.28-16.48.01:166][781]LogMaterial: Display: 	(Node TextureSample) Texture Sample> Missing input texture
+[2020.10.28-16.48.01:166][781]LogMaterial: Display: 	(Node MakeMaterialAttributes) Error on property Normal
+[2020.10.28-16.48.01:291][781]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/Parkour.Parkour
+[2020.10.28-16.48.01:446][781]LogUObjectHash: Compacting FUObjectHashTables data took   8.67ms
+[2020.10.28-16.48.01:475][781]Cmd: MAP LOAD FILE="D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Content/Maps/Parkour.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.10.28-16.48.01:475][781]LightingResults: New page: Lighting Build
+[2020.10.28-16.48.01:475][781]LoadErrors: New page: Loading map: Parkour.umap
+[2020.10.28-16.48.01:514][781]LogWorld: UWorld::CleanupWorld for CaveLevel, bSessionEnded=true, bCleanupResources=true
+[2020.10.28-16.48.01:514][781]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.28-16.48.01:515][781]MapCheck: New page: Map Check
+[2020.10.28-16.48.01:516][781]LightingResults: New page: Lighting Build
+[2020.10.28-16.48.01:614][781]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000024EC23EA000), frame # 8781
+[2020.10.28-16.48.01:614][781]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000024EC23EFB00), frame # 8781
+[2020.10.28-16.48.01:650][781]LogUObjectHash: Compacting FUObjectHashTables data took   6.70ms
+[2020.10.28-16.48.02:024][781]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 556
+[2020.10.28-16.48.02:024][781]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 546
+[2020.10.28-16.48.02:024][781]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 536
+[2020.10.28-16.48.02:501][781]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 526
+[2020.10.28-16.48.02:518][781]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.10.28-16.48.02:519][781]LogAIModule: Creating AISystem for world Parkour
+[2020.10.28-16.48.02:519][781]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000024F512FA000), frame # 8781
+[2020.10.28-16.48.02:519][781]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000024F63EC4540), frame # 8781
+[2020.10.28-16.48.02:570][781]LogUObjectHash: Compacting FUObjectHashTables data took   3.38ms
+[2020.10.28-16.48.02:651][781]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.10.28-16.48.02:652][781]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.435ms to complete.
+[2020.10.28-16.48.02:652][781]LogFileHelpers: Loading map 'Parkour' took 1.177
+[2020.10.28-16.48.04:400][844]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 516
+[2020.10.28-16.48.04:667][860]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 506
+[2020.10.28-16.48.07:598][ 35]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 496
+[2020.10.28-16.48.07:718][ 42]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 486
+[2020.10.28-16.48.09:385][139]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 476
+[2020.10.28-16.48.09:629][153]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 466
+[2020.10.28-16.48.10:060][179]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 456
+[2020.10.28-16.48.11:327][253]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 446
+[2020.10.28-16.48.13:317][352]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 436
+[2020.10.28-16.48.14:739][404]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 426
+[2020.10.28-16.48.16:112][472]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 416
+[2020.10.28-16.48.17:330][530]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 406
+[2020.10.28-16.48.17:668][547]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 396
+[2020.10.28-16.48.18:982][612]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 386
+[2020.10.28-16.48.19:554][641]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 376
+[2020.10.28-16.48.19:633][645]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 366
+[2020.10.28-16.48.21:085][716]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 356
+[2020.10.28-16.48.22:266][776]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 346
+[2020.10.28-16.48.25:245][923]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 336
+[2020.10.28-16.48.26:721][995]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 326
+[2020.10.28-16.48.27:568][ 39]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 316
+[2020.10.28-16.48.27:807][ 50]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 306
+[2020.10.28-16.48.28:018][ 57]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 296
+[2020.10.28-16.48.28:223][ 66]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 286
+[2020.10.28-16.48.28:715][ 83]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 276
+[2020.10.28-16.48.31:356][203]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 266
+[2020.10.28-16.48.32:426][254]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 256
+[2020.10.28-16.48.34:915][376]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 246
+[2020.10.28-16.48.35:189][390]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 236
+[2020.10.28-16.48.35:307][396]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 226
+[2020.10.28-16.48.35:727][417]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 216
+[2020.10.28-16.48.36:093][435]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 206
+[2020.10.28-16.48.36:440][454]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 196
+[2020.10.28-16.48.37:345][500]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 186
+[2020.10.28-16.48.38:196][545]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 176
+[2020.10.28-16.48.38:919][582]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 166
+[2020.10.28-16.48.39:662][621]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 156
+[2020.10.28-16.48.39:706][623]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 146
+[2020.10.28-16.48.39:805][628]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 136
+[2020.10.28-16.48.40:262][650]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 126
+[2020.10.28-16.48.41:261][692]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 116
+[2020.10.28-16.48.42:154][733]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 106
+[2020.10.28-16.48.42:857][770]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 96
+[2020.10.28-16.48.44:561][856]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 86
+[2020.10.28-16.48.45:014][879]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 76
+[2020.10.28-16.48.45:350][897]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 66
+[2020.10.28-16.48.45:580][908]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 57
+[2020.10.28-16.48.45:676][912]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 49
+[2020.10.28-16.48.46:826][966]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 42
+[2020.10.28-16.48.46:899][970]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 36
+[2020.10.28-16.48.49:747][117]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 31
+[2020.10.28-16.48.50:869][156]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 27
+[2020.10.28-16.48.51:105][167]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 23
+[2020.10.28-16.48.51:884][202]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 20
+[2020.10.28-16.48.52:448][231]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 17
+[2020.10.28-16.48.52:811][249]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 14
+[2020.10.28-16.48.52:832][250]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 12
+[2020.10.28-16.48.53:531][286]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 10
+[2020.10.28-16.48.53:531][286]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 8
+[2020.10.28-16.48.53:868][302]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 6
+[2020.10.28-16.48.54:372][326]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 5
+[2020.10.28-16.48.54:414][328]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 4
+[2020.10.28-16.48.54:653][340]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 3
+[2020.10.28-16.48.54:823][349]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 2
+[2020.10.28-16.48.54:843][350]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 1
