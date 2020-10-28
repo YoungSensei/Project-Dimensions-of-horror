@@ -723,3 +723,14 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.10.28-16.42.25:503][475]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 3
 [2020.10.28-16.42.25:521][476]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 2
 [2020.10.28-16.42.25:552][478]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 1
+[2020.10.28-16.45.51:068][892]LogSlate: Took 0.000152 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.10.28-16.45.51:086][892]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Blueprints/Widgets/MainMenu.MainMenu
+[2020.10.28-16.45.51:289][892]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 125 classes and 0 folders.
+[2020.10.28-16.45.52:460][892]LogSlate: Took 0.000226 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.10.28-16.46.00:070][339]LogSlate: Took 0.006208 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.10.28-16.46.26:173][902]LogSlate: Window 'MainMenu' being destroyed
+[2020.10.28-16.46.26:182][902]LogSlate: Window 'MainMenu' being destroyed
+[2020.10.28-16.46.26:185][902]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2020.10.28-16.46.26:185][902]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.28-16.46.26:190][902]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2020.10.28-16.46.26:190][902]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
