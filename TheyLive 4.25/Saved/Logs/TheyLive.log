@@ -734,3 +734,232 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.10.28-16.46.26:185][902]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
 [2020.10.28-16.46.26:190][902]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
 [2020.10.28-16.46.26:190][902]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.28-16.47.57:359][781]LogTexture: Display: Building textures: pillar1_low_initialShadingGroup_OcclusionRoughnessMetallic (AutoDXT, 1024X1024)
+[2020.10.28-16.47.57:359][781]LogTexture: Display: Building textures: T_M_window5_C_5B4ECD71493C0DFFAC92368DD08215E5_BaseColor (DXT1, 128X128)
+[2020.10.28-16.47.57:359][781]LogTexture: Display: Building textures: TexturesCom_Bricks_Rough_2x2_512_roughness (AutoDXT, 512X512)
+[2020.10.28-16.47.57:359][781]LogTexture: Display: Building textures: pillar6_low_blinn2SG_BaseColor (AutoDXT, 1024X1024)
+[2020.10.28-16.47.57:359][781]LogTexture: Display: Building textures: pillar1_low_initialShadingGroup_Normal (BC5, 512X512)
+[2020.10.28-16.47.57:359][781]LogTexture: Display: Building textures: TexturesCom_Bricks_Rough_2x2_512_normal (BC5, 512X512)
+[2020.10.28-16.47.57:359][781]LogTexture: Display: Building textures: C_low_blinn3SG_OcclusionRoughnessMetallic (AutoDXT, 1024X1024)
+[2020.10.28-16.47.57:359][781]LogTexture: Display: Building textures: C_low_blinn3SG_Normal (BC5, 1024X1024)
+[2020.10.28-16.47.57:359][781]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 128X128)
+[2020.10.28-16.47.57:359][781]LogTexture: Display: Building textures: stair1_initialShadingGroup_OcclusionRoughnessMetallic (AutoDXT, 1024X1024)
+[2020.10.28-16.47.57:359][781]LogTexture: Display: Building textures: pillar6_low_blinn2SG_Normal (BC5, 1024X1024)
+[2020.10.28-16.47.57:359][781]LogTexture: Display: Building textures: TexturesCom_Concrete_RoughWall_1K_albedo__1_ (AutoDXT, 1024X1024)
+[2020.10.28-16.47.57:359][781]LogTexture: Display: Building textures: door1_school_blinn2SG_OcclusionRoughnessMetallic (AutoDXT, 1024X1024)
+[2020.10.28-16.47.57:359][781]LogTexture: Display: Building textures: door1_school_blinn2SG_Normal (BC5, 1024X1024)
+[2020.10.28-16.47.57:359][781]LogTexture: Display: Building textures: door1_school_blinn2SG_BaseColor (AutoDXT, 1024X1024)
+[2020.10.28-16.47.57:359][781]LogTexture: Display: Building textures: B_low_blinn2SG_OcclusionRoughnessMetallic (AutoDXT, 1024X1024)
+[2020.10.28-16.47.57:359][781]LogTexture: Display: Building textures: stair1_initialShadingGroup_Normal (BC5, 1024X1024)
+[2020.10.28-16.47.57:359][781]LogTexture: Display: Building textures: B_low_blinn2SG_Normal (BC5, 1024X1024)
+[2020.10.28-16.47.57:359][781]LogTexture: Display: Building textures: B_low_blinn2SG_BaseColor (AutoDXT, 1024X1024)
+[2020.10.28-16.47.57:359][781]LogTexture: Display: Building textures: lowPoly_A_initialShadingGroup_OcclusionRoughnessMetallic (AutoDXT, 1024X1024)
+[2020.10.28-16.47.57:359][781]LogTexture: Display: Building textures: lowPoly_A_initialShadingGroup_Normal (BC5, 1024X1024)
+[2020.10.28-16.47.57:359][781]LogTexture: Display: Building textures: lowPoly_A_initialShadingGroup_BaseColor (AutoDXT, 1024X1024)
+[2020.10.28-16.47.57:359][781]LogTexture: Display: Building textures: pillar6_low_initialShadingGroup_OcclusionRoughnessMetallic (AutoDXT, 1024X1024)
+[2020.10.28-16.47.57:359][781]LogStaticMesh: Building static mesh dun2...
+[2020.10.28-16.47.57:366][781]LogTexture: Display: Building textures: pillar6_low_initialShadingGroup_Normal (BC5, 1024X1024)
+[2020.10.28-16.47.57:366][781]LogStaticMesh: Built static mesh [0.01s] /Game/School/Obj/dun2.dun2
+[2020.10.28-16.47.57:395][781]LogStaticMesh: Building static mesh dun1...
+[2020.10.28-16.47.57:400][781]LogStaticMesh: Built static mesh [0.01s] /Game/School/Obj/dun1.dun1
+[2020.10.28-16.47.57:401][781]LogStaticMesh: Building static mesh door3...
+[2020.10.28-16.47.57:415][781]LogStaticMesh: Built static mesh [0.01s] /Game/School/Obj/door3.door3
+[2020.10.28-16.47.57:974][781]LogTexture: Display: Building textures: pillar6_low_initialShadingGroup_BaseColor (AutoDXT, 1024X1024)
+[2020.10.28-16.47.57:974][781]LogTexture: Display: Building textures: pillar6_low_blinn2SG_OcclusionRoughnessMetallic (AutoDXT, 1024X1024)
+[2020.10.28-16.47.57:974][781]LogTexture: Display: Building textures: TexturesCom_Overlay_Abstract31_512_overlay (AutoDXT, 512X512)
+[2020.10.28-16.47.57:974][781]LogTexture: Display: Building textures: TexturesCom_Animated_Raindrops_512_mask (AutoDXT, 512X512)
+[2020.10.28-16.47.57:974][781]LogTexture: Display: Building textures: TexturesCom_Bricks_Rough_2x2_512_ao (AutoDXT, 512X512)
+[2020.10.28-16.47.57:974][781]LogTexture: Display: Building textures: TexturesCom_Concrete_RoughWall_1K_ao__1_ (AutoDXT, 1024X1024)
+[2020.10.28-16.47.58:884][781]LogTexture: Display: Building textures: TexturesCom_Concrete_RoughWall_1K_normal__1_ (BC5, 1024X1024)
+[2020.10.28-16.47.58:884][781]LogTexture: Display: Building textures: C_low_blinn3SG_BaseColor (AutoDXT, 1024X1024)
+[2020.10.28-16.47.58:884][781]LogTexture: Display: Building textures: TexturesCom_DecalsLeaking0193_1_masked_S (AutoDXT, 640X1024)
+[2020.10.28-16.47.58:884][781]LogTexture: Display: Building textures: TexturesCom_DecalsLeaking0257_1_masked_S (AutoDXT, 1024X576)
+[2020.10.28-16.47.58:884][781]LogTexture: Display: Building textures: TexturesCom_Bricks_Rough_2x2_512_albedo (AutoDXT, 512X512)
+[2020.10.28-16.47.58:884][781]LogTexture: Display: Building textures: roof4_initialShadingGroup_Normal_OpenGL (BC5, 512X512)
+[2020.10.28-16.47.58:884][781]LogTexture: Display: Building textures: roof4_initialShadingGroup_Mixed_AO (AutoDXT, 512X512)
+[2020.10.28-16.47.58:886][781]LogMaterial: Display: Missing cached shader map for material wall, compiling. 
+[2020.10.28-16.47.58:920][781]LogMaterial: Display: Missing cached shader map for material T_M_window5_wall2_5B4ECD71493C0DFFAC92368DD08215E5_BaseColor_Mat, compiling. 
+[2020.10.28-16.47.58:931][781]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 24
+[2020.10.28-16.47.58:931][781]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 20
+[2020.10.28-16.47.58:931][781]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 16
+[2020.10.28-16.47.58:931][781]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 12
+[2020.10.28-16.47.58:931][781]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 8
+[2020.10.28-16.47.58:931][781]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
+[2020.10.28-16.47.58:931][781]LogMaterial: Display: Missing cached shader map for material Pillar, compiling. 
+[2020.10.28-16.47.58:943][781]LogStaticMesh: Building static mesh dun5...
+[2020.10.28-16.47.58:945][781]LogStaticMesh: Built static mesh [0.00s] /Game/School/Obj/dun5.dun5
+[2020.10.28-16.47.58:946][781]LogStaticMesh: Building static mesh dun4...
+[2020.10.28-16.47.58:950][781]LogStaticMesh: Built static mesh [0.00s] /Game/School/Obj/dun4.dun4
+[2020.10.28-16.47.58:951][781]LogStaticMesh: Building static mesh dun3...
+[2020.10.28-16.47.58:956][781]LogStaticMesh: Built static mesh [0.00s] /Game/School/Obj/dun3.dun3
+[2020.10.28-16.47.58:957][781]LogMaterial: Display: Missing cached shader map for material glass, compiling. 
+[2020.10.28-16.47.58:965][781]LogMaterial: Display: Missing cached shader map for material MA_Summer, compiling. 
+[2020.10.28-16.47.58:981][781]LogMaterial: Warning: D:\UEprojet\Project-Dimensions-of-horror\TheyLive 4.25\Content\PN_interactiveSpruceForest\Materials\MaterialInstances\full\low\spruce_full_01_low_trunk.uasset: Failed to compile Material Instance with Base MA_Summer for platform PCD3D_SM5, Default Material will be used in game.
+[2020.10.28-16.47.58:981][781]LogMaterial: Display: 	(Node TextureSample) Texture Sample> Missing input texture
+[2020.10.28-16.47.58:981][781]LogMaterial: Display: 	(Node MakeMaterialAttributes) Error on property Normal
+[2020.10.28-16.47.59:043][781]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 52
+[2020.10.28-16.47.59:043][781]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 45
+[2020.10.28-16.47.59:043][781]LogStaticMesh: Building static mesh yangtai...
+[2020.10.28-16.47.59:103][781]LogStaticMesh: Built static mesh [0.06s] /Game/School/Obj/yangtai.yangtai
+[2020.10.28-16.47.59:110][781]LogStaticMesh: Building static mesh window5...
+[2020.10.28-16.47.59:128][781]LogStaticMesh: Built static mesh [0.02s] /Game/School/Obj/window5.window5
+[2020.10.28-16.47.59:131][781]LogStaticMesh: Building static mesh window4...
+[2020.10.28-16.47.59:153][781]LogStaticMesh: Built static mesh [0.02s] /Game/School/Obj/window4.window4
+[2020.10.28-16.47.59:236][781]LogStaticMesh: Building static mesh ban1...
+[2020.10.28-16.47.59:248][781]LogStaticMesh: Built static mesh [0.01s] /Game/School/Obj/ban1.ban1
+[2020.10.28-16.47.59:249][781]LogStaticMesh: Building static mesh chuanglian1...
+[2020.10.28-16.47.59:263][781]LogStaticMesh: Built static mesh [0.01s] /Game/School/Obj/chuanglian1.chuanglian1
+[2020.10.28-16.47.59:264][781]LogStaticMesh: Building static mesh chuanglian3...
+[2020.10.28-16.47.59:274][781]LogStaticMesh: Built static mesh [0.01s] /Game/School/Obj/chuanglian3.chuanglian3
+[2020.10.28-16.47.59:275][781]LogStaticMesh: Building static mesh door2...
+[2020.10.28-16.47.59:290][781]LogStaticMesh: Built static mesh [0.01s] /Game/School/Obj/door2.door2
+[2020.10.28-16.47.59:291][781]LogStaticMesh: Building static mesh door1_group1_pCube1...
+[2020.10.28-16.47.59:310][781]LogStaticMesh: Built static mesh [0.02s] /Game/School/Obj/door1_group1_pCube1.door1_group1_pCube1
+[2020.10.28-16.47.59:315][781]LogStaticMesh: Building static mesh gongmen...
+[2020.10.28-16.47.59:325][781]LogStaticMesh: Built static mesh [0.01s] /Game/School/Obj/gongmen.gongmen
+[2020.10.28-16.47.59:326][781]LogStaticMesh: Building static mesh pillar3...
+[2020.10.28-16.47.59:335][781]LogStaticMesh: Built static mesh [0.01s] /Game/School/Obj/pillar3.pillar3
+[2020.10.28-16.47.59:337][781]LogStaticMesh: Building static mesh pillar5...
+[2020.10.28-16.47.59:339][781]LogStaticMesh: Built static mesh [0.00s] /Game/School/Obj/pillar5.pillar5
+[2020.10.28-16.47.59:341][781]LogStaticMesh: Building static mesh pillar...
+[2020.10.28-16.47.59:343][781]LogStaticMesh: Built static mesh [0.00s] /Game/School/Obj/pillar.pillar
+[2020.10.28-16.47.59:343][781]LogStaticMesh: Building static mesh pillar2...
+[2020.10.28-16.47.59:349][781]LogStaticMesh: Built static mesh [0.01s] /Game/School/Obj/pillar2.pillar2
+[2020.10.28-16.47.59:351][781]LogStaticMesh: Building static mesh pillar6_low...
+[2020.10.28-16.47.59:401][781]LogStaticMesh: Built static mesh [0.05s] /Game/School/Obj/pillar6_low.pillar6_low
+[2020.10.28-16.47.59:410][781]LogStaticMesh: Building static mesh roof3...
+[2020.10.28-16.47.59:414][781]LogStaticMesh: Built static mesh [0.01s] /Game/School/Obj/roof3.roof3
+[2020.10.28-16.47.59:415][781]LogStaticMesh: Building static mesh roof4...
+[2020.10.28-16.47.59:452][781]LogStaticMesh: Built static mesh [0.04s] /Game/School/Obj/roof4.roof4
+[2020.10.28-16.47.59:455][781]LogStaticMesh: Building static mesh roof1...
+[2020.10.28-16.47.59:459][781]LogStaticMesh: Built static mesh [0.00s] /Game/School/Obj/roof1.roof1
+[2020.10.28-16.47.59:460][781]LogStaticMesh: Building static mesh roof2_modelPanel2ViewSelectedSet_pCube561...
+[2020.10.28-16.47.59:523][781]LogStaticMesh: Built static mesh [0.06s] /Game/School/Obj/roof2_modelPanel2ViewSelectedSet_pCube561.roof2_modelPanel2ViewSelectedSet_pCube561
+[2020.10.28-16.47.59:531][781]LogStaticMesh: Building static mesh roof2_pCube561...
+[2020.10.28-16.47.59:885][781]LogStaticMesh: Built static mesh [0.35s] /Game/School/Obj/roof2_pCube561.roof2_pCube561
+[2020.10.28-16.48.00:289][781]LogStaticMesh: Building static mesh stair1...
+[2020.10.28-16.48.00:298][781]LogStaticMesh: Built static mesh [0.01s] /Game/School/Texture/stair1.stair1
+[2020.10.28-16.48.00:301][781]LogStaticMesh: Building static mesh stair2...
+[2020.10.28-16.48.00:317][781]LogStaticMesh: Built static mesh [0.02s] /Game/School/Texture/stair2.stair2
+[2020.10.28-16.48.00:319][781]LogStaticMesh: Building static mesh wall1...
+[2020.10.28-16.48.00:330][781]LogStaticMesh: Built static mesh [0.01s] /Game/School/Obj/wall1.wall1
+[2020.10.28-16.48.00:332][781]LogStaticMesh: Building static mesh window...
+[2020.10.28-16.48.00:341][781]LogStaticMesh: Built static mesh [0.01s] /Game/School/Obj/window.window
+[2020.10.28-16.48.00:343][781]LogStaticMesh: Building static mesh window2_pCube562...
+[2020.10.28-16.48.00:392][781]LogStaticMesh: Built static mesh [0.05s] /Game/School/Obj/window2_pCube562.window2_pCube562
+[2020.10.28-16.48.00:400][781]LogStaticMesh: Building static mesh window3_pCube565...
+[2020.10.28-16.48.00:447][781]LogStaticMesh: Built static mesh [0.05s] /Game/School/Obj/window3_pCube565.window3_pCube565
+[2020.10.28-16.48.00:514][781]LogMaterial: Display: Missing cached shader map for material wall_2, compiling. 
+[2020.10.28-16.48.00:534][781]LogMaterial: Display: Missing cached shader map for material M_Door, compiling. 
+[2020.10.28-16.48.00:553][781]LogMaterial: Display: Missing cached shader map for material M_flower, compiling. 
+[2020.10.28-16.48.00:573][781]LogMaterial: Display: Missing cached shader map for material M_B, compiling. 
+[2020.10.28-16.48.00:624][781]LogMaterial: Display: Missing cached shader map for material M_A, compiling. 
+[2020.10.28-16.48.00:686][781]LogMaterial: Display: Missing cached shader map for material M_glass2, compiling. 
+[2020.10.28-16.48.00:769][781]LogMaterial: Display: Missing cached shader map for material M_pillar6, compiling. 
+[2020.10.28-16.48.00:798][781]LogMaterial: Display: Missing cached shader map for material wall2_2, compiling. 
+[2020.10.28-16.48.00:819][781]LogMaterial: Display: Missing cached shader map for material wall2, compiling. 
+[2020.10.28-16.48.00:863][781]LogMaterial: Display: Missing cached shader map for material C, compiling. 
+[2020.10.28-16.48.00:883][781]LogMaterial: Display: Missing cached shader map for material initialShadingGroup, compiling. 
+[2020.10.28-16.48.00:908][781]LogMaterial: Display: Missing cached shader map for material MA_Summer, compiling. 
+[2020.10.28-16.48.00:933][781]LogMaterial: Warning: D:\UEprojet\Project-Dimensions-of-horror\TheyLive 4.25\Content\PN_interactiveSpruceForest\Materials\MaterialInstances\full\low\spruce_full_03_low_trunk.uasset: Failed to compile Material Instance with Base MA_Summer for platform PCD3D_SM5, Default Material will be used in game.
+[2020.10.28-16.48.00:933][781]LogMaterial: Display: 	(Node TextureSample) Texture Sample> Missing input texture
+[2020.10.28-16.48.00:933][781]LogMaterial: Display: 	(Node MakeMaterialAttributes) Error on property Normal
+[2020.10.28-16.48.00:941][781]LogMaterial: Display: Missing cached shader map for material NewBaseFlattenMaterial, compiling. 
+[2020.10.28-16.48.01:035][781]LogMaterial: Display: Missing cached shader map for material decal_2, compiling. 
+[2020.10.28-16.48.01:063][781]LogMaterial: Display: Missing cached shader map for material decal, compiling. 
+[2020.10.28-16.48.01:084][781]LogMaterial: Display: Missing cached shader map for material wall_3, compiling. 
+[2020.10.28-16.48.01:142][781]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 576
+[2020.10.28-16.48.01:142][781]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 566
+[2020.10.28-16.48.01:142][781]LogMaterial: Display: Missing cached shader map for material MA_Summer, compiling. 
+[2020.10.28-16.48.01:166][781]LogMaterial: Warning: D:\UEprojet\Project-Dimensions-of-horror\TheyLive 4.25\Content\PN_interactiveSpruceForest\Materials\MaterialInstances\full\low\spruce_full_02_low_trunk.uasset: Failed to compile Material Instance with Base MA_Summer for platform PCD3D_SM5, Default Material will be used in game.
+[2020.10.28-16.48.01:166][781]LogMaterial: Display: 	(Node TextureSample) Texture Sample> Missing input texture
+[2020.10.28-16.48.01:166][781]LogMaterial: Display: 	(Node MakeMaterialAttributes) Error on property Normal
+[2020.10.28-16.48.01:291][781]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/Parkour.Parkour
+[2020.10.28-16.48.01:446][781]LogUObjectHash: Compacting FUObjectHashTables data took   8.67ms
+[2020.10.28-16.48.01:475][781]Cmd: MAP LOAD FILE="D:/UEprojet/Project-Dimensions-of-horror/TheyLive 4.25/Content/Maps/Parkour.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.10.28-16.48.01:475][781]LightingResults: New page: Lighting Build
+[2020.10.28-16.48.01:475][781]LoadErrors: New page: Loading map: Parkour.umap
+[2020.10.28-16.48.01:514][781]LogWorld: UWorld::CleanupWorld for CaveLevel, bSessionEnded=true, bCleanupResources=true
+[2020.10.28-16.48.01:514][781]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.28-16.48.01:515][781]MapCheck: New page: Map Check
+[2020.10.28-16.48.01:516][781]LightingResults: New page: Lighting Build
+[2020.10.28-16.48.01:614][781]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000024EC23EA000), frame # 8781
+[2020.10.28-16.48.01:614][781]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000024EC23EFB00), frame # 8781
+[2020.10.28-16.48.01:650][781]LogUObjectHash: Compacting FUObjectHashTables data took   6.70ms
+[2020.10.28-16.48.02:024][781]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 556
+[2020.10.28-16.48.02:024][781]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 546
+[2020.10.28-16.48.02:024][781]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 536
+[2020.10.28-16.48.02:501][781]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 526
+[2020.10.28-16.48.02:518][781]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.10.28-16.48.02:519][781]LogAIModule: Creating AISystem for world Parkour
+[2020.10.28-16.48.02:519][781]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000024F512FA000), frame # 8781
+[2020.10.28-16.48.02:519][781]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000024F63EC4540), frame # 8781
+[2020.10.28-16.48.02:570][781]LogUObjectHash: Compacting FUObjectHashTables data took   3.38ms
+[2020.10.28-16.48.02:651][781]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.10.28-16.48.02:652][781]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.435ms to complete.
+[2020.10.28-16.48.02:652][781]LogFileHelpers: Loading map 'Parkour' took 1.177
+[2020.10.28-16.48.04:400][844]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 516
+[2020.10.28-16.48.04:667][860]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 506
+[2020.10.28-16.48.07:598][ 35]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 496
+[2020.10.28-16.48.07:718][ 42]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 486
+[2020.10.28-16.48.09:385][139]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 476
+[2020.10.28-16.48.09:629][153]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 466
+[2020.10.28-16.48.10:060][179]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 456
+[2020.10.28-16.48.11:327][253]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 446
+[2020.10.28-16.48.13:317][352]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 436
+[2020.10.28-16.48.14:739][404]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 426
+[2020.10.28-16.48.16:112][472]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 416
+[2020.10.28-16.48.17:330][530]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 406
+[2020.10.28-16.48.17:668][547]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 396
+[2020.10.28-16.48.18:982][612]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 386
+[2020.10.28-16.48.19:554][641]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 376
+[2020.10.28-16.48.19:633][645]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 366
+[2020.10.28-16.48.21:085][716]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 356
+[2020.10.28-16.48.22:266][776]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 346
+[2020.10.28-16.48.25:245][923]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 336
+[2020.10.28-16.48.26:721][995]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 326
+[2020.10.28-16.48.27:568][ 39]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 316
+[2020.10.28-16.48.27:807][ 50]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 306
+[2020.10.28-16.48.28:018][ 57]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 296
+[2020.10.28-16.48.28:223][ 66]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 286
+[2020.10.28-16.48.28:715][ 83]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 276
+[2020.10.28-16.48.31:356][203]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 266
+[2020.10.28-16.48.32:426][254]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 256
+[2020.10.28-16.48.34:915][376]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 246
+[2020.10.28-16.48.35:189][390]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 236
+[2020.10.28-16.48.35:307][396]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 226
+[2020.10.28-16.48.35:727][417]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 216
+[2020.10.28-16.48.36:093][435]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 206
+[2020.10.28-16.48.36:440][454]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 196
+[2020.10.28-16.48.37:345][500]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 186
+[2020.10.28-16.48.38:196][545]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 176
+[2020.10.28-16.48.38:919][582]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 166
+[2020.10.28-16.48.39:662][621]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 156
+[2020.10.28-16.48.39:706][623]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 146
+[2020.10.28-16.48.39:805][628]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 136
+[2020.10.28-16.48.40:262][650]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 126
+[2020.10.28-16.48.41:261][692]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 116
+[2020.10.28-16.48.42:154][733]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 106
+[2020.10.28-16.48.42:857][770]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 96
+[2020.10.28-16.48.44:561][856]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 86
+[2020.10.28-16.48.45:014][879]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 76
+[2020.10.28-16.48.45:350][897]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 66
+[2020.10.28-16.48.45:580][908]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 57
+[2020.10.28-16.48.45:676][912]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 49
+[2020.10.28-16.48.46:826][966]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 42
+[2020.10.28-16.48.46:899][970]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 36
+[2020.10.28-16.48.49:747][117]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 31
+[2020.10.28-16.48.50:869][156]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 27
+[2020.10.28-16.48.51:105][167]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 23
+[2020.10.28-16.48.51:884][202]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 20
+[2020.10.28-16.48.52:448][231]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 17
+[2020.10.28-16.48.52:811][249]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 14
+[2020.10.28-16.48.52:832][250]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 12
+[2020.10.28-16.48.53:531][286]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 10
+[2020.10.28-16.48.53:531][286]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 8
+[2020.10.28-16.48.53:868][302]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 6
+[2020.10.28-16.48.54:372][326]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 5
+[2020.10.28-16.48.54:414][328]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 4
+[2020.10.28-16.48.54:653][340]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 3
+[2020.10.28-16.48.54:823][349]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 2
+[2020.10.28-16.48.54:843][350]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 1
