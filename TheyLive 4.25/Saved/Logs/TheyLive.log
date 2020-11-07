@@ -1,10 +1,10 @@
-﻿Log file open, 11/06/20 08:13:25
+﻿Log file open, 11/07/20 14:49:43
 LogInit: Display: Running engine for game: TheyLive
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 1.895091
+LogStats: Stats thread started at 0.243249
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
-LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -6:00, Platform Override: ''
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
 LogPluginManager: Mounting plugin AISupport
 LogPluginManager: Mounting plugin LightPropagationVolume
@@ -140,13 +140,13 @@ LogInit: Build: ++UE4+Release-4.25-CL-14469661
 LogInit: Engine Version: 4.25.4-14469661+++UE4+Release-4.25
 LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
 LogInit: Net CL: 13144385
-LogInit: OS: Windows 10 (Release 1909) (), CPU: Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz, GPU: Intel(R) UHD Graphics 630
+LogInit: OS: Windows 10 (Release 1909) (), CPU: Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz, GPU: Intel(R) UHD Graphics 630
 LogInit: Compiled (64-bit): Oct 11 2020 08:10:49
 LogInit: Compiled with Visual C++: 19.24.28315.00
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.25
-LogInit: Command Line: 
-LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/Win64/
+LogInit: Command Line:  -EpicPortal -epicusername=ozgurkaderoglu -epicuserid=f73f8e2b08ab484e8b2c5adb71547b4c -epiclocale=en
+LogInit: Base Directory: d:/Program Files/Epic Games/UE_4.25/Engine/Binaries/Win64/
 LogInit: Allocator: TBB
 LogInit: Installed Engine Build: 1
 LogDevObjectVersion: Number of dev versions registered: 26
@@ -177,7 +177,7 @@ LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 3
 LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
 LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
 LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
-LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/dougp/OneDrive/Desktop/Unreal Projects/RockSlideBolter/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Engine.ini]
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [d:/kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Engine.ini]
 LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
 LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
 LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
@@ -195,880 +195,771 @@ LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2020.11.06-14.13.27:560][  0]LogConfig: Setting CVar [[r.VSync:0]]
-[2020.11.06-14.13.27:560][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
-[2020.11.06-14.13.27:560][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/dougp/OneDrive/Desktop/Unreal Projects/RockSlideBolter/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Engine.ini]
-[2020.11.06-14.13.27:560][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2020.11.06-14.13.27:560][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:0]]
-[2020.11.06-14.13.27:560][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/dougp/OneDrive/Desktop/Unreal Projects/RockSlideBolter/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Engine.ini]
-[2020.11.06-14.13.27:561][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/dougp/OneDrive/Desktop/Unreal Projects/RockSlideBolter/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Engine.ini]
-[2020.11.06-14.13.27:561][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2020.11.06-14.13.27:561][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2020.11.06-14.13.27:561][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2020.11.06-14.13.27:561][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2020.11.06-14.13.27:561][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2020.11.06-14.13.27:561][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2020.11.06-14.13.27:561][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2020.11.06-14.13.27:561][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2020.11.06-14.13.27:561][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2020.11.06-14.13.27:561][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2020.11.06-14.13.27:561][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2020.11.06-14.13.27:561][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2020.11.06-14.13.27:561][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2020.11.06-14.13.27:561][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
-[2020.11.06-14.13.27:561][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/dougp/OneDrive/Desktop/Unreal Projects/RockSlideBolter/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Engine.ini]
-[2020.11.06-14.13.27:561][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2020.11.06-14.13.27:561][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2020.11.06-14.13.27:561][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2020.11.06-14.13.27:561][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2020.11.06-14.13.27:561][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2020.11.06-14.13.27:561][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2020.11.06-14.13.27:561][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
-[2020.11.06-14.13.27:561][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2020.11.06-14.13.27:561][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2020.11.06-14.13.27:561][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2020.11.06-14.13.27:561][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2020.11.06-14.13.27:561][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2020.11.06-14.13.27:561][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2020.11.06-14.13.27:561][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/dougp/OneDrive/Desktop/Unreal Projects/RockSlideBolter/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Engine.ini]
-[2020.11.06-14.13.27:561][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/dougp/OneDrive/Desktop/Unreal Projects/RockSlideBolter/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Engine.ini]
-[2020.11.06-14.13.27:567][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/dougp/OneDrive/Desktop/Unreal Projects/RockSlideBolter/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Scalability.ini]
-[2020.11.06-14.13.27:567][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2020.11.06-14.13.27:567][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2020.11.06-14.13.27:567][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/dougp/OneDrive/Desktop/Unreal Projects/RockSlideBolter/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Scalability.ini]
-[2020.11.06-14.13.27:567][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2020.11.06-14.13.27:567][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/dougp/OneDrive/Desktop/Unreal Projects/RockSlideBolter/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Scalability.ini]
-[2020.11.06-14.13.27:567][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2020.11.06-14.13.27:567][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2020.11.06-14.13.27:567][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2020.11.06-14.13.27:567][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2020.11.06-14.13.27:567][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2020.11.06-14.13.27:567][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2020.11.06-14.13.27:567][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2020.11.06-14.13.27:567][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2020.11.06-14.13.27:567][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2020.11.06-14.13.27:567][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2020.11.06-14.13.27:567][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2020.11.06-14.13.27:567][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2020.11.06-14.13.27:567][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2020.11.06-14.13.27:567][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2020.11.06-14.13.27:567][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2020.11.06-14.13.27:567][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2020.11.06-14.13.27:567][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2020.11.06-14.13.27:567][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2020.11.06-14.13.27:567][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/dougp/OneDrive/Desktop/Unreal Projects/RockSlideBolter/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Scalability.ini]
-[2020.11.06-14.13.27:567][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2020.11.06-14.13.27:567][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2020.11.06-14.13.27:567][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2020.11.06-14.13.27:567][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2020.11.06-14.13.27:567][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2020.11.06-14.13.27:567][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2020.11.06-14.13.27:567][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2020.11.06-14.13.27:567][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2020.11.06-14.13.27:567][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2020.11.06-14.13.27:567][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2020.11.06-14.13.27:567][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2020.11.06-14.13.27:567][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2020.11.06-14.13.27:567][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2020.11.06-14.13.27:567][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2020.11.06-14.13.27:567][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2020.11.06-14.13.27:567][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2020.11.06-14.13.27:567][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2020.11.06-14.13.27:567][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2020.11.06-14.13.27:567][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2020.11.06-14.13.27:567][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2020.11.06-14.13.27:567][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2020.11.06-14.13.27:567][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2020.11.06-14.13.27:567][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2020.11.06-14.13.27:567][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2020.11.06-14.13.27:567][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2020.11.06-14.13.27:567][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2020.11.06-14.13.27:567][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2020.11.06-14.13.27:567][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2020.11.06-14.13.27:567][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2020.11.06-14.13.27:567][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2020.11.06-14.13.27:567][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/dougp/OneDrive/Desktop/Unreal Projects/RockSlideBolter/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Scalability.ini]
-[2020.11.06-14.13.27:567][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2020.11.06-14.13.27:567][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2020.11.06-14.13.27:568][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2020.11.06-14.13.27:568][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2020.11.06-14.13.27:568][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2020.11.06-14.13.27:568][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2020.11.06-14.13.27:568][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2020.11.06-14.13.27:568][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2020.11.06-14.13.27:568][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2020.11.06-14.13.27:568][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/dougp/OneDrive/Desktop/Unreal Projects/RockSlideBolter/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Scalability.ini]
-[2020.11.06-14.13.27:568][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2020.11.06-14.13.27:568][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2020.11.06-14.13.27:568][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2020.11.06-14.13.27:568][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2020.11.06-14.13.27:568][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2020.11.06-14.13.27:568][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2020.11.06-14.13.27:568][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2020.11.06-14.13.27:568][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2020.11.06-14.13.27:568][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2020.11.06-14.13.27:568][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2020.11.06-14.13.27:568][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2020.11.06-14.13.27:568][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
-[2020.11.06-14.13.27:568][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2020.11.06-14.13.27:568][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2020.11.06-14.13.27:568][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2020.11.06-14.13.27:568][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2020.11.06-14.13.27:568][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2020.11.06-14.13.27:568][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2020.11.06-14.13.27:568][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2020.11.06-14.13.27:568][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2020.11.06-14.13.27:568][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2020.11.06-14.13.27:568][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2020.11.06-14.13.27:568][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2020.11.06-14.13.27:568][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2020.11.06-14.13.27:568][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2020.11.06-14.13.27:568][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2020.11.06-14.13.27:568][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/dougp/OneDrive/Desktop/Unreal Projects/RockSlideBolter/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Scalability.ini]
-[2020.11.06-14.13.27:568][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2020.11.06-14.13.27:568][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2020.11.06-14.13.27:568][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/dougp/OneDrive/Desktop/Unreal Projects/RockSlideBolter/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Scalability.ini]
-[2020.11.06-14.13.27:568][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2020.11.06-14.13.27:568][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2020.11.06-14.13.27:568][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2020.11.06-14.13.27:568][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
-[2020.11.06-14.13.27:568][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
-[2020.11.06-14.13.27:568][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
-[2020.11.06-14.13.27:568][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
-[2020.11.06-14.13.27:569][  0]LogInit: Selected Device Profile: [Windows]
-[2020.11.06-14.13.27:569][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2020.11.06-14.13.27:570][  0]LogHAL: Display: Platform has ~ 16 GB [17015930880 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2020.11.06-14.13.27:570][  0]LogInit: Going up to parent DeviceProfile []
-[2020.11.06-14.13.27:570][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/dougp/OneDrive/Desktop/Unreal Projects/RockSlideBolter/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Scalability.ini]
-[2020.11.06-14.13.27:570][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2020.11.06-14.13.27:570][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2020.11.06-14.13.27:570][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/dougp/OneDrive/Desktop/Unreal Projects/RockSlideBolter/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Scalability.ini]
-[2020.11.06-14.13.27:570][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2020.11.06-14.13.27:570][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/dougp/OneDrive/Desktop/Unreal Projects/RockSlideBolter/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Scalability.ini]
-[2020.11.06-14.13.27:570][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2020.11.06-14.13.27:570][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2020.11.06-14.13.27:570][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2020.11.06-14.13.27:570][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2020.11.06-14.13.27:570][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2020.11.06-14.13.27:570][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2020.11.06-14.13.27:570][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2020.11.06-14.13.27:571][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2020.11.06-14.13.27:571][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2020.11.06-14.13.27:571][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2020.11.06-14.13.27:571][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2020.11.06-14.13.27:571][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2020.11.06-14.13.27:571][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2020.11.06-14.13.27:571][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2020.11.06-14.13.27:571][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2020.11.06-14.13.27:571][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2020.11.06-14.13.27:571][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2020.11.06-14.13.27:571][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2020.11.06-14.13.27:571][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/dougp/OneDrive/Desktop/Unreal Projects/RockSlideBolter/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Scalability.ini]
-[2020.11.06-14.13.27:571][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2020.11.06-14.13.27:571][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2020.11.06-14.13.27:571][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2020.11.06-14.13.27:571][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2020.11.06-14.13.27:571][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2020.11.06-14.13.27:571][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2020.11.06-14.13.27:571][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2020.11.06-14.13.27:571][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2020.11.06-14.13.27:571][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2020.11.06-14.13.27:571][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2020.11.06-14.13.27:571][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2020.11.06-14.13.27:571][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2020.11.06-14.13.27:571][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2020.11.06-14.13.27:571][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2020.11.06-14.13.27:571][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2020.11.06-14.13.27:571][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2020.11.06-14.13.27:571][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2020.11.06-14.13.27:571][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2020.11.06-14.13.27:571][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2020.11.06-14.13.27:571][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2020.11.06-14.13.27:571][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2020.11.06-14.13.27:571][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2020.11.06-14.13.27:571][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2020.11.06-14.13.27:571][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2020.11.06-14.13.27:571][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2020.11.06-14.13.27:571][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2020.11.06-14.13.27:571][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2020.11.06-14.13.27:571][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2020.11.06-14.13.27:571][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2020.11.06-14.13.27:571][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2020.11.06-14.13.27:571][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/dougp/OneDrive/Desktop/Unreal Projects/RockSlideBolter/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Scalability.ini]
-[2020.11.06-14.13.27:571][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2020.11.06-14.13.27:571][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2020.11.06-14.13.27:571][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2020.11.06-14.13.27:571][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2020.11.06-14.13.27:571][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2020.11.06-14.13.27:571][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2020.11.06-14.13.27:571][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2020.11.06-14.13.27:571][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2020.11.06-14.13.27:571][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2020.11.06-14.13.27:571][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/dougp/OneDrive/Desktop/Unreal Projects/RockSlideBolter/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Scalability.ini]
-[2020.11.06-14.13.27:571][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2020.11.06-14.13.27:571][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2020.11.06-14.13.27:571][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2020.11.06-14.13.27:571][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2020.11.06-14.13.27:571][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2020.11.06-14.13.27:571][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2020.11.06-14.13.27:571][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2020.11.06-14.13.27:571][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2020.11.06-14.13.27:571][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2020.11.06-14.13.27:571][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2020.11.06-14.13.27:571][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2020.11.06-14.13.27:572][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
-[2020.11.06-14.13.27:572][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2020.11.06-14.13.27:572][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2020.11.06-14.13.27:572][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2020.11.06-14.13.27:572][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2020.11.06-14.13.27:572][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2020.11.06-14.13.27:572][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2020.11.06-14.13.27:572][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2020.11.06-14.13.27:572][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2020.11.06-14.13.27:572][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2020.11.06-14.13.27:572][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2020.11.06-14.13.27:572][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2020.11.06-14.13.27:572][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2020.11.06-14.13.27:572][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2020.11.06-14.13.27:572][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2020.11.06-14.13.27:572][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/dougp/OneDrive/Desktop/Unreal Projects/RockSlideBolter/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Scalability.ini]
-[2020.11.06-14.13.27:572][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2020.11.06-14.13.27:572][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2020.11.06-14.13.27:572][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/dougp/OneDrive/Desktop/Unreal Projects/RockSlideBolter/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Scalability.ini]
-[2020.11.06-14.13.27:572][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2020.11.06-14.13.27:572][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2020.11.06-14.13.27:572][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2020.11.06-14.13.27:572][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
-[2020.11.06-14.13.27:572][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
-[2020.11.06-14.13.27:572][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
-[2020.11.06-14.13.27:572][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
-[2020.11.06-14.13.27:572][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2020.11.06-14.13.27:580][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2020.11.06-14.13.27:580][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
-[2020.11.06-14.13.27:580][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
-[2020.11.06-14.13.27:580][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/dougp/OneDrive/Desktop/Unreal Projects/RockSlideBolter/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Engine.ini]
-[2020.11.06-14.13.27:580][  0]LogInit: Computer: MSI
-[2020.11.06-14.13.27:580][  0]LogInit: User: dougp
-[2020.11.06-14.13.27:580][  0]LogInit: CPU Page size=4096, Cores=6
-[2020.11.06-14.13.27:580][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2020.11.06-14.13.27:580][  0]LogMemory: Memory total: Physical=15.8GB (16GB approx)
-[2020.11.06-14.13.27:580][  0]LogMemory: Platform Memory Stats for Windows
-[2020.11.06-14.13.27:580][  0]LogMemory: Process Physical Memory: 131.40 MB used, 131.41 MB peak
-[2020.11.06-14.13.27:580][  0]LogMemory: Process Virtual Memory: 111.23 MB used, 111.23 MB peak
-[2020.11.06-14.13.27:580][  0]LogMemory: Physical Memory: 8454.02 MB used,  7773.64 MB free, 16227.66 MB total
-[2020.11.06-14.13.27:580][  0]LogMemory: Virtual Memory: 5179.61 MB used,  134212552.00 MB free, 134217728.00 MB total
-[2020.11.06-14.13.27:929][  0]LogWindows: WindowsPlatformFeatures enabled
-[2020.11.06-14.13.28:273][  0]LogInit: Physics initialised using underlying interface: PhysX
-[2020.11.06-14.13.28:289][  0]LogInit: Using OS detected language (en-US).
-[2020.11.06-14.13.28:289][  0]LogInit: Using OS detected locale (en-US).
-[2020.11.06-14.13.28:328][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2020.11.06-14.13.28:784][  0]LogInit: Setting process to per monitor DPI aware
-[2020.11.06-14.13.28:902][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2020.11.06-14.13.28:902][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2020.11.06-14.13.36:427][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2020.11.06-14.13.36:427][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
-[2020.11.06-14.13.36:427][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
-[2020.11.06-14.13.36:427][  0]LogD3D11RHI: D3D11 adapters:
-[2020.11.06-14.13.36:625][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 2080' (Feature Level 11_0)
-[2020.11.06-14.13.36:625][  0]LogD3D11RHI:       8010/0/8113 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2020.11.06-14.13.36:705][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics 630' (Feature Level 11_0)
-[2020.11.06-14.13.36:705][  0]LogD3D11RHI:       128/0/8113 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2020.11.06-14.13.36:713][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2020.11.06-14.13.36:713][  0]LogD3D11RHI:       0/0/8113 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2020.11.06-14.13.36:713][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2020.11.06-14.13.36:772][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2020.11.06-14.13.36:773][  0]LogD3D11RHI:     GPU DeviceId: 0x1e90 (for the marketing name, search the web for "GPU Device Id")
-[2020.11.06-14.13.36:773][  0]LogWindows: EnumDisplayDevices:
-[2020.11.06-14.13.36:773][  0]LogWindows:    0. 'Intel(R) UHD Graphics 630' (P:1 D:1)
-[2020.11.06-14.13.36:774][  0]LogWindows:    1. 'Intel(R) UHD Graphics 630' (P:0 D:0)
-[2020.11.06-14.13.36:774][  0]LogWindows:    2. 'Intel(R) UHD Graphics 630' (P:0 D:0)
-[2020.11.06-14.13.36:775][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2080' (P:0 D:0)
-[2020.11.06-14.13.36:775][  0]LogWindows:    4. 'NVIDIA GeForce RTX 2080' (P:0 D:0)
-[2020.11.06-14.13.36:776][  0]LogWindows:    5. 'NVIDIA GeForce RTX 2080' (P:0 D:0)
-[2020.11.06-14.13.36:776][  0]LogWindows:    6. 'NVIDIA GeForce RTX 2080' (P:0 D:0)
-[2020.11.06-14.13.36:776][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
-[2020.11.06-14.13.36:776][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 2080
-[2020.11.06-14.13.36:776][  0]LogD3D11RHI:   Driver Version: 417.77 (internal:25.21.14.1777, unified:417.77)
-[2020.11.06-14.13.36:777][  0]LogD3D11RHI:      Driver Date: 1-17-2019
-[2020.11.06-14.13.36:777][  0]LogRHI: Texture pool is 5607 MB (70% of 8010 MB)
-[2020.11.06-14.13.36:856][  0]LogD3D11RHI: RHI has support for 64 bit atomics
-[2020.11.06-14.13.36:856][  0]LogD3D11RHI: Async texture creation enabled
-[2020.11.06-14.13.36:856][  0]LogD3D11RHI: Array index from any shader is supported
-[2020.11.06-14.13.36:893][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2020.11.06-14.13.38:553][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
-[2020.11.06-14.13.38:678][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
-[2020.11.06-14.13.38:678][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
-[2020.11.06-14.13.38:678][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
-[2020.11.06-14.13.38:678][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
-[2020.11.06-14.13.38:679][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
-[2020.11.06-14.13.38:679][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
-[2020.11.06-14.13.38:679][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
-[2020.11.06-14.13.38:679][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
-[2020.11.06-14.13.38:679][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
-[2020.11.06-14.13.38:679][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
-[2020.11.06-14.13.38:775][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
-[2020.11.06-14.13.38:775][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
-[2020.11.06-14.13.38:830][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
-[2020.11.06-14.13.38:868][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
-[2020.11.06-14.13.38:917][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
-[2020.11.06-14.13.38:968][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
-[2020.11.06-14.13.39:017][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
-[2020.11.06-14.13.39:064][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
-[2020.11.06-14.13.39:109][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
-[2020.11.06-14.13.39:256][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
-[2020.11.06-14.13.39:256][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
-[2020.11.06-14.13.39:347][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
-[2020.11.06-14.13.39:347][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
-[2020.11.06-14.13.39:393][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
-[2020.11.06-14.13.39:441][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
-[2020.11.06-14.13.39:480][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
-[2020.11.06-14.13.39:524][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
-[2020.11.06-14.13.39:524][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2020.11.06-14.13.39:548][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
-[2020.11.06-14.13.39:804][  0]LogShaderCompilers: Guid format shader working directory is -76 characters bigger than the processId version (../../../../../../Users/dougp/OneDrive/Desktop/Unreal Projects/RockSlideBolter/Project-Dimensions-of-horror/TheyLive 4.25/Intermediate/Shaders/WorkingDirectory/22736/).
-[2020.11.06-14.13.39:804][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/dougp/AppData/Local/Temp/UnrealShaderWorkingDir/CC04B0C743D490136C68F88A2495C315/'.
-[2020.11.06-14.13.39:809][  0]LogXGEController: Cleaning working directory: C:/Users/dougp/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2020.11.06-14.13.39:811][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2020.11.06-14.13.39:811][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2020.11.06-14.13.39:811][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2020.11.06-14.13.49:129][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2020.11.06-14.13.49:195][  0]LogDerivedDataCache: Loaded boot cache 0.07s 76MB C:/Users/dougp/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
-[2020.11.06-14.13.49:195][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/dougp/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
-[2020.11.06-14.13.49:195][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/dougp/OneDrive/Desktop/Unreal Projects/RockSlideBolter/Project-Dimensions-of-horror/TheyLive 4.25/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2020.11.06-14.13.49:195][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2020.11.06-14.13.49:195][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/dougp/OneDrive/Desktop/Unreal Projects/RockSlideBolter/Project-Dimensions-of-horror/TheyLive 4.25/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2020.11.06-14.13.49:195][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2020.11.06-14.13.49:209][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2020.11.06-14.13.49:209][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2020.11.06-14.13.49:209][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2020.11.06-14.13.49:211][  0]LogDerivedDataCache: Using Local data cache path C:/Users/dougp/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2020.11.06-14.13.49:211][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2020.11.06-14.13.49:211][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2020.11.06-14.13.49:304][  0]LogSlate: Using FreeType 2.10.0
-[2020.11.06-14.13.49:305][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2020.11.06-14.13.49:351][  0]LogAssetRegistry: FAssetRegistry took 0.0042 seconds to start up
-[2020.11.06-14.13.49:905][  0]LogInit: Selected Device Profile: [Windows]
-[2020.11.06-14.13.50:235][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2020.11.06-14.13.50:235][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
-[2020.11.06-14.13.50:236][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2020.11.06-14.13.50:236][  0]LogMeshReduction: No distributed automatic mesh merging module available
-[2020.11.06-14.13.50:237][  0]LogMeshMerging: No distributed automatic mesh merging module available
-[2020.11.06-14.13.50:344][  0]LogNetVersion: TheyLive 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 1881850289)
-[2020.11.06-14.13.54:165][  0]LogAssetRegistry: Error: Failed to open file for write ../../../../../../Users/dougp/OneDrive/Desktop/Unreal Projects/RockSlideBolter/Project-Dimensions-of-horror/TheyLive 4.25/Intermediate/CachedAssetRegistry.bin
-[2020.11.06-14.13.54:165][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (00000238C900E980), frame # 0
-[2020.11.06-14.13.54:165][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000238C8EB1080), frame # 0
-[2020.11.06-14.13.54:175][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000238C8EFDE00), frame # 0
-[2020.11.06-14.13.54:276][  0]LogAssetRegistry: Error: Failed to open file for write ../../../../../../Users/dougp/OneDrive/Desktop/Unreal Projects/RockSlideBolter/Project-Dimensions-of-horror/TheyLive 4.25/Intermediate/AssetRegistryCache/2657c409.bin
-[2020.11.06-14.13.54:334][  0]LogFileManager: Warning: DeleteFile was unable to delete '../../../../../../Users/dougp/OneDrive/Desktop/Unreal Projects/RockSlideBolter/Project-Dimensions-of-horror/TheyLive 4.25/Intermediate/AssetRegistryCache/6bead350.bin', retrying in .5s...
-[2020.11.06-14.13.54:835][  0]LogFileManager: Warning: DeleteFile recovered during retry!
-[2020.11.06-14.13.54:836][  0]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/dougp/OneDrive/Desktop/Unreal Projects/RockSlideBolter/Project-Dimensions-of-horror/TheyLive 4.25/Intermediate/AssetRegistryCache/6bead350.bin.tmp' to '../../../../../../Users/dougp/OneDrive/Desktop/Unreal Projects/RockSlideBolter/Project-Dimensions-of-horror/TheyLive 4.25/Intermediate/AssetRegistryCache/6bead350.bin' (Error Code 2), retrying in .5s...
-[2020.11.06-14.13.55:337][  0]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/dougp/OneDrive/Desktop/Unreal Projects/RockSlideBolter/Project-Dimensions-of-horror/TheyLive 4.25/Intermediate/AssetRegistryCache/6bead350.bin.tmp' to '../../../../../../Users/dougp/OneDrive/Desktop/Unreal Projects/RockSlideBolter/Project-Dimensions-of-horror/TheyLive 4.25/Intermediate/AssetRegistryCache/6bead350.bin' (Error Code 2), retrying in .5s...
-[2020.11.06-14.13.55:838][  0]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/dougp/OneDrive/Desktop/Unreal Projects/RockSlideBolter/Project-Dimensions-of-horror/TheyLive 4.25/Intermediate/AssetRegistryCache/6bead350.bin.tmp' to '../../../../../../Users/dougp/OneDrive/Desktop/Unreal Projects/RockSlideBolter/Project-Dimensions-of-horror/TheyLive 4.25/Intermediate/AssetRegistryCache/6bead350.bin' (Error Code 2), retrying in .5s...
-[2020.11.06-14.13.56:339][  0]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/dougp/OneDrive/Desktop/Unreal Projects/RockSlideBolter/Project-Dimensions-of-horror/TheyLive 4.25/Intermediate/AssetRegistryCache/6bead350.bin.tmp' to '../../../../../../Users/dougp/OneDrive/Desktop/Unreal Projects/RockSlideBolter/Project-Dimensions-of-horror/TheyLive 4.25/Intermediate/AssetRegistryCache/6bead350.bin' (Error Code 2), retrying in .5s...
-[2020.11.06-14.13.56:840][  0]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/dougp/OneDrive/Desktop/Unreal Projects/RockSlideBolter/Project-Dimensions-of-horror/TheyLive 4.25/Intermediate/AssetRegistryCache/6bead350.bin.tmp' to '../../../../../../Users/dougp/OneDrive/Desktop/Unreal Projects/RockSlideBolter/Project-Dimensions-of-horror/TheyLive 4.25/Intermediate/AssetRegistryCache/6bead350.bin' (Error Code 2), retrying in .5s...
-[2020.11.06-14.13.57:340][  0]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/dougp/OneDrive/Desktop/Unreal Projects/RockSlideBolter/Project-Dimensions-of-horror/TheyLive 4.25/Intermediate/AssetRegistryCache/6bead350.bin.tmp' to '../../../../../../Users/dougp/OneDrive/Desktop/Unreal Projects/RockSlideBolter/Project-Dimensions-of-horror/TheyLive 4.25/Intermediate/AssetRegistryCache/6bead350.bin' (Error Code 2), retrying in .5s...
-[2020.11.06-14.13.57:841][  0]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/dougp/OneDrive/Desktop/Unreal Projects/RockSlideBolter/Project-Dimensions-of-horror/TheyLive 4.25/Intermediate/AssetRegistryCache/6bead350.bin.tmp' to '../../../../../../Users/dougp/OneDrive/Desktop/Unreal Projects/RockSlideBolter/Project-Dimensions-of-horror/TheyLive 4.25/Intermediate/AssetRegistryCache/6bead350.bin' (Error Code 2), retrying in .5s...
-[2020.11.06-14.13.58:342][  0]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/dougp/OneDrive/Desktop/Unreal Projects/RockSlideBolter/Project-Dimensions-of-horror/TheyLive 4.25/Intermediate/AssetRegistryCache/6bead350.bin.tmp' to '../../../../../../Users/dougp/OneDrive/Desktop/Unreal Projects/RockSlideBolter/Project-Dimensions-of-horror/TheyLive 4.25/Intermediate/AssetRegistryCache/6bead350.bin' (Error Code 2), retrying in .5s...
-[2020.11.06-14.13.58:843][  0]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/dougp/OneDrive/Desktop/Unreal Projects/RockSlideBolter/Project-Dimensions-of-horror/TheyLive 4.25/Intermediate/AssetRegistryCache/6bead350.bin.tmp' to '../../../../../../Users/dougp/OneDrive/Desktop/Unreal Projects/RockSlideBolter/Project-Dimensions-of-horror/TheyLive 4.25/Intermediate/AssetRegistryCache/6bead350.bin' (Error Code 2), retrying in .5s...
-[2020.11.06-14.13.59:344][  0]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/dougp/OneDrive/Desktop/Unreal Projects/RockSlideBolter/Project-Dimensions-of-horror/TheyLive 4.25/Intermediate/AssetRegistryCache/6bead350.bin.tmp' to '../../../../../../Users/dougp/OneDrive/Desktop/Unreal Projects/RockSlideBolter/Project-Dimensions-of-horror/TheyLive 4.25/Intermediate/AssetRegistryCache/6bead350.bin' (Error Code 2), retrying in .5s...
-[2020.11.06-14.13.59:846][  0]LogFileManager: Error: Error moving file '../../../../../../Users/dougp/OneDrive/Desktop/Unreal Projects/RockSlideBolter/Project-Dimensions-of-horror/TheyLive 4.25/Intermediate/AssetRegistryCache/6bead350.bin.tmp' to '../../../../../../Users/dougp/OneDrive/Desktop/Unreal Projects/RockSlideBolter/Project-Dimensions-of-horror/TheyLive 4.25/Intermediate/AssetRegistryCache/6bead350.bin'.
-[2020.11.06-14.14.00:125][  0]LogPackageLocalizationCache: Processed 20 localized package path(s) for 1 prioritized culture(s) in 5.858479 seconds
-[2020.11.06-14.14.00:137][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
-[2020.11.06-14.14.00:137][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
-[2020.11.06-14.14.00:137][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2020.11.06-14.14.00:691][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2020.11.06-14.14.00:697][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2020.11.06-14.14.00:911][  0]SourceControl: Source control is disabled
-[2020.11.06-14.14.00:911][  0]SourceControl: Source control is disabled
-[2020.11.06-14.14.00:916][  0]SourceControl: Source control is disabled
-[2020.11.06-14.14.00:919][  0]SourceControl: Source control is disabled
-[2020.11.06-14.14.00:929][  0]SourceControl: Source control is disabled
-[2020.11.06-14.14.01:742][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2020.11.06-14.14.01:786][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2020.11.06-14.14.01:787][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2020.11.06-14.14.01:902][  0]LogOcInput: OculusInput pre-init called
-[2020.11.06-14.14.01:916][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
-[2020.11.06-14.14.01:916][  0]LogWindows: File 'OVRPlugin.dll' does not exist
-[2020.11.06-14.14.01:991][  0]LogEngine: Initializing Engine...
-[2020.11.06-14.14.01:993][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2020.11.06-14.14.01:993][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
-[2020.11.06-14.14.01:995][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
-[2020.11.06-14.14.02:145][  0]LogInit: Initializing FReadOnlyCVARCache
-[2020.11.06-14.14.02:158][  0]LogAIModule: Creating AISystem for world Untitled
-[2020.11.06-14.14.02:158][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000238D3328800), frame # 0
-[2020.11.06-14.14.02:158][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000238D3348F40), frame # 0
-[2020.11.06-14.14.02:247][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2020.11.06-14.14.02:247][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2020.11.06-14.14.02:247][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2020.11.06-14.14.02:247][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2020.11.06-14.14.02:247][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2020.11.06-14.14.02:247][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2020.11.06-14.14.02:247][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2020.11.06-14.14.02:247][  0]LogAudio: Display: AudioDevice MaxSources: 32
-[2020.11.06-14.14.02:248][  0]LogAudio: Display: Using built-in audio occlusion.
-[2020.11.06-14.14.02:248][  0]LogAudioMixer: Display: Initializing audio mixer.
-[2020.11.06-14.14.02:523][  0]LogAudioMixer: Display: 0: FrontLeft
-[2020.11.06-14.14.02:523][  0]LogAudioMixer: Display: 1: FrontRight
-[2020.11.06-14.14.02:598][  0]LogAudioMixer: Display: Using Audio Device Headset Earphone (Microsoft LifeChat LX-3000)
-[2020.11.06-14.14.02:601][  0]LogAudioMixer: Display: Initializing Sound Submixes...
-[2020.11.06-14.14.02:605][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
-[2020.11.06-14.14.02:605][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
-[2020.11.06-14.14.02:607][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
-[2020.11.06-14.14.02:608][  0]LogInit: FAudioDevice initialized.
-[2020.11.06-14.14.02:609][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2020.11.06-14.14.02:742][  0]LogDerivedDataCache: Saved boot cache 0.13s 76MB C:/Users/dougp/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
-[2020.11.06-14.14.02:763][  0]LogInit: Texture streaming: Enabled
-[2020.11.06-14.14.02:805][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2020.11.06-14.14.02:806][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
-[2020.11.06-14.14.02:829][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
-[2020.11.06-14.14.03:154][  0]LogInit: Transaction tracking system initialized
-[2020.11.06-14.14.03:203][  0]BlueprintLog: New page: Editor Load
-[2020.11.06-14.14.03:388][  0]LocalizationService: Localization service is disabled
-[2020.11.06-14.14.04:975][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2020.11.06-14.14.04:975][  0]LogCook: Display: Mobile HDR setting 1
-[2020.11.06-14.14.05:414][  0]LogFileCache: Scanning file cache for directory 'C:/Users/dougp/OneDrive/Desktop/Unreal Projects/RockSlideBolter/Project-Dimensions-of-horror/TheyLive 4.25/Content/' took 0.28s
-[2020.11.06-14.14.05:978][  0]SourceControl: Source control is disabled
-[2020.11.06-14.14.05:978][  0]LogUnrealEdMisc: Loading editor; pre map load, took 62.377
-[2020.11.06-14.14.05:979][  0]LogEditorServer: Warning: Can't find file '../../../../../../Users/dougp/OneDrive/Desktop/Unreal Projects/RockSlideBolter/Project-Dimensions-of-horror/TheyLive 4.25/Content/Maps/CaveLevel.umap'
-[2020.11.06-14.14.05:979][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2020.11.06-14.14.05:979][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.248ms to complete.
-[2020.11.06-14.14.05:979][  0]LogFileHelpers: Loading map 'CaveLevel' took 0.001
-[2020.11.06-14.14.05:981][  0]LogUnrealEdMisc: Total Editor Startup Time, took 62.381
-[2020.11.06-14.14.08:837][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.11.06-14.14.08:884][  0]LogCollectionManager: Loaded 0 collections in 0.010396 seconds
-[2020.11.06-14.14.08:973][  0]LogFileCache: Scanning file cache for directory 'C:/Users/dougp/OneDrive/Desktop/Unreal Projects/RockSlideBolter/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Collections/' took 0.01s
-[2020.11.06-14.14.08:973][  0]LogFileCache: Scanning file cache for directory 'C:/Users/dougp/OneDrive/Desktop/Unreal Projects/RockSlideBolter/Project-Dimensions-of-horror/TheyLive 4.25/Content/Developers/dougp/Collections/' took 0.01s
-[2020.11.06-14.14.08:973][  0]LogFileCache: Scanning file cache for directory 'C:/Users/dougp/OneDrive/Desktop/Unreal Projects/RockSlideBolter/Project-Dimensions-of-horror/TheyLive 4.25/Content/Collections/' took 0.01s
-[2020.11.06-14.14.08:973][  0]LogContentBrowser: Native class hierarchy populated in 0.0347 seconds. Added 3428 classes and 824 folders.
-[2020.11.06-14.14.08:995][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0012 seconds. Added 0 classes and 0 folders.
-[2020.11.06-14.14.10:863][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0012 seconds. Added 0 classes and 0 folders.
-[2020.11.06-14.14.10:880][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0011 seconds. Added 2 classes and 0 folders.
-[2020.11.06-14.14.11:087][  0]LogSlate: Took 0.020369 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2020.11.06-14.14.11:126][  0]LogSlate: Took 0.018920 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2020.11.06-14.14.11:152][  0]LogSlate: Took 0.019436 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2020.11.06-14.14.11:480][  0]LogRenderer: Reallocating scene render targets to support 1256x620 Format 10 NumSamples 1 (Frame:1).
-[2020.11.06-14.14.11:783][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 0 classes and 0 folders.
-[2020.11.06-14.14.11:783][  0]LogLoad: (Engine Initialization) Total time: 68.18 seconds
-[2020.11.06-14.14.11:783][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2020.11.06-14.14.11:899][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2020.11.06-14.14.12:089][  1]LogSlate: Took 0.010252 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2020.11.06-14.14.12:258][  3]LogAssetRegistry: Asset discovery search completed in 22.9085 seconds
-[2020.11.06-14.14.12:268][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000006 seconds (updated 0 objects)
-[2020.11.06-14.14.17:241][ 18]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/dougp/OneDrive/Desktop/Unreal Projects/RockSlideBolter/Project-Dimensions-of-horror/TheyLive 4.25/Content/' took 5.43s
-[2020.11.06-15.03.25:940][810]LogUObjectHash: Compacting FUObjectHashTables data took   7.75ms
-[2020.11.06-15.03.26:239][810]LogSlate: Window 'TheyLive - Unreal Editor' being destroyed
-[2020.11.06-15.03.26:630][811]Cmd: QUIT_EDITOR
-[2020.11.06-15.03.26:630][811]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
-[2020.11.06-15.03.26:687][811]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
-[2020.11.06-15.03.26:838][811]LogExit: Preparing to exit.
-[2020.11.06-15.03.27:991][811]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
-[2020.11.06-15.03.28:025][811]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
-[2020.11.06-15.03.28:026][811]LogExit: Editor shut down
-[2020.11.06-15.03.28:028][811]LogExit: Transaction tracking system shut down
-[2020.11.06-15.03.28:550][811]LogAISub: UAISubsystem::~UAISubsystem AISubsystem (00000238C900E980), frame # 8811
-[2020.11.06-15.03.28:551][811]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000238C8EB1080), frame # 8811
-[2020.11.06-15.03.28:551][811]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000238C8EFDE00), frame # 8811
-[2020.11.06-15.03.28:566][811]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000238D3328800), frame # 8811
-[2020.11.06-15.03.28:566][811]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000238D3348F40), frame # 8811
-[2020.11.06-15.03.28:681][811]LogExit: Object subsystem successfully closed.
-[2020.11.06-15.03.28:771][811]LogShaderCompilers: Display: Shaders left to compile 0
-[2020.11.06-15.03.28:947][811]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (790)
-[2020.11.06-15.03.28:948][811]LogModuleManager: Shutting down and abandoning module SceneOutliner (788)
-[2020.11.06-15.03.28:948][811]LogModuleManager: Shutting down and abandoning module AddContentDialog (786)
-[2020.11.06-15.03.28:950][811]LogModuleManager: Shutting down and abandoning module WidgetCarousel (785)
-[2020.11.06-15.03.28:950][811]LogModuleManager: Shutting down and abandoning module EditorWidgets (782)
-[2020.11.06-15.03.28:950][811]LogModuleManager: Shutting down and abandoning module CollectionManager (780)
-[2020.11.06-15.03.28:951][811]LogModuleManager: Shutting down and abandoning module VirtualTexturingEditor (778)
-[2020.11.06-15.03.28:951][811]LogModuleManager: Shutting down and abandoning module FoliageEdit (776)
-[2020.11.06-15.03.28:951][811]LogModuleManager: Shutting down and abandoning module LandscapeEditor (774)
-[2020.11.06-15.03.28:953][811]LogModuleManager: Shutting down and abandoning module MeshPaintMode (772)
-[2020.11.06-15.03.28:953][811]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (770)
-[2020.11.06-15.03.28:953][811]LogModuleManager: Shutting down and abandoning module ActorPickerMode (768)
-[2020.11.06-15.03.28:953][811]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (766)
-[2020.11.06-15.03.28:954][811]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (764)
-[2020.11.06-15.03.28:954][811]LogModuleManager: Shutting down and abandoning module AutomationWorker (762)
-[2020.11.06-15.03.28:954][811]LogModuleManager: Shutting down and abandoning module SteamVREditor (760)
-[2020.11.06-15.03.28:954][811]LogModuleManager: Shutting down and abandoning module OculusMR (758)
-[2020.11.06-15.03.28:954][811]LogModuleManager: Shutting down and abandoning module GooglePADEditor (756)
-[2020.11.06-15.03.28:954][811]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (754)
-[2020.11.06-15.03.28:954][811]LogModuleManager: Shutting down and abandoning module TemplateSequenceEditor (752)
-[2020.11.06-15.03.28:955][811]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (750)
-[2020.11.06-15.03.28:956][811]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (748)
-[2020.11.06-15.03.28:957][811]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (746)
-[2020.11.06-15.03.28:957][811]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (744)
-[2020.11.06-15.03.28:958][811]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (742)
-[2020.11.06-15.03.28:958][811]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (740)
-[2020.11.06-15.03.28:958][811]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (738)
-[2020.11.06-15.03.28:958][811]LogModuleManager: Shutting down and abandoning module WebMMedia (736)
-[2020.11.06-15.03.28:958][811]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (734)
-[2020.11.06-15.03.28:959][811]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (732)
-[2020.11.06-15.03.28:959][811]LogModuleManager: Shutting down and abandoning module SequenceRecorder (731)
-[2020.11.06-15.03.28:959][811]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (728)
-[2020.11.06-15.03.28:959][811]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (726)
-[2020.11.06-15.03.28:959][811]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (724)
-[2020.11.06-15.03.28:959][811]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (722)
-[2020.11.06-15.03.28:959][811]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (720)
-[2020.11.06-15.03.28:959][811]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (718)
-[2020.11.06-15.03.28:959][811]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (716)
-[2020.11.06-15.03.28:960][811]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (714)
-[2020.11.06-15.03.28:960][811]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (712)
-[2020.11.06-15.03.28:960][811]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (710)
-[2020.11.06-15.03.28:960][811]LogModuleManager: Shutting down and abandoning module PlanarCut (708)
-[2020.11.06-15.03.28:960][811]LogModuleManager: Shutting down and abandoning module CharacterAI (706)
-[2020.11.06-15.03.28:960][811]LogModuleManager: Shutting down and abandoning module TextureAlignMode (704)
-[2020.11.06-15.03.28:960][811]LogModuleManager: Shutting down and abandoning module BspMode (702)
-[2020.11.06-15.03.28:961][811]LogModuleManager: Shutting down and abandoning module PlacementMode (701)
-[2020.11.06-15.03.28:961][811]LogModuleManager: Shutting down and abandoning module GeometryMode (698)
-[2020.11.06-15.03.28:961][811]LogModuleManager: Shutting down and abandoning module CameraShakePreviewer (696)
-[2020.11.06-15.03.28:962][811]LogModuleManager: Shutting down and abandoning module SmartSnapping (694)
-[2020.11.06-15.03.28:962][811]LogModuleManager: Shutting down and abandoning module SessionServices (692)
-[2020.11.06-15.03.28:962][811]LogModuleManager: Shutting down and abandoning module MeshPaint (690)
-[2020.11.06-15.03.28:962][811]LogModuleManager: Shutting down and abandoning module ViewportSnapping (688)
-[2020.11.06-15.03.28:962][811]LogModuleManager: Shutting down and abandoning module ViewportInteraction (686)
-[2020.11.06-15.03.28:962][811]LogModuleManager: Shutting down and abandoning module ClothPainter (684)
-[2020.11.06-15.03.28:962][811]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (683)
-[2020.11.06-15.03.28:964][811]LogModuleManager: Shutting down and abandoning module LogVisualizer (680)
-[2020.11.06-15.03.28:964][811]LogModuleManager: Shutting down and abandoning module IntroTutorials (678)
-[2020.11.06-15.03.28:965][811]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (677)
-[2020.11.06-15.03.28:965][811]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (674)
-[2020.11.06-15.03.28:965][811]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (672)
-[2020.11.06-15.03.28:965][811]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (670)
-[2020.11.06-15.03.28:965][811]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (669)
-[2020.11.06-15.03.29:602][811]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (666)
-[2020.11.06-15.03.29:602][811]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (664)
-[2020.11.06-15.03.29:602][811]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (662)
-[2020.11.06-15.03.29:603][811]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (660)
-[2020.11.06-15.03.29:603][811]LogModuleManager: Shutting down and abandoning module TraceInsights (658)
-[2020.11.06-15.03.29:607][811]LogModuleManager: Shutting down and abandoning module TraceServices (657)
-[2020.11.06-15.03.29:608][811]LogModuleManager: Shutting down and abandoning module EditorInteractiveToolsFramework (654)
-[2020.11.06-15.03.29:608][811]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (652)
-[2020.11.06-15.03.29:608][811]LogModuleManager: Shutting down and abandoning module InputBindingEditor (650)
-[2020.11.06-15.03.29:608][811]LogModuleManager: Shutting down and abandoning module MergeActors (648)
-[2020.11.06-15.03.29:609][811]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (646)
-[2020.11.06-15.03.29:609][811]LogModuleManager: Shutting down and abandoning module LocalizationService (645)
-[2020.11.06-15.03.29:609][811]LogModuleManager: Shutting down and abandoning module HardwareTargeting (642)
-[2020.11.06-15.03.29:609][811]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (640)
-[2020.11.06-15.03.29:609][811]LogModuleManager: Shutting down and abandoning module UndoHistory (638)
-[2020.11.06-15.03.29:609][811]LogModuleManager: Shutting down and abandoning module XmlParser (636)
-[2020.11.06-15.03.29:609][811]LogModuleManager: Shutting down and abandoning module Blutility (634)
-[2020.11.06-15.03.29:609][811]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (632)
-[2020.11.06-15.03.29:610][811]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (631)
-[2020.11.06-15.03.29:610][811]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (628)
-[2020.11.06-15.03.29:611][811]LogModuleManager: Shutting down and abandoning module SettingsEditor (626)
-[2020.11.06-15.03.29:612][811]LogModuleManager: Shutting down and abandoning module ProjectLauncher (624)
-[2020.11.06-15.03.29:612][811]LogModuleManager: Shutting down and abandoning module SessionFrontend (622)
-[2020.11.06-15.03.29:612][811]LogModuleManager: Shutting down and abandoning module ProfilerClient (620)
-[2020.11.06-15.03.29:612][811]LogModuleManager: Shutting down and abandoning module DeviceManager (618)
-[2020.11.06-15.03.29:613][811]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (617)
-[2020.11.06-15.03.29:646][811]LogModuleManager: Shutting down and abandoning module AutomationController (614)
-[2020.11.06-15.03.29:646][811]LogModuleManager: Shutting down and abandoning module AutomationWindow (612)
-[2020.11.06-15.03.29:647][811]LogModuleManager: Shutting down and abandoning module Layers (610)
-[2020.11.06-15.03.29:648][811]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (608)
-[2020.11.06-15.03.29:649][811]LogModuleManager: Shutting down and abandoning module DetailCustomizations (606)
-[2020.11.06-15.03.29:649][811]LogModuleManager: Shutting down and abandoning module PackagesDialog (604)
-[2020.11.06-15.03.29:649][811]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (602)
-[2020.11.06-15.03.29:650][811]LogModuleManager: Shutting down and abandoning module Persona (600)
-[2020.11.06-15.03.29:651][811]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (599)
-[2020.11.06-15.03.29:651][811]LogModuleManager: Shutting down and abandoning module AnimGraph (597)
-[2020.11.06-15.03.29:652][811]LogModuleManager: Shutting down and abandoning module Kismet (594)
-[2020.11.06-15.03.29:663][811]LogModuleManager: Shutting down and abandoning module KismetWidgets (593)
-[2020.11.06-15.03.29:663][811]LogModuleManager: Shutting down and abandoning module GraphEditor (590)
-[2020.11.06-15.03.29:666][811]LogModuleManager: Shutting down and abandoning module StructViewer (588)
-[2020.11.06-15.03.29:666][811]LogModuleManager: Shutting down and abandoning module ClassViewer (586)
-[2020.11.06-15.03.29:666][811]LogModuleManager: Shutting down and abandoning module Toolbox (584)
-[2020.11.06-15.03.29:666][811]LogModuleManager: Shutting down and abandoning module ModuleUI (582)
-[2020.11.06-15.03.29:667][811]LogModuleManager: Shutting down and abandoning module OutputLog (580)
-[2020.11.06-15.03.29:668][811]LogModuleManager: Shutting down and abandoning module GammaUI (578)
-[2020.11.06-15.03.29:668][811]LogModuleManager: Shutting down and abandoning module Documentation (576)
-[2020.11.06-15.03.29:668][811]LogModuleManager: Shutting down and abandoning module LiveCoding (574)
-[2020.11.06-15.03.29:668][811]LogModuleManager: Shutting down and abandoning module LevelSequence (572)
-[2020.11.06-15.03.29:669][811]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (570)
-[2020.11.06-15.03.29:669][811]LogModuleManager: Shutting down and abandoning module MovieScene (568)
-[2020.11.06-15.03.29:669][811]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (566)
-[2020.11.06-15.03.29:669][811]LogModuleManager: Shutting down and abandoning module LauncherPlatform (564)
-[2020.11.06-15.03.29:669][811]LogModuleManager: Shutting down and abandoning module AnalyticsET (562)
-[2020.11.06-15.03.29:669][811]LogModuleManager: Shutting down and abandoning module PortalServices (560)
-[2020.11.06-15.03.29:669][811]LogModuleManager: Shutting down and abandoning module PortalRpc (558)
-[2020.11.06-15.03.29:669][811]LogModuleManager: Shutting down and abandoning module MessagingRpc (556)
-[2020.11.06-15.03.29:669][811]LogModuleManager: Shutting down and abandoning module AudioMixerXAudio2 (554)
-[2020.11.06-15.03.29:669][811]LogModuleManager: Shutting down and abandoning module AudioMixerCore (553)
-[2020.11.06-15.03.29:669][811]LogModuleManager: Shutting down and abandoning module AIModule (550)
-[2020.11.06-15.03.29:670][811]LogModuleManager: Shutting down and abandoning module GameplayDebugger (549)
-[2020.11.06-15.03.29:670][811]LogModuleManager: Shutting down and abandoning module AITestSuite (547)
-[2020.11.06-15.03.29:670][811]LogModuleManager: Shutting down and abandoning module NavigationSystem (545)
-[2020.11.06-15.03.29:670][811]LogModuleManager: Shutting down and abandoning module ProfilerService (542)
-[2020.11.06-15.03.29:730][811]LogModuleManager: Shutting down and abandoning module TaskGraph (540)
-[2020.11.06-15.03.29:731][811]LogModuleManager: Shutting down and abandoning module ScreenshotTools (538)
-[2020.11.06-15.03.29:731][811]LogModuleManager: Shutting down and abandoning module SynthesisEditor (536)
-[2020.11.06-15.03.29:731][811]LogModuleManager: Shutting down and abandoning module Synthesis (534)
-[2020.11.06-15.03.29:732][811]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (532)
-[2020.11.06-15.03.29:732][811]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (530)
-[2020.11.06-15.03.29:732][811]LogModuleManager: Shutting down and abandoning module OculusEditor (528)
-[2020.11.06-15.03.29:732][811]LogModuleManager: Shutting down and abandoning module OculusInput (526)
-[2020.11.06-15.03.29:732][811]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (524)
-[2020.11.06-15.03.29:732][811]LogModuleManager: Shutting down and abandoning module GooglePAD (522)
-[2020.11.06-15.03.29:732][811]LogModuleManager: Shutting down and abandoning module EditableMesh (520)
-[2020.11.06-15.03.29:733][811]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (518)
-[2020.11.06-15.03.29:733][811]LogModuleManager: Shutting down and abandoning module CableComponent (516)
-[2020.11.06-15.03.29:733][811]LogModuleManager: Shutting down and abandoning module AudioCapture (514)
-[2020.11.06-15.03.29:733][811]LogModuleManager: Shutting down and abandoning module AudioCaptureRtAudio (513)
-[2020.11.06-15.03.29:733][811]LogModuleManager: Shutting down and abandoning module AssetTags (510)
-[2020.11.06-15.03.29:733][811]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (508)
-[2020.11.06-15.03.29:733][811]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (506)
-[2020.11.06-15.03.29:733][811]LogModuleManager: Shutting down and abandoning module AppleImageUtils (504)
-[2020.11.06-15.03.29:733][811]LogModuleManager: Shutting down and abandoning module AndroidPermission (502)
-[2020.11.06-15.03.29:733][811]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (500)
-[2020.11.06-15.03.29:734][811]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (498)
-[2020.11.06-15.03.29:734][811]LogModuleManager: Shutting down and abandoning module TemplateSequence (496)
-[2020.11.06-15.03.29:735][811]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineEditor (494)
-[2020.11.06-15.03.29:735][811]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineRenderPasses (492)
-[2020.11.06-15.03.29:735][811]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineSettings (490)
-[2020.11.06-15.03.29:735][811]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineCore (488)
-[2020.11.06-15.03.29:735][811]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (487)
-[2020.11.06-15.03.29:750][811]LogModuleManager: Shutting down and abandoning module MeshPaintingToolset (484)
-[2020.11.06-15.03.29:751][811]LogModuleManager: Shutting down and abandoning module MeshPaintEditorMode (482)
-[2020.11.06-15.03.29:751][811]LogModuleManager: Shutting down and abandoning module MediaCompositing (480)
-[2020.11.06-15.03.29:751][811]LogModuleManager: Shutting down and abandoning module ImgMedia (478)
-[2020.11.06-15.03.29:751][811]LogModuleManager: Shutting down and abandoning module LDAssistant (476)
-[2020.11.06-15.03.29:752][811]LogModuleManager: Shutting down and abandoning module MagicLeapSharedWorld (474)
-[2020.11.06-15.03.29:752][811]LogModuleManager: Shutting down and abandoning module MagicLeapLightEstimation (472)
-[2020.11.06-15.03.29:752][811]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (470)
-[2020.11.06-15.03.29:752][811]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (468)
-[2020.11.06-15.03.29:752][811]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (466)
-[2020.11.06-15.03.29:752][811]LogModuleManager: Shutting down and abandoning module NiagaraEditorWidgets (464)
-[2020.11.06-15.03.29:753][811]LogModuleManager: Shutting down and abandoning module MeshSolverUtilities (462)
-[2020.11.06-15.03.29:753][811]LogModuleManager: Shutting down and abandoning module MeshConversion (460)
-[2020.11.06-15.03.29:753][811]LogModuleManager: Shutting down and abandoning module DynamicMesh (458)
-[2020.11.06-15.03.29:754][811]LogModuleManager: Shutting down and abandoning module GeometryAlgorithms (456)
-[2020.11.06-15.03.29:755][811]LogModuleManager: Shutting down and abandoning module GeometricObjects (454)
-[2020.11.06-15.03.29:755][811]LogModuleManager: Shutting down and abandoning module GeometryCollectionTracks (452)
-[2020.11.06-15.03.29:755][811]LogModuleManager: Shutting down and abandoning module GeometryCollectionSequencer (451)
-[2020.11.06-15.03.29:755][811]LogModuleManager: Shutting down and abandoning module GeometryCollectionEditor (448)
-[2020.11.06-15.03.29:755][811]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (446)
-[2020.11.06-15.03.29:755][811]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (444)
-[2020.11.06-15.03.29:756][811]LogModuleManager: Shutting down and abandoning module ChaosSolverEditor (442)
-[2020.11.06-15.03.29:756][811]LogModuleManager: Shutting down and abandoning module ChaosNiagara (440)
-[2020.11.06-15.03.29:756][811]LogModuleManager: Shutting down and abandoning module FractureEditor (438)
-[2020.11.06-15.03.29:756][811]LogModuleManager: Shutting down and abandoning module ChaosClothEditor (436)
-[2020.11.06-15.03.29:756][811]LogModuleManager: Shutting down and abandoning module ChaosCloth (434)
-[2020.11.06-15.03.29:756][811]LogModuleManager: Shutting down and abandoning module BackChannel (432)
-[2020.11.06-15.03.29:756][811]LogModuleManager: Shutting down and abandoning module AutomationUtilsEditor (430)
-[2020.11.06-15.03.29:756][811]LogModuleManager: Shutting down and abandoning module AutomationUtils (428)
-[2020.11.06-15.03.29:757][811]LogModuleManager: Shutting down and abandoning module AlembicImporter (426)
-[2020.11.06-15.03.29:757][811]LogModuleManager: Shutting down and abandoning module AlembicLibrary (425)
-[2020.11.06-15.03.29:757][811]LogModuleManager: Shutting down and abandoning module GeometryCache (424)
-[2020.11.06-15.03.29:757][811]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (423)
-[2020.11.06-15.03.29:757][811]LogModuleManager: Shutting down and abandoning module VariantManagerContentEditor (418)
-[2020.11.06-15.03.29:757][811]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (416)
-[2020.11.06-15.03.29:757][811]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (414)
-[2020.11.06-15.03.29:757][811]LogModuleManager: Shutting down and abandoning module PluginBrowser (412)
-[2020.11.06-15.03.29:758][811]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (410)
-[2020.11.06-15.03.29:758][811]LogModuleManager: Shutting down and abandoning module MaterialAnalyzer (408)
-[2020.11.06-15.03.29:758][811]LogModuleManager: Shutting down and abandoning module EditorScriptingUtilities (406)
-[2020.11.06-15.03.29:758][811]LogModuleManager: Shutting down and abandoning module CurveEditorTools (404)
-[2020.11.06-15.03.29:758][811]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (402)
-[2020.11.06-15.03.29:759][811]LogModuleManager: Shutting down and abandoning module CryptoKeys (400)
-[2020.11.06-15.03.29:759][811]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (398)
-[2020.11.06-15.03.29:759][811]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (396)
-[2020.11.06-15.03.29:759][811]LogModuleManager: Shutting down and abandoning module UObjectPlugin (394)
-[2020.11.06-15.03.29:759][811]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (392)
-[2020.11.06-15.03.29:759][811]LogModuleManager: Shutting down and abandoning module RiderSourceCodeAccess (390)
-[2020.11.06-15.03.29:759][811]LogModuleManager: Shutting down and abandoning module PlasticSourceControl (388)
-[2020.11.06-15.03.29:759][811]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (386)
-[2020.11.06-15.03.29:760][811]LogModuleManager: Shutting down and abandoning module GitSourceControl (384)
-[2020.11.06-15.03.29:760][811]LogModuleManager: Shutting down and abandoning module SourceControl (383)
-[2020.11.06-15.03.29:760][811]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (380)
-[2020.11.06-15.03.29:760][811]LogModuleManager: Shutting down and abandoning module AnimationSharingEd (378)
-[2020.11.06-15.03.29:760][811]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (376)
-[2020.11.06-15.03.29:760][811]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (374)
-[2020.11.06-15.03.29:760][811]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (372)
-[2020.11.06-15.03.29:760][811]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (370)
-[2020.11.06-15.03.29:760][811]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (368)
-[2020.11.06-15.03.29:760][811]LogModuleManager: Shutting down and abandoning module Paper2DEditor (366)
-[2020.11.06-15.03.29:761][811]LogModuleManager: Shutting down and abandoning module SoundFields (364)
-[2020.11.06-15.03.29:761][811]LogModuleManager: Shutting down and abandoning module SignificanceManager (362)
-[2020.11.06-15.03.29:761][811]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (360)
-[2020.11.06-15.03.29:761][811]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (358)
-[2020.11.06-15.03.29:761][811]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (354)
-[2020.11.06-15.03.29:761][811]LogModuleManager: Shutting down and abandoning module ActorSequence (352)
-[2020.11.06-15.03.29:761][811]LogModuleManager: Shutting down and abandoning module UdpMessaging (350)
-[2020.11.06-15.03.29:863][811]LogModuleManager: Shutting down and abandoning module TcpMessaging (348)
-[2020.11.06-15.03.29:964][811]LogModuleManager: Shutting down and abandoning module MagicLeapARPin (346)
-[2020.11.06-15.03.29:964][811]LogModuleManager: Shutting down and abandoning module MagicLeapHandMeshing (344)
-[2020.11.06-15.03.29:964][811]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (342)
-[2020.11.06-15.03.29:964][811]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (340)
-[2020.11.06-15.03.29:964][811]LogModuleManager: Shutting down and abandoning module MagicLeapPlanes (338)
-[2020.11.06-15.03.29:964][811]LogMagicLeapPlanes: Planes tracker already destroyed.
-[2020.11.06-15.03.29:964][811]LogModuleManager: Shutting down and abandoning module MagicLeapImageTracker (336)
-[2020.11.06-15.03.29:964][811]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (334)
-[2020.11.06-15.03.29:964][811]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (332)
-[2020.11.06-15.03.29:964][811]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (330)
-[2020.11.06-15.03.29:964][811]LogModuleManager: Shutting down and abandoning module MagicLeapController (328)
-[2020.11.06-15.03.29:965][811]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
-[2020.11.06-15.03.29:965][811]LogModuleManager: Shutting down and abandoning module MagicLeapARPinImpl (326)
-[2020.11.06-15.03.29:965][811]LogModuleManager: Shutting down and abandoning module MagicLeapAR (324)
-[2020.11.06-15.03.29:965][811]LogModuleManager: Shutting down and abandoning module AugmentedReality (323)
-[2020.11.06-15.03.29:965][811]LogModuleManager: Shutting down and abandoning module NiagaraAnimNotifies (320)
-[2020.11.06-15.03.29:965][811]LogModuleManager: Shutting down and abandoning module Niagara (318)
-[2020.11.06-15.03.29:965][811]LogModuleManager: Shutting down and abandoning module SignalProcessing (317)
-[2020.11.06-15.03.29:965][811]LogModuleManager: Shutting down and abandoning module NiagaraEditor (315)
-[2020.11.06-15.03.29:967][811]LogModuleManager: Shutting down and abandoning module NiagaraCore (312)
-[2020.11.06-15.03.29:967][811]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (310)
-[2020.11.06-15.03.29:968][811]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (308)
-[2020.11.06-15.03.29:968][811]LogModuleManager: Shutting down and abandoning module FacialAnimation (306)
-[2020.11.06-15.03.29:968][811]LogModuleManager: Shutting down and abandoning module DataValidation (304)
-[2020.11.06-15.03.29:968][811]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (302)
-[2020.11.06-15.03.29:969][811]LogModuleManager: Shutting down and abandoning module LevelEditor (301)
-[2020.11.06-15.03.29:972][811]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (300)
-[2020.11.06-15.03.29:972][811]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (298)
-[2020.11.06-15.03.29:972][811]LogModuleManager: Shutting down and abandoning module MainFrame (296)
-[2020.11.06-15.03.29:972][811]LogModuleManager: Shutting down and abandoning module HotReload (295)
-[2020.11.06-15.03.29:974][811]LogModuleManager: Shutting down and abandoning module ToolMenus (291)
-[2020.11.06-15.03.29:974][811]LogModuleManager: Shutting down and abandoning module TreeMap (289)
-[2020.11.06-15.03.29:974][811]LogModuleManager: Shutting down and abandoning module AnimationSharing (286)
-[2020.11.06-15.03.29:974][811]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (284)
-[2020.11.06-15.03.29:974][811]LogModuleManager: Shutting down and abandoning module Paper2D (282)
-[2020.11.06-15.03.29:974][811]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (280)
-[2020.11.06-15.03.29:988][811]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (278)
-[2020.11.06-15.03.29:988][811]LogModuleManager: Shutting down and abandoning module NetworkReplayStreaming (276)
-[2020.11.06-15.03.29:988][811]LogModuleManager: Shutting down and abandoning module PacketHandler (274)
-[2020.11.06-15.03.29:988][811]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (272)
-[2020.11.06-15.03.29:988][811]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntimeNv (270)
-[2020.11.06-15.03.29:990][811]LogModuleManager: Shutting down and abandoning module MediaAssets (268)
-[2020.11.06-15.03.29:990][811]LogModuleManager: Shutting down and abandoning module Overlay (266)
-[2020.11.06-15.03.29:990][811]LogModuleManager: Shutting down and abandoning module OverlayEditor (265)
-[2020.11.06-15.03.29:990][811]LogModuleManager: Shutting down and abandoning module VREditor (262)
-[2020.11.06-15.03.29:991][811]LogModuleManager: Shutting down and abandoning module StringTableEditor (260)
-[2020.11.06-15.03.29:991][811]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (258)
-[2020.11.06-15.03.29:991][811]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (256)
-[2020.11.06-15.03.29:991][811]LogModuleManager: Shutting down and abandoning module FunctionalTesting (254)
-[2020.11.06-15.03.29:991][811]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (252)
-[2020.11.06-15.03.29:991][811]LogModuleManager: Shutting down and abandoning module UMG (250)
-[2020.11.06-15.03.29:991][811]LogModuleManager: Shutting down and abandoning module UMGEditor (249)
-[2020.11.06-15.03.29:991][811]LogModuleManager: Shutting down and abandoning module MessageLog (247)
-[2020.11.06-15.03.29:992][811]LogModuleManager: Shutting down and abandoning module MaterialEditor (245)
-[2020.11.06-15.03.29:993][811]LogModuleManager: Shutting down and abandoning module ContentBrowser (244)
-[2020.11.06-15.03.30:000][811]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (243)
-[2020.11.06-15.03.30:000][811]LogModuleManager: Shutting down and abandoning module SlateReflector (236)
-[2020.11.06-15.03.30:001][811]LogModuleManager: Shutting down and abandoning module Slate (234)
-[2020.11.06-15.03.30:001][811]LogModuleManager: Shutting down and abandoning module SlateCore (232)
-[2020.11.06-15.03.30:001][811]LogModuleManager: Shutting down and abandoning module LandscapeEditorUtilities (230)
-[2020.11.06-15.03.30:002][811]LogModuleManager: Shutting down and abandoning module UnrealEd (228)
-[2020.11.06-15.03.30:002][811]LogModuleManager: Shutting down and abandoning module MRMesh (226)
-[2020.11.06-15.03.30:002][811]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (224)
-[2020.11.06-15.03.30:002][811]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (222)
-[2020.11.06-15.03.30:002][811]LogModuleManager: Shutting down and abandoning module XAudio2 (220)
-[2020.11.06-15.03.30:002][811]LogModuleManager: Shutting down and abandoning module Networking (218)
-[2020.11.06-15.03.30:002][811]LogModuleManager: Shutting down and abandoning module Core (216)
-[2020.11.06-15.03.30:002][811]LogModuleManager: Shutting down and abandoning module MovieSceneTools (214)
-[2020.11.06-15.03.30:002][811]LogModuleManager: Shutting down and abandoning module CurveEditor (213)
-[2020.11.06-15.03.30:003][811]LogModuleManager: Shutting down and abandoning module Sequencer (211)
-[2020.11.06-15.03.30:004][811]LogModuleManager: Shutting down and abandoning module EditorStyle (210)
-[2020.11.06-15.03.30:010][811]LogModuleManager: Shutting down and abandoning module KismetCompiler (206)
-[2020.11.06-15.03.30:010][811]LogModuleManager: Shutting down and abandoning module MeshBuilder (204)
-[2020.11.06-15.03.30:010][811]LogModuleManager: Shutting down and abandoning module MeshUtilities (202)
-[2020.11.06-15.03.30:010][811]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (201)
-[2020.11.06-15.03.30:010][811]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (200)
-[2020.11.06-15.03.30:010][811]LogModuleManager: Shutting down and abandoning module MeshBoneReduction (199)
-[2020.11.06-15.03.30:010][811]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (197)
-[2020.11.06-15.03.30:010][811]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (195)
-[2020.11.06-15.03.30:011][811]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (193)
-[2020.11.06-15.03.30:011][811]LogModuleManager: Shutting down and abandoning module MaterialBaking (189)
-[2020.11.06-15.03.30:011][811]LogModuleManager: Shutting down and abandoning module NullInstallBundleManager (184)
-[2020.11.06-15.03.30:011][811]LogModuleManager: Shutting down and abandoning module DerivedDataCache (182)
-[2020.11.06-15.03.30:011][811]LogModuleManager: Shutting down and abandoning module XGEController (180)
-[2020.11.06-15.03.30:011][811]LogXGEController: Cleaning working directory: C:/Users/dougp/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2020.11.06-15.03.30:013][811]LogModuleManager: Shutting down and abandoning module TargetPlatform (178)
-[2020.11.06-15.03.30:013][811]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (177)
-[2020.11.06-15.03.30:013][811]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (175)
-[2020.11.06-15.03.30:014][811]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (173)
-[2020.11.06-15.03.30:014][811]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (171)
-[2020.11.06-15.03.30:014][811]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (169)
-[2020.11.06-15.03.30:014][811]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (167)
-[2020.11.06-15.03.30:014][811]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (165)
-[2020.11.06-15.03.30:014][811]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (163)
-[2020.11.06-15.03.30:014][811]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (161)
-[2020.11.06-15.03.30:014][811]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (159)
-[2020.11.06-15.03.30:014][811]LogModuleManager: Shutting down and abandoning module ImageWrapper (158)
-[2020.11.06-15.03.30:014][811]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (155)
-[2020.11.06-15.03.30:014][811]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (153)
-[2020.11.06-15.03.30:014][811]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (151)
-[2020.11.06-15.03.30:014][811]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (149)
-[2020.11.06-15.03.30:015][811]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (147)
-[2020.11.06-15.03.30:015][811]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (145)
-[2020.11.06-15.03.30:015][811]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (143)
-[2020.11.06-15.03.30:015][811]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (141)
-[2020.11.06-15.03.30:015][811]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (139)
-[2020.11.06-15.03.30:023][811]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (137)
-[2020.11.06-15.03.30:030][811]LogModuleManager: Shutting down and abandoning module LinuxAArch64ServerTargetPlatform (135)
-[2020.11.06-15.03.30:030][811]LogModuleManager: Shutting down and abandoning module LinuxAArch64ClientTargetPlatform (133)
-[2020.11.06-15.03.30:030][811]LogModuleManager: Shutting down and abandoning module LinuxAArch64NoEditorTargetPlatform (131)
-[2020.11.06-15.03.30:030][811]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (129)
-[2020.11.06-15.03.30:030][811]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (127)
-[2020.11.06-15.03.30:030][811]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (125)
-[2020.11.06-15.03.30:030][811]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (123)
-[2020.11.06-15.03.30:030][811]LogModuleManager: Shutting down and abandoning module Messaging (121)
-[2020.11.06-15.03.30:030][811]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (119)
-[2020.11.06-15.03.30:037][811]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (117)
-[2020.11.06-15.03.30:064][811]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (115)
-[2020.11.06-15.03.30:064][811]LogModuleManager: Shutting down and abandoning module InputCore (112)
-[2020.11.06-15.03.30:064][811]LogModuleManager: Shutting down and abandoning module Settings (110)
-[2020.11.06-15.03.30:065][811]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (108)
-[2020.11.06-15.03.30:066][811]LogModuleManager: Shutting down and abandoning module PhysXCooking (106)
-[2020.11.06-15.03.30:066][811]LogModuleManager: Shutting down and abandoning module ChaosSolvers (104)
-[2020.11.06-15.03.30:066][811]LogModuleManager: Shutting down and abandoning module FieldSystemEngine (103)
-[2020.11.06-15.03.30:066][811]LogModuleManager: Shutting down and abandoning module Chaos (100)
-[2020.11.06-15.03.30:066][811]LogModuleManager: Shutting down and abandoning module WindowsPlatformFeatures (98)
-[2020.11.06-15.03.30:066][811]LogModuleManager: Shutting down and abandoning module GameplayMediaEncoder (97)
-[2020.11.06-15.03.30:066][811]LogModuleManager: Shutting down and abandoning module AVEncoder (96)
-[2020.11.06-15.03.30:067][811]LogModuleManager: Shutting down and abandoning module SteamVRInputDevice (92)
-[2020.11.06-15.03.30:067][811]LogModuleManager: Shutting down and abandoning module SteamVRInput (90)
-[2020.11.06-15.03.30:067][811]LogModuleManager: Shutting down and abandoning module SteamVR (88)
-[2020.11.06-15.03.30:067][811]LogHMD: Freeing OpenVRDLLHandle.
-[2020.11.06-15.03.30:067][811]LogModuleManager: Shutting down and abandoning module OculusHMD (86)
-[2020.11.06-15.03.30:067][811]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (84)
-[2020.11.06-15.03.30:067][811]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (82)
-[2020.11.06-15.03.30:067][811]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (80)
-[2020.11.06-15.03.30:067][811]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (76)
-[2020.11.06-15.03.30:071][811]LogModuleManager: Shutting down and abandoning module XMPP (71)
-[2020.11.06-15.03.30:071][811]LogModuleManager: Shutting down and abandoning module WebSockets (70)
-[2020.11.06-15.03.30:093][811]LogModuleManager: Shutting down and abandoning module HTTP (67)
-[2020.11.06-15.03.30:093][811]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
-[2020.11.06-15.03.30:094][811]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BB2E1E422-4336-1CA0-48FF-82883A2D508C%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.4-14469661%2B%2B%2BUE4%2BRelease-4.25&UserID=569c5d9543acb1e31389e991530223b1%7Cc03d37055b154a15ad195bdc5587a9e8%7C3e1ee9d7-3cc9-4d38-92de-8d645a17aa9b&AppEnvironment=datacollector-source&UploadType=eteventstream] refs=[1] status=Processing
-[2020.11.06-15.03.30:105][811]LogModuleManager: Shutting down and abandoning module SSL (66)
-[2020.11.06-15.03.30:111][811]LogModuleManager: Shutting down and abandoning module WmfMedia (62)
-[2020.11.06-15.03.30:112][811]LogModuleManager: Shutting down and abandoning module Media (61)
-[2020.11.06-15.03.30:115][811]LogModuleManager: Shutting down and abandoning module MagicLeap (58)
-[2020.11.06-15.03.30:115][811]LogModuleManager: Shutting down and abandoning module NiagaraVertexFactories (56)
-[2020.11.06-15.03.30:116][811]LogModuleManager: Shutting down and abandoning module NiagaraShader (54)
-[2020.11.06-15.03.30:116][811]LogModuleManager: Shutting down and abandoning module VariantManagerContent (52)
-[2020.11.06-15.03.30:116][811]LogModuleManager: Shutting down and abandoning module DatasmithContent (50)
-[2020.11.06-15.03.30:118][811]LogModuleManager: Shutting down and abandoning module AISupportModule (48)
-[2020.11.06-15.03.30:118][811]LogModuleManager: Shutting down and abandoning module DesktopPlatform (46)
-[2020.11.06-15.03.30:118][811]LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (44)
-[2020.11.06-15.03.30:118][811]LogModuleManager: Shutting down and abandoning module PlatformCryptoTypes (42)
-[2020.11.06-15.03.30:118][811]LogModuleManager: Shutting down and abandoning module PlatformCrypto (40)
-[2020.11.06-15.03.30:118][811]LogModuleManager: Shutting down and abandoning module AnimationModifiers (38)
-[2020.11.06-15.03.30:119][811]LogModuleManager: Shutting down and abandoning module PropertyEditor (37)
-[2020.11.06-15.03.30:121][811]LogModuleManager: Shutting down and abandoning module AudioEditor (34)
-[2020.11.06-15.03.30:123][811]LogModuleManager: Shutting down and abandoning module TextureCompressor (32)
-[2020.11.06-15.03.30:123][811]LogModuleManager: Shutting down and abandoning module RenderCore (30)
-[2020.11.06-15.03.30:123][811]LogModuleManager: Shutting down and abandoning module Landscape (28)
-[2020.11.06-15.03.30:123][811]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (26)
-[2020.11.06-15.03.30:124][811]LogModuleManager: Shutting down and abandoning module OpenGLDrv (24)
-[2020.11.06-15.03.30:125][811]LogModuleManager: Shutting down and abandoning module D3D11RHI (22)
-[2020.11.06-15.03.30:125][811]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
-[2020.11.06-15.03.30:125][811]LogModuleManager: Shutting down and abandoning module Renderer (18)
-[2020.11.06-15.03.30:125][811]LogModuleManager: Shutting down and abandoning module Engine (16)
-[2020.11.06-15.03.30:125][811]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
-[2020.11.06-15.03.30:125][811]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
-[2020.11.06-15.03.30:126][811]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
-[2020.11.06-15.03.30:126][811]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
-[2020.11.06-15.03.30:126][811]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
-[2020.11.06-15.03.30:126][811]LogModuleManager: Shutting down and abandoning module PakFile (4)
-[2020.11.06-15.03.30:126][811]LogModuleManager: Shutting down and abandoning module RSA (3)
-[2020.11.06-15.03.30:126][811]LogContentStreaming: Display: There are 1 unreleased StreamingManagers
-[2020.11.06-15.03.30:130][811]LogD3D11RHI: Shutdown
-[2020.11.06-15.03.30:130][811]LogD3D11RHI: CleanupD3DDevice
-[2020.11.06-15.03.30:197][811]LogExit: Exiting.
-[2020.11.06-15.03.30:215][811]Log file closed, 11/06/20 09:03:30
+[2020.11.07-19.49.43:472][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.11.07-19.49.43:472][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.11.07-19.49.43:472][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [d:/kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Engine.ini]
+[2020.11.07-19.49.43:472][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.11.07-19.49.43:472][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:0]]
+[2020.11.07-19.49.43:472][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [d:/kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Engine.ini]
+[2020.11.07-19.49.43:472][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [d:/kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Engine.ini]
+[2020.11.07-19.49.43:472][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.11.07-19.49.43:472][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.11.07-19.49.43:472][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.11.07-19.49.43:472][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.11.07-19.49.43:472][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.11.07-19.49.43:472][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.11.07-19.49.43:472][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.11.07-19.49.43:472][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.11.07-19.49.43:472][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.11.07-19.49.43:472][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.11.07-19.49.43:472][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.11.07-19.49.43:472][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.11.07-19.49.43:472][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.11.07-19.49.43:472][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.11.07-19.49.43:472][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [d:/kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Engine.ini]
+[2020.11.07-19.49.43:472][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.11.07-19.49.43:472][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.11.07-19.49.43:472][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.11.07-19.49.43:472][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.11.07-19.49.43:472][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.11.07-19.49.43:472][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.11.07-19.49.43:472][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.11.07-19.49.43:472][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.11.07-19.49.43:472][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.11.07-19.49.43:472][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.11.07-19.49.43:472][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.11.07-19.49.43:472][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.11.07-19.49.43:472][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.11.07-19.49.43:472][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [d:/kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Engine.ini]
+[2020.11.07-19.49.43:472][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [d:/kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Engine.ini]
+[2020.11.07-19.49.43:474][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [d:/kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Scalability.ini]
+[2020.11.07-19.49.43:474][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.11.07-19.49.43:474][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.11.07-19.49.43:474][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [d:/kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Scalability.ini]
+[2020.11.07-19.49.43:474][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.11.07-19.49.43:474][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [d:/kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Scalability.ini]
+[2020.11.07-19.49.43:474][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.11.07-19.49.43:474][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.11.07-19.49.43:474][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.11.07-19.49.43:474][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.11.07-19.49.43:474][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.11.07-19.49.43:474][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.11.07-19.49.43:475][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.11.07-19.49.43:475][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.11.07-19.49.43:475][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.11.07-19.49.43:475][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.11.07-19.49.43:475][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.11.07-19.49.43:475][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.11.07-19.49.43:475][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.11.07-19.49.43:475][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.11.07-19.49.43:475][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.11.07-19.49.43:475][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.11.07-19.49.43:475][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.11.07-19.49.43:475][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.11.07-19.49.43:475][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [d:/kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Scalability.ini]
+[2020.11.07-19.49.43:475][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.11.07-19.49.43:475][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.11.07-19.49.43:475][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.11.07-19.49.43:475][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.11.07-19.49.43:475][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.11.07-19.49.43:475][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.11.07-19.49.43:475][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.11.07-19.49.43:475][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.11.07-19.49.43:475][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.11.07-19.49.43:475][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.11.07-19.49.43:475][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.11.07-19.49.43:475][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.11.07-19.49.43:475][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.11.07-19.49.43:475][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.11.07-19.49.43:475][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.11.07-19.49.43:475][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.11.07-19.49.43:475][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.11.07-19.49.43:475][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.11.07-19.49.43:475][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.11.07-19.49.43:475][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.11.07-19.49.43:475][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.11.07-19.49.43:475][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.11.07-19.49.43:475][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.11.07-19.49.43:475][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.11.07-19.49.43:475][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.11.07-19.49.43:475][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.11.07-19.49.43:475][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.11.07-19.49.43:475][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.11.07-19.49.43:475][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.11.07-19.49.43:475][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.11.07-19.49.43:475][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [d:/kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Scalability.ini]
+[2020.11.07-19.49.43:475][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.11.07-19.49.43:475][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.11.07-19.49.43:475][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.11.07-19.49.43:475][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.11.07-19.49.43:475][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.11.07-19.49.43:475][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.11.07-19.49.43:475][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.11.07-19.49.43:475][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.11.07-19.49.43:475][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.11.07-19.49.43:475][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [d:/kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Scalability.ini]
+[2020.11.07-19.49.43:475][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.11.07-19.49.43:475][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.11.07-19.49.43:475][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.11.07-19.49.43:475][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.11.07-19.49.43:475][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.11.07-19.49.43:475][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.11.07-19.49.43:475][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.11.07-19.49.43:475][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.11.07-19.49.43:475][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.11.07-19.49.43:475][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.11.07-19.49.43:475][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.11.07-19.49.43:475][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.11.07-19.49.43:475][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.11.07-19.49.43:475][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.11.07-19.49.43:475][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.11.07-19.49.43:475][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.11.07-19.49.43:475][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.11.07-19.49.43:475][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.11.07-19.49.43:475][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.11.07-19.49.43:475][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.11.07-19.49.43:475][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.11.07-19.49.43:475][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.11.07-19.49.43:475][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.11.07-19.49.43:475][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.11.07-19.49.43:476][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.11.07-19.49.43:476][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.11.07-19.49.43:476][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [d:/kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Scalability.ini]
+[2020.11.07-19.49.43:476][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.11.07-19.49.43:476][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.11.07-19.49.43:476][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [d:/kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Scalability.ini]
+[2020.11.07-19.49.43:476][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.11.07-19.49.43:476][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.11.07-19.49.43:476][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.11.07-19.49.43:476][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.11.07-19.49.43:476][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.11.07-19.49.43:476][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.11.07-19.49.43:476][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.11.07-19.49.43:476][  0]LogInit: Selected Device Profile: [Windows]
+[2020.11.07-19.49.43:476][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.11.07-19.49.43:476][  0]LogHAL: Display: Platform has ~ 16 GB [16977403904 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.11.07-19.49.43:476][  0]LogInit: Going up to parent DeviceProfile []
+[2020.11.07-19.49.43:476][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [d:/kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Scalability.ini]
+[2020.11.07-19.49.43:476][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.11.07-19.49.43:476][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.11.07-19.49.43:476][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [d:/kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Scalability.ini]
+[2020.11.07-19.49.43:476][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.11.07-19.49.43:476][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [d:/kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Scalability.ini]
+[2020.11.07-19.49.43:476][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.11.07-19.49.43:476][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.11.07-19.49.43:476][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.11.07-19.49.43:476][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.11.07-19.49.43:476][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.11.07-19.49.43:476][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.11.07-19.49.43:476][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.11.07-19.49.43:476][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.11.07-19.49.43:476][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.11.07-19.49.43:476][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.11.07-19.49.43:476][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.11.07-19.49.43:476][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.11.07-19.49.43:476][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.11.07-19.49.43:476][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.11.07-19.49.43:476][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.11.07-19.49.43:476][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.11.07-19.49.43:476][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.11.07-19.49.43:476][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.11.07-19.49.43:476][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [d:/kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Scalability.ini]
+[2020.11.07-19.49.43:476][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.11.07-19.49.43:476][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.11.07-19.49.43:476][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.11.07-19.49.43:476][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.11.07-19.49.43:476][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.11.07-19.49.43:476][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.11.07-19.49.43:476][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.11.07-19.49.43:476][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.11.07-19.49.43:476][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.11.07-19.49.43:476][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.11.07-19.49.43:476][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.11.07-19.49.43:476][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.11.07-19.49.43:476][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.11.07-19.49.43:476][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.11.07-19.49.43:476][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.11.07-19.49.43:476][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.11.07-19.49.43:476][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.11.07-19.49.43:476][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.11.07-19.49.43:476][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.11.07-19.49.43:476][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.11.07-19.49.43:476][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.11.07-19.49.43:476][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.11.07-19.49.43:476][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.11.07-19.49.43:476][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.11.07-19.49.43:476][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.11.07-19.49.43:476][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.11.07-19.49.43:476][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.11.07-19.49.43:476][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.11.07-19.49.43:476][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.11.07-19.49.43:476][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.11.07-19.49.43:476][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [d:/kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Scalability.ini]
+[2020.11.07-19.49.43:476][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.11.07-19.49.43:476][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.11.07-19.49.43:476][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.11.07-19.49.43:476][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.11.07-19.49.43:477][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.11.07-19.49.43:477][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.11.07-19.49.43:477][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.11.07-19.49.43:477][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.11.07-19.49.43:477][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.11.07-19.49.43:477][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [d:/kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Scalability.ini]
+[2020.11.07-19.49.43:477][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.11.07-19.49.43:477][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.11.07-19.49.43:477][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.11.07-19.49.43:477][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.11.07-19.49.43:477][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.11.07-19.49.43:477][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.11.07-19.49.43:477][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.11.07-19.49.43:477][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.11.07-19.49.43:477][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.11.07-19.49.43:477][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.11.07-19.49.43:477][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.11.07-19.49.43:477][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.11.07-19.49.43:477][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.11.07-19.49.43:477][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.11.07-19.49.43:477][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.11.07-19.49.43:477][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.11.07-19.49.43:477][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.11.07-19.49.43:477][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.11.07-19.49.43:477][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.11.07-19.49.43:477][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.11.07-19.49.43:477][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.11.07-19.49.43:477][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.11.07-19.49.43:477][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.11.07-19.49.43:477][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.11.07-19.49.43:477][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.11.07-19.49.43:477][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.11.07-19.49.43:477][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [d:/kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Scalability.ini]
+[2020.11.07-19.49.43:477][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.11.07-19.49.43:477][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.11.07-19.49.43:477][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [d:/kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Scalability.ini]
+[2020.11.07-19.49.43:477][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.11.07-19.49.43:477][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.11.07-19.49.43:477][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.11.07-19.49.43:477][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.11.07-19.49.43:477][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.11.07-19.49.43:477][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.11.07-19.49.43:477][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.11.07-19.49.43:477][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.11.07-19.49.43:477][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.11.07-19.49.43:477][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.11.07-19.49.43:477][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2020.11.07-19.49.43:477][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [d:/kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Config/Windows/Engine.ini]
+[2020.11.07-19.49.43:477][  0]LogInit: Computer: LAPTOP-HGQ06V4C
+[2020.11.07-19.49.43:477][  0]LogInit: User: özgür
+[2020.11.07-19.49.43:477][  0]LogInit: CPU Page size=4096, Cores=6
+[2020.11.07-19.49.43:477][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.11.07-19.49.43:478][  0]LogMemory: Memory total: Physical=15.8GB (16GB approx)
+[2020.11.07-19.49.43:478][  0]LogMemory: Platform Memory Stats for Windows
+[2020.11.07-19.49.43:478][  0]LogMemory: Process Physical Memory: 115.70 MB used, 115.70 MB peak
+[2020.11.07-19.49.43:478][  0]LogMemory: Process Virtual Memory: 101.30 MB used, 101.30 MB peak
+[2020.11.07-19.49.43:478][  0]LogMemory: Physical Memory: 8508.54 MB used,  7682.38 MB free, 16190.91 MB total
+[2020.11.07-19.49.43:478][  0]LogMemory: Virtual Memory: 5168.86 MB used,  134212560.00 MB free, 134217728.00 MB total
+[2020.11.07-19.49.43:482][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.11.07-19.49.43:512][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2020.11.07-19.49.43:513][  0]LogInit: Using OS detected language (en-US).
+[2020.11.07-19.49.43:513][  0]LogInit: Using OS detected locale (en-US).
+[2020.11.07-19.49.43:514][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2020.11.07-19.49.43:678][  0]LogInit: Setting process to per monitor DPI aware
+[2020.11.07-19.49.43:779][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.11.07-19.49.43:779][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.11.07-19.49.44:031][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.11.07-19.49.44:031][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.11.07-19.49.44:031][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.11.07-19.49.44:031][  0]LogD3D11RHI: D3D11 adapters:
+[2020.11.07-19.49.44:105][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050 Ti' (Feature Level 11_0)
+[2020.11.07-19.49.44:105][  0]LogD3D11RHI:       4018/0/8095 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2020.11.07-19.49.44:115][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics 630' (Feature Level 11_0)
+[2020.11.07-19.49.44:115][  0]LogD3D11RHI:       128/0/8095 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2020.11.07-19.49.44:118][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.11.07-19.49.44:118][  0]LogD3D11RHI:       0/0/8095 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.11.07-19.49.44:118][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.11.07-19.49.44:161][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.11.07-19.49.44:161][  0]LogD3D11RHI:     GPU DeviceId: 0x1c8c (for the marketing name, search the web for "GPU Device Id")
+[2020.11.07-19.49.44:161][  0]LogWindows: EnumDisplayDevices:
+[2020.11.07-19.49.44:161][  0]LogWindows:    0. 'Intel(R) UHD Graphics 630' (P:1 D:1)
+[2020.11.07-19.49.44:161][  0]LogWindows:    1. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2020.11.07-19.49.44:161][  0]LogWindows:    2. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2020.11.07-19.49.44:162][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
+[2020.11.07-19.49.44:162][  0]LogWindows:    4. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
+[2020.11.07-19.49.44:162][  0]LogWindows:    5. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
+[2020.11.07-19.49.44:162][  0]LogWindows:    6. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
+[2020.11.07-19.49.44:162][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2020.11.07-19.49.44:163][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050 Ti
+[2020.11.07-19.49.44:163][  0]LogD3D11RHI:   Driver Version: 451.67 (internal:27.21.14.5167, unified:451.67)
+[2020.11.07-19.49.44:163][  0]LogD3D11RHI:      Driver Date: 7-5-2020
+[2020.11.07-19.49.44:163][  0]LogRHI: Texture pool is 2812 MB (70% of 4018 MB)
+[2020.11.07-19.49.44:206][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2020.11.07-19.49.44:206][  0]LogD3D11RHI: Async texture creation enabled
+[2020.11.07-19.49.44:206][  0]LogD3D11RHI: Array index from any shader is supported
+[2020.11.07-19.49.44:226][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.11.07-19.49.44:486][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.11.07-19.49.44:506][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.11.07-19.49.44:506][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.11.07-19.49.44:506][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.11.07-19.49.44:506][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.11.07-19.49.44:506][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.11.07-19.49.44:506][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.11.07-19.49.44:506][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.11.07-19.49.44:506][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.11.07-19.49.44:506][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.11.07-19.49.44:506][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.11.07-19.49.44:527][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.11.07-19.49.44:527][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.11.07-19.49.44:536][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2020.11.07-19.49.44:545][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.11.07-19.49.44:554][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.11.07-19.49.44:562][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.11.07-19.49.44:571][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.11.07-19.49.44:579][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.11.07-19.49.44:587][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.11.07-19.49.44:611][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.11.07-19.49.44:611][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.11.07-19.49.44:625][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.11.07-19.49.44:625][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.11.07-19.49.44:634][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.11.07-19.49.44:642][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.11.07-19.49.44:651][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.11.07-19.49.44:660][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.11.07-19.49.44:660][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.11.07-19.49.44:668][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.11.07-19.49.44:718][  0]LogShaderCompilers: Guid format shader working directory is -24 characters bigger than the processId version (../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Intermediate/Shaders/WorkingDirectory/1512/).
+[2020.11.07-19.49.44:718][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/özgür/AppData/Local/Temp/UnrealShaderWorkingDir/4E2F6ACE42F176C63CCED28E30A19F85/'.
+[2020.11.07-19.49.44:718][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.11.07-19.49.44:718][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.11.07-19.49.44:718][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.11.07-19.49.45:433][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.11.07-19.49.45:484][  0]LogDerivedDataCache: Loaded boot cache 0.05s 75MB C:/Users/özgür/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.11.07-19.49.45:484][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/özgür/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2020.11.07-19.49.45:485][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.11.07-19.49.45:485][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.11.07-19.49.45:485][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.11.07-19.49.45:485][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.11.07-19.49.45:495][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.11.07-19.49.45:495][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.11.07-19.49.45:495][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.11.07-19.49.45:496][  0]LogDerivedDataCache: Using Local data cache path C:/Users/özgür/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.11.07-19.49.45:496][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.11.07-19.49.45:496][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.11.07-19.49.45:543][  0]LogSlate: Using FreeType 2.10.0
+[2020.11.07-19.49.45:544][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.11.07-19.49.45:570][  0]LogAssetRegistry: FAssetRegistry took 0.0025 seconds to start up
+[2020.11.07-19.49.45:809][  0]LogInit: Selected Device Profile: [Windows]
+[2020.11.07-19.49.45:914][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.11.07-19.49.45:914][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.11.07-19.49.45:914][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.11.07-19.49.45:914][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.11.07-19.49.45:914][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.11.07-19.49.45:928][  0]LogNetVersion: TheyLive 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 1881850289)
+[2020.11.07-19.49.46:350][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (000002359CD38380), frame # 0
+[2020.11.07-19.49.46:350][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000235A07B9E40), frame # 0
+[2020.11.07-19.49.46:351][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000235A07F6000), frame # 0
+[2020.11.07-19.49.46:433][  0]LogPackageLocalizationCache: Processed 20 localized package path(s) for 1 prioritized culture(s) in 0.076438 seconds
+[2020.11.07-19.49.46:438][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2020.11.07-19.49.46:438][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2020.11.07-19.49.46:438][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.11.07-19.49.46:745][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.11.07-19.49.46:749][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.11.07-19.49.46:824][  0]SourceControl: Source control is disabled
+[2020.11.07-19.49.46:824][  0]SourceControl: Source control is disabled
+[2020.11.07-19.49.46:827][  0]SourceControl: Source control is disabled
+[2020.11.07-19.49.46:829][  0]SourceControl: Source control is disabled
+[2020.11.07-19.49.46:835][  0]SourceControl: Source control is disabled
+[2020.11.07-19.49.47:350][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.11.07-19.49.47:368][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.11.07-19.49.47:368][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.11.07-19.49.47:412][  0]LogOcInput: OculusInput pre-init called
+[2020.11.07-19.49.47:420][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.11.07-19.49.47:420][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.11.07-19.49.47:475][  0]LogEngine: Initializing Engine...
+[2020.11.07-19.49.47:478][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.11.07-19.49.47:478][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2020.11.07-19.49.47:479][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.11.07-19.49.47:596][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.11.07-19.49.47:604][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.11.07-19.49.47:604][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000023598DF8800), frame # 0
+[2020.11.07-19.49.47:604][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000023598DBF380), frame # 0
+[2020.11.07-19.49.47:632][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.11.07-19.49.47:632][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.11.07-19.49.47:632][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.11.07-19.49.47:632][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.11.07-19.49.47:632][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.11.07-19.49.47:632][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.11.07-19.49.47:632][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.11.07-19.49.47:632][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.11.07-19.49.47:632][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.11.07-19.49.47:632][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.11.07-19.49.47:642][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.07-19.49.47:642][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.11.07-19.49.47:692][  0]LogAudioMixer: Display: Using Audio Device Speaker / Headphone (Realtek(R) Audio)
+[2020.11.07-19.49.47:692][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.11.07-19.49.47:695][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.11.07-19.49.47:695][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.11.07-19.49.47:696][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.11.07-19.49.47:697][  0]LogInit: FAudioDevice initialized.
+[2020.11.07-19.49.47:697][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.11.07-19.49.47:748][  0]LogDerivedDataCache: Saved boot cache 0.05s 75MB C:/Users/özgür/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.11.07-19.49.47:752][  0]LogInit: Texture streaming: Enabled
+[2020.11.07-19.49.47:768][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.11.07-19.49.47:768][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.11.07-19.49.47:770][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.11.07-19.49.47:880][  0]LogInit: Transaction tracking system initialized
+[2020.11.07-19.49.47:898][  0]BlueprintLog: New page: Editor Load
+[2020.11.07-19.49.47:960][  0]LocalizationService: Localization service is disabled
+[2020.11.07-19.49.48:135][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.11.07-19.49.48:135][  0]LogCook: Display: Mobile HDR setting 1
+[2020.11.07-19.49.48:260][  0]LogFileCache: Scanning file cache for directory 'd:/kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Content/' took 0.08s
+[2020.11.07-19.49.48:489][  0]SourceControl: Source control is disabled
+[2020.11.07-19.49.48:489][  0]LogUnrealEdMisc: Loading editor; pre map load, took 6.932
+[2020.11.07-19.49.48:489][  0]Cmd: MAP LOAD FILE="../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Content/Maps/CaveLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.11.07-19.49.48:489][  0]LogEditorServer: Warning: Can't find file '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Content/Maps/CaveLevel.umap'
+[2020.11.07-19.49.48:490][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.11.07-19.49.48:490][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.126ms to complete.
+[2020.11.07-19.49.48:490][  0]LogFileHelpers: Loading map 'CaveLevel' took 0.000
+[2020.11.07-19.49.48:491][  0]LogUnrealEdMisc: Total Editor Startup Time, took 6.934
+[2020.11.07-19.49.52:091][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.07-19.49.52:135][  0]LogCollectionManager: Loaded 0 collections in 0.000950 seconds
+[2020.11.07-19.49.52:296][  0]LogFileCache: Scanning file cache for directory 'd:/kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Collections/' took 0.00s
+[2020.11.07-19.49.52:296][  0]LogFileCache: Scanning file cache for directory 'd:/kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Content/Developers/özgür/Collections/' took 0.00s
+[2020.11.07-19.49.52:296][  0]LogFileCache: Scanning file cache for directory 'd:/kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Content/Collections/' took 0.00s
+[2020.11.07-19.49.52:296][  0]LogContentBrowser: Native class hierarchy populated in 0.0083 seconds. Added 3428 classes and 824 folders.
+[2020.11.07-19.49.52:600][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.11.07-19.49.54:991][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.11.07-19.49.54:992][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 2 classes and 0 folders.
+[2020.11.07-19.49.55:507][  0]LogSlate: Took 0.000249 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.11.07-19.49.55:509][  0]LogSlate: Took 0.000348 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.11.07-19.49.55:559][  0]LogSlate: Took 0.043810 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.11.07-19.49.55:684][  0]LogRenderer: Reallocating scene render targets to support 964x344 Format 10 NumSamples 1 (Frame:1).
+[2020.11.07-19.49.55:981][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.11.07-19.49.55:981][  0]LogLoad: (Engine Initialization) Total time: 14.42 seconds
+[2020.11.07-19.49.55:981][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.11.07-19.49.56:145][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.11.07-19.49.56:382][  0]LogSlate: Took 0.043803 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.11.07-19.50.01:416][299]LogFileCache: Retrieving MD5 hashes for directory 'd:/kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Content/' took 5.41s
+[2020.11.07-19.50.06:609][607]LogPackageName: Warning: Asset path "JW_FlameDungeon.FX.SM_FX_Embers" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2020.11.07-19.50.06:609][607]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2020.11.07-19.50.06:857][622]LogPackageName: SearchForPackageOnDisk took   0.251s, but failed to resolve JW_FlameDungeon.
+[2020.11.07-19.50.06:857][622]LogPackageName: Warning: Asset path "JW_FlameDungeon.FX.SM_FX_Embers" could not be resolved.
+[2020.11.07-19.50.06:857][622]LogPackageName: Warning: Asset path "JW_FlameDungeon.FX.SM_FogPlane02" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2020.11.07-19.50.06:857][622]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2020.11.07-19.50.07:123][638]LogPackageName: SearchForPackageOnDisk took   0.259s, but failed to resolve JW_FlameDungeon.
+[2020.11.07-19.50.07:123][638]LogPackageName: Warning: Asset path "JW_FlameDungeon.FX.SM_FogPlane02" could not be resolved.
+[2020.11.07-19.50.07:623][668]LogPackageName: Warning: Asset path "StaticMesh'FX_Meshes_IB.SM_Debris_Box_RadialFull'" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2020.11.07-19.50.07:623][668]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2020.11.07-19.50.07:890][684]LogPackageName: SearchForPackageOnDisk took   0.259s, but failed to resolve StaticMesh'FX_Meshes_IB.
+[2020.11.07-19.50.07:890][684]LogPackageName: Warning: Asset path "StaticMesh'FX_Meshes_IB.SM_Debris_Box_RadialFull'" could not be resolved.
+[2020.11.07-19.50.07:990][690]LogPackageName: Warning: Asset path "JW_Ice_Mountain.Mesh.SM_SnowBoulder" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2020.11.07-19.50.07:990][690]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2020.11.07-19.50.08:240][705]LogPackageName: SearchForPackageOnDisk took   0.252s, but failed to resolve JW_Ice_Mountain.
+[2020.11.07-19.50.08:240][705]LogPackageName: Warning: Asset path "JW_Ice_Mountain.Mesh.SM_SnowBoulder" could not be resolved.
+[2020.11.07-19.50.08:273][707]LogPackageName: Warning: Asset path "FX_Meshes.UI.SM_SelectionMesh_01" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2020.11.07-19.50.08:274][707]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2020.11.07-19.50.08:524][722]LogPackageName: SearchForPackageOnDisk took   0.254s, but failed to resolve FX_Meshes.
+[2020.11.07-19.50.08:524][722]LogPackageName: Warning: Asset path "FX_Meshes.UI.SM_SelectionMesh_01" could not be resolved.
+[2020.11.07-19.50.08:524][722]LogPackageName: Warning: Asset path "FX_Meshes.UI.SM_SelectionMesh_01" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2020.11.07-19.50.08:524][722]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2020.11.07-19.50.08:790][738]LogPackageName: SearchForPackageOnDisk took   0.270s, but failed to resolve FX_Meshes.
+[2020.11.07-19.50.08:790][738]LogPackageName: Warning: Asset path "FX_Meshes.UI.SM_SelectionMesh_01" could not be resolved.
+[2020.11.07-19.50.08:824][740]LogPackageName: Warning: Asset path "'FX_Ambient.Meshes.SM_Bats'" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2020.11.07-19.50.08:824][740]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2020.11.07-19.50.09:090][756]LogPackageName: SearchForPackageOnDisk took   0.263s, but failed to resolve 'FX_Ambient.
+[2020.11.07-19.50.09:090][756]LogPackageName: Warning: Asset path "'FX_Ambient.Meshes.SM_Bats'" could not be resolved.
+[2020.11.07-19.50.09:090][756]LogPackageName: Warning: Asset path "CastleEffects.TouchToMoveArrow" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2020.11.07-19.50.09:090][756]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2020.11.07-19.50.09:341][771]LogPackageName: SearchForPackageOnDisk took   0.252s, but failed to resolve CastleEffects.
+[2020.11.07-19.50.09:341][771]LogPackageName: Warning: Asset path "CastleEffects.TouchToMoveArrow" could not be resolved.
+[2020.11.07-19.50.09:507][778]LogPackageName: Warning: Asset path "StaticMesh'FX_Meshes.Fire.SM_Dungeon_Pipes_Lava01_Cool'" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2020.11.07-19.50.09:507][778]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2020.11.07-19.50.09:779][795]LogPackageName: SearchForPackageOnDisk took   0.268s, but failed to resolve StaticMesh'FX_Meshes.
+[2020.11.07-19.50.09:779][795]LogPackageName: Warning: Asset path "StaticMesh'FX_Meshes.Fire.SM_Dungeon_Pipes_Lava01_Cool'" could not be resolved.
+[2020.11.07-19.50.09:779][795]LogPackageName: Warning: Asset path "m_FogSheet_02" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2020.11.07-19.50.09:779][795]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2020.11.07-19.50.10:012][809]LogPackageName: SearchForPackageOnDisk took   0.230s to resolve m_FogSheet_02.
+[2020.11.07-19.50.10:045][811]LogPackageName: Warning: Asset path "FX_Test_LAN.Meshes.SM_IceWall01" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2020.11.07-19.50.10:046][811]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2020.11.07-19.50.10:279][825]LogPackageName: SearchForPackageOnDisk took   0.232s, but failed to resolve FX_Test_LAN.
+[2020.11.07-19.50.10:279][825]LogPackageName: Warning: Asset path "FX_Test_LAN.Meshes.SM_IceWall01" could not be resolved.
+[2020.11.07-19.50.10:461][836]LogPackageName: Warning: Asset path "m_FogSheet_02" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2020.11.07-19.50.10:461][836]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2020.11.07-19.50.10:678][849]LogPackageName: SearchForPackageOnDisk took   0.214s to resolve m_FogSheet_02.
+[2020.11.07-19.50.10:678][849]LogPackageName: Warning: Asset path "m_FogSheet_02" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2020.11.07-19.50.10:678][849]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2020.11.07-19.50.10:894][862]LogPackageName: SearchForPackageOnDisk took   0.209s to resolve m_FogSheet_02.
+[2020.11.07-19.50.10:894][862]LogPackageName: Warning: Asset path "m_FogSheet_02" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2020.11.07-19.50.10:895][862]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2020.11.07-19.50.11:116][874]LogPackageName: SearchForPackageOnDisk took   0.226s to resolve m_FogSheet_02.
+[2020.11.07-19.50.14:953][102]LogPackageName: Warning: Asset path "JW_Ice_Mountain.Mesh.SM_SnowBoulder" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2020.11.07-19.50.14:953][102]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2020.11.07-19.50.15:221][118]LogPackageName: SearchForPackageOnDisk took   0.264s, but failed to resolve JW_Ice_Mountain.
+[2020.11.07-19.50.15:221][118]LogPackageName: Warning: Asset path "JW_Ice_Mountain.Mesh.SM_SnowBoulder" could not be resolved.
+[2020.11.07-19.50.15:238][119]LogPackageName: Warning: Asset path "S_Survival_CA_Chicken_02.SM.S_Survival_CA_Chicken_02" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2020.11.07-19.50.15:238][119]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2020.11.07-19.50.15:471][133]LogPackageName: SearchForPackageOnDisk took   0.245s to resolve S_Survival_CA_Chicken_02.
+[2020.11.07-19.50.16:021][166]LogPackageName: Warning: Asset path "JW_Ice_Mountain.Mesh.SM_SnowBoulder" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2020.11.07-19.50.16:021][166]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2020.11.07-19.50.16:288][179]LogPackageName: SearchForPackageOnDisk took   0.267s, but failed to resolve JW_Ice_Mountain.
+[2020.11.07-19.50.16:288][179]LogPackageName: Warning: Asset path "JW_Ice_Mountain.Mesh.SM_SnowBoulder" could not be resolved.
+[2020.11.07-19.50.16:381][186]LogPackageName: Warning: Asset path "Env_ALL_Artifacts.Mesh.Env_ALL_Terminus001" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2020.11.07-19.50.16:381][186]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2020.11.07-19.50.16:649][202]LogPackageName: SearchForPackageOnDisk took   0.266s, but failed to resolve Env_ALL_Artifacts.
+[2020.11.07-19.50.16:649][202]LogPackageName: Warning: Asset path "Env_ALL_Artifacts.Mesh.Env_ALL_Terminus001" could not be resolved.
+[2020.11.07-19.50.17:507][250]LogSlate: Took 0.000176 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.11.07-19.50.19:879][250]LogBlueprint: Warning: [Compiler Locker] Could not find a variable named "Locker" in 'ThirdPersonCharacter_C'.
+Make sure 'ThirdPersonCharacter_C' has been compiled for  Set Locker
+[2020.11.07-19.50.19:900][250]LogBlueprint: Error: [Compiler Locker] The property associated with  Locker  could not be found in '/Game/Blueprints/Locker.Locker_C'
+[2020.11.07-19.50.19:914][250]LogBlueprint: Warning: [Compiler File] Could not find a variable named "Inventory" in 'ThirdPersonCharacter_C'.
+Make sure 'ThirdPersonCharacter_C' has been compiled for  Get Inventory
+[2020.11.07-19.50.19:915][250]LogBlueprint: Error: [Compiler File] The property associated with  Inventory  could not be found in '/Game/Blueprints/Pickups/File.File_C'
+[2020.11.07-19.50.19:926][250]LogBlueprint: Warning: [Compiler Flashlight] Could not find a variable named "HasFlashLight" in 'ThirdPersonCharacter_C'.
+Make sure 'ThirdPersonCharacter_C' has been compiled for  Set HasFlashLight
+[2020.11.07-19.50.19:927][250]LogBlueprint: Error: [Compiler Flashlight] The property associated with  Has Flash Light  could not be found in '/Game/Blueprints/Pickups/Flashlight.Flashlight_C'
+[2020.11.07-19.50.21:523][250]LogLinker: Warning: While loading '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Content/PN_interactiveSpruceForest/Materials/MasterMaterials/MA_Summer.uasset' failed to load '/Game/PN_interactiveSpruceForest/Textures/MasterTextures/ModelTextures/Bark_N': Can't find file.
+[2020.11.07-19.50.21:524][250]LogLinker: Warning: While loading '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Content/PN_interactiveSpruceForest/Materials/MasterMaterials/MA_Summer.uasset' failed to load '/Game/PN_interactiveSpruceForest/Textures/MasterTextures/ModelTextures/Bark_N': Can't find file.
+[2020.11.07-19.50.21:556][250]LogLinker: Warning: While loading '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Content/PN_interactiveSpruceForest/Materials/MasterMaterials/MA_Summer.uasset' failed to load '/Game/PN_interactiveSpruceForest/Textures/MasterTextures/ModelTextures/Bark_N': Can't find file.
+[2020.11.07-19.50.21:556][250]LogLinker: Warning: While loading '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Content/PN_interactiveSpruceForest/Materials/MasterMaterials/MA_Summer.uasset' failed to load '/Game/PN_interactiveSpruceForest/Textures/MasterTextures/ModelTextures/Bark_N': Can't find file.
+[2020.11.07-19.50.24:448][250]LogLinker: Warning: While loading '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Content/PN_interactiveSpruceForest/Materials/MasterMaterials/MA_Summer.uasset' failed to load '/Game/PN_interactiveSpruceForest/Textures/MasterTextures/ModelTextures/Bark_N': Can't find file.
+[2020.11.07-19.50.24:448][250]LoadErrors: Failed to load /Game/PN_interactiveSpruceForest/Textures/MasterTextures/ModelTextures/Bark_N.Bark_N Referenced by MaterialExpressionTextureSample_9
+[2020.11.07-19.50.24:449][250]LogLinker: Warning: While loading '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Content/PN_interactiveSpruceForest/Materials/MasterMaterials/MA_Summer.uasset' failed to load '/Game/PN_interactiveSpruceForest/Textures/MasterTextures/ModelTextures/Bark_N': Can't find file.
+[2020.11.07-19.50.25:513][250]LogMovieScene: Warning: Removing section /Game/Cinematic/Shot6.Shot6:MovieScene_0.MovieSceneCameraCutTrack_1:Camera Cuts with empty range
+[2020.11.07-19.50.25:513][250]LogMovieScene: Warning: Removing section /Game/Cinematic/Shot6.Shot6:MovieScene_0.MovieSceneCameraCutTrack_1:Camera Cuts with empty range
+[2020.11.07-19.50.25:513][250]LogMovieScene: Warning: Removing section /Game/Cinematic/Shot6.Shot6:MovieScene_0.MovieSceneCameraCutTrack_1:Camera Cuts with empty range
+[2020.11.07-19.50.25:513][250]LogMovieScene: Warning: Removing section /Game/Cinematic/Shot6.Shot6:MovieScene_0.MovieSceneCameraCutTrack_1:Camera Cuts with empty range
+[2020.11.07-19.50.25:513][250]LogMovieScene: Warning: Removing section /Game/Cinematic/Shot5.Shot5:MovieScene_0.MovieSceneCameraCutTrack_1:Camera Cuts with empty range
+[2020.11.07-19.50.25:513][250]LogMovieScene: Warning: Removing section /Game/Cinematic/Shot5.Shot5:MovieScene_0.MovieSceneCameraCutTrack_1:Camera Cuts with empty range
+[2020.11.07-19.50.25:513][250]LogMovieScene: Warning: Removing section /Game/Cinematic/Shot5.Shot5:MovieScene_0.MovieSceneCameraCutTrack_1:Camera Cuts with empty range
+[2020.11.07-19.50.25:517][250]LogMovieScene: Warning: Removing section /Game/Cinematic/Shot4.Shot4:MovieScene_0.MovieSceneCameraCutTrack_1:Camera Cuts with empty range
+[2020.11.07-19.50.25:517][250]LogMovieScene: Warning: Removing section /Game/Cinematic/Shot4.Shot4:MovieScene_0.MovieSceneCameraCutTrack_1:Camera Cuts with empty range
+[2020.11.07-19.50.25:517][250]LogMovieScene: Warning: Removing section /Game/Cinematic/Shot4.Shot4:MovieScene_0.MovieSceneCameraCutTrack_1:Camera Cuts with empty range
+[2020.11.07-19.50.25:517][250]LogMovieScene: Warning: Removing section /Game/Cinematic/Shot3.Shot3:MovieScene_0.MovieSceneCameraCutTrack_1:Camera Cuts with empty range
+[2020.11.07-19.50.25:517][250]LogMovieScene: Warning: Removing section /Game/Cinematic/Shot3.Shot3:MovieScene_0.MovieSceneCameraCutTrack_1:Camera Cuts with empty range
+[2020.11.07-19.50.25:518][250]LogMovieScene: Warning: Removing section /Game/Cinematic/Shot3.Shot3:MovieScene_0.MovieSceneCameraCutTrack_1:Camera Cuts with empty range
+[2020.11.07-19.50.25:518][250]LogMovieScene: Warning: Removing section /Game/Cinematic/Shot2.Shot2:MovieScene_0.MovieSceneCameraCutTrack_1:Camera Cuts with empty range
+[2020.11.07-19.50.25:665][250]LogMaterial: Display: Missing cached shader map for material MA_Summer, compiling. 
+[2020.11.07-19.50.25:682][250]LogMaterial: Warning: d:\kyle game\Project-Dimensions-of-horror\TheyLive 4.25\Content\PN_interactiveSpruceForest\Materials\MaterialInstances\full\high\spruce_full_03_trunk.uasset: Failed to compile Material Instance with Base MA_Summer for platform PCD3D_SM5, Default Material will be used in game.
+[2020.11.07-19.50.25:682][250]LogMaterial: Display: 	(Node TextureSample) Texture Sample> Missing input texture
+[2020.11.07-19.50.25:682][250]LogMaterial: Display: 	(Node MakeMaterialAttributes) Error on property Normal
+[2020.11.07-19.50.25:702][250]LogMaterial: Display: Missing cached shader map for material MA_Summer, compiling. 
+[2020.11.07-19.50.25:721][250]LogMaterial: Warning: d:\kyle game\Project-Dimensions-of-horror\TheyLive 4.25\Content\PN_interactiveSpruceForest\Materials\MaterialInstances\full\high\spruce_full_02_trunk.uasset: Failed to compile Material Instance with Base MA_Summer for platform PCD3D_SM5, Default Material will be used in game.
+[2020.11.07-19.50.25:721][250]LogMaterial: Display: 	(Node TextureSample) Texture Sample> Missing input texture
+[2020.11.07-19.50.25:721][250]LogMaterial: Display: 	(Node MakeMaterialAttributes) Error on property Normal
+[2020.11.07-19.50.25:733][250]LogMaterial: Display: Missing cached shader map for material MA_Summer, compiling. 
+[2020.11.07-19.50.25:751][250]LogMaterial: Warning: d:\kyle game\Project-Dimensions-of-horror\TheyLive 4.25\Content\PN_interactiveSpruceForest\Materials\MaterialInstances\full\high\spruce_full_01_trunk.uasset: Failed to compile Material Instance with Base MA_Summer for platform PCD3D_SM5, Default Material will be used in game.
+[2020.11.07-19.50.25:751][250]LogMaterial: Display: 	(Node TextureSample) Texture Sample> Missing input texture
+[2020.11.07-19.50.25:751][250]LogMaterial: Display: 	(Node MakeMaterialAttributes) Error on property Normal
+[2020.11.07-19.50.25:904][250]LogMaterial: Display: Missing cached shader map for material MA_Summer, compiling. 
+[2020.11.07-19.50.25:924][250]LogMaterial: Warning: d:\kyle game\Project-Dimensions-of-horror\TheyLive 4.25\Content\PN_interactiveSpruceForest\Materials\MaterialInstances\small\spruce_small_07_trunk.uasset: Failed to compile Material Instance with Base MA_Summer for platform PCD3D_SM5, Default Material will be used in game.
+[2020.11.07-19.50.25:924][250]LogMaterial: Display: 	(Node TextureSample) Texture Sample> Missing input texture
+[2020.11.07-19.50.25:925][250]LogMaterial: Display: 	(Node MakeMaterialAttributes) Error on property Normal
+[2020.11.07-19.50.25:933][250]LogMaterial: Display: Missing cached shader map for material MA_Summer, compiling. 
+[2020.11.07-19.50.25:952][250]LogMaterial: Warning: d:\kyle game\Project-Dimensions-of-horror\TheyLive 4.25\Content\PN_interactiveSpruceForest\Materials\MaterialInstances\small\spruce_small_06_trunk.uasset: Failed to compile Material Instance with Base MA_Summer for platform PCD3D_SM5, Default Material will be used in game.
+[2020.11.07-19.50.25:952][250]LogMaterial: Display: 	(Node TextureSample) Texture Sample> Missing input texture
+[2020.11.07-19.50.25:952][250]LogMaterial: Display: 	(Node MakeMaterialAttributes) Error on property Normal
+[2020.11.07-19.50.25:957][250]LogMaterial: Display: Missing cached shader map for material MA_Summer, compiling. 
+[2020.11.07-19.50.25:981][250]LogMaterial: Warning: d:\kyle game\Project-Dimensions-of-horror\TheyLive 4.25\Content\PN_interactiveSpruceForest\Materials\MaterialInstances\small\spruce_small_05_trunk.uasset: Failed to compile Material Instance with Base MA_Summer for platform PCD3D_SM5, Default Material will be used in game.
+[2020.11.07-19.50.25:981][250]LogMaterial: Display: 	(Node TextureSample) Texture Sample> Missing input texture
+[2020.11.07-19.50.25:981][250]LogMaterial: Display: 	(Node MakeMaterialAttributes) Error on property Normal
+[2020.11.07-19.50.26:084][250]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/outer1.outer1
+[2020.11.07-19.50.26:136][250]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2020.11.07-19.50.26:138][250]Cmd: MAP LOAD FILE="../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Content/Maps/outer1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.11.07-19.50.26:138][250]LightingResults: New page: Lighting Build
+[2020.11.07-19.50.26:139][250]LogContentBrowser: Native class hierarchy updated for 'StatsViewer' in 0.0003 seconds. Added 6 classes and 0 folders.
+[2020.11.07-19.50.26:139][250]LoadErrors: New page: Loading map: outer1.umap
+[2020.11.07-19.50.26:139][250]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.11.07-19.50.26:139][250]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.07-19.50.26:139][250]MapCheck: New page: Map Check
+[2020.11.07-19.50.26:139][250]LightingResults: New page: Lighting Build
+[2020.11.07-19.50.26:151][250]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000023598DF8800), frame # 1250
+[2020.11.07-19.50.26:151][250]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000023598DBF380), frame # 1250
+[2020.11.07-19.50.26:152][250]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2020.11.07-19.50.26:188][250]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.11.07-19.50.26:188][250]LogAIModule: Creating AISystem for world outer1
+[2020.11.07-19.50.26:188][250]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000235B4FF2A00), frame # 1250
+[2020.11.07-19.50.26:188][250]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000235DA093380), frame # 1250
+[2020.11.07-19.50.26:209][250]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2020.11.07-19.50.26:261][250]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.11.07-19.50.26:261][250]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.083ms to complete.
+[2020.11.07-19.50.26:261][250]LogFileHelpers: Loading map 'outer1' took 0.123
+[2020.11.07-19.50.29:018][402]LogEditorViewport: Clicking on Actor (LMB): PopupCollider_C (PopupCollider)
+[2020.11.07-19.50.42:552][203]LogAssetRegistry: Asset discovery search completed in 56.9825 seconds
+[2020.11.07-19.50.42:589][203]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000001 seconds (updated 0 objects)
+[2020.11.07-19.51.43:045][613]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../kyle game/fence.fbx)
+[2020.11.07-19.51.43:059][613]LogFbx: Loading FBX Scene from ../../../../../../kyle game/fence.fbx
+[2020.11.07-19.51.43:065][613]LogFbx: FBX Scene Loaded Succesfully
+[2020.11.07-19.52.08:219][613]LogSlate: Window 'FBX Import Options' being destroyed
+[2020.11.07-19.52.09:442][613]LogMaterial: Display: Missing cached shader map for material lambert1, compiling. 
+[2020.11.07-19.52.09:478][613]LogFbx: Display: Triangulating static mesh fence
+[2020.11.07-19.52.09:501][613]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 15
+[2020.11.07-19.52.09:501][613]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 13
+[2020.11.07-19.52.09:501][613]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 11
+[2020.11.07-19.52.09:501][613]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 9
+[2020.11.07-19.52.09:501][613]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 7
+[2020.11.07-19.52.09:501][613]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 5
+[2020.11.07-19.52.09:501][613]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3
+[2020.11.07-19.52.09:501][613]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 1
+[2020.11.07-19.52.09:507][613]LogStaticMesh: Building static mesh fence...
+[2020.11.07-19.52.09:521][613]LogStaticMesh: Built static mesh [0.01s] /Game/ImportedModels/outer_props/fence.fence
+[2020.11.07-19.52.09:547][613]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2020.11.07-19.52.09:655][613]LogSlate: Took 0.000183 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2020.11.07-19.52.14:727][868]LogSlate: Window 'Message Log' being destroyed
+[2020.11.07-19.52.14:730][868]LogSlate: Window 'Message Log' being destroyed
+[2020.11.07-19.52.17:484][ 29]LogActorFactory: Actor Factory created fence
+[2020.11.07-19.52.18:275][ 76]LogActorFactory: Actor Factory created fence
+[2020.11.07-19.52.19:793][165]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2020.11.07-19.52.25:572][511]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2020.11.07-19.54.57:791][416]Cmd: TRANSACTION UNDO
+[2020.11.07-19.54.57:791][416]LogEditorTransaction: Undo Move Actors
+[2020.11.07-19.55.08:271][ 12]Cmd: TRANSACTION UNDO
+[2020.11.07-19.55.08:271][ 12]LogEditorTransaction: Undo Move Actors
+[2020.11.07-19.55.38:204][751]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (fence)
+[2020.11.07-19.55.55:860][802]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/ImportedModels/outer_props/fence.fence
+[2020.11.07-19.55.56:289][802]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2020.11.07-19.55.56:289][802]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.07-19.55.56:611][802]LogRenderer: Reallocating scene render targets to support 1144x704 Format 10 NumSamples 1 (Frame:1).
+[2020.11.07-19.55.56:611][802]LogStaticMesh: Allocated 32x8x8 distance field atlas = 0.0Mb, with 4 objects containing 0.0Mb backing data
+[2020.11.07-19.55.56:611][802]LogSlate: Took 0.000288 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.11.07-19.56.01:356][ 60]LogSlate: Window 'fence' being destroyed
+[2020.11.07-19.56.01:363][ 60]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2020.11.07-19.56.01:363][ 60]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.07-19.56.13:221][759]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (fence)
+[2020.11.07-19.56.23:154][347]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/ImportedModels/outer_props/fence.fence
+[2020.11.07-19.56.23:365][347]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2020.11.07-19.56.23:366][347]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.07-19.57.03:844][599]LogSavePackage: Moving '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Saved/fenceB4F9489E43D71145C6EB5DA95B06D49E.tmp' to '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Content/ImportedModels/outer_props/fence.uasset'
+[2020.11.07-19.57.03:865][599]AssetCheck: New page: Asset Save: fence
+[2020.11.07-19.57.03:865][599]LogContentValidation: Display: Validating StaticMesh /Game/ImportedModels/outer_props/fence.fence
+[2020.11.07-19.57.05:840][712]LogSlate: Window 'fence' being destroyed
+[2020.11.07-19.57.05:875][712]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2020.11.07-19.57.05:875][712]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.07-19.57.19:368][500]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/ImportedModels/outer_props/fence.fence
+[2020.11.07-19.57.19:587][500]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2020.11.07-19.57.19:588][500]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.07-19.58.45:618][200]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.M_Wood_Floor_Walnut_Worn
+[2020.11.07-19.58.45:976][200]LogMaterial: Display: Missing cached shader map for material M_Wood_Floor_Walnut_Worn, compiling. 
+[2020.11.07-19.58.46:361][200]LogMaterial: Display: Missing cached shader map for material M_Wood_Floor_Walnut_Worn, compiling. 
+[2020.11.07-19.58.46:392][200]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 11
+[2020.11.07-19.58.46:392][200]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 10
+[2020.11.07-19.58.46:392][200]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 9
+[2020.11.07-19.58.46:392][200]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 8
+[2020.11.07-19.58.46:392][200]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 7
+[2020.11.07-19.58.46:392][200]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 6
+[2020.11.07-19.58.46:392][200]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 5
+[2020.11.07-19.58.46:392][200]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 4
+[2020.11.07-19.58.46:393][200]LogMaterial: Display: Missing cached shader map for material M_Wood_Floor_Walnut_Worn, compiling. 
+[2020.11.07-19.58.46:413][200]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2020.11.07-19.58.46:419][200]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2020.11.07-19.58.46:423][200]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2020.11.07-19.58.46:426][200]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_32, compiling. 
+[2020.11.07-19.58.46:430][200]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_33, compiling. 
+[2020.11.07-19.58.46:433][200]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_34, compiling. 
+[2020.11.07-19.58.46:614][200]LogSlate: Took 0.000311 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.11.07-19.58.47:991][220]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 35
+[2020.11.07-19.58.48:047][221]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 34
+[2020.11.07-19.58.48:351][228]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 33
+[2020.11.07-19.58.48:692][234]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 32
+[2020.11.07-19.58.48:743][235]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 31
+[2020.11.07-19.58.49:068][242]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 30
+[2020.11.07-19.58.49:130][243]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 29
+[2020.11.07-19.58.49:130][243]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 28
+[2020.11.07-19.58.49:878][259]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 27
+[2020.11.07-19.58.50:011][262]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 26
+[2020.11.07-19.58.50:061][263]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 25
+[2020.11.07-19.58.50:140][265]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 24
+[2020.11.07-19.58.50:206][267]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 23
+[2020.11.07-19.58.50:957][283]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 22
+[2020.11.07-19.58.51:124][287]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 21
+[2020.11.07-19.58.51:250][290]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 20
+[2020.11.07-19.58.51:302][291]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 19
+[2020.11.07-19.58.51:302][291]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 18
+[2020.11.07-19.58.51:541][297]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 17
+[2020.11.07-19.58.51:851][304]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 16
+[2020.11.07-19.58.51:994][307]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 15
+[2020.11.07-19.58.52:085][308]MaterialEditorStats: Base pass shader: 141 instructions
+[2020.11.07-19.58.52:085][308]MaterialEditorStats: Base pass shader with Surface Lightmap: 170 instructions
+[2020.11.07-19.58.52:085][308]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 217 instructions
+[2020.11.07-19.58.52:085][308]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2020.11.07-19.58.52:085][308]MaterialEditorStats: Texture samplers: 6/16
+[2020.11.07-19.58.52:085][308]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(6)
+[2020.11.07-19.58.52:085][308]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.11.07-19.58.52:199][311]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 14
+[2020.11.07-19.58.52:249][312]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 13
+[2020.11.07-19.58.52:341][314]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 12
+[2020.11.07-19.58.52:664][321]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 11
+[2020.11.07-19.58.52:715][322]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 10
+[2020.11.07-19.58.52:772][323]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 9
+[2020.11.07-19.58.52:984][327]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 8
+[2020.11.07-19.58.53:334][334]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 7
+[2020.11.07-19.58.53:431][336]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 6
+[2020.11.07-19.58.53:509][338]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 5
+[2020.11.07-19.58.53:653][338]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2020.11.07-19.58.53:653][338]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.07-19.59.07:867][101]LogMaterial: Display: Missing cached shader map for material MA_Bark, compiling. 
+[2020.11.07-19.59.20:349][101]LogTexture: Display: Building textures: pine_II_height (AutoDXT, 4096X4096)
+[2020.11.07-19.59.20:349][101]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 77
+[2020.11.07-19.59.20:349][101]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 67
+[2020.11.07-19.59.20:349][101]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 57
+[2020.11.07-19.59.20:349][101]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 47
+[2020.11.07-19.59.20:349][101]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 37
+[2020.11.07-19.59.20:349][101]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 27
+[2020.11.07-19.59.20:349][101]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 17
+[2020.11.07-19.59.20:349][101]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 7
+[2020.11.07-19.59.20:350][101]LogTexture: Display: Building textures: pine_II_ao (AutoDXT, 4096X4096)
+[2020.11.07-19.59.20:350][101]LogTexture: Display: Building textures: pine_II_normal (BC5, 4096X4096)
+[2020.11.07-19.59.20:350][101]LogTexture: Display: Building textures: pine_II_albedo (AutoDXT, 4096X4096)
+[2020.11.07-19.59.21:814][141]LogSlate: Window 'fence' being destroyed
+[2020.11.07-19.59.51:985][817]LogSlate: Window 'fence' being destroyed
+[2020.11.07-19.59.52:021][817]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2020.11.07-19.59.52:021][817]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.07-20.00.50:193][452]LogD3D11RHI: Display: Temp texture streaming buffer not large enough, needed 16777216 bytes
+[2020.11.07-20.01.24:877][421]LogTexture: Display: Building textures: T_FineWood_Base_roughness (G8, 2048X2048)
+[2020.11.07-20.01.24:877][421]LogTexture: Display: Building textures: T_Door_A_DirtMask (AutoDXT, 1024X1024)
+[2020.11.07-20.01.24:877][421]LogTexture: Display: Building textures: T_FineWood_Base_normal (BC5, 2048X2048)
+[2020.11.07-20.01.24:877][421]LogTexture: Display: Building textures: T_FineWood_Base_basecolor (AutoDXT, 2048X2048)
+[2020.11.07-20.01.24:878][421]LogMaterial: Display: Missing cached shader map for material M_FastTrack_Master, compiling. 
+[2020.11.07-20.01.24:918][421]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 49
+[2020.11.07-20.01.24:918][421]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 42
+[2020.11.07-20.01.24:918][421]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 35
+[2020.11.07-20.01.24:918][421]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 28
+[2020.11.07-20.01.24:918][421]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 21
+[2020.11.07-20.01.24:918][421]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 14
+[2020.11.07-20.01.24:918][421]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 7
+[2020.11.07-20.01.24:918][421]LogMaterial: Display: Missing cached shader map for material M_FastTrack_Master, compiling. 
+[2020.11.07-20.01.24:986][421]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 49
+[2020.11.07-20.01.30:185][626]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 42
+[2020.11.07-20.01.32:210][704]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 36
+[2020.11.07-20.01.32:285][707]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 31
+[2020.11.07-20.01.32:770][727]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 27
+[2020.11.07-20.01.33:725][757]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 23
+[2020.11.07-20.01.33:921][763]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 20
+[2020.11.07-20.01.34:345][779]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 17
+[2020.11.07-20.01.34:758][796]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 14
+[2020.11.07-20.01.35:437][815]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 12
+[2020.11.07-20.01.36:933][859]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 10
+[2020.11.07-20.01.37:341][869]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 8
+[2020.11.07-20.01.37:341][869]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 6
+[2020.11.07-20.01.37:341][869]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 5
+[2020.11.07-20.01.37:674][878]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 4
+[2020.11.07-20.01.38:175][893]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 3
+[2020.11.07-20.01.38:256][896]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 2
+[2020.11.07-20.01.38:285][897]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 1
+[2020.11.07-20.01.43:539][188]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (spruce_full_03)
+[2020.11.07-20.01.44:314][232]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (fence)
+[2020.11.07-20.01.45:318][288]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2020.11.07-20.02.11:412][819]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (fence)
+[2020.11.07-20.02.11:734][836]LogEditorBookmarks: Warning: FBookmarkTypeToolsImpl::JumpToBookmark - Null Bookmark at index 2
+[2020.11.07-20.02.19:549][275]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (fence)
+[2020.11.07-20.02.30:846][948]LogD3D11RHI: Display: Temp texture streaming buffer not large enough, needed 16777216 bytes
+[2020.11.07-20.02.36:612][290]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (spruce_full_03)
+[2020.11.07-20.02.46:459][876]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (fence)
+[2020.11.07-20.02.48:860][  7]LogEditorViewport: Clicking on Actor (LMB): InstancedFoliageActor (InstancedFoliageActor)
+[2020.11.07-20.02.49:609][ 49]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (fence)
+[2020.11.07-20.03.00:121][665]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (spruce_small_10)
+[2020.11.07-20.03.13:026][413]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/outer1" FILE="../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Content/Maps/outer1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.11.07-20.03.13:052][413]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2020.11.07-20.03.13:319][413]LogSavePackage: Moving '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Saved/outer1165CF5604912FEBAC84C5FBE0C870A79.tmp' to '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Content/Maps/outer1.umap'
+[2020.11.07-20.03.13:392][413]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/outer1_BuiltData" FILE="../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Content/Maps/outer1_BuiltData.uasset" SILENT=true
+[2020.11.07-20.03.13:750][413]LogSavePackage: Moving '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Saved/outer1_BuiltData5A31E6E440CFAAACEE080DA0F7786C44.tmp' to '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Content/Maps/outer1_BuiltData.uasset'
+[2020.11.07-20.03.13:763][413]AssetCheck: New page: Asset Save: multiple assets
+[2020.11.07-20.03.13:763][413]LogContentValidation: Display: Validating World /Game/Maps/outer1.outer1
+[2020.11.07-20.03.13:763][413]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/outer1_BuiltData.outer1_BuiltData
