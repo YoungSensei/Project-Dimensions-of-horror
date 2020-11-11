@@ -851,3 +851,108 @@ Make sure 'ThirdPersonCharacter_C' has been compiled for  Set HasFlashLight
 [2020.11.11-15.51.54:515][599]AssetCheck: New page: Asset Save: multiple assets
 [2020.11.11-15.51.54:515][599]LogContentValidation: Display: Validating World /Game/Maps/outer1.outer1
 [2020.11.11-15.51.54:515][599]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/outer1_BuiltData.outer1_BuiltData
+[2020.11.11-16.01.11:870][399]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (pavement4)
+[2020.11.11-17.05.07:219][516]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/outer1.outer1
+[2020.11.11-17.05.07:431][516]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2020.11.11-17.05.12:133][516]LogSlate: Window 'Save Content' being destroyed
+[2020.11.11-17.05.17:776][839]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/outer1" FILE="../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Content/Maps/outer1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.11.11-17.05.17:808][839]LogUObjectHash: Compacting FUObjectHashTables data took   0.34ms
+[2020.11.11-17.05.18:515][839]LogSavePackage: Moving '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Saved/outer1B1BD245A4180AFAE873400B500E9A6D2.tmp' to '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Content/Maps/outer1.umap'
+[2020.11.11-17.05.18:655][839]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/outer1_BuiltData" FILE="../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Content/Maps/outer1_BuiltData.uasset" SILENT=true
+[2020.11.11-17.05.19:118][839]LogSavePackage: Moving '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Saved/outer1_BuiltData57D25177403AE112F7DD929DDE873392.tmp' to '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Content/Maps/outer1_BuiltData.uasset'
+[2020.11.11-17.05.19:144][839]AssetCheck: New page: Asset Save: multiple assets
+[2020.11.11-17.05.19:144][839]LogContentValidation: Display: Validating World /Game/Maps/outer1.outer1
+[2020.11.11-17.05.19:144][839]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/outer1_BuiltData.outer1_BuiltData
+[2020.11.11-17.05.20:651][926]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/outer1.outer1
+[2020.11.11-17.05.20:662][926]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2020.11.11-17.05.22:575][926]LogSlate: Window 'Save Content' being destroyed
+[2020.11.11-17.05.22:659][926]LogSavePackage: Moving '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Saved/pavementC3516F34479AD401B513A5B09BD775F6.tmp' to '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Content/ImportedModels/outer_props/pavement.uasset'
+[2020.11.11-17.05.22:664][926]Cmd: MAP LOAD FILE="../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Content/Maps/outer1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.11.11-17.05.22:664][926]LightingResults: New page: Lighting Build
+[2020.11.11-17.05.22:674][926]LoadErrors: New page: Loading map: outer1.umap
+[2020.11.11-17.05.22:951][926]LogWorld: UWorld::CleanupWorld for outer1, bSessionEnded=true, bCleanupResources=true
+[2020.11.11-17.05.22:999][926]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.11-17.05.23:067][926]MapCheck: New page: Map Check
+[2020.11.11-17.05.23:068][926]LightingResults: New page: Lighting Build
+[2020.11.11-17.05.23:401][926]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000017D92E3BB00), frame # 229926
+[2020.11.11-17.05.23:401][926]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000017D1C0F6E00), frame # 229926
+[2020.11.11-17.05.23:470][926]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2020.11.11-17.05.24:432][926]LogAIModule: Creating AISystem for world outer1
+[2020.11.11-17.05.24:461][926]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000017D1C0F6E00), frame # 229926
+[2020.11.11-17.05.24:461][926]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000017D1F7225C0), frame # 229926
+[2020.11.11-17.05.24:989][926]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.11.11-17.05.25:069][926]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2020.11.11-17.05.25:118][926]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.11.11-17.05.25:119][926]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.913ms to complete.
+[2020.11.11-17.05.25:119][926]LogFileHelpers: Loading map 'outer1' took 2.455
+[2020.11.11-17.05.25:216][926]AssetCheck: New page: Asset Save: pavement
+[2020.11.11-17.05.25:216][926]LogContentValidation: Display: Validating StaticMesh /Game/ImportedModels/outer_props/pavement.pavement
+[2020.11.11-17.05.34:112][432]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (pavement3)
+[2020.11.11-17.05.51:370][443]Cmd: DELETE
+[2020.11.11-17.05.51:370][443]Cmd: ACTOR DELETE
+[2020.11.11-17.05.51:549][443]LogEditorActor: Deleted Actor: Brush
+[2020.11.11-17.05.51:591][443]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2020.11.11-17.05.51:662][443]LogEditorActor: Deleted 1 Actors (0.211 secs)
+[2020.11.11-17.05.55:038][645]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (pavement12)
+[2020.11.11-17.05.57:129][765]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/outer1" FILE="../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Content/Maps/outer1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.11.11-17.05.57:144][765]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2020.11.11-17.05.57:338][765]LogSavePackage: Moving '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Saved/outer1D1CEF156412E24195A98A0AAFE575C02.tmp' to '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Content/Maps/outer1.umap'
+[2020.11.11-17.05.57:390][765]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/outer1_BuiltData" FILE="../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Content/Maps/outer1_BuiltData.uasset" SILENT=true
+[2020.11.11-17.05.57:693][765]LogSavePackage: Moving '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Saved/outer1_BuiltData8332204F4228124A29641C97E09C3B56.tmp' to '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Content/Maps/outer1_BuiltData.uasset'
+[2020.11.11-17.05.57:706][765]AssetCheck: New page: Asset Save: multiple assets
+[2020.11.11-17.05.57:706][765]LogContentValidation: Display: Validating World /Game/Maps/outer1.outer1
+[2020.11.11-17.05.57:706][765]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/outer1_BuiltData.outer1_BuiltData
+[2020.11.11-17.06.01:050][965]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (pavement13)
+[2020.11.11-17.06.02:428][ 45]Cmd: DELETE
+[2020.11.11-17.06.02:428][ 45]Cmd: ACTOR DELETE
+[2020.11.11-17.06.02:437][ 45]LogEditorActor: Deleted Actor: Brush
+[2020.11.11-17.06.02:448][ 45]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2020.11.11-17.06.02:481][ 45]LogEditorActor: Deleted 1 Actors (0.052 secs)
+[2020.11.11-17.06.03:858][127]Cmd: TRANSACTION UNDO
+[2020.11.11-17.06.03:858][127]LogEditorTransaction: Undo Delete Actors
+[2020.11.11-17.06.08:276][373]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2020.11.11-17.06.15:904][826]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/outer1.outer1
+[2020.11.11-17.06.15:917][826]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2020.11.11-17.06.15:921][826]Cmd: MAP LOAD FILE="../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Content/Maps/outer1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.11.11-17.06.15:921][826]LightingResults: New page: Lighting Build
+[2020.11.11-17.06.15:921][826]LoadErrors: New page: Loading map: outer1.umap
+[2020.11.11-17.06.15:960][826]LogWorld: UWorld::CleanupWorld for outer1, bSessionEnded=true, bCleanupResources=true
+[2020.11.11-17.06.15:961][826]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.11-17.06.15:961][826]MapCheck: New page: Map Check
+[2020.11.11-17.06.15:961][826]LightingResults: New page: Lighting Build
+[2020.11.11-17.06.15:976][826]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000017D1F7225C0), frame # 232826
+[2020.11.11-17.06.15:976][826]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000017D1C0F6E00), frame # 232826
+[2020.11.11-17.06.15:978][826]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2020.11.11-17.06.16:070][826]LogAIModule: Creating AISystem for world outer1
+[2020.11.11-17.06.16:070][826]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000017D1C214600), frame # 232826
+[2020.11.11-17.06.16:070][826]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000017D1A282700), frame # 232826
+[2020.11.11-17.06.16:119][826]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.11.11-17.06.16:138][826]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2020.11.11-17.06.16:181][826]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.11.11-17.06.16:181][826]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.091ms to complete.
+[2020.11.11-17.06.16:181][826]LogFileHelpers: Loading map 'outer1' took 0.260
+[2020.11.11-17.06.20:688][ 90]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (pavement13)
+[2020.11.11-17.06.29:646][620]LogD3D11RHI: Display: Temp texture streaming buffer not large enough, needed 16777216 bytes
+[2020.11.11-17.06.32:171][771]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (pavement4)
+[2020.11.11-17.06.39:087][164]Cmd: TRANSACTION UNDO
+[2020.11.11-17.06.39:087][164]LogEditorTransaction: Undo Move Actors
+[2020.11.11-17.06.48:740][717]Cmd: TRANSACTION UNDO
+[2020.11.11-17.06.48:740][717]LogEditorTransaction: Undo Move Actors
+[2020.11.11-17.06.50:390][794]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (pavement8)
+[2020.11.11-17.07.07:483][808]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2020.11.11-17.07.11:058][  8]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/outer1" FILE="../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Content/Maps/outer1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.11.11-17.07.11:075][  8]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2020.11.11-17.07.11:243][  8]LogSavePackage: Moving '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Saved/outer1B98FD5394BCCB72C88CD1BAB598472AF.tmp' to '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Content/Maps/outer1.umap'
+[2020.11.11-17.07.11:296][  8]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/outer1_BuiltData" FILE="../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Content/Maps/outer1_BuiltData.uasset" SILENT=true
+[2020.11.11-17.07.11:598][  8]LogSavePackage: Moving '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Saved/outer1_BuiltData80FF4E604162649E6670DF9DD4B8BD79.tmp' to '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Content/Maps/outer1_BuiltData.uasset'
+[2020.11.11-17.07.11:612][  8]AssetCheck: New page: Asset Save: multiple assets
+[2020.11.11-17.07.11:612][  8]LogContentValidation: Display: Validating World /Game/Maps/outer1.outer1
+[2020.11.11-17.07.11:612][  8]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/outer1_BuiltData.outer1_BuiltData
+[2020.11.11-17.08.13:841][442]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/outer1" FILE="../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Content/Maps/outer1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.11.11-17.08.13:860][442]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2020.11.11-17.08.14:039][442]LogSavePackage: Moving '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Saved/outer1BA79F7884823ED85A7D42FBED076D0AF.tmp' to '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Content/Maps/outer1.umap'
+[2020.11.11-17.08.14:087][442]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/outer1_BuiltData" FILE="../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Content/Maps/outer1_BuiltData.uasset" SILENT=true
+[2020.11.11-17.08.14:313][442]LogSavePackage: Moving '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Saved/outer1_BuiltData72C2146B4FCA4F59F7E57A9E51854772.tmp' to '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Content/Maps/outer1_BuiltData.uasset'
+[2020.11.11-17.08.14:326][442]AssetCheck: New page: Asset Save: multiple assets
+[2020.11.11-17.08.14:326][442]LogContentValidation: Display: Validating World /Game/Maps/outer1.outer1
+[2020.11.11-17.08.14:326][442]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/outer1_BuiltData.outer1_BuiltData
