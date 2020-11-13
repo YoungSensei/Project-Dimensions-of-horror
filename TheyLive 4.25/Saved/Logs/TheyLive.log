@@ -908,3 +908,11 @@ Make sure 'ThirdPersonCharacter_C' has been compiled for  Set HasFlashLight
 [2020.11.13-16.56.44:701][406]AssetCheck: New page: Asset Save: multiple assets
 [2020.11.13-16.56.44:702][406]LogContentValidation: Display: Validating World /Game/Maps/outer1.outer1
 [2020.11.13-16.56.44:702][406]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/outer1_BuiltData.outer1_BuiltData
+[2020.11.13-17.02.43:195][778]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/outer1" FILE="../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Content/Maps/outer1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.11.13-17.02.43:210][778]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2020.11.13-17.02.43:477][778]LogSavePackage: Moving '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Saved/outer1C00BF96E47FF3AF416D08BBDEE84E91B.tmp' to '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Content/Maps/outer1.umap'
+[2020.11.13-17.02.43:522][778]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/outer1_BuiltData" FILE="../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Content/Maps/outer1_BuiltData.uasset" SILENT=true
+[2020.11.13-17.02.43:823][778]LogSavePackage: Moving '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Saved/outer1_BuiltData220AC72A43ECC3D69BDEF4AF319E569B.tmp' to '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Content/Maps/outer1_BuiltData.uasset'
+[2020.11.13-17.02.43:837][778]AssetCheck: New page: Asset Save: multiple assets
+[2020.11.13-17.02.43:837][778]LogContentValidation: Display: Validating World /Game/Maps/outer1.outer1
+[2020.11.13-17.02.43:837][778]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/outer1_BuiltData.outer1_BuiltData
