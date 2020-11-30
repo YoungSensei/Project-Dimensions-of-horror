@@ -89,3 +89,5 @@ TheyLive 4.25/Saved/Logs/TheyLive.log
 *.json
 *.json
 *.ini
+*.pak
+*.tmp
