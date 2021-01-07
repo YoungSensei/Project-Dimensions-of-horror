@@ -771,3 +771,198 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.01.07-16.51.23:093][846]AssetCheck: New page: Asset Save: multiple assets
 [2021.01.07-16.51.23:093][846]LogContentValidation: Display: Validating World /Game/Maps/Parkour.Parkour
 [2021.01.07-16.51.23:093][846]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Parkour_BuiltData.Parkour_BuiltData
+[2021.01.07-17.52.25:396][854]LogJson: Error: Json Value of type 'Object' used as a 'String'.
+[2021.01.07-17.52.25:480][854]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\Megascan Quixel\Downloaded\3d\3d_misc_ucmndaefa\ucmndaefa_4K_Albedo.jpg)
+[2021.01.07-17.52.25:987][854]LogTexture: Display: Building textures: Albedo_4K_ucmndaefa (AutoDXT, 4096X4096)
+[2021.01.07-17.52.29:517][854]LogTexture: Display: Building textures: Albedo_4K_ucmndaefa (BC7, 4096X4096)
+[2021.01.07-17.52.34:690][854]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\Megascan Quixel\Downloaded\3d\3d_misc_ucmndaefa\ucmndaefa_4K_Normal_LOD0.jpg)
+[2021.01.07-17.52.35:430][854]LogTexture: Display: Building textures: Normal_4K_LOD0_ucmndaefa (BC5, 4096X4096)
+[2021.01.07-17.52.36:284][854]LogTexture: Display: Building textures: Normal_4K_LOD0_ucmndaefa (BC5, 4096X4096)
+[2021.01.07-17.52.37:108][854]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\Megascan Quixel\Downloaded\3d\3d_misc_ucmndaefa\ucmndaefa_4K_Roughness.jpg)
+[2021.01.07-17.52.37:363][854]LogTexture: Display: Building textures: Roughness_4K_ucmndaefa (AutoDXT, 4096X4096)
+[2021.01.07-17.52.38:390][854]LogTexture: Display: Building textures: Roughness_4K_ucmndaefa (BC7, 4096X4096)
+[2021.01.07-17.52.43:240][854]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:\Megascan Quixel\Downloaded\3d\3d_misc_ucmndaefa\ucmndaefa_LOD0.fbx)
+[2021.01.07-17.52.43:253][854]LogFbx: Loading FBX Scene from D:\Megascan Quixel\Downloaded\3d\3d_misc_ucmndaefa\ucmndaefa_LOD0.fbx
+[2021.01.07-17.52.43:262][854]LogFbx: FBX Scene Loaded Succesfully
+[2021.01.07-17.52.43:296][854]LogStaticMesh: Building static mesh Trash_Can_LOD0_ucmndaefa...
+[2021.01.07-17.52.43:384][854]LogStaticMesh: Built static mesh [0.09s] /Game/Megascans/3D_Assets/Trash_Can_ucmndaefa_3d/Trash_Can_LOD0_ucmndaefa.Trash_Can_LOD0_ucmndaefa
+[2021.01.07-17.52.43:409][854]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2021.01.07-17.52.43:589][854]LogExportMeshUtils: Fbx LOD loading
+[2021.01.07-17.52.43:639][854]LogFbx: Loading FBX Scene from D:\Megascan Quixel\Downloaded\3d\3d_misc_ucmndaefa\ucmndaefa_LOD2.fbx
+[2021.01.07-17.52.43:646][854]LogFbx: FBX Scene Loaded Succesfully
+[2021.01.07-17.52.43:680][854]LogStaticMesh: Building static mesh Trash_Can_LOD0_ucmndaefa...
+[2021.01.07-17.52.43:811][854]LogStaticMesh: Built static mesh [0.13s] /Game/Megascans/3D_Assets/Trash_Can_ucmndaefa_3d/Trash_Can_LOD0_ucmndaefa.Trash_Can_LOD0_ucmndaefa
+[2021.01.07-17.52.43:889][854]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2021.01.07-17.52.43:892][854]LogExportMeshUtils: Fbx LOD loading
+[2021.01.07-17.52.44:083][854]LogFbx: Loading FBX Scene from D:\Megascan Quixel\Downloaded\3d\3d_misc_ucmndaefa\ucmndaefa_LOD4.fbx
+[2021.01.07-17.52.44:089][854]LogFbx: FBX Scene Loaded Succesfully
+[2021.01.07-17.52.44:167][854]LogStaticMesh: Building static mesh Trash_Can_LOD0_ucmndaefa...
+[2021.01.07-17.52.44:317][854]LogStaticMesh: Built static mesh [0.15s] /Game/Megascans/3D_Assets/Trash_Can_ucmndaefa_3d/Trash_Can_LOD0_ucmndaefa.Trash_Can_LOD0_ucmndaefa
+[2021.01.07-17.52.44:420][854]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2021.01.07-17.52.44:889][855]LogUObjectHash: Compacting FUObjectHashTables data took   3.92ms
+[2021.01.07-17.52.44:921][855]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Parkour' took 0.051
+[2021.01.07-17.52.44:922][855]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Megascans/3D_Assets/Trash_Can_ucmndaefa_3d/Trash_Can_ucmndaefa_3d_inst] ([1] browsable assets)...
+[2021.01.07-17.52.44:951][855]OBJ SavePackage:     Rendered thumbnail for [MaterialInstanceConstant /Game/Megascans/3D_Assets/Trash_Can_ucmndaefa_3d/Trash_Can_ucmndaefa_3d_inst.Trash_Can_ucmndaefa_3d_inst]
+[2021.01.07-17.52.44:951][855]OBJ SavePackage: Finished generating thumbnails for package [/Game/Megascans/3D_Assets/Trash_Can_ucmndaefa_3d/Trash_Can_ucmndaefa_3d_inst]
+[2021.01.07-17.52.44:965][855]LogSavePackage: Moving '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Trash_Can_ucmndaefa_3d_inst_AutoA15263E5474BE8FEECE2EAA68783FF9B.tmp' to '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Autosaves/Game/Megascans/3D_Assets/Trash_Can_ucmndaefa_3d/Trash_Can_ucmndaefa_3d_inst_Auto1.uasset'
+[2021.01.07-17.52.44:966][855]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Megascans/3D_Assets/Trash_Can_ucmndaefa_3d/Albedo_4K_ucmndaefa] ([1] browsable assets)...
+[2021.01.07-17.52.44:972][855]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Megascans/3D_Assets/Trash_Can_ucmndaefa_3d/Albedo_4K_ucmndaefa.Albedo_4K_ucmndaefa]
+[2021.01.07-17.52.44:972][855]OBJ SavePackage: Finished generating thumbnails for package [/Game/Megascans/3D_Assets/Trash_Can_ucmndaefa_3d/Albedo_4K_ucmndaefa]
+[2021.01.07-17.52.45:482][855]LogSavePackage: Moving '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Albedo_4K_ucmndaefa_Auto1C900F2754D7230625B605AAD0BED69F7.tmp' to '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Autosaves/Game/Megascans/3D_Assets/Trash_Can_ucmndaefa_3d/Albedo_4K_ucmndaefa_Auto1.uasset'
+[2021.01.07-17.52.45:482][855]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Megascans/3D_Assets/Trash_Can_ucmndaefa_3d/Normal_4K_LOD0_ucmndaefa] ([1] browsable assets)...
+[2021.01.07-17.52.45:488][855]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Megascans/3D_Assets/Trash_Can_ucmndaefa_3d/Normal_4K_LOD0_ucmndaefa.Normal_4K_LOD0_ucmndaefa]
+[2021.01.07-17.52.45:488][855]OBJ SavePackage: Finished generating thumbnails for package [/Game/Megascans/3D_Assets/Trash_Can_ucmndaefa_3d/Normal_4K_LOD0_ucmndaefa]
+[2021.01.07-17.52.45:968][855]LogSavePackage: Moving '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Normal_4K_LOD0_ucmndaefa_Auto171717CF54E08945A213E1591B08E9B29.tmp' to '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Autosaves/Game/Megascans/3D_Assets/Trash_Can_ucmndaefa_3d/Normal_4K_LOD0_ucmndaefa_Auto1.uasset'
+[2021.01.07-17.52.45:969][855]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Megascans/3D_Assets/Trash_Can_ucmndaefa_3d/Roughness_4K_ucmndaefa] ([1] browsable assets)...
+[2021.01.07-17.52.45:975][855]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Megascans/3D_Assets/Trash_Can_ucmndaefa_3d/Roughness_4K_ucmndaefa.Roughness_4K_ucmndaefa]
+[2021.01.07-17.52.45:975][855]OBJ SavePackage: Finished generating thumbnails for package [/Game/Megascans/3D_Assets/Trash_Can_ucmndaefa_3d/Roughness_4K_ucmndaefa]
+[2021.01.07-17.52.46:481][855]LogSavePackage: Moving '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Roughness_4K_ucmndaefa_Auto1445B4E814985A69D9094C5AA49F3708F.tmp' to '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Autosaves/Game/Megascans/3D_Assets/Trash_Can_ucmndaefa_3d/Roughness_4K_ucmndaefa_Auto1.uasset'
+[2021.01.07-17.52.46:481][855]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Megascans/3D_Assets/Trash_Can_ucmndaefa_3d/Trash_Can_LOD0_ucmndaefa] ([1] browsable assets)...
+[2021.01.07-17.52.46:509][855]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Megascans/3D_Assets/Trash_Can_ucmndaefa_3d/Trash_Can_LOD0_ucmndaefa.Trash_Can_LOD0_ucmndaefa]
+[2021.01.07-17.52.46:509][855]OBJ SavePackage: Finished generating thumbnails for package [/Game/Megascans/3D_Assets/Trash_Can_ucmndaefa_3d/Trash_Can_LOD0_ucmndaefa]
+[2021.01.07-17.52.46:575][855]LogSavePackage: Moving '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Trash_Can_LOD0_ucmndaefa_Auto1374AD90046FEA6B4AA2DFDBB3CC6875B.tmp' to '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Autosaves/Game/Megascans/3D_Assets/Trash_Can_ucmndaefa_3d/Trash_Can_LOD0_ucmndaefa_Auto1.uasset'
+[2021.01.07-17.52.46:576][855]LogFileHelpers: Auto-saving content packages took 1.655
+[2021.01.07-17.52.48:346][957]LogSlate: Window 'Message Log' being destroyed
+[2021.01.07-17.52.48:352][957]LogSlate: Window 'Message Log' being destroyed
+[2021.01.07-17.52.58:202][535]LogActorFactory: Actor Factory created Trash_Can_LOD0_ucmndaefa
+[2021.01.07-17.52.58:727][564]LogActorFactory: Actor Factory created Trash_Can_LOD0_ucmndaefa
+[2021.01.07-17.53.10:955][227]Cmd: EDIT COPY
+[2021.01.07-17.53.11:138][238]Cmd: EDIT PASTE
+[2021.01.07-17.54.10:378][551]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Trash_Can_LOD0_ucmndaefa)
+[2021.01.07-17.54.11:369][600]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Trash_Can_LOD0_ucmndaefa2)
+[2021.01.07-17.54.12:586][669]Cmd: EDIT COPY
+[2021.01.07-17.54.12:854][685]Cmd: EDIT PASTE
+[2021.01.07-17.54.22:591][239]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2021.01.07-17.54.41:401][342]Cmd: TRANSACTION UNDO
+[2021.01.07-17.54.41:401][342]LogEditorTransaction: Undo Move Actors
+[2021.01.07-17.54.48:831][696]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Trash_Can_LOD0_ucmndaefa3)
+[2021.01.07-17.54.52:417][879]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Trash_Can_LOD0_ucmndaefa4)
+[2021.01.07-17.54.59:762][311]Cmd: EDIT COPY
+[2021.01.07-17.54.59:913][320]Cmd: EDIT PASTE
+[2021.01.07-17.55.03:616][531]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Parkour" FILE="../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Content/Maps/Parkour.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.01.07-17.55.03:633][531]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2021.01.07-17.55.04:466][531]LogSavePackage: Moving '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Saved/ParkourA1C43C0F4A3D6289ABCDBE993E86A9BC.tmp' to '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Content/Maps/Parkour.umap'
+[2021.01.07-17.55.04:517][531]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Parkour_BuiltData" FILE="../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Content/Maps/Parkour_BuiltData.uasset" SILENT=true
+[2021.01.07-17.55.04:579][531]LogSavePackage: Moving '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Parkour_BuiltDataA3579CC945B06BDFF8846AA5B9D716AE.tmp' to '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Content/Maps/Parkour_BuiltData.uasset'
+[2021.01.07-17.55.04:600][531]AssetCheck: New page: Asset Save: multiple assets
+[2021.01.07-17.55.04:601][531]LogContentValidation: Display: Validating World /Game/Maps/Parkour.Parkour
+[2021.01.07-17.55.04:601][531]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Parkour_BuiltData.Parkour_BuiltData
+[2021.01.07-17.55.05:327][568]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Trash_Can_LOD0_ucmndaefa5)
+[2021.01.07-17.55.05:844][598]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2021.01.07-17.55.11:883][937]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Trash_Can_LOD0_ucmndaefa3)
+[2021.01.07-17.55.12:804][981]Cmd: DELETE
+[2021.01.07-17.55.12:804][981]Cmd: ACTOR DELETE
+[2021.01.07-17.55.12:931][981]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.01.07-17.55.12:943][981]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2021.01.07-17.55.12:948][981]LogEditorActor: Deleted 1 Actors (0.136 secs)
+[2021.01.07-17.55.14:177][ 45]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Trash_Can_LOD0_ucmndaefa4)
+[2021.01.07-17.55.20:402][400]Cmd: EDIT COPY
+[2021.01.07-17.55.20:562][406]Cmd: EDIT PASTE
+[2021.01.07-17.55.39:960][538]Cmd: TRANSACTION UNDO
+[2021.01.07-17.55.39:960][538]LogEditorTransaction: Undo Select Brush Surface
+[2021.01.07-17.55.42:372][649]Cmd: TRANSACTION UNDO
+[2021.01.07-17.55.42:372][649]LogEditorTransaction: Undo Move Actors
+[2021.01.07-17.55.42:493][654]Cmd: TRANSACTION UNDO
+[2021.01.07-17.55.42:493][654]LogEditorTransaction: Undo Move Actors
+[2021.01.07-17.55.42:827][674]Cmd: TRANSACTION UNDO
+[2021.01.07-17.55.42:827][674]LogEditorTransaction: Undo Move Actors
+[2021.01.07-17.55.43:085][687]Cmd: TRANSACTION UNDO
+[2021.01.07-17.55.43:085][687]LogEditorTransaction: Undo Rotate Actors
+[2021.01.07-17.55.43:371][703]Cmd: TRANSACTION UNDO
+[2021.01.07-17.55.43:371][703]LogEditorTransaction: Undo Rotate Actors
+[2021.01.07-17.55.43:714][721]Cmd: TRANSACTION UNDO
+[2021.01.07-17.55.43:714][721]LogEditorTransaction: Undo Move Actors
+[2021.01.07-17.55.44:049][740]Cmd: TRANSACTION UNDO
+[2021.01.07-17.55.44:049][740]LogEditorTransaction: Undo Move Actors
+[2021.01.07-17.55.44:453][764]Cmd: TRANSACTION UNDO
+[2021.01.07-17.55.44:453][764]LogEditorTransaction: Undo Paste
+[2021.01.07-17.55.46:256][843]Cmd: TRANSACTION UNDO
+[2021.01.07-17.55.46:256][843]LogEditorTransaction: Undo Move Actors
+[2021.01.07-17.55.48:853][994]Cmd: TRANSACTION UNDO
+[2021.01.07-17.55.48:853][994]LogEditorTransaction: Undo Rotate Actors
+[2021.01.07-17.55.49:281][ 19]Cmd: TRANSACTION UNDO
+[2021.01.07-17.55.49:281][ 19]LogEditorTransaction: Undo Move Actors
+[2021.01.07-17.55.49:595][ 36]Cmd: TRANSACTION UNDO
+[2021.01.07-17.55.49:596][ 36]LogEditorTransaction: Undo Clicking on Actors
+[2021.01.07-17.55.49:984][ 58]Cmd: TRANSACTION UNDO
+[2021.01.07-17.55.49:984][ 58]LogEditorTransaction: Undo Delete Actors
+[2021.01.07-17.55.50:277][ 69]Cmd: TRANSACTION UNDO
+[2021.01.07-17.55.50:277][ 69]LogEditorTransaction: Undo Clicking on Actors
+[2021.01.07-17.56.54:960][876]LogJson: Error: Json Value of type 'Object' used as a 'String'.
+[2021.01.07-17.56.55:035][876]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\Megascan Quixel\Downloaded\3d\3d_modular_ujwrfexdw\ujwrfexdw_4K_Albedo.jpg)
+[2021.01.07-17.56.55:678][876]LogTexture: Display: Building textures: Albedo_4K_ujwrfexdw (AutoDXT, 4096X4096)
+[2021.01.07-17.57.00:180][876]LogTexture: Display: Building textures: Albedo_4K_ujwrfexdw (BC7, 4096X4096)
+[2021.01.07-17.57.05:665][876]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\Megascan Quixel\Downloaded\3d\3d_modular_ujwrfexdw\ujwrfexdw_4K_Normal_LOD0.jpg)
+[2021.01.07-17.57.06:573][876]LogTexture: Display: Building textures: Normal_4K_LOD0_ujwrfexdw (BC5, 4096X4096)
+[2021.01.07-17.57.07:537][876]LogTexture: Display: Building textures: Normal_4K_LOD0_ujwrfexdw (BC5, 4096X4096)
+[2021.01.07-17.57.08:483][876]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\Megascan Quixel\Downloaded\3d\3d_modular_ujwrfexdw\ujwrfexdw_4K_Roughness.jpg)
+[2021.01.07-17.57.08:798][876]LogTexture: Display: Building textures: Roughness_4K_ujwrfexdw (AutoDXT, 4096X4096)
+[2021.01.07-17.57.10:566][876]LogTexture: Display: Building textures: Roughness_4K_ujwrfexdw (BC7, 4096X4096)
+[2021.01.07-17.57.15:749][876]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:\Megascan Quixel\Downloaded\3d\3d_modular_ujwrfexdw\ujwrfexdw_LOD0.fbx)
+[2021.01.07-17.57.15:762][876]LogFbx: Loading FBX Scene from D:\Megascan Quixel\Downloaded\3d\3d_modular_ujwrfexdw\ujwrfexdw_LOD0.fbx
+[2021.01.07-17.57.15:792][876]LogFbx: FBX Scene Loaded Succesfully
+[2021.01.07-17.57.15:963][876]LogStaticMesh: Building static mesh Chained_Bollard_4m_LOD0_ujwrfexdw...
+[2021.01.07-17.57.16:504][876]LogStaticMesh: Built static mesh [0.54s] /Game/Megascans/3D_Assets/Chained_Bollard_4M_ujwrfexdw_3d/Chained_Bollard_4m_LOD0_ujwrfexdw.Chained_Bollard_4m_LOD0_ujwrfexdw
+[2021.01.07-17.57.16:669][876]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2021.01.07-17.57.17:311][876]LogExportMeshUtils: Fbx LOD loading
+[2021.01.07-17.57.17:409][876]LogFbx: Loading FBX Scene from D:\Megascan Quixel\Downloaded\3d\3d_modular_ujwrfexdw\ujwrfexdw_LOD2.fbx
+[2021.01.07-17.57.17:420][876]LogFbx: FBX Scene Loaded Succesfully
+[2021.01.07-17.57.17:480][876]LogStaticMesh: Building static mesh Chained_Bollard_4m_LOD0_ujwrfexdw...
+[2021.01.07-17.57.18:150][876]LogStaticMesh: Built static mesh [0.67s] /Game/Megascans/3D_Assets/Chained_Bollard_4M_ujwrfexdw_3d/Chained_Bollard_4m_LOD0_ujwrfexdw.Chained_Bollard_4m_LOD0_ujwrfexdw
+[2021.01.07-17.57.18:496][876]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2021.01.07-17.57.18:496][876]LogExportMeshUtils: Fbx LOD loading
+[2021.01.07-17.57.18:716][876]LogFbx: Loading FBX Scene from D:\Megascan Quixel\Downloaded\3d\3d_modular_ujwrfexdw\ujwrfexdw_LOD4.fbx
+[2021.01.07-17.57.18:723][876]LogFbx: FBX Scene Loaded Succesfully
+[2021.01.07-17.57.18:795][876]LogStaticMesh: Building static mesh Chained_Bollard_4m_LOD0_ujwrfexdw...
+[2021.01.07-17.57.19:495][876]LogStaticMesh: Built static mesh [0.70s] /Game/Megascans/3D_Assets/Chained_Bollard_4M_ujwrfexdw_3d/Chained_Bollard_4m_LOD0_ujwrfexdw.Chained_Bollard_4m_LOD0_ujwrfexdw
+[2021.01.07-17.57.19:886][876]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2021.01.07-17.57.58:352][ 82]LogSlate: Window 'Message Log' being destroyed
+[2021.01.07-17.57.58:357][ 82]LogSlate: Window 'Message Log' being destroyed
+[2021.01.07-17.58.05:464][500]LogActorFactory: Actor Factory created Chained_Bollard_4m_LOD0_ujwrfexdw
+[2021.01.07-17.58.06:453][557]LogActorFactory: Actor Factory created Chained_Bollard_4m_LOD0_ujwrfexdw
+[2021.01.07-17.58.17:039][181]Cmd: EDIT COPY
+[2021.01.07-17.58.17:173][189]Cmd: EDIT PASTE
+[2021.01.07-17.58.21:339][434]Cmd: EDIT COPY
+[2021.01.07-17.58.21:496][443]Cmd: EDIT PASTE
+[2021.01.07-17.58.33:662][140]Cmd: EDIT COPY
+[2021.01.07-17.58.33:789][145]Cmd: EDIT PASTE
+[2021.01.07-17.58.57:081][410]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Trash_Bag_LOD0_vbelddldw)
+[2021.01.07-17.58.57:813][443]Cmd: EDIT COPY
+[2021.01.07-17.58.57:887][447]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Trash_Bag_LOD0_vbelddldw2)
+[2021.01.07-17.59.00:661][607]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Trash_Bag_LOD0_vbelddldw)
+[2021.01.07-17.59.02:241][697]Cmd: TRANSACTION UNDO
+[2021.01.07-17.59.02:241][697]LogEditorTransaction: Undo Move Actors
+[2021.01.07-17.59.03:182][736]Cmd: EDIT COPY
+[2021.01.07-17.59.05:328][863]Cmd: TRANSACTION UNDO
+[2021.01.07-17.59.05:329][863]LogEditorTransaction: Undo Move Actors
+[2021.01.07-17.59.05:938][884]Cmd: EDIT PASTE
+[2021.01.07-17.59.43:014][ 29]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (trashcan)
+[2021.01.07-17.59.44:115][ 89]Cmd: EDIT COPY
+[2021.01.07-17.59.44:282][ 99]Cmd: EDIT PASTE
+[2021.01.07-17.59.55:403][669]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2021.01.07-18.00.07:610][347]Cmd: EDIT COPY
+[2021.01.07-18.00.07:795][358]Cmd: EDIT PASTE
+[2021.01.07-18.00.10:262][487]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Trash_Bag_LOD0_vbelddldw3)
+[2021.01.07-18.00.20:172][ 67]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (trashcan6)
+[2021.01.07-18.00.29:491][598]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (trashcan5)
+[2021.01.07-18.00.35:050][921]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Trash_Bag_LOD0_vbelddldw3)
+[2021.01.07-18.00.43:161][399]Cmd: EDIT COPY
+[2021.01.07-18.00.43:328][409]Cmd: EDIT PASTE
+[2021.01.07-18.00.52:203][936]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2021.01.07-18.00.57:672][255]Cmd: EDIT COPY
+[2021.01.07-18.00.57:822][264]Cmd: EDIT PASTE
+[2021.01.07-18.01.01:483][480]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2021.01.07-18.01.03:457][590]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2021.01.07-18.01.15:139][270]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Trash_Bag_LOD0_vbelddldw4)
+[2021.01.07-18.01.23:012][721]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Trash_Bag_LOD0_vbelddldw4)
+[2021.01.07-18.01.23:641][753]Cmd: EDIT COPY
+[2021.01.07-18.01.23:791][762]Cmd: EDIT PASTE
+[2021.01.07-18.01.30:974][162]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2021.01.07-18.01.44:268][452]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Parkour" FILE="../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Content/Maps/Parkour.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.01.07-18.01.44:283][452]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2021.01.07-18.01.45:109][452]LogSavePackage: Moving '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Saved/ParkourDF81543D42B7EB98E823ABA9CC2EE46D.tmp' to '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Content/Maps/Parkour.umap'
+[2021.01.07-18.01.45:171][452]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Parkour_BuiltData" FILE="../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Content/Maps/Parkour_BuiltData.uasset" SILENT=true
+[2021.01.07-18.01.45:188][452]LogSavePackage: Moving '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Parkour_BuiltDataF443FA2B40DA6D88463D78B1448DDC7E.tmp' to '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Content/Maps/Parkour_BuiltData.uasset'
+[2021.01.07-18.01.45:220][452]AssetCheck: New page: Asset Save: multiple assets
+[2021.01.07-18.01.45:220][452]LogContentValidation: Display: Validating World /Game/Maps/Parkour.Parkour
+[2021.01.07-18.01.45:220][452]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Parkour_BuiltData.Parkour_BuiltData
