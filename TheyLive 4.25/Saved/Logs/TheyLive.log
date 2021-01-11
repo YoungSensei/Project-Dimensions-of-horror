@@ -823,3 +823,997 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.01.11-15.32.27:561][160]LogContentValidation: Display: Validating World /Game/Maps/outer1.outer1
 [2021.01.11-15.32.27:561][160]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/outer1_BuiltData.outer1_BuiltData
 [2021.01.11-15.32.32:331][433]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2021.01.11-15.33.30:846][295]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (spruce_full_7)
+[2021.01.11-15.34.04:411][339]LogMaterial: Display: Missing cached shader map for material MA_Summer, compiling. 
+[2021.01.11-15.34.04:428][339]LogMaterial: Warning: D:\kyle game\Project-Dimensions-of-horror\TheyLive 4.25\Content\PN_interactiveSpruceForest\Materials\MaterialInstances\full\low\spruce_full_03_low_trunk.uasset: Failed to compile Material Instance with Base MA_Summer for platform PCD3D_SM5, Default Material will be used in game.
+[2021.01.11-15.34.04:428][339]LogMaterial: Display: 	(Node TextureSample) Texture Sample> Missing input texture
+[2021.01.11-15.34.04:428][339]LogMaterial: Display: 	(Node MakeMaterialAttributes) Error on property Normal
+[2021.01.11-15.34.05:179][339]LogMaterial: Display: Missing cached shader map for material MA_Summer, compiling. 
+[2021.01.11-15.34.05:195][339]LogMaterial: Warning: D:\kyle game\Project-Dimensions-of-horror\TheyLive 4.25\Content\PN_interactiveSpruceForest\Materials\MaterialInstances\full\low\spruce_full_02_low_trunk.uasset: Failed to compile Material Instance with Base MA_Summer for platform PCD3D_SM5, Default Material will be used in game.
+[2021.01.11-15.34.05:196][339]LogMaterial: Display: 	(Node TextureSample) Texture Sample> Missing input texture
+[2021.01.11-15.34.05:196][339]LogMaterial: Display: 	(Node MakeMaterialAttributes) Error on property Normal
+[2021.01.11-15.34.05:212][339]LogMaterial: Display: Missing cached shader map for material MA_Summer, compiling. 
+[2021.01.11-15.34.05:228][339]LogMaterial: Warning: D:\kyle game\Project-Dimensions-of-horror\TheyLive 4.25\Content\PN_interactiveSpruceForest\Materials\MaterialInstances\full\low\spruce_full_01_low_trunk.uasset: Failed to compile Material Instance with Base MA_Summer for platform PCD3D_SM5, Default Material will be used in game.
+[2021.01.11-15.34.05:228][339]LogMaterial: Display: 	(Node TextureSample) Texture Sample> Missing input texture
+[2021.01.11-15.34.05:228][339]LogMaterial: Display: 	(Node MakeMaterialAttributes) Error on property Normal
+[2021.01.11-15.34.05:633][339]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/Parkour.Parkour
+[2021.01.11-15.34.05:669][339]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2021.01.11-15.34.08:498][339]LogSlate: Window 'Save Content' being destroyed
+[2021.01.11-15.34.08:523][339]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/outer1" FILE="../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Content/Maps/outer1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.01.11-15.34.08:538][339]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2021.01.11-15.34.08:734][339]LogSavePackage: Moving '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Saved/outer11AB8947D455E5F25CD521C9488542019.tmp' to '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Content/Maps/outer1.umap'
+[2021.01.11-15.34.08:784][339]LogFileHelpers: Saving map 'outer1' took 0.262
+[2021.01.11-15.34.08:784][339]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/outer1_BuiltData" FILE="../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Content/Maps/outer1_BuiltData.uasset" SILENT=true
+[2021.01.11-15.34.09:078][339]LogSavePackage: Moving '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Saved/outer1_BuiltData094C858E4B8068797763398AEDF2A961.tmp' to '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Content/Maps/outer1_BuiltData.uasset'
+[2021.01.11-15.34.09:082][339]Cmd: MAP LOAD FILE="../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Content/Maps/Parkour.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.01.11-15.34.09:082][339]LightingResults: New page: Lighting Build
+[2021.01.11-15.34.09:082][339]LoadErrors: New page: Loading map: Parkour.umap
+[2021.01.11-15.34.09:091][339]LogWorld: UWorld::CleanupWorld for outer1, bSessionEnded=true, bCleanupResources=true
+[2021.01.11-15.34.09:091][339]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.11-15.34.09:091][339]MapCheck: New page: Map Check
+[2021.01.11-15.34.09:091][339]LightingResults: New page: Lighting Build
+[2021.01.11-15.34.09:112][339]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000023FA8113380), frame # 16339
+[2021.01.11-15.34.09:112][339]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000023F7B56FC00), frame # 16339
+[2021.01.11-15.34.09:115][339]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2021.01.11-15.34.09:758][339]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.01.11-15.34.09:758][339]LogAIModule: Creating AISystem for world Parkour
+[2021.01.11-15.34.09:758][339]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000023F7B5E7200), frame # 16339
+[2021.01.11-15.34.09:758][339]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000023F7E38B600), frame # 16339
+[2021.01.11-15.34.09:793][339]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2021.01.11-15.34.09:838][339]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.01.11-15.34.09:838][339]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.19ms to complete.
+[2021.01.11-15.34.09:838][339]LogFileHelpers: Loading map 'Parkour' took 0.756
+[2021.01.11-15.34.09:924][339]AssetCheck: New page: Asset Save: multiple assets
+[2021.01.11-15.34.09:924][339]LogContentValidation: Display: Validating World /Game/Maps/outer1.outer1
+[2021.01.11-15.34.09:999][339]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/outer1_BuiltData.outer1_BuiltData
+[2021.01.11-15.35.43:461][480]LogJson: Error: Json Value of type 'Object' used as a 'String'.
+[2021.01.11-15.35.43:931][480]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\Megascan Quixel\Downloaded\3d\street_curbs_rhDrq\Aset_cement_curbs_M_rhDrq_2K_Albedo.jpg)
+[2021.01.11-15.35.44:211][480]LogTexture: Display: Building textures: Albedo_2K_rhDrq (AutoDXT, 2048X2048)
+[2021.01.11-15.35.45:842][480]LogTexture: Display: Building textures: Albedo_2K_rhDrq (BC7, 2048X2048)
+[2021.01.11-15.35.47:623][480]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\Megascan Quixel\Downloaded\3d\street_curbs_rhDrq\Aset_cement_curbs_M_rhDrq_2K_Normal_LOD0.jpg)
+[2021.01.11-15.35.47:863][480]LogTexture: Display: Building textures: Normal_2K_LOD0_rhDrq (BC5, 2048X2048)
+[2021.01.11-15.35.48:200][480]LogTexture: Display: Building textures: Normal_2K_LOD0_rhDrq (BC5, 2048X2048)
+[2021.01.11-15.35.48:473][480]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\Megascan Quixel\Downloaded\3d\street_curbs_rhDrq\Aset_cement_curbs_M_rhDrq_2K_Roughness.jpg)
+[2021.01.11-15.35.48:554][480]LogTexture: Display: Building textures: Roughness_2K_rhDrq (AutoDXT, 2048X2048)
+[2021.01.11-15.35.49:173][480]LogTexture: Display: Building textures: Roughness_2K_rhDrq (BC7, 2048X2048)
+[2021.01.11-15.35.50:665][480]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:\Megascan Quixel\Downloaded\3d\street_curbs_rhDrq\Aset_cement_curbs_M_rhDrq_LOD0.fbx)
+[2021.01.11-15.35.50:862][480]LogFbx: Loading FBX Scene from D:\Megascan Quixel\Downloaded\3d\street_curbs_rhDrq\Aset_cement_curbs_M_rhDrq_LOD0.fbx
+[2021.01.11-15.35.50:889][480]LogFbx: FBX Scene Loaded Succesfully
+[2021.01.11-15.35.51:057][480]LogStaticMesh: Building static mesh Aset_cement_curbs_M_rhDrq_LOD0_Aset_street_curbs_4_rhDrq_00_LOD0...
+[2021.01.11-15.35.51:172][480]LogStaticMesh: Built static mesh [0.11s] /Game/Megascans/3D_Assets/cement_curbs_rhDrq_3d/Aset_cement_curbs_M_rhDrq_LOD0_Aset_street_curbs_4_rhDrq_00_LOD0.Aset_cement_curbs_M_rhDrq_LOD0_Aset_street_curbs_4_rhDrq_00_LOD0
+[2021.01.11-15.35.51:281][480]LogStaticMesh: Building static mesh Aset_cement_curbs_M_rhDrq_LOD0_Aset_street_curbs_4_rhDrq_01_LOD0...
+[2021.01.11-15.35.51:300][480]LogStaticMesh: Built static mesh [0.02s] /Game/Megascans/3D_Assets/cement_curbs_rhDrq_3d/Aset_cement_curbs_M_rhDrq_LOD0_Aset_street_curbs_4_rhDrq_01_LOD0.Aset_cement_curbs_M_rhDrq_LOD0_Aset_street_curbs_4_rhDrq_01_LOD0
+[2021.01.11-15.35.51:314][480]LogStaticMesh: Building static mesh Aset_cement_curbs_M_rhDrq_LOD0_Aset_street_curbs_4_rhDrq_02_LOD0...
+[2021.01.11-15.35.51:333][480]LogStaticMesh: Built static mesh [0.02s] /Game/Megascans/3D_Assets/cement_curbs_rhDrq_3d/Aset_cement_curbs_M_rhDrq_LOD0_Aset_street_curbs_4_rhDrq_02_LOD0.Aset_cement_curbs_M_rhDrq_LOD0_Aset_street_curbs_4_rhDrq_02_LOD0
+[2021.01.11-15.35.51:347][480]LogStaticMesh: Building static mesh Aset_cement_curbs_M_rhDrq_LOD0_Aset_street_curbs_4_rhDrq_03_LOD0...
+[2021.01.11-15.35.51:366][480]LogStaticMesh: Built static mesh [0.02s] /Game/Megascans/3D_Assets/cement_curbs_rhDrq_3d/Aset_cement_curbs_M_rhDrq_LOD0_Aset_street_curbs_4_rhDrq_03_LOD0.Aset_cement_curbs_M_rhDrq_LOD0_Aset_street_curbs_4_rhDrq_03_LOD0
+[2021.01.11-15.35.51:402][480]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2021.01.11-15.35.52:006][480]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:\Megascan Quixel\Downloaded\3d\street_curbs_rhDrq\Aset_cement_curbs_M_rhDrq_LOD2.fbx)
+[2021.01.11-15.35.52:022][480]LogFbx: Loading FBX Scene from D:\Megascan Quixel\Downloaded\3d\street_curbs_rhDrq\Aset_cement_curbs_M_rhDrq_LOD2.fbx
+[2021.01.11-15.35.52:037][480]LogFbx: FBX Scene Loaded Succesfully
+[2021.01.11-15.35.52:044][480]LogStaticMesh: Building static mesh Aset_cement_curbs_M_rhDrq_LOD2_Aset_street_curbs_4_rhDrq_00_LOD2...
+[2021.01.11-15.35.52:060][480]LogStaticMesh: Built static mesh [0.02s] /Game/Megascans/3D_Assets/cement_curbs_rhDrq_3d/Lods/Aset_cement_curbs_M_rhDrq_LOD2_Aset_street_curbs_4_rhDrq_00_LOD2.Aset_cement_curbs_M_rhDrq_LOD2_Aset_street_curbs_4_rhDrq_00_LOD2
+[2021.01.11-15.35.52:073][480]LogStaticMesh: Building static mesh Aset_cement_curbs_M_rhDrq_LOD2_Aset_street_curbs_4_rhDrq_01_LOD2...
+[2021.01.11-15.35.52:085][480]LogStaticMesh: Built static mesh [0.01s] /Game/Megascans/3D_Assets/cement_curbs_rhDrq_3d/Lods/Aset_cement_curbs_M_rhDrq_LOD2_Aset_street_curbs_4_rhDrq_01_LOD2.Aset_cement_curbs_M_rhDrq_LOD2_Aset_street_curbs_4_rhDrq_01_LOD2
+[2021.01.11-15.35.52:095][480]LogStaticMesh: Building static mesh Aset_cement_curbs_M_rhDrq_LOD2_Aset_street_curbs_4_rhDrq_02_LOD2...
+[2021.01.11-15.35.52:107][480]LogStaticMesh: Built static mesh [0.01s] /Game/Megascans/3D_Assets/cement_curbs_rhDrq_3d/Lods/Aset_cement_curbs_M_rhDrq_LOD2_Aset_street_curbs_4_rhDrq_02_LOD2.Aset_cement_curbs_M_rhDrq_LOD2_Aset_street_curbs_4_rhDrq_02_LOD2
+[2021.01.11-15.35.52:117][480]LogStaticMesh: Building static mesh Aset_cement_curbs_M_rhDrq_LOD2_Aset_street_curbs_4_rhDrq_03_LOD2...
+[2021.01.11-15.35.52:129][480]LogStaticMesh: Built static mesh [0.01s] /Game/Megascans/3D_Assets/cement_curbs_rhDrq_3d/Lods/Aset_cement_curbs_M_rhDrq_LOD2_Aset_street_curbs_4_rhDrq_03_LOD2.Aset_cement_curbs_M_rhDrq_LOD2_Aset_street_curbs_4_rhDrq_03_LOD2
+[2021.01.11-15.35.52:150][480]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2021.01.11-15.35.52:181][480]LogStaticMesh: Building static mesh Aset_cement_curbs_M_rhDrq_LOD0_Aset_street_curbs_4_rhDrq_00_LOD0...
+[2021.01.11-15.35.52:246][480]LogStaticMesh: Built static mesh [0.07s] /Game/Megascans/3D_Assets/cement_curbs_rhDrq_3d/Aset_cement_curbs_M_rhDrq_LOD0_Aset_street_curbs_4_rhDrq_00_LOD0.Aset_cement_curbs_M_rhDrq_LOD0_Aset_street_curbs_4_rhDrq_00_LOD0
+[2021.01.11-15.35.52:298][480]LogStaticMesh: Building static mesh Aset_cement_curbs_M_rhDrq_LOD0_Aset_street_curbs_4_rhDrq_01_LOD0...
+[2021.01.11-15.35.52:350][480]LogStaticMesh: Built static mesh [0.05s] /Game/Megascans/3D_Assets/cement_curbs_rhDrq_3d/Aset_cement_curbs_M_rhDrq_LOD0_Aset_street_curbs_4_rhDrq_01_LOD0.Aset_cement_curbs_M_rhDrq_LOD0_Aset_street_curbs_4_rhDrq_01_LOD0
+[2021.01.11-15.35.52:398][480]LogStaticMesh: Building static mesh Aset_cement_curbs_M_rhDrq_LOD0_Aset_street_curbs_4_rhDrq_02_LOD0...
+[2021.01.11-15.35.52:451][480]LogStaticMesh: Built static mesh [0.05s] /Game/Megascans/3D_Assets/cement_curbs_rhDrq_3d/Aset_cement_curbs_M_rhDrq_LOD0_Aset_street_curbs_4_rhDrq_02_LOD0.Aset_cement_curbs_M_rhDrq_LOD0_Aset_street_curbs_4_rhDrq_02_LOD0
+[2021.01.11-15.35.52:506][480]LogStaticMesh: Building static mesh Aset_cement_curbs_M_rhDrq_LOD0_Aset_street_curbs_4_rhDrq_03_LOD0...
+[2021.01.11-15.35.52:569][480]LogStaticMesh: Built static mesh [0.06s] /Game/Megascans/3D_Assets/cement_curbs_rhDrq_3d/Aset_cement_curbs_M_rhDrq_LOD0_Aset_street_curbs_4_rhDrq_03_LOD0.Aset_cement_curbs_M_rhDrq_LOD0_Aset_street_curbs_4_rhDrq_03_LOD0
+[2021.01.11-15.35.53:214][480]LogUObjectGlobals: Force Deleting 4 Package(s):
+	Asset Name: /Game/Megascans/3D_Assets/cement_curbs_rhDrq_3d/Lods/Aset_cement_curbs_M_rhDrq_LOD2_Aset_street_curbs_4_rhDrq_03_LOD2.Aset_cement_curbs_M_rhDrq_LOD2_Aset_street_curbs_4_rhDrq_03_LOD2
+	Asset Name: /Game/Megascans/3D_Assets/cement_curbs_rhDrq_3d/Lods/Aset_cement_curbs_M_rhDrq_LOD2_Aset_street_curbs_4_rhDrq_02_LOD2.Aset_cement_curbs_M_rhDrq_LOD2_Aset_street_curbs_4_rhDrq_02_LOD2
+	Asset Name: /Game/Megascans/3D_Assets/cement_curbs_rhDrq_3d/Lods/Aset_cement_curbs_M_rhDrq_LOD2_Aset_street_curbs_4_rhDrq_01_LOD2.Aset_cement_curbs_M_rhDrq_LOD2_Aset_street_curbs_4_rhDrq_01_LOD2
+	Asset Name: /Game/Megascans/3D_Assets/cement_curbs_rhDrq_3d/Lods/Aset_cement_curbs_M_rhDrq_LOD2_Aset_street_curbs_4_rhDrq_00_LOD2.Aset_cement_curbs_M_rhDrq_LOD2_Aset_street_curbs_4_rhDrq_00_LOD2
+[2021.01.11-15.36.40:247][480]LogUObjectHash: Compacting FUObjectHashTables data took   3.15ms
+[2021.01.11-15.36.40:565][480]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:\Megascan Quixel\Downloaded\3d\street_curbs_rhDrq\Aset_cement_curbs_M_rhDrq_LOD4.fbx)
+[2021.01.11-15.36.40:575][480]LogFbx: Loading FBX Scene from D:\Megascan Quixel\Downloaded\3d\street_curbs_rhDrq\Aset_cement_curbs_M_rhDrq_LOD4.fbx
+[2021.01.11-15.36.40:583][480]LogFbx: FBX Scene Loaded Succesfully
+[2021.01.11-15.36.40:608][480]LogStaticMesh: Building static mesh Aset_cement_curbs_M_rhDrq_LOD4_Aset_street_curbs_4_rhDrq_00_LOD4...
+[2021.01.11-15.36.40:613][480]LogStaticMesh: Built static mesh [0.01s] /Game/Megascans/3D_Assets/cement_curbs_rhDrq_3d/Lods/Aset_cement_curbs_M_rhDrq_LOD4_Aset_street_curbs_4_rhDrq_00_LOD4.Aset_cement_curbs_M_rhDrq_LOD4_Aset_street_curbs_4_rhDrq_00_LOD4
+[2021.01.11-15.36.40:620][480]LogStaticMesh: Building static mesh Aset_cement_curbs_M_rhDrq_LOD4_Aset_street_curbs_4_rhDrq_01_LOD4...
+[2021.01.11-15.36.40:624][480]LogStaticMesh: Built static mesh [0.01s] /Game/Megascans/3D_Assets/cement_curbs_rhDrq_3d/Lods/Aset_cement_curbs_M_rhDrq_LOD4_Aset_street_curbs_4_rhDrq_01_LOD4.Aset_cement_curbs_M_rhDrq_LOD4_Aset_street_curbs_4_rhDrq_01_LOD4
+[2021.01.11-15.36.40:630][480]LogStaticMesh: Building static mesh Aset_cement_curbs_M_rhDrq_LOD4_Aset_street_curbs_4_rhDrq_02_LOD4...
+[2021.01.11-15.36.40:635][480]LogStaticMesh: Built static mesh [0.01s] /Game/Megascans/3D_Assets/cement_curbs_rhDrq_3d/Lods/Aset_cement_curbs_M_rhDrq_LOD4_Aset_street_curbs_4_rhDrq_02_LOD4.Aset_cement_curbs_M_rhDrq_LOD4_Aset_street_curbs_4_rhDrq_02_LOD4
+[2021.01.11-15.36.40:641][480]LogStaticMesh: Building static mesh Aset_cement_curbs_M_rhDrq_LOD4_Aset_street_curbs_4_rhDrq_03_LOD4...
+[2021.01.11-15.36.40:646][480]LogStaticMesh: Built static mesh [0.01s] /Game/Megascans/3D_Assets/cement_curbs_rhDrq_3d/Lods/Aset_cement_curbs_M_rhDrq_LOD4_Aset_street_curbs_4_rhDrq_03_LOD4.Aset_cement_curbs_M_rhDrq_LOD4_Aset_street_curbs_4_rhDrq_03_LOD4
+[2021.01.11-15.36.40:657][480]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2021.01.11-15.36.40:671][480]LogStaticMesh: Building static mesh Aset_cement_curbs_M_rhDrq_LOD0_Aset_street_curbs_4_rhDrq_00_LOD0...
+[2021.01.11-15.36.40:735][480]LogStaticMesh: Built static mesh [0.06s] /Game/Megascans/3D_Assets/cement_curbs_rhDrq_3d/Aset_cement_curbs_M_rhDrq_LOD0_Aset_street_curbs_4_rhDrq_00_LOD0.Aset_cement_curbs_M_rhDrq_LOD0_Aset_street_curbs_4_rhDrq_00_LOD0
+[2021.01.11-15.36.40:790][480]LogStaticMesh: Building static mesh Aset_cement_curbs_M_rhDrq_LOD0_Aset_street_curbs_4_rhDrq_01_LOD0...
+[2021.01.11-15.36.40:859][480]LogStaticMesh: Built static mesh [0.07s] /Game/Megascans/3D_Assets/cement_curbs_rhDrq_3d/Aset_cement_curbs_M_rhDrq_LOD0_Aset_street_curbs_4_rhDrq_01_LOD0.Aset_cement_curbs_M_rhDrq_LOD0_Aset_street_curbs_4_rhDrq_01_LOD0
+[2021.01.11-15.36.40:905][480]LogStaticMesh: Building static mesh Aset_cement_curbs_M_rhDrq_LOD0_Aset_street_curbs_4_rhDrq_02_LOD0...
+[2021.01.11-15.36.40:975][480]LogStaticMesh: Built static mesh [0.07s] /Game/Megascans/3D_Assets/cement_curbs_rhDrq_3d/Aset_cement_curbs_M_rhDrq_LOD0_Aset_street_curbs_4_rhDrq_02_LOD0.Aset_cement_curbs_M_rhDrq_LOD0_Aset_street_curbs_4_rhDrq_02_LOD0
+[2021.01.11-15.36.41:020][480]LogStaticMesh: Building static mesh Aset_cement_curbs_M_rhDrq_LOD0_Aset_street_curbs_4_rhDrq_03_LOD0...
+[2021.01.11-15.36.41:077][480]LogStaticMesh: Built static mesh [0.06s] /Game/Megascans/3D_Assets/cement_curbs_rhDrq_3d/Aset_cement_curbs_M_rhDrq_LOD0_Aset_street_curbs_4_rhDrq_03_LOD0.Aset_cement_curbs_M_rhDrq_LOD0_Aset_street_curbs_4_rhDrq_03_LOD0
+[2021.01.11-15.36.41:300][480]LogUObjectGlobals: Force Deleting 4 Package(s):
+	Asset Name: /Game/Megascans/3D_Assets/cement_curbs_rhDrq_3d/Lods/Aset_cement_curbs_M_rhDrq_LOD4_Aset_street_curbs_4_rhDrq_03_LOD4.Aset_cement_curbs_M_rhDrq_LOD4_Aset_street_curbs_4_rhDrq_03_LOD4
+	Asset Name: /Game/Megascans/3D_Assets/cement_curbs_rhDrq_3d/Lods/Aset_cement_curbs_M_rhDrq_LOD4_Aset_street_curbs_4_rhDrq_02_LOD4.Aset_cement_curbs_M_rhDrq_LOD4_Aset_street_curbs_4_rhDrq_02_LOD4
+	Asset Name: /Game/Megascans/3D_Assets/cement_curbs_rhDrq_3d/Lods/Aset_cement_curbs_M_rhDrq_LOD4_Aset_street_curbs_4_rhDrq_01_LOD4.Aset_cement_curbs_M_rhDrq_LOD4_Aset_street_curbs_4_rhDrq_01_LOD4
+	Asset Name: /Game/Megascans/3D_Assets/cement_curbs_rhDrq_3d/Lods/Aset_cement_curbs_M_rhDrq_LOD4_Aset_street_curbs_4_rhDrq_00_LOD4.Aset_cement_curbs_M_rhDrq_LOD4_Aset_street_curbs_4_rhDrq_00_LOD4
+[2021.01.11-15.36.42:205][480]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2021.01.11-15.36.42:473][480]Message dialog closed, result: Ok, title: Unable to Check Out From Source Control!, text: The following assets could not be successfully checked out from source control:
+/Game/Megascans/3D_Assets/cement_curbs_rhDrq_3d/Cement_Curbs_LOD0_rhDrq_1
+[2021.01.11-15.36.42:672][480]LogSavePackage: Moving '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Cement_Curbs_LOD0_rhDrq_1A60C86AC4FA67B5ECDD013A99650B472.tmp' to '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Content/Megascans/3D_Assets/cement_curbs_rhDrq_3d/Cement_Curbs_LOD0_rhDrq_1.uasset'
+[2021.01.11-15.36.42:968][480]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2021.01.11-15.36.42:990][480]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2021.01.11-15.36.43:006][480]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2021.01.11-15.36.43:395][480]Message dialog closed, result: Ok, title: Unable to Check Out From Source Control!, text: The following assets could not be successfully checked out from source control:
+/Game/Megascans/3D_Assets/cement_curbs_rhDrq_3d/Cement_Curbs_LOD0_rhDrq_2
+[2021.01.11-15.36.43:475][480]LogSavePackage: Moving '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Cement_Curbs_LOD0_rhDrq_20B687CCD4983E07ED5D4CC99D2592E26.tmp' to '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Content/Megascans/3D_Assets/cement_curbs_rhDrq_3d/Cement_Curbs_LOD0_rhDrq_2.uasset'
+[2021.01.11-15.36.43:720][480]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2021.01.11-15.36.43:743][480]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2021.01.11-15.36.43:759][480]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2021.01.11-15.36.44:040][480]Message dialog closed, result: Ok, title: Unable to Check Out From Source Control!, text: The following assets could not be successfully checked out from source control:
+/Game/Megascans/3D_Assets/cement_curbs_rhDrq_3d/Cement_Curbs_LOD0_rhDrq_3
+[2021.01.11-15.36.44:124][480]LogSavePackage: Moving '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Cement_Curbs_LOD0_rhDrq_34CA4B08748F561400743DFBEBD8A1E65.tmp' to '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Content/Megascans/3D_Assets/cement_curbs_rhDrq_3d/Cement_Curbs_LOD0_rhDrq_3.uasset'
+[2021.01.11-15.36.44:350][480]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2021.01.11-15.36.44:369][480]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2021.01.11-15.36.44:383][480]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2021.01.11-15.36.44:697][480]Message dialog closed, result: Ok, title: Unable to Check Out From Source Control!, text: The following assets could not be successfully checked out from source control:
+/Game/Megascans/3D_Assets/cement_curbs_rhDrq_3d/Cement_Curbs_LOD0_rhDrq_4
+[2021.01.11-15.36.44:775][480]LogSavePackage: Moving '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Cement_Curbs_LOD0_rhDrq_4E2AB596344B7E753DDB3DF869B2F73E6.tmp' to '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Content/Megascans/3D_Assets/cement_curbs_rhDrq_3d/Cement_Curbs_LOD0_rhDrq_4.uasset'
+[2021.01.11-15.36.44:999][480]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2021.01.11-15.36.45:017][480]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2021.01.11-15.36.45:032][480]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2021.01.11-15.36.45:395][481]AssetCheck: New page: Asset Save: multiple assets
+[2021.01.11-15.36.45:395][481]LogContentValidation: Display: Validating StaticMesh /Game/Megascans/3D_Assets/cement_curbs_rhDrq_3d/Cement_Curbs_LOD0_rhDrq_1.Cement_Curbs_LOD0_rhDrq_1
+[2021.01.11-15.36.45:395][481]LogContentValidation: Display: Validating StaticMesh /Game/Megascans/3D_Assets/cement_curbs_rhDrq_3d/Cement_Curbs_LOD0_rhDrq_2.Cement_Curbs_LOD0_rhDrq_2
+[2021.01.11-15.36.45:395][481]LogContentValidation: Display: Validating StaticMesh /Game/Megascans/3D_Assets/cement_curbs_rhDrq_3d/Cement_Curbs_LOD0_rhDrq_3.Cement_Curbs_LOD0_rhDrq_3
+[2021.01.11-15.36.45:395][481]LogContentValidation: Display: Validating StaticMesh /Game/Megascans/3D_Assets/cement_curbs_rhDrq_3d/Cement_Curbs_LOD0_rhDrq_4.Cement_Curbs_LOD0_rhDrq_4
+[2021.01.11-15.36.54:724][606]LogSlate: Window 'Message Log' being destroyed
+[2021.01.11-15.36.54:734][606]LogSlate: Window 'Message Log' being destroyed
+[2021.01.11-15.37.07:098][289]LogActorFactory: Actor Factory created Cement_Curbs_LOD0_rhDrq_1
+[2021.01.11-15.37.08:503][372]LogActorFactory: Actor Factory created Cement_Curbs_LOD0_rhDrq_1
+[2021.01.11-15.37.08:746][373]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2021.01.11-15.37.16:955][832]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cement_Curbs_LOD0_rhDrq_1)
+[2021.01.11-15.37.26:118][368]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cement_Curbs_LOD0_rhDrq_1)
+[2021.01.11-15.37.50:684][819]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Cement_Curbs_LOD0_rhDrq_1)
+[2021.01.11-15.37.51:176][819]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cement_Curbs_LOD0_rhDrq_1)
+[2021.01.11-15.37.52:012][862]Cmd: DELETE
+[2021.01.11-15.37.52:012][862]Cmd: ACTOR DELETE
+[2021.01.11-15.37.52:372][862]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.01.11-15.37.52:386][862]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2021.01.11-15.37.52:393][862]LogEditorActor: Deleted 1 Actors (0.114 secs)
+[2021.01.11-15.38.32:009][372]LogJson: Error: Json Value of type 'Object' used as a 'String'.
+[2021.01.11-15.38.32:156][372]LogEditorScripting: Error: DoesAssetExists. Can't convert the path '' because the Root path need to be specified. ie /Game/
+[2021.01.11-15.38.32:182][372]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\Megascan Quixel\Downloaded\atlas\atlas_decals_ujzpdbcl\ujzpdbcl_2K_Albedo.jpg)
+[2021.01.11-15.38.32:220][372]LogTexture: Display: Building textures: Albedo_2K_ujzpdbcl (AutoDXT, 2048X2048)
+[2021.01.11-15.38.32:411][372]LogTexture: Display: Building textures: Albedo_2K_ujzpdbcl (BC7, 2048X2048)
+[2021.01.11-15.38.33:695][372]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\Megascan Quixel\Downloaded\atlas\atlas_decals_ujzpdbcl\ujzpdbcl_2K_Opacity.jpg)
+[2021.01.11-15.38.33:728][372]LogTexture: Display: Building textures: Opacity_2K_ujzpdbcl (AutoDXT, 2048X2048)
+[2021.01.11-15.38.33:894][372]LogTexture: Display: Building textures: Opacity_2K_ujzpdbcl (BC7, 2048X2048)
+[2021.01.11-15.39.02:613][569]LogMaterial: Display: Missing cached shader map for material Opacity_2K_ujzpdbcl_Mat, compiling. 
+[2021.01.11-15.39.02:724][569]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 15
+[2021.01.11-15.39.02:724][569]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 13
+[2021.01.11-15.39.02:724][569]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 11
+[2021.01.11-15.39.02:724][569]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 9
+[2021.01.11-15.39.02:724][569]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 7
+[2021.01.11-15.39.02:724][569]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 5
+[2021.01.11-15.39.02:724][569]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3
+[2021.01.11-15.39.02:724][569]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 1
+[2021.01.11-15.39.05:046][690]Cmd: TRANSACTION UNDO
+[2021.01.11-15.39.05:062][690]LogEditorTransaction: Undo Create Actors
+[2021.01.11-15.39.05:076][690]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Maps/Parkour.Parkour:PersistentLevel.ModelComponent_92' invalid (12883 verts, 0 indices).
+[2021.01.11-15.39.05:076][690]LogPhysics: Warning: Attempt to build physics data for /Game/Maps/Parkour.Parkour:PersistentLevel.ModelComponent_92.BodySetup_0 when we are unable to.
+[2021.01.11-15.40.15:055][185]Cmd: TRANSACTION UNDO
+[2021.01.11-15.40.15:055][185]LogEditorTransaction: Undo Create Actors
+[2021.01.11-15.40.15:066][185]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Maps/Parkour.Parkour:PersistentLevel.ModelComponent_92' invalid (12883 verts, 0 indices).
+[2021.01.11-15.40.15:066][185]LogPhysics: Warning: Attempt to build physics data for /Game/Maps/Parkour.Parkour:PersistentLevel.ModelComponent_92.BodySetup_0 when we are unable to.
+[2021.01.11-15.41.40:888][  6]Cmd: DELETE
+[2021.01.11-15.41.40:888][  6]Cmd: ACTOR DELETE
+[2021.01.11-15.41.40:943][  6]LogEditorActor: Deleted Actor: DecalActor
+[2021.01.11-15.41.40:956][  6]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2021.01.11-15.41.40:964][  6]LogEditorActor: Deleted 1 Actors (0.076 secs)
+[2021.01.11-15.43.49:356][563]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2021.01.11-15.43.50:704][563]LogSavePackage: Moving '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Parkour_Auto18485493043E04CD4B942F5858A955ABE.tmp' to '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Autosaves/Game/Maps/Parkour_Auto1.umap'
+[2021.01.11-15.43.50:732][563]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Parkour' took 1.391
+[2021.01.11-15.43.50:732][563]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.391
+[2021.01.11-15.43.50:732][563]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Megascans/3D_Assets/cement_curbs_rhDrq_3d/cement_curbs_rhDrq_3d_inst] ([1] browsable assets)...
+[2021.01.11-15.43.50:759][563]OBJ SavePackage:     Rendered thumbnail for [MaterialInstanceConstant /Game/Megascans/3D_Assets/cement_curbs_rhDrq_3d/cement_curbs_rhDrq_3d_inst.cement_curbs_rhDrq_3d_inst]
+[2021.01.11-15.43.50:760][563]OBJ SavePackage: Finished generating thumbnails for package [/Game/Megascans/3D_Assets/cement_curbs_rhDrq_3d/cement_curbs_rhDrq_3d_inst]
+[2021.01.11-15.43.50:786][563]LogSavePackage: Moving '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Saved/cement_curbs_rhDrq_3d_inst_Auto1250A05EC46EF3D2662EF3AA90AFC36F2.tmp' to '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Autosaves/Game/Megascans/3D_Assets/cement_curbs_rhDrq_3d/cement_curbs_rhDrq_3d_inst_Auto1.uasset'
+[2021.01.11-15.43.50:799][563]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Megascans/3D_Assets/cement_curbs_rhDrq_3d/Albedo_2K_rhDrq] ([1] browsable assets)...
+[2021.01.11-15.43.50:804][563]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Megascans/3D_Assets/cement_curbs_rhDrq_3d/Albedo_2K_rhDrq.Albedo_2K_rhDrq]
+[2021.01.11-15.43.50:804][563]OBJ SavePackage: Finished generating thumbnails for package [/Game/Megascans/3D_Assets/cement_curbs_rhDrq_3d/Albedo_2K_rhDrq]
+[2021.01.11-15.43.50:832][563]LogSavePackage: Moving '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Albedo_2K_rhDrq_Auto1ACFB42F641A66ADAD434CEB90063C1BC.tmp' to '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Autosaves/Game/Megascans/3D_Assets/cement_curbs_rhDrq_3d/Albedo_2K_rhDrq_Auto1.uasset'
+[2021.01.11-15.43.50:833][563]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Megascans/3D_Assets/cement_curbs_rhDrq_3d/Normal_2K_LOD0_rhDrq] ([1] browsable assets)...
+[2021.01.11-15.43.50:839][563]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Megascans/3D_Assets/cement_curbs_rhDrq_3d/Normal_2K_LOD0_rhDrq.Normal_2K_LOD0_rhDrq]
+[2021.01.11-15.43.50:839][563]OBJ SavePackage: Finished generating thumbnails for package [/Game/Megascans/3D_Assets/cement_curbs_rhDrq_3d/Normal_2K_LOD0_rhDrq]
+[2021.01.11-15.43.50:856][563]LogSavePackage: Moving '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Normal_2K_LOD0_rhDrq_Auto10F9501E44BEB1C130EB99880C079369C.tmp' to '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Autosaves/Game/Megascans/3D_Assets/cement_curbs_rhDrq_3d/Normal_2K_LOD0_rhDrq_Auto1.uasset'
+[2021.01.11-15.43.50:857][563]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Megascans/3D_Assets/cement_curbs_rhDrq_3d/Roughness_2K_rhDrq] ([1] browsable assets)...
+[2021.01.11-15.43.50:862][563]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Megascans/3D_Assets/cement_curbs_rhDrq_3d/Roughness_2K_rhDrq.Roughness_2K_rhDrq]
+[2021.01.11-15.43.50:862][563]OBJ SavePackage: Finished generating thumbnails for package [/Game/Megascans/3D_Assets/cement_curbs_rhDrq_3d/Roughness_2K_rhDrq]
+[2021.01.11-15.43.50:894][563]LogSavePackage: Moving '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Roughness_2K_rhDrq_Auto1786B931E4ABCB3A3185CD190660612B1.tmp' to '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Autosaves/Game/Megascans/3D_Assets/cement_curbs_rhDrq_3d/Roughness_2K_rhDrq_Auto1.uasset'
+[2021.01.11-15.43.50:895][563]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Megascans/3D_Assets/cement_curbs_rhDrq_3d/Cement_Curbs_LOD0_rhDrq_4] ([1] browsable assets)...
+[2021.01.11-15.43.50:922][563]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Megascans/3D_Assets/cement_curbs_rhDrq_3d/Cement_Curbs_LOD0_rhDrq_4.Cement_Curbs_LOD0_rhDrq_4]
+[2021.01.11-15.43.50:922][563]OBJ SavePackage: Finished generating thumbnails for package [/Game/Megascans/3D_Assets/cement_curbs_rhDrq_3d/Cement_Curbs_LOD0_rhDrq_4]
+[2021.01.11-15.43.50:986][563]LogSavePackage: Moving '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Cement_Curbs_LOD0_rhDrq_4_Auto11943CE2844C8DA24C5B558BBEEE94B51.tmp' to '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Autosaves/Game/Megascans/3D_Assets/cement_curbs_rhDrq_3d/Cement_Curbs_LOD0_rhDrq_4_Auto1.uasset'
+[2021.01.11-15.43.50:987][563]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Megascans/3D_Assets/cement_curbs_rhDrq_3d/Cement_Curbs_LOD0_rhDrq_1] ([1] browsable assets)...
+[2021.01.11-15.43.51:017][563]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Megascans/3D_Assets/cement_curbs_rhDrq_3d/Cement_Curbs_LOD0_rhDrq_1.Cement_Curbs_LOD0_rhDrq_1]
+[2021.01.11-15.43.51:017][563]OBJ SavePackage: Finished generating thumbnails for package [/Game/Megascans/3D_Assets/cement_curbs_rhDrq_3d/Cement_Curbs_LOD0_rhDrq_1]
+[2021.01.11-15.43.51:107][563]LogSavePackage: Moving '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Cement_Curbs_LOD0_rhDrq_1_Auto13AE9E27648DB7B51566695A6D505842E.tmp' to '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Autosaves/Game/Megascans/3D_Assets/cement_curbs_rhDrq_3d/Cement_Curbs_LOD0_rhDrq_1_Auto1.uasset'
+[2021.01.11-15.43.51:107][563]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Megascans/3D_Assets/cement_curbs_rhDrq_3d/Cement_Curbs_LOD0_rhDrq_2] ([1] browsable assets)...
+[2021.01.11-15.43.51:137][563]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Megascans/3D_Assets/cement_curbs_rhDrq_3d/Cement_Curbs_LOD0_rhDrq_2.Cement_Curbs_LOD0_rhDrq_2]
+[2021.01.11-15.43.51:137][563]OBJ SavePackage: Finished generating thumbnails for package [/Game/Megascans/3D_Assets/cement_curbs_rhDrq_3d/Cement_Curbs_LOD0_rhDrq_2]
+[2021.01.11-15.43.51:320][563]LogSavePackage: Moving '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Cement_Curbs_LOD0_rhDrq_2_Auto127D9931941D23A52B97DD390A552D2EF.tmp' to '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Autosaves/Game/Megascans/3D_Assets/cement_curbs_rhDrq_3d/Cement_Curbs_LOD0_rhDrq_2_Auto1.uasset'
+[2021.01.11-15.43.51:321][563]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Megascans/3D_Assets/cement_curbs_rhDrq_3d/Cement_Curbs_LOD0_rhDrq_3] ([1] browsable assets)...
+[2021.01.11-15.43.51:351][563]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Megascans/3D_Assets/cement_curbs_rhDrq_3d/Cement_Curbs_LOD0_rhDrq_3.Cement_Curbs_LOD0_rhDrq_3]
+[2021.01.11-15.43.51:351][563]OBJ SavePackage: Finished generating thumbnails for package [/Game/Megascans/3D_Assets/cement_curbs_rhDrq_3d/Cement_Curbs_LOD0_rhDrq_3]
+[2021.01.11-15.43.51:463][563]LogSavePackage: Moving '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Cement_Curbs_LOD0_rhDrq_3_Auto1A7B27A0340AB8562A776F39C9AC3390E.tmp' to '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Autosaves/Game/Megascans/3D_Assets/cement_curbs_rhDrq_3d/Cement_Curbs_LOD0_rhDrq_3_Auto1.uasset'
+[2021.01.11-15.43.51:478][563]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Megascans/3D_Assets/cement_curbs_rhDrq_3d/Foliage/Cement_Curbs_LOD0_rhDrq_1] ([1] browsable assets)...
+[2021.01.11-15.43.51:573][563]OBJ SavePackage:     Rendered thumbnail for [FoliageType_InstancedStaticMesh /Game/Megascans/3D_Assets/cement_curbs_rhDrq_3d/Foliage/Cement_Curbs_LOD0_rhDrq_1.Cement_Curbs_LOD0_rhDrq_1]
+[2021.01.11-15.43.51:573][563]OBJ SavePackage: Finished generating thumbnails for package [/Game/Megascans/3D_Assets/cement_curbs_rhDrq_3d/Foliage/Cement_Curbs_LOD0_rhDrq_1]
+[2021.01.11-15.43.51:587][563]LogSavePackage: Moving '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Cement_Curbs_LOD0_rhDrq_1_Auto15789EA494E6F8B5C87568DA9DEF08A8F.tmp' to '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Autosaves/Game/Megascans/3D_Assets/cement_curbs_rhDrq_3d/Foliage/Cement_Curbs_LOD0_rhDrq_1_Auto1.uasset'
+[2021.01.11-15.43.51:588][563]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Megascans/3D_Assets/cement_curbs_rhDrq_3d/Foliage/Cement_Curbs_LOD0_rhDrq_2] ([1] browsable assets)...
+[2021.01.11-15.43.51:619][563]OBJ SavePackage:     Rendered thumbnail for [FoliageType_InstancedStaticMesh /Game/Megascans/3D_Assets/cement_curbs_rhDrq_3d/Foliage/Cement_Curbs_LOD0_rhDrq_2.Cement_Curbs_LOD0_rhDrq_2]
+[2021.01.11-15.43.51:619][563]OBJ SavePackage: Finished generating thumbnails for package [/Game/Megascans/3D_Assets/cement_curbs_rhDrq_3d/Foliage/Cement_Curbs_LOD0_rhDrq_2]
+[2021.01.11-15.43.51:637][563]LogSavePackage: Moving '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Cement_Curbs_LOD0_rhDrq_2_Auto1728AA0394B75ACE9CD51F18D1DCAB063.tmp' to '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Autosaves/Game/Megascans/3D_Assets/cement_curbs_rhDrq_3d/Foliage/Cement_Curbs_LOD0_rhDrq_2_Auto1.uasset'
+[2021.01.11-15.43.51:638][563]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Megascans/3D_Assets/cement_curbs_rhDrq_3d/Foliage/Cement_Curbs_LOD0_rhDrq_3] ([1] browsable assets)...
+[2021.01.11-15.43.51:669][563]OBJ SavePackage:     Rendered thumbnail for [FoliageType_InstancedStaticMesh /Game/Megascans/3D_Assets/cement_curbs_rhDrq_3d/Foliage/Cement_Curbs_LOD0_rhDrq_3.Cement_Curbs_LOD0_rhDrq_3]
+[2021.01.11-15.43.51:670][563]OBJ SavePackage: Finished generating thumbnails for package [/Game/Megascans/3D_Assets/cement_curbs_rhDrq_3d/Foliage/Cement_Curbs_LOD0_rhDrq_3]
+[2021.01.11-15.43.51:685][563]LogSavePackage: Moving '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Cement_Curbs_LOD0_rhDrq_3_Auto1005E2F8747C8F8AA5D643EB557E668E2.tmp' to '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Autosaves/Game/Megascans/3D_Assets/cement_curbs_rhDrq_3d/Foliage/Cement_Curbs_LOD0_rhDrq_3_Auto1.uasset'
+[2021.01.11-15.43.51:686][563]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Megascans/3D_Assets/cement_curbs_rhDrq_3d/Foliage/Cement_Curbs_LOD0_rhDrq_4] ([1] browsable assets)...
+[2021.01.11-15.43.51:696][563]OBJ SavePackage:     Rendered thumbnail for [FoliageType_InstancedStaticMesh /Game/Megascans/3D_Assets/cement_curbs_rhDrq_3d/Foliage/Cement_Curbs_LOD0_rhDrq_4.Cement_Curbs_LOD0_rhDrq_4]
+[2021.01.11-15.43.51:697][563]OBJ SavePackage: Finished generating thumbnails for package [/Game/Megascans/3D_Assets/cement_curbs_rhDrq_3d/Foliage/Cement_Curbs_LOD0_rhDrq_4]
+[2021.01.11-15.43.51:712][563]LogSavePackage: Moving '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Cement_Curbs_LOD0_rhDrq_4_Auto193E948194B8974EE47AE19922EA0F7BC.tmp' to '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Autosaves/Game/Megascans/3D_Assets/cement_curbs_rhDrq_3d/Foliage/Cement_Curbs_LOD0_rhDrq_4_Auto1.uasset'
+[2021.01.11-15.43.51:732][563]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Megascans/Atlases/Graffiti_Tag_ujzpdbcl_atlas/Albedo_2K_ujzpdbcl] ([1] browsable assets)...
+[2021.01.11-15.43.51:737][563]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Megascans/Atlases/Graffiti_Tag_ujzpdbcl_atlas/Albedo_2K_ujzpdbcl.Albedo_2K_ujzpdbcl]
+[2021.01.11-15.43.51:737][563]OBJ SavePackage: Finished generating thumbnails for package [/Game/Megascans/Atlases/Graffiti_Tag_ujzpdbcl_atlas/Albedo_2K_ujzpdbcl]
+[2021.01.11-15.43.51:770][563]LogSavePackage: Moving '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Albedo_2K_ujzpdbcl_Auto126BC910547CAF2126288EE860B07CAA0.tmp' to '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Autosaves/Game/Megascans/Atlases/Graffiti_Tag_ujzpdbcl_atlas/Albedo_2K_ujzpdbcl_Auto1.uasset'
+[2021.01.11-15.43.51:770][563]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Megascans/Atlases/Graffiti_Tag_ujzpdbcl_atlas/Opacity_2K_ujzpdbcl] ([1] browsable assets)...
+[2021.01.11-15.43.51:773][563]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Megascans/Atlases/Graffiti_Tag_ujzpdbcl_atlas/Opacity_2K_ujzpdbcl.Opacity_2K_ujzpdbcl]
+[2021.01.11-15.43.51:773][563]OBJ SavePackage: Finished generating thumbnails for package [/Game/Megascans/Atlases/Graffiti_Tag_ujzpdbcl_atlas/Opacity_2K_ujzpdbcl]
+[2021.01.11-15.43.51:798][563]LogSavePackage: Moving '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Opacity_2K_ujzpdbcl_Auto1328886CF4A2A64015D1A59B46DE7E427.tmp' to '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Autosaves/Game/Megascans/Atlases/Graffiti_Tag_ujzpdbcl_atlas/Opacity_2K_ujzpdbcl_Auto1.uasset'
+[2021.01.11-15.43.51:798][563]LogFileHelpers: Auto-saving content packages took 1.067
+[2021.01.11-15.44.03:954][600]LogJson: Error: Json Value of type 'Object' used as a 'String'.
+[2021.01.11-15.44.03:961][600]LogEditorScripting: Error: DoesAssetExists. Can't convert the path '' because the Root path need to be specified. ie /Game/
+[2021.01.11-15.44.03:981][600]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\Megascan Quixel\Downloaded\atlas\atlas_decals_uk2afjev\uk2afjev_2K_Albedo.jpg)
+[2021.01.11-15.44.04:032][600]LogTexture: Display: Building textures: Albedo_2K_uk2afjev (AutoDXT, 2048X2048)
+[2021.01.11-15.44.04:276][600]LogTexture: Display: Building textures: Albedo_2K_uk2afjev (BC7, 2048X2048)
+[2021.01.11-15.44.05:732][600]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\Megascan Quixel\Downloaded\atlas\atlas_decals_uk2afjev\uk2afjev_2K_Opacity.jpg)
+[2021.01.11-15.44.05:769][600]LogTexture: Display: Building textures: Opacity_2K_uk2afjev (AutoDXT, 2048X2048)
+[2021.01.11-15.44.06:082][600]LogTexture: Display: Building textures: Opacity_2K_uk2afjev (BC7, 2048X2048)
+[2021.01.11-15.45.37:212][963]LogSavePackage: Moving '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Saved/MAT_decal7A0B429045A8992FD5D457845B3EEA6B.tmp' to '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Content/Megascans/Atlases/Graffiti_Tag_uk2afjev_atlas/MAT_decal.uasset'
+[2021.01.11-15.45.37:442][963]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2021.01.11-15.45.37:473][963]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2021.01.11-15.45.37:486][963]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2021.01.11-15.45.37:636][963]AssetCheck: New page: Asset Save: MAT_decal
+[2021.01.11-15.45.37:636][963]LogContentValidation: Display: Validating Material /Game/Megascans/Atlases/Graffiti_Tag_uk2afjev_atlas/MAT_decal.MAT_decal
+[2021.01.11-15.45.38:879][ 30]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Megascans/Atlases/Graffiti_Tag_uk2afjev_atlas/MAT_decal.MAT_decal
+[2021.01.11-15.45.39:017][ 30]LogMaterial: Display: Missing cached shader map for material MAT_decal, compiling. 
+[2021.01.11-15.45.40:277][ 30]LogMaterial: Display: Missing cached shader map for material MAT_decal, compiling. 
+[2021.01.11-15.45.40:294][ 30]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 9
+[2021.01.11-15.45.40:295][ 30]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 8
+[2021.01.11-15.45.40:295][ 30]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 7
+[2021.01.11-15.45.40:295][ 30]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2021.01.11-15.45.40:295][ 30]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 5
+[2021.01.11-15.45.40:295][ 30]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
+[2021.01.11-15.45.40:295][ 30]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3
+[2021.01.11-15.45.40:295][ 30]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2
+[2021.01.11-15.45.40:296][ 30]LogMaterial: Display: Missing cached shader map for material MAT_decal, compiling. 
+[2021.01.11-15.45.40:569][ 30]LogSlate: Took 0.015900 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2021.01.11-15.45.41:093][ 31]LogStaticMesh: Allocated 32x8x8 distance field atlas = 0.0Mb, with 4 objects containing 0.0Mb backing data
+[2021.01.11-15.45.41:440][ 36]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 9
+[2021.01.11-15.45.42:021][ 47]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 8
+[2021.01.11-15.45.42:021][ 47]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 7
+[2021.01.11-15.45.42:529][ 61]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2021.01.11-15.45.42:566][ 62]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 5
+[2021.01.11-15.45.42:673][ 65]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 4
+[2021.01.11-15.45.42:931][ 73]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 3
+[2021.01.11-15.45.43:022][ 76]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 2
+[2021.01.11-15.45.43:311][ 84]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 1
+[2021.01.11-15.45.44:868][ 99]MaterialEditorStats: Base pass shader: 117 instructions
+[2021.01.11-15.45.44:868][ 99]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 191 instructions
+[2021.01.11-15.45.44:868][ 99]MaterialEditorStats: Base pass vertex shader: 40 instructions
+[2021.01.11-15.45.44:868][ 99]MaterialEditorStats: Texture samplers: 2/16
+[2021.01.11-15.45.45:922][147]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2021.01.11-15.45.45:934][147]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 4
+[2021.01.11-15.45.45:934][147]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 3
+[2021.01.11-15.45.45:934][147]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 2
+[2021.01.11-15.45.45:934][147]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 1
+[2021.01.11-15.45.45:938][147]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2021.01.11-15.45.46:035][148]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 4
+[2021.01.11-15.45.46:035][148]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 3
+[2021.01.11-15.45.46:035][148]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 2
+[2021.01.11-15.45.46:035][148]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 1
+[2021.01.11-15.45.47:713][194]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2021.01.11-15.45.47:723][194]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 4
+[2021.01.11-15.45.47:723][194]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 3
+[2021.01.11-15.45.47:723][194]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 2
+[2021.01.11-15.45.47:723][194]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 1
+[2021.01.11-15.45.47:727][194]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2021.01.11-15.45.47:730][194]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2021.01.11-15.45.47:758][195]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 8
+[2021.01.11-15.45.47:759][195]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 7
+[2021.01.11-15.45.47:759][195]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 6
+[2021.01.11-15.45.47:759][195]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 5
+[2021.01.11-15.45.48:733][216]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 4
+[2021.01.11-15.45.48:790][217]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 3
+[2021.01.11-15.45.48:829][218]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 2
+[2021.01.11-15.45.48:934][220]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 1
+[2021.01.11-15.45.51:729][358]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2021.01.11-15.45.51:735][358]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 4
+[2021.01.11-15.45.51:735][358]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 3
+[2021.01.11-15.45.51:735][358]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 2
+[2021.01.11-15.45.51:735][358]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 1
+[2021.01.11-15.46.04:998][ 75]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2021.01.11-15.46.05:014][ 76]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 4
+[2021.01.11-15.46.05:014][ 76]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 3
+[2021.01.11-15.46.05:014][ 76]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 2
+[2021.01.11-15.46.05:014][ 76]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 1
+[2021.01.11-15.46.10:071][347]LogMaterialEditor: Applying material MAT_decal
+[2021.01.11-15.46.11:579][347]LogMaterial: Display: Missing cached shader map for material MAT_decal, compiling. 
+[2021.01.11-15.46.11:631][347]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 9
+[2021.01.11-15.46.11:631][347]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 8
+[2021.01.11-15.46.11:631][347]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 7
+[2021.01.11-15.46.11:631][347]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2021.01.11-15.46.11:631][347]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 5
+[2021.01.11-15.46.11:631][347]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
+[2021.01.11-15.46.11:631][347]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3
+[2021.01.11-15.46.11:631][347]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2
+[2021.01.11-15.46.11:730][347]LogMaterial: Display: Missing cached shader map for material MAT_decal, compiling. 
+[2021.01.11-15.46.11:976][347]LogUObjectHash: Compacting FUObjectHashTables data took   3.22ms
+[2021.01.11-15.46.12:026][347]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.01.11-15.46.12:603][347]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 18
+[2021.01.11-15.46.13:162][347]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 17
+[2021.01.11-15.46.13:162][347]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 16
+[2021.01.11-15.46.13:162][347]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 15
+[2021.01.11-15.46.13:162][347]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 13
+[2021.01.11-15.46.13:162][347]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 11
+[2021.01.11-15.46.13:162][347]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 9
+[2021.01.11-15.46.13:162][347]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 7
+[2021.01.11-15.46.13:323][347]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 6
+[2021.01.11-15.46.13:323][347]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 5
+[2021.01.11-15.46.13:323][347]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
+[2021.01.11-15.46.13:339][347]TextureStreamingBuild: Display: Compiling optional shaders took 1.337 seconds.
+[2021.01.11-15.46.13:409][347]LogUObjectHash: Compacting FUObjectHashTables data took   2.41ms
+[2021.01.11-15.46.14:374][367]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 3
+[2021.01.11-15.46.14:811][377]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 2
+[2021.01.11-15.46.15:054][383]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 1
+[2021.01.11-15.46.16:953][424]MaterialEditorStats: Base pass shader: 120 instructions
+[2021.01.11-15.46.16:953][424]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 194 instructions
+[2021.01.11-15.46.16:953][424]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2021.01.11-15.46.16:953][424]MaterialEditorStats: Texture samplers: 4/16
+[2021.01.11-15.46.16:953][424]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2021.01.11-15.46.16:953][424]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2021.01.11-15.48.10:493][591]LogSlate: Window 'MAT_decal' being destroyed
+[2021.01.11-15.48.15:972][894]LogMaterial: Display: Missing cached shader map for material MAT_decal, compiling. 
+[2021.01.11-15.48.15:973][894]LogMaterial: Warning: /Engine/Transient.MAT_decal (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2021.01.11-15.48.15:973][894]LogMaterial: Display: 	Material using the DeferredDecal domain need to use the BlendModel Translucent (this saves performance)
+[2021.01.11-15.48.19:883][125]LogMaterialEditor: Saving and Compiling material MAT_decal
+[2021.01.11-15.48.22:279][125]LogSlate: Window 'Warning: Compilation errors in this Material' being destroyed
+[2021.01.11-15.48.23:496][196]LogMaterialEditor: Applying material MAT_decal
+[2021.01.11-15.48.25:593][196]LogSlate: Window 'Warning: Compilation errors in this Material' being destroyed
+[2021.01.11-15.48.26:092][196]LogMaterial: Display: Missing cached shader map for material MAT_decal, compiling. 
+[2021.01.11-15.48.26:092][196]LogMaterial: Warning: /Engine/Transient.MAT_decal (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2021.01.11-15.48.26:092][196]LogMaterial: Display: 	Material using the DeferredDecal domain need to use the BlendModel Translucent (this saves performance)
+[2021.01.11-15.48.26:193][196]LogMaterial: Display: Missing cached shader map for material MAT_decal, compiling. 
+[2021.01.11-15.48.26:194][196]LogMaterial: Warning: D:\kyle game\Project-Dimensions-of-horror\TheyLive 4.25\Content\Megascans\Atlases\Graffiti_Tag_uk2afjev_atlas\MAT_decal.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2021.01.11-15.48.26:194][196]LogMaterial: Display: 	Material using the DeferredDecal domain need to use the BlendModel Translucent (this saves performance)
+[2021.01.11-15.48.26:226][196]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2021.01.11-15.48.26:273][196]TextureStreamingBuild: Display: Compiling optional shaders took 0.000 seconds.
+[2021.01.11-15.48.26:286][196]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2021.01.11-15.48.26:299][196]MaterialEditorStats: Error: [SM5] Material using the DeferredDecal domain need to use the BlendModel Translucent (this saves performance)
+[2021.01.11-15.49.36:116][ 96]LogMaterialEditor: Saving and Compiling material MAT_decal
+[2021.01.11-15.49.37:641][ 96]LogSlate: Window 'Warning: Compilation errors in this Material' being destroyed
+[2021.01.11-15.49.38:141][ 96]LogMaterial: Display: Missing cached shader map for material MAT_decal, compiling. 
+[2021.01.11-15.49.38:142][ 96]LogMaterial: Warning: /Engine/Transient.MAT_decal (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2021.01.11-15.49.38:142][ 96]LogMaterial: Display: 	Material using the DeferredDecal domain need to use the BlendModel Translucent (this saves performance)
+[2021.01.11-15.49.38:196][ 96]LogMaterial: Display: Missing cached shader map for material MAT_decal, compiling. 
+[2021.01.11-15.49.38:196][ 96]LogMaterial: Warning: D:\kyle game\Project-Dimensions-of-horror\TheyLive 4.25\Content\Megascans\Atlases\Graffiti_Tag_uk2afjev_atlas\MAT_decal.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2021.01.11-15.49.38:196][ 96]LogMaterial: Display: 	Material using the DeferredDecal domain need to use the BlendModel Translucent (this saves performance)
+[2021.01.11-15.49.38:221][ 96]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2021.01.11-15.49.38:261][ 96]TextureStreamingBuild: Display: Compiling optional shaders took 0.000 seconds.
+[2021.01.11-15.49.38:273][ 96]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2021.01.11-15.49.38:443][ 96]LogSavePackage: Moving '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Saved/MAT_decalD5B8D0974226B76A60B40AA2AC9EADFB.tmp' to '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Content/Megascans/Atlases/Graffiti_Tag_uk2afjev_atlas/MAT_decal.uasset'
+[2021.01.11-15.49.38:453][ 96]AssetCheck: New page: Asset Save: MAT_decal
+[2021.01.11-15.49.38:453][ 96]LogContentValidation: Display: Validating Material /Game/Megascans/Atlases/Graffiti_Tag_uk2afjev_atlas/MAT_decal.MAT_decal
+[2021.01.11-15.49.40:578][212]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2021.01.11-15.49.40:578][212]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.11-15.49.54:908][990]LogSlate: Took 0.072211 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2021.01.11-15.49.57:929][161]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2021.01.11-15.50.05:765][624]Cmd: ACTOR SELECT ALL
+[2021.01.11-15.50.07:249][639]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (window5)
+[2021.01.11-15.50.08:787][711]Cmd: TRANSACTION UNDO
+[2021.01.11-15.50.08:787][711]LogEditorTransaction: Undo Clicking on Actors
+[2021.01.11-15.50.09:327][714]Cmd: TRANSACTION UNDO
+[2021.01.11-15.50.09:327][714]LogEditorTransaction: Undo Select All
+[2021.01.11-15.50.10:310][746]Cmd: TRANSACTION UNDO
+[2021.01.11-15.50.10:310][746]LogEditorTransaction: Undo Move Actors
+[2021.01.11-15.50.16:542][119]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (window2)
+[2021.01.11-15.50.27:667][765]LogEditorViewport: Clicking on Actor (LMB): DecalActor (decal_5)
+[2021.01.11-15.50.34:381][161]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (window4)
+[2021.01.11-15.50.44:560][737]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (window5)
+[2021.01.11-15.50.49:945][ 46]LogEditorViewport: Clicking on Actor (LMB): DecalActor (decal_5)
+[2021.01.11-15.51.03:109][830]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2021.01.11-15.51.08:984][176]Cmd: TRANSACTION UNDO
+[2021.01.11-15.51.08:984][176]LogEditorTransaction: Undo Move Actors
+[2021.01.11-15.51.34:207][589]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Parkour" FILE="../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Content/Maps/Parkour.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.01.11-15.51.34:599][589]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2021.01.11-15.51.35:449][589]LogSavePackage: Moving '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Parkour57A8CD4045A1F74F3C2FC5BAE3CDA7F9.tmp' to '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Content/Maps/Parkour.umap'
+[2021.01.11-15.51.35:619][589]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Parkour_BuiltData" FILE="../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Content/Maps/Parkour_BuiltData.uasset" SILENT=true
+[2021.01.11-15.51.35:735][589]LogSavePackage: Moving '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Parkour_BuiltData44BF3D024AD958C23220DD958AC3123E.tmp' to '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Content/Maps/Parkour_BuiltData.uasset'
+[2021.01.11-15.51.35:782][589]AssetCheck: New page: Asset Save: multiple assets
+[2021.01.11-15.51.35:782][589]LogContentValidation: Display: Validating World /Game/Maps/Parkour.Parkour
+[2021.01.11-15.51.35:782][589]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Parkour_BuiltData.Parkour_BuiltData
+[2021.01.11-15.51.39:676][799]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2021.01.11-15.51.39:896][799]BlueprintLog: New page: Pre-Play auto-recompile
+[2021.01.11-15.51.39:896][799]LogPlayLevel: [PlayLevel] Compiling Parkour before play...
+[2021.01.11-15.51.40:127][799]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2021.01.11-15.51.40:135][799]LogPlayLevel: PlayLevel: Blueprint regeneration took 248 ms (1 blueprints)
+[2021.01.11-15.51.40:171][799]PIE: New page: PIE session: Parkour (Jan 11, 2021, 5:51:40 AM)
+[2021.01.11-15.51.40:332][799]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2021.01.11-15.51.40:340][799]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2021.01.11-15.51.40:359][799]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Parkour
+[2021.01.11-15.51.40:624][799]LogPlayLevel: PIE: StaticDuplicateObject took: (0.255682s)
+[2021.01.11-15.51.40:654][799]LogAIModule: Creating AISystem for world Parkour
+[2021.01.11-15.51.40:654][799]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000023FB5653E00), frame # 44799
+[2021.01.11-15.51.40:654][799]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000023F74685080), frame # 44799
+[2021.01.11-15.51.40:666][799]LogPlayLevel: PIE: World Init took: (0.038497s)
+[2021.01.11-15.51.40:666][799]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Parkour.Parkour to /Game/Maps/UEDPIE_0_Parkour.Parkour (0.306179s)
+[2021.01.11-15.51.40:691][799]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2021.01.11-15.51.40:699][799]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.11-15.51.40:699][799]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.11-15.51.40:699][799]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.11-15.51.40:699][799]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.11-15.51.40:699][799]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.11-15.51.40:699][799]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.11-15.51.40:699][799]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.11-15.51.40:699][799]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.11-15.51.40:717][799]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.11-15.51.40:717][799]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.11-15.51.40:736][799]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.11-15.51.40:736][799]LogAudioMixer: Display: 1: FrontRight
+[2021.01.11-15.51.40:805][799]LogAudioMixer: Display: Using Audio Device Speaker / Headphone (Realtek(R) Audio)
+[2021.01.11-15.51.40:805][799]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.11-15.51.40:805][799]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.11-15.51.40:805][799]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.11-15.51.40:827][799]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.11-15.51.40:828][799]LogInit: FAudioDevice initialized.
+[2021.01.11-15.51.40:914][799]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.11-15.51.40:926][799]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.01.11-15.51.41:098][799]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Parkour.Parkour up for play (max tick rate 60) at 2021.01.11-10.51.41
+[2021.01.11-15.51.41:252][799]LogWorld: Bringing up level for play took: 0.242195
+[2021.01.11-15.51.41:334][799]LogOnline: OSS: Creating online subsystem instance for: :Context_5
+[2021.01.11-15.51.41:463][799]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 20 classes and 0 folders.
+[2021.01.11-15.51.41:698][799]PIE: Server logged in
+[2021.01.11-15.51.41:711][799]PIE: Play in editor total start time 1.951 seconds.
+[2021.01.11-15.51.42:357][800]LogRenderer: Reallocating scene render targets to support 1280x720 Format 10 NumSamples 1 (Frame:1).
+[2021.01.11-15.52.11:745][462]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.11-15.52.11:752][462]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Parkour
+[2021.01.11-15.52.11:753][462]LogSlate: Window 'TheyLive Preview [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2021.01.11-15.52.11:771][462]LogWorld: UWorld::CleanupWorld for Parkour, bSessionEnded=true, bCleanupResources=true
+[2021.01.11-15.52.11:782][462]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.11-15.52.11:804][462]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.11-15.52.11:820][462]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.11-15.52.12:086][462]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000023FB5653E00), frame # 46462
+[2021.01.11-15.52.12:086][462]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000023F74685080), frame # 46462
+[2021.01.11-15.52.12:099][462]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2021.01.11-15.52.12:152][463]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2021.01.11-15.52.45:894][389]LogEditorViewport: Clicking on Actor (LMB): DecalActor (DecalActor)
+[2021.01.11-15.53.00:635][224]Cmd: DELETE
+[2021.01.11-15.53.00:635][224]Cmd: ACTOR DELETE
+[2021.01.11-15.53.00:691][224]LogEditorActor: Deleted Actor: DecalActor
+[2021.01.11-15.53.00:705][224]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2021.01.11-15.53.00:709][224]LogEditorActor: Deleted 1 Actors (0.075 secs)
+[2021.01.11-15.54.21:345][929]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (road)
+[2021.01.11-15.54.40:060][ 16]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2021.01.11-15.54.47:815][478]Cmd: TRANSACTION UNDO
+[2021.01.11-15.54.47:815][478]LogEditorTransaction: Undo Move Actors
+[2021.01.11-15.54.53:721][812]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/School/Texture/decal_2.decal_2
+[2021.01.11-15.54.53:725][812]LogMaterial: Display: Missing cached shader map for material decal_2, compiling. 
+[2021.01.11-15.54.53:987][812]LogMaterial: Display: Missing cached shader map for material decal_2, compiling. 
+[2021.01.11-15.54.54:003][812]LogMaterial: Display: Missing cached shader map for material decal_2, compiling. 
+[2021.01.11-15.54.54:023][812]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 24
+[2021.01.11-15.54.54:023][812]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 23
+[2021.01.11-15.54.54:023][812]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 22
+[2021.01.11-15.54.54:023][812]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 21
+[2021.01.11-15.54.54:023][812]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 20
+[2021.01.11-15.54.54:023][812]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 19
+[2021.01.11-15.54.54:023][812]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 18
+[2021.01.11-15.54.54:023][812]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 17
+[2021.01.11-15.54.54:028][812]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2021.01.11-15.54.55:193][833]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 20
+[2021.01.11-15.54.55:399][838]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 19
+[2021.01.11-15.54.55:667][844]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 18
+[2021.01.11-15.54.56:308][859]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 17
+[2021.01.11-15.54.56:343][860]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 16
+[2021.01.11-15.54.56:498][864]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 15
+[2021.01.11-15.54.56:575][866]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 14
+[2021.01.11-15.54.56:792][872]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 13
+[2021.01.11-15.54.57:155][881]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 12
+[2021.01.11-15.54.57:193][882]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 11
+[2021.01.11-15.54.57:344][886]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 10
+[2021.01.11-15.54.58:021][899]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 9
+[2021.01.11-15.54.58:247][905]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 8
+[2021.01.11-15.54.58:281][906]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 7
+[2021.01.11-15.54.58:880][922]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 6
+[2021.01.11-15.54.58:916][923]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 5
+[2021.01.11-15.54.58:954][924]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 4
+[2021.01.11-15.54.59:224][932]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 3
+[2021.01.11-15.54.59:850][945]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 2
+[2021.01.11-15.54.59:943][948]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 1
+[2021.01.11-15.55.00:944][973]MaterialEditorStats: Base pass shader: 79 instructions
+[2021.01.11-15.55.00:944][973]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 106 instructions
+[2021.01.11-15.55.00:944][973]MaterialEditorStats: Base pass vertex shader: 169 instructions
+[2021.01.11-15.55.00:944][973]MaterialEditorStats: Texture samplers: 4/16
+[2021.01.11-15.55.00:944][973]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2021.01.11-15.55.00:944][973]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2021.01.11-15.55.04:752][149]LogSlate: Window 'decal_2' being destroyed
+[2021.01.11-15.55.04:758][149]LogSlate: Window 'decal_2' being destroyed
+[2021.01.11-15.55.04:827][149]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2021.01.11-15.55.04:827][149]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.11-15.55.12:698][613]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (chuanglian29)
+[2021.01.11-15.55.14:617][724]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (pillar6_low52)
+[2021.01.11-15.55.17:103][869]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (pillar6_low55)
+[2021.01.11-15.55.20:875][ 85]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (pillar6_low47)
+[2021.01.11-15.56.37:775][678]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2021.01.11-15.58.21:009][540]LogJson: Error: Json Value of type 'Object' used as a 'String'.
+[2021.01.11-15.58.21:078][540]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\Megascan Quixel\Downloaded\3d\other_various_uknjfevga\uknjfevga_2K_Albedo.jpg)
+[2021.01.11-15.58.21:237][540]LogTexture: Display: Building textures: Albedo_2K_uknjfevga (AutoDXT, 2048X2048)
+[2021.01.11-15.58.22:261][540]LogTexture: Display: Building textures: Albedo_2K_uknjfevga (BC7, 2048X2048)
+[2021.01.11-15.58.23:583][540]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\Megascan Quixel\Downloaded\3d\other_various_uknjfevga\uknjfevga_2K_Normal_LOD0.jpg)
+[2021.01.11-15.58.23:776][540]LogTexture: Display: Building textures: Normal_2K_LOD0_uknjfevga (BC5, 2048X2048)
+[2021.01.11-15.58.24:057][540]LogTexture: Display: Building textures: Normal_2K_LOD0_uknjfevga (BC5, 2048X2048)
+[2021.01.11-15.58.24:308][540]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\Megascan Quixel\Downloaded\3d\other_various_uknjfevga\uknjfevga_2K_Roughness.jpg)
+[2021.01.11-15.58.24:372][540]LogTexture: Display: Building textures: Roughness_2K_uknjfevga (AutoDXT, 2048X2048)
+[2021.01.11-15.58.24:628][540]LogTexture: Display: Building textures: Roughness_2K_uknjfevga (BC7, 2048X2048)
+[2021.01.11-15.58.25:881][540]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:\Megascan Quixel\Downloaded\3d\other_various_uknjfevga\uknjfevga_LOD0.fbx)
+[2021.01.11-15.58.26:007][540]LogFbx: Loading FBX Scene from D:\Megascan Quixel\Downloaded\3d\other_various_uknjfevga\uknjfevga_LOD0.fbx
+[2021.01.11-15.58.26:032][540]LogFbx: FBX Scene Loaded Succesfully
+[2021.01.11-15.58.26:074][540]LogStaticMesh: Building static mesh Dusty_Concrete_Stairs_LOD0_uknjfevga...
+[2021.01.11-15.58.26:179][540]LogStaticMesh: Built static mesh [0.10s] /Game/Megascans/3D_Assets/Dusty_Concrete_Stairs_uknjfevga_3d/Dusty_Concrete_Stairs_LOD0_uknjfevga.Dusty_Concrete_Stairs_LOD0_uknjfevga
+[2021.01.11-15.58.26:282][540]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2021.01.11-15.58.26:498][540]LogExportMeshUtils: Fbx LOD loading
+[2021.01.11-15.58.26:572][540]LogFbx: Loading FBX Scene from D:\Megascan Quixel\Downloaded\3d\other_various_uknjfevga\uknjfevga_LOD2.fbx
+[2021.01.11-15.58.26:579][540]LogFbx: FBX Scene Loaded Succesfully
+[2021.01.11-15.58.26:637][540]LogStaticMesh: Building static mesh Dusty_Concrete_Stairs_LOD0_uknjfevga...
+[2021.01.11-15.58.26:756][540]LogStaticMesh: Built static mesh [0.12s] /Game/Megascans/3D_Assets/Dusty_Concrete_Stairs_uknjfevga_3d/Dusty_Concrete_Stairs_LOD0_uknjfevga.Dusty_Concrete_Stairs_LOD0_uknjfevga
+[2021.01.11-15.58.26:833][540]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2021.01.11-15.58.26:836][540]LogExportMeshUtils: Fbx LOD loading
+[2021.01.11-15.58.27:041][540]LogFbx: Loading FBX Scene from D:\Megascan Quixel\Downloaded\3d\other_various_uknjfevga\uknjfevga_LOD4.fbx
+[2021.01.11-15.58.27:046][540]LogFbx: FBX Scene Loaded Succesfully
+[2021.01.11-15.58.27:122][540]LogStaticMesh: Building static mesh Dusty_Concrete_Stairs_LOD0_uknjfevga...
+[2021.01.11-15.58.27:257][540]LogStaticMesh: Built static mesh [0.14s] /Game/Megascans/3D_Assets/Dusty_Concrete_Stairs_uknjfevga_3d/Dusty_Concrete_Stairs_LOD0_uknjfevga.Dusty_Concrete_Stairs_LOD0_uknjfevga
+[2021.01.11-15.58.27:390][540]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2021.01.11-15.58.29:632][649]LogSlate: Window 'Message Log' being destroyed
+[2021.01.11-15.58.29:639][649]LogSlate: Window 'Message Log' being destroyed
+[2021.01.11-15.58.30:996][721]LogActorFactory: Actor Factory created Dusty_Concrete_Stairs_LOD0_uknjfevga
+[2021.01.11-15.58.32:104][780]LogActorFactory: Actor Factory created Dusty_Concrete_Stairs_LOD0_uknjfevga
+[2021.01.11-15.58.33:550][864]LogEditorBookmarks: Warning: FBookmarkTypeToolsImpl::JumpToBookmark - Null Bookmark at index 3
+[2021.01.11-15.58.42:212][382]LogEditorBookmarks: Warning: FBookmarkTypeToolsImpl::JumpToBookmark - Null Bookmark at index 2
+[2021.01.11-15.58.54:728][128]LogEditorBookmarks: Warning: FBookmarkTypeToolsImpl::JumpToBookmark - Null Bookmark at index 3
+[2021.01.11-15.59.03:776][669]LogEditorBookmarks: Warning: FBookmarkTypeToolsImpl::JumpToBookmark - Null Bookmark at index 2
+[2021.01.11-15.59.10:832][ 67]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Dusty_Concrete_Stairs_LOD0_uknjfevga)
+[2021.01.11-15.59.11:006][ 75]Cmd: TRANSACTION UNDO
+[2021.01.11-15.59.11:007][ 75]LogEditorTransaction: Undo Clicking on Actors
+[2021.01.11-15.59.11:293][ 79]Cmd: TRANSACTION UNDO
+[2021.01.11-15.59.11:293][ 79]LogEditorTransaction: Undo Move Actors
+[2021.01.11-15.59.11:491][ 80]Cmd: TRANSACTION UNDO
+[2021.01.11-15.59.11:492][ 80]LogEditorTransaction: Undo Move Actors
+[2021.01.11-15.59.11:613][ 85]Cmd: TRANSACTION UNDO
+[2021.01.11-15.59.11:613][ 85]LogEditorTransaction: Undo Rotate Actors
+[2021.01.11-15.59.11:756][ 91]Cmd: TRANSACTION UNDO
+[2021.01.11-15.59.11:757][ 91]LogEditorTransaction: Undo Rotate Actors
+[2021.01.11-15.59.12:390][129]Cmd: TRANSACTION UNDO
+[2021.01.11-15.59.12:390][129]LogEditorTransaction: Undo Move Actors
+[2021.01.11-15.59.59:007][907]Cmd: TRANSACTION UNDO
+[2021.01.11-15.59.59:007][907]LogEditorTransaction: Undo Scale Actors
+[2021.01.11-16.00.02:561][102]Cmd: EDIT COPY
+[2021.01.11-16.00.02:769][102]Cmd: EDIT PASTE
+[2021.01.11-16.00.04:731][211]Cmd: TRANSACTION UNDO
+[2021.01.11-16.00.04:731][211]LogEditorTransaction: Undo Move Actors
+[2021.01.11-16.00.10:934][562]Cmd: TRANSACTION UNDO
+[2021.01.11-16.00.10:934][562]LogEditorTransaction: Undo Select Brush Surface
+[2021.01.11-16.00.14:014][726]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2021.01.11-16.00.25:456][409]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2021.01.11-16.00.29:467][649]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2021.01.11-16.00.54:049][ 81]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2021.01.11-16.00.54:086][ 81]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.11-16.00.54:086][ 81]PIE: New page: PIE session: Parkour (Jan 11, 2021, 6:00:54 AM)
+[2021.01.11-16.00.54:086][ 81]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Parkour
+[2021.01.11-16.00.54:271][ 81]LogPlayLevel: PIE: StaticDuplicateObject took: (0.185583s)
+[2021.01.11-16.00.54:272][ 81]LogAIModule: Creating AISystem for world Parkour
+[2021.01.11-16.00.54:272][ 81]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002417701A600), frame # 72081
+[2021.01.11-16.00.54:272][ 81]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000023F43452AC0), frame # 72081
+[2021.01.11-16.00.54:273][ 81]LogPlayLevel: PIE: World Init took: (0.001627s)
+[2021.01.11-16.00.54:273][ 81]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Parkour.Parkour to /Game/Maps/UEDPIE_0_Parkour.Parkour (0.187548s)
+[2021.01.11-16.00.54:291][ 81]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2021.01.11-16.00.54:304][ 81]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.11-16.00.54:304][ 81]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.11-16.00.54:304][ 81]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.11-16.00.54:304][ 81]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.11-16.00.54:304][ 81]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.11-16.00.54:304][ 81]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.11-16.00.54:304][ 81]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.11-16.00.54:304][ 81]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.11-16.00.54:305][ 81]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.11-16.00.54:305][ 81]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.11-16.00.54:309][ 81]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.11-16.00.54:309][ 81]LogAudioMixer: Display: 1: FrontRight
+[2021.01.11-16.00.54:339][ 81]LogAudioMixer: Display: Using Audio Device Speaker / Headphone (Realtek(R) Audio)
+[2021.01.11-16.00.54:339][ 81]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.11-16.00.54:339][ 81]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.11-16.00.54:339][ 81]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.11-16.00.54:340][ 81]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.11-16.00.54:357][ 81]LogInit: FAudioDevice initialized.
+[2021.01.11-16.00.54:421][ 81]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.11-16.00.54:421][ 81]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.01.11-16.00.54:467][ 81]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Parkour.Parkour up for play (max tick rate 60) at 2021.01.11-11.00.54
+[2021.01.11-16.00.54:468][ 81]LogWorld: Bringing up level for play took: 0.046347
+[2021.01.11-16.00.54:511][ 81]LogOnline: OSS: Creating online subsystem instance for: :Context_7
+[2021.01.11-16.00.54:519][ 81]PIE: Server logged in
+[2021.01.11-16.00.54:520][ 81]PIE: Play in editor total start time 0.44 seconds.
+[2021.01.11-16.00.55:485][121]LogD3D11RHI: Display: Temp texture streaming buffer not large enough, needed 16777216 bytes
+[2021.01.11-16.01.23:155][754]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.11-16.01.23:155][754]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Parkour
+[2021.01.11-16.01.23:155][754]LogSlate: Window 'TheyLive Preview [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2021.01.11-16.01.23:167][754]LogWorld: UWorld::CleanupWorld for Parkour, bSessionEnded=true, bCleanupResources=true
+[2021.01.11-16.01.23:175][754]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.11-16.01.23:187][754]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.11-16.01.23:190][754]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.11-16.01.23:241][754]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000023F43452AC0), frame # 73754
+[2021.01.11-16.01.23:241][754]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002417701A600), frame # 73754
+[2021.01.11-16.01.23:248][754]LogUObjectHash: Compacting FUObjectHashTables data took   1.84ms
+[2021.01.11-16.01.23:313][755]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2021.01.11-16.01.24:273][802]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Dusty_Concrete_Stairs_LOD0_uknjfevga2)
+[2021.01.11-16.01.24:799][831]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2021.01.11-16.01.33:499][329]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Dusty_Concrete_Stairs_LOD0_uknjfevga2)
+[2021.01.11-16.01.45:088][983]Cmd: DELETE
+[2021.01.11-16.01.45:088][983]Cmd: ACTOR DELETE
+[2021.01.11-16.01.45:153][983]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.01.11-16.01.45:168][983]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2021.01.11-16.01.45:179][983]LogEditorActor: Deleted 1 Actors (0.091 secs)
+[2021.01.11-16.01.47:301][105]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Dusty_Concrete_Stairs_LOD0_uknjfevga)
+[2021.01.11-16.02.00:838][895]Cmd: TRANSACTION UNDO
+[2021.01.11-16.02.00:838][895]LogEditorTransaction: Undo Move Actors
+[2021.01.11-16.02.10:834][455]Cmd: TRANSACTION UNDO
+[2021.01.11-16.02.10:834][455]LogEditorTransaction: Undo Move Actors
+[2021.01.11-16.02.11:480][477]Cmd: TRANSACTION UNDO
+[2021.01.11-16.02.11:480][477]LogEditorTransaction: Undo Move Actors
+[2021.01.11-16.02.16:024][746]Cmd: TRANSACTION UNDO
+[2021.01.11-16.02.16:024][746]LogEditorTransaction: Undo Move Actors
+[2021.01.11-16.02.24:752][243]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Dusty_Concrete_Stairs_LOD0_uknjfevga)
+[2021.01.11-16.02.26:727][357]Cmd: EDIT COPY
+[2021.01.11-16.02.26:911][368]Cmd: EDIT PASTE
+[2021.01.11-16.03.27:249][824]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2021.01.11-16.03.28:609][824]LogSavePackage: Moving '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Parkour_Auto2B1770D204B1811C95F447E90DE7CAE84.tmp' to '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Autosaves/Game/Maps/Parkour_Auto2.umap'
+[2021.01.11-16.03.28:615][824]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Parkour' took 1.383
+[2021.01.11-16.03.28:615][824]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.383
+[2021.01.11-16.03.28:683][824]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Megascans/Atlases/Graffiti_Tag_uk2afjev_atlas/Albedo_2K_uk2afjev] ([1] browsable assets)...
+[2021.01.11-16.03.28:689][824]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Megascans/Atlases/Graffiti_Tag_uk2afjev_atlas/Albedo_2K_uk2afjev.Albedo_2K_uk2afjev]
+[2021.01.11-16.03.28:689][824]OBJ SavePackage: Finished generating thumbnails for package [/Game/Megascans/Atlases/Graffiti_Tag_uk2afjev_atlas/Albedo_2K_uk2afjev]
+[2021.01.11-16.03.28:719][824]LogSavePackage: Moving '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Albedo_2K_uk2afjev_Auto2601FAA404928EC2EB306E7ABE88F4B48.tmp' to '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Autosaves/Game/Megascans/Atlases/Graffiti_Tag_uk2afjev_atlas/Albedo_2K_uk2afjev_Auto2.uasset'
+[2021.01.11-16.03.28:720][824]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Megascans/Atlases/Graffiti_Tag_uk2afjev_atlas/Opacity_2K_uk2afjev] ([1] browsable assets)...
+[2021.01.11-16.03.28:724][824]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Megascans/Atlases/Graffiti_Tag_uk2afjev_atlas/Opacity_2K_uk2afjev.Opacity_2K_uk2afjev]
+[2021.01.11-16.03.28:724][824]OBJ SavePackage: Finished generating thumbnails for package [/Game/Megascans/Atlases/Graffiti_Tag_uk2afjev_atlas/Opacity_2K_uk2afjev]
+[2021.01.11-16.03.28:750][824]LogSavePackage: Moving '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Opacity_2K_uk2afjev_Auto2371C791C448ACDBEA3B63CB4C5026F6E.tmp' to '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Autosaves/Game/Megascans/Atlases/Graffiti_Tag_uk2afjev_atlas/Opacity_2K_uk2afjev_Auto2.uasset'
+[2021.01.11-16.03.28:751][824]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Megascans/3D_Assets/Dusty_Concrete_Stairs_uknjfevga_3d/Dusty_Concrete_Stairs_uknjfevga_3d_inst] ([1] browsable assets)...
+[2021.01.11-16.03.28:780][824]OBJ SavePackage:     Rendered thumbnail for [MaterialInstanceConstant /Game/Megascans/3D_Assets/Dusty_Concrete_Stairs_uknjfevga_3d/Dusty_Concrete_Stairs_uknjfevga_3d_inst.Dusty_Concrete_Stairs_uknjfevga_3d_inst]
+[2021.01.11-16.03.28:780][824]OBJ SavePackage: Finished generating thumbnails for package [/Game/Megascans/3D_Assets/Dusty_Concrete_Stairs_uknjfevga_3d/Dusty_Concrete_Stairs_uknjfevga_3d_inst]
+[2021.01.11-16.03.28:792][824]LogSavePackage: Moving '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Dusty_Concrete_Stairs_uknjfevga_D006C6234D4771CD548DA49642A2E68A.tmp' to '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Autosaves/Game/Megascans/3D_Assets/Dusty_Concrete_Stairs_uknjfevga_3d/Dusty_Concrete_Stairs_uknjfevga_3d_inst_Auto2.uasset'
+[2021.01.11-16.03.28:792][824]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Megascans/3D_Assets/Dusty_Concrete_Stairs_uknjfevga_3d/Albedo_2K_uknjfevga] ([1] browsable assets)...
+[2021.01.11-16.03.28:798][824]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Megascans/3D_Assets/Dusty_Concrete_Stairs_uknjfevga_3d/Albedo_2K_uknjfevga.Albedo_2K_uknjfevga]
+[2021.01.11-16.03.28:798][824]OBJ SavePackage: Finished generating thumbnails for package [/Game/Megascans/3D_Assets/Dusty_Concrete_Stairs_uknjfevga_3d/Albedo_2K_uknjfevga]
+[2021.01.11-16.03.28:857][824]LogSavePackage: Moving '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Albedo_2K_uknjfevga_Auto2F195EAAD45A406BA38B35CB2847E6C1E.tmp' to '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Autosaves/Game/Megascans/3D_Assets/Dusty_Concrete_Stairs_uknjfevga_3d/Albedo_2K_uknjfevga_Auto2.uasset'
+[2021.01.11-16.03.28:857][824]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Megascans/3D_Assets/Dusty_Concrete_Stairs_uknjfevga_3d/Normal_2K_LOD0_uknjfevga] ([1] browsable assets)...
+[2021.01.11-16.03.28:863][824]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Megascans/3D_Assets/Dusty_Concrete_Stairs_uknjfevga_3d/Normal_2K_LOD0_uknjfevga.Normal_2K_LOD0_uknjfevga]
+[2021.01.11-16.03.28:863][824]OBJ SavePackage: Finished generating thumbnails for package [/Game/Megascans/3D_Assets/Dusty_Concrete_Stairs_uknjfevga_3d/Normal_2K_LOD0_uknjfevga]
+[2021.01.11-16.03.28:891][824]LogSavePackage: Moving '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Normal_2K_LOD0_uknjfevga_Auto25A750A834A8C4D3BD2CC5B9F2ED753A1.tmp' to '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Autosaves/Game/Megascans/3D_Assets/Dusty_Concrete_Stairs_uknjfevga_3d/Normal_2K_LOD0_uknjfevga_Auto2.uasset'
+[2021.01.11-16.03.28:892][824]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Megascans/3D_Assets/Dusty_Concrete_Stairs_uknjfevga_3d/Roughness_2K_uknjfevga] ([1] browsable assets)...
+[2021.01.11-16.03.28:898][824]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Megascans/3D_Assets/Dusty_Concrete_Stairs_uknjfevga_3d/Roughness_2K_uknjfevga.Roughness_2K_uknjfevga]
+[2021.01.11-16.03.28:898][824]OBJ SavePackage: Finished generating thumbnails for package [/Game/Megascans/3D_Assets/Dusty_Concrete_Stairs_uknjfevga_3d/Roughness_2K_uknjfevga]
+[2021.01.11-16.03.28:911][824]LogSavePackage: Moving '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Roughness_2K_uknjfevga_Auto2072F9405429C6D5092CB50B627F4DA48.tmp' to '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Autosaves/Game/Megascans/3D_Assets/Dusty_Concrete_Stairs_uknjfevga_3d/Roughness_2K_uknjfevga_Auto2.uasset'
+[2021.01.11-16.03.28:912][824]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Megascans/3D_Assets/Dusty_Concrete_Stairs_uknjfevga_3d/Dusty_Concrete_Stairs_LOD0_uknjfevga] ([1] browsable assets)...
+[2021.01.11-16.03.28:940][824]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Megascans/3D_Assets/Dusty_Concrete_Stairs_uknjfevga_3d/Dusty_Concrete_Stairs_LOD0_uknjfevga.Dusty_Concrete_Stairs_LOD0_uknjfevga]
+[2021.01.11-16.03.28:940][824]OBJ SavePackage: Finished generating thumbnails for package [/Game/Megascans/3D_Assets/Dusty_Concrete_Stairs_uknjfevga_3d/Dusty_Concrete_Stairs_LOD0_uknjfevga]
+[2021.01.11-16.03.29:053][824]LogSavePackage: Moving '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Dusty_Concrete_Stairs_LOD0_uknjf9FF99C844BCC810054C0278D4942A052.tmp' to '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Autosaves/Game/Megascans/3D_Assets/Dusty_Concrete_Stairs_uknjfevga_3d/Dusty_Concrete_Stairs_LOD0_uknjfevga_Auto2.uasset'
+[2021.01.11-16.03.29:054][824]LogFileHelpers: Auto-saving content packages took 0.439
+[2021.01.11-16.03.36:248][245]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Dusty_Concrete_Stairs_LOD0_uknjfevga2)
+[2021.01.11-16.03.38:086][352]Cmd: EDIT COPY
+[2021.01.11-16.03.38:252][362]Cmd: EDIT PASTE
+[2021.01.11-16.03.46:893][875]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2021.01.11-16.04.01:137][716]Cmd: TRANSACTION UNDO
+[2021.01.11-16.04.01:137][716]LogEditorTransaction: Undo Scale Actors
+[2021.01.11-16.04.03:200][822]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2021.01.11-16.04.14:760][511]Cmd: DELETE
+[2021.01.11-16.04.14:760][511]Cmd: ACTOR DELETE
+[2021.01.11-16.04.14:816][511]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.01.11-16.04.14:830][511]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2021.01.11-16.04.14:834][511]LogEditorActor: Deleted 1 Actors (0.074 secs)
+[2021.01.11-16.04.15:768][560]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Dusty_Concrete_Stairs_LOD0_uknjfevga2)
+[2021.01.11-16.04.21:815][919]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2021.01.11-16.04.44:570][277]Cmd: TRANSACTION UNDO
+[2021.01.11-16.04.44:570][277]LogEditorTransaction: Undo Move Actors
+[2021.01.11-16.04.45:391][309]Cmd: TRANSACTION UNDO
+[2021.01.11-16.04.45:391][309]LogEditorTransaction: Undo Scale Actors
+[2021.01.11-16.04.52:308][715]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Dusty_Concrete_Stairs_LOD0_uknjfevga2)
+[2021.01.11-16.05.04:206][403]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Dusty_Concrete_Stairs_LOD0_uknjfevga)
+[2021.01.11-16.05.18:681][260]LogSlate: Took 0.030475 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2021.01.11-16.05.28:689][841]Cmd: TRANSACTION UNDO
+[2021.01.11-16.05.28:689][841]LogEditorTransaction: Undo Rotate Actors
+[2021.01.11-16.05.57:064][487]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2021.01.11-16.05.57:096][487]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.11-16.05.57:096][487]PIE: New page: PIE session: Parkour (Jan 11, 2021, 6:05:57 AM)
+[2021.01.11-16.05.57:096][487]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Parkour
+[2021.01.11-16.05.57:305][487]LogPlayLevel: PIE: StaticDuplicateObject took: (0.209866s)
+[2021.01.11-16.05.57:307][487]LogAIModule: Creating AISystem for world Parkour
+[2021.01.11-16.05.57:307][487]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000023FC3A96C00), frame # 87487
+[2021.01.11-16.05.57:307][487]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000023FF86D2D40), frame # 87487
+[2021.01.11-16.05.57:308][487]LogPlayLevel: PIE: World Init took: (0.001556s)
+[2021.01.11-16.05.57:308][487]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Parkour.Parkour to /Game/Maps/UEDPIE_0_Parkour.Parkour (0.211737s)
+[2021.01.11-16.05.57:322][487]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2021.01.11-16.05.57:325][487]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.11-16.05.57:325][487]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.11-16.05.57:325][487]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.11-16.05.57:325][487]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.11-16.05.57:325][487]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.11-16.05.57:325][487]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.11-16.05.57:325][487]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.11-16.05.57:325][487]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.11-16.05.57:325][487]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.11-16.05.57:325][487]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.11-16.05.57:328][487]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.11-16.05.57:328][487]LogAudioMixer: Display: 1: FrontRight
+[2021.01.11-16.05.57:358][487]LogAudioMixer: Display: Using Audio Device Speaker / Headphone (Realtek(R) Audio)
+[2021.01.11-16.05.57:358][487]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.11-16.05.57:358][487]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.11-16.05.57:358][487]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.11-16.05.57:359][487]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.11-16.05.57:376][487]LogInit: FAudioDevice initialized.
+[2021.01.11-16.05.57:431][487]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.11-16.05.57:431][487]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.01.11-16.05.57:485][487]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Parkour.Parkour up for play (max tick rate 60) at 2021.01.11-11.05.57
+[2021.01.11-16.05.57:487][487]LogWorld: Bringing up level for play took: 0.056234
+[2021.01.11-16.05.57:488][487]LogOnline: OSS: Creating online subsystem instance for: :Context_8
+[2021.01.11-16.05.57:499][487]PIE: Server logged in
+[2021.01.11-16.05.57:500][487]PIE: Play in editor total start time 0.409 seconds.
+[2021.01.11-16.05.58:330][511]LogD3D11RHI: Display: Temp texture streaming buffer not large enough, needed 16777216 bytes
+[2021.01.11-16.06.29:314][336]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.11-16.06.29:314][336]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Parkour
+[2021.01.11-16.06.29:314][336]LogSlate: Window 'TheyLive Preview [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2021.01.11-16.06.29:319][336]LogWorld: UWorld::CleanupWorld for Parkour, bSessionEnded=true, bCleanupResources=true
+[2021.01.11-16.06.29:326][336]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.11-16.06.29:336][336]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.11-16.06.29:339][336]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.11-16.06.29:396][336]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000023FF86D2D40), frame # 89336
+[2021.01.11-16.06.29:396][336]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000023FC3A96C00), frame # 89336
+[2021.01.11-16.06.29:400][336]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2021.01.11-16.06.29:457][337]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2021.01.11-16.07.40:253][838]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Dusty_Concrete_Stairs_LOD0_uknjfevga2)
+[2021.01.11-16.08.08:502][466]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush25)
+[2021.01.11-16.08.34:169][945]LogJson: Error: Json Value of type 'Object' used as a 'String'.
+[2021.01.11-16.08.34:210][945]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\Megascan Quixel\Downloaded\3d\3d_modular_uhbicgudw\uhbicgudw_2K_Albedo.jpg)
+[2021.01.11-16.08.34:363][945]LogTexture: Display: Building textures: Albedo_2K_uhbicgudw (AutoDXT, 2048X2048)
+[2021.01.11-16.08.35:484][945]LogTexture: Display: Building textures: Albedo_2K_uhbicgudw (BC7, 2048X2048)
+[2021.01.11-16.08.36:980][945]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\Megascan Quixel\Downloaded\3d\3d_modular_uhbicgudw\uhbicgudw_2K_Normal_LOD0.jpg)
+[2021.01.11-16.08.37:214][945]LogTexture: Display: Building textures: Normal_2K_LOD0_uhbicgudw (BC5, 2048X2048)
+[2021.01.11-16.08.37:547][945]LogTexture: Display: Building textures: Normal_2K_LOD0_uhbicgudw (BC5, 2048X2048)
+[2021.01.11-16.08.38:416][945]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\Megascan Quixel\Downloaded\3d\3d_modular_uhbicgudw\uhbicgudw_2K_Roughness.jpg)
+[2021.01.11-16.08.38:496][945]LogTexture: Display: Building textures: Roughness_2K_uhbicgudw (AutoDXT, 2048X2048)
+[2021.01.11-16.08.38:823][945]LogTexture: Display: Building textures: Roughness_2K_uhbicgudw (BC7, 2048X2048)
+[2021.01.11-16.08.40:562][945]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:\Megascan Quixel\Downloaded\3d\3d_modular_uhbicgudw\uhbicgudw_LOD0.fbx)
+[2021.01.11-16.08.40:574][945]LogFbx: Loading FBX Scene from D:\Megascan Quixel\Downloaded\3d\3d_modular_uhbicgudw\uhbicgudw_LOD0.fbx
+[2021.01.11-16.08.40:592][945]LogFbx: FBX Scene Loaded Succesfully
+[2021.01.11-16.08.40:625][945]LogStaticMesh: Building static mesh uhbicgudw_LOD0_Aset_modular__S_uhbicgudw_00_LOD0...
+[2021.01.11-16.08.40:704][945]LogStaticMesh: Built static mesh [0.08s] /Game/Megascans/3D_Assets/Modular_Building_Foundation_Kit_uhbicgudw_3d/uhbicgudw_LOD0_Aset_modular__S_uhbicgudw_00_LOD0.uhbicgudw_LOD0_Aset_modular__S_uhbicgudw_00_LOD0
+[2021.01.11-16.08.40:739][945]LogStaticMesh: Building static mesh uhbicgudw_LOD0_Aset_modular__S_uhbicgudw_01_LOD0...
+[2021.01.11-16.08.40:765][945]LogStaticMesh: Built static mesh [0.03s] /Game/Megascans/3D_Assets/Modular_Building_Foundation_Kit_uhbicgudw_3d/uhbicgudw_LOD0_Aset_modular__S_uhbicgudw_01_LOD0.uhbicgudw_LOD0_Aset_modular__S_uhbicgudw_01_LOD0
+[2021.01.11-16.08.40:785][945]LogStaticMesh: Building static mesh uhbicgudw_LOD0_Aset_modular__S_uhbicgudw_02_LOD0...
+[2021.01.11-16.08.40:818][945]LogStaticMesh: Built static mesh [0.03s] /Game/Megascans/3D_Assets/Modular_Building_Foundation_Kit_uhbicgudw_3d/uhbicgudw_LOD0_Aset_modular__S_uhbicgudw_02_LOD0.uhbicgudw_LOD0_Aset_modular__S_uhbicgudw_02_LOD0
+[2021.01.11-16.08.40:845][945]LogStaticMesh: Building static mesh uhbicgudw_LOD0_Aset_modular__S_uhbicgudw_03_LOD0...
+[2021.01.11-16.08.40:911][945]LogStaticMesh: Built static mesh [0.07s] /Game/Megascans/3D_Assets/Modular_Building_Foundation_Kit_uhbicgudw_3d/uhbicgudw_LOD0_Aset_modular__S_uhbicgudw_03_LOD0.uhbicgudw_LOD0_Aset_modular__S_uhbicgudw_03_LOD0
+[2021.01.11-16.08.40:971][945]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2021.01.11-16.08.41:433][945]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:\Megascan Quixel\Downloaded\3d\3d_modular_uhbicgudw\uhbicgudw_LOD2.fbx)
+[2021.01.11-16.08.41:442][945]LogFbx: Loading FBX Scene from D:\Megascan Quixel\Downloaded\3d\3d_modular_uhbicgudw\uhbicgudw_LOD2.fbx
+[2021.01.11-16.08.41:453][945]LogFbx: FBX Scene Loaded Succesfully
+[2021.01.11-16.08.41:465][945]LogStaticMesh: Building static mesh uhbicgudw_LOD2_Aset_modular__S_uhbicgudw_00_LOD2...
+[2021.01.11-16.08.41:486][945]LogStaticMesh: Built static mesh [0.02s] /Game/Megascans/3D_Assets/Modular_Building_Foundation_Kit_uhbicgudw_3d/Lods/uhbicgudw_LOD2_Aset_modular__S_uhbicgudw_00_LOD2.uhbicgudw_LOD2_Aset_modular__S_uhbicgudw_00_LOD2
+[2021.01.11-16.08.41:504][945]LogStaticMesh: Building static mesh uhbicgudw_LOD2_Aset_modular__S_uhbicgudw_01_LOD2...
+[2021.01.11-16.08.41:513][945]LogStaticMesh: Built static mesh [0.01s] /Game/Megascans/3D_Assets/Modular_Building_Foundation_Kit_uhbicgudw_3d/Lods/uhbicgudw_LOD2_Aset_modular__S_uhbicgudw_01_LOD2.uhbicgudw_LOD2_Aset_modular__S_uhbicgudw_01_LOD2
+[2021.01.11-16.08.41:523][945]LogStaticMesh: Building static mesh uhbicgudw_LOD2_Aset_modular__S_uhbicgudw_02_LOD2...
+[2021.01.11-16.08.41:533][945]LogStaticMesh: Built static mesh [0.01s] /Game/Megascans/3D_Assets/Modular_Building_Foundation_Kit_uhbicgudw_3d/Lods/uhbicgudw_LOD2_Aset_modular__S_uhbicgudw_02_LOD2.uhbicgudw_LOD2_Aset_modular__S_uhbicgudw_02_LOD2
+[2021.01.11-16.08.41:547][945]LogStaticMesh: Building static mesh uhbicgudw_LOD2_Aset_modular__S_uhbicgudw_03_LOD2...
+[2021.01.11-16.08.41:564][945]LogStaticMesh: Built static mesh [0.02s] /Game/Megascans/3D_Assets/Modular_Building_Foundation_Kit_uhbicgudw_3d/Lods/uhbicgudw_LOD2_Aset_modular__S_uhbicgudw_03_LOD2.uhbicgudw_LOD2_Aset_modular__S_uhbicgudw_03_LOD2
+[2021.01.11-16.08.41:585][945]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2021.01.11-16.08.41:623][945]LogStaticMesh: Building static mesh uhbicgudw_LOD0_Aset_modular__S_uhbicgudw_00_LOD0...
+[2021.01.11-16.08.41:769][945]LogStaticMesh: Built static mesh [0.15s] /Game/Megascans/3D_Assets/Modular_Building_Foundation_Kit_uhbicgudw_3d/uhbicgudw_LOD0_Aset_modular__S_uhbicgudw_00_LOD0.uhbicgudw_LOD0_Aset_modular__S_uhbicgudw_00_LOD0
+[2021.01.11-16.08.41:875][945]LogStaticMesh: Building static mesh uhbicgudw_LOD0_Aset_modular__S_uhbicgudw_01_LOD0...
+[2021.01.11-16.08.41:935][945]LogStaticMesh: Built static mesh [0.06s] /Game/Megascans/3D_Assets/Modular_Building_Foundation_Kit_uhbicgudw_3d/uhbicgudw_LOD0_Aset_modular__S_uhbicgudw_01_LOD0.uhbicgudw_LOD0_Aset_modular__S_uhbicgudw_01_LOD0
+[2021.01.11-16.08.42:034][945]LogStaticMesh: Building static mesh uhbicgudw_LOD0_Aset_modular__S_uhbicgudw_02_LOD0...
+[2021.01.11-16.08.42:129][945]LogStaticMesh: Built static mesh [0.09s] /Game/Megascans/3D_Assets/Modular_Building_Foundation_Kit_uhbicgudw_3d/uhbicgudw_LOD0_Aset_modular__S_uhbicgudw_02_LOD0.uhbicgudw_LOD0_Aset_modular__S_uhbicgudw_02_LOD0
+[2021.01.11-16.08.42:266][945]LogStaticMesh: Building static mesh uhbicgudw_LOD0_Aset_modular__S_uhbicgudw_03_LOD0...
+[2021.01.11-16.08.42:411][945]LogStaticMesh: Built static mesh [0.15s] /Game/Megascans/3D_Assets/Modular_Building_Foundation_Kit_uhbicgudw_3d/uhbicgudw_LOD0_Aset_modular__S_uhbicgudw_03_LOD0.uhbicgudw_LOD0_Aset_modular__S_uhbicgudw_03_LOD0
+[2021.01.11-16.08.42:980][945]LogUObjectGlobals: Force Deleting 4 Package(s):
+	Asset Name: /Game/Megascans/3D_Assets/Modular_Building_Foundation_Kit_uhbicgudw_3d/Lods/uhbicgudw_LOD2_Aset_modular__S_uhbicgudw_03_LOD2.uhbicgudw_LOD2_Aset_modular__S_uhbicgudw_03_LOD2
+	Asset Name: /Game/Megascans/3D_Assets/Modular_Building_Foundation_Kit_uhbicgudw_3d/Lods/uhbicgudw_LOD2_Aset_modular__S_uhbicgudw_02_LOD2.uhbicgudw_LOD2_Aset_modular__S_uhbicgudw_02_LOD2
+	Asset Name: /Game/Megascans/3D_Assets/Modular_Building_Foundation_Kit_uhbicgudw_3d/Lods/uhbicgudw_LOD2_Aset_modular__S_uhbicgudw_01_LOD2.uhbicgudw_LOD2_Aset_modular__S_uhbicgudw_01_LOD2
+	Asset Name: /Game/Megascans/3D_Assets/Modular_Building_Foundation_Kit_uhbicgudw_3d/Lods/uhbicgudw_LOD2_Aset_modular__S_uhbicgudw_00_LOD2.uhbicgudw_LOD2_Aset_modular__S_uhbicgudw_00_LOD2
+[2021.01.11-16.08.44:468][945]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2021.01.11-16.08.44:619][945]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:\Megascan Quixel\Downloaded\3d\3d_modular_uhbicgudw\uhbicgudw_LOD4.fbx)
+[2021.01.11-16.08.44:629][945]LogFbx: Loading FBX Scene from D:\Megascan Quixel\Downloaded\3d\3d_modular_uhbicgudw\uhbicgudw_LOD4.fbx
+[2021.01.11-16.08.44:637][945]LogFbx: FBX Scene Loaded Succesfully
+[2021.01.11-16.08.44:643][945]LogStaticMesh: Building static mesh uhbicgudw_LOD4_Aset_modular__S_uhbicgudw_00_LOD4...
+[2021.01.11-16.08.44:649][945]LogStaticMesh: Built static mesh [0.01s] /Game/Megascans/3D_Assets/Modular_Building_Foundation_Kit_uhbicgudw_3d/Lods/uhbicgudw_LOD4_Aset_modular__S_uhbicgudw_00_LOD4.uhbicgudw_LOD4_Aset_modular__S_uhbicgudw_00_LOD4
+[2021.01.11-16.08.44:654][945]LogStaticMesh: Building static mesh uhbicgudw_LOD4_Aset_modular__S_uhbicgudw_01_LOD4...
+[2021.01.11-16.08.44:657][945]LogStaticMesh: Built static mesh [0.00s] /Game/Megascans/3D_Assets/Modular_Building_Foundation_Kit_uhbicgudw_3d/Lods/uhbicgudw_LOD4_Aset_modular__S_uhbicgudw_01_LOD4.uhbicgudw_LOD4_Aset_modular__S_uhbicgudw_01_LOD4
+[2021.01.11-16.08.44:663][945]LogStaticMesh: Building static mesh uhbicgudw_LOD4_Aset_modular__S_uhbicgudw_02_LOD4...
+[2021.01.11-16.08.44:665][945]LogStaticMesh: Built static mesh [0.00s] /Game/Megascans/3D_Assets/Modular_Building_Foundation_Kit_uhbicgudw_3d/Lods/uhbicgudw_LOD4_Aset_modular__S_uhbicgudw_02_LOD4.uhbicgudw_LOD4_Aset_modular__S_uhbicgudw_02_LOD4
+[2021.01.11-16.08.44:671][945]LogStaticMesh: Building static mesh uhbicgudw_LOD4_Aset_modular__S_uhbicgudw_03_LOD4...
+[2021.01.11-16.08.44:677][945]LogStaticMesh: Built static mesh [0.01s] /Game/Megascans/3D_Assets/Modular_Building_Foundation_Kit_uhbicgudw_3d/Lods/uhbicgudw_LOD4_Aset_modular__S_uhbicgudw_03_LOD4.uhbicgudw_LOD4_Aset_modular__S_uhbicgudw_03_LOD4
+[2021.01.11-16.08.44:688][945]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2021.01.11-16.08.44:703][945]LogStaticMesh: Building static mesh uhbicgudw_LOD0_Aset_modular__S_uhbicgudw_00_LOD0...
+[2021.01.11-16.08.44:859][945]LogStaticMesh: Built static mesh [0.16s] /Game/Megascans/3D_Assets/Modular_Building_Foundation_Kit_uhbicgudw_3d/uhbicgudw_LOD0_Aset_modular__S_uhbicgudw_00_LOD0.uhbicgudw_LOD0_Aset_modular__S_uhbicgudw_00_LOD0
+[2021.01.11-16.08.45:008][945]LogStaticMesh: Building static mesh uhbicgudw_LOD0_Aset_modular__S_uhbicgudw_01_LOD0...
+[2021.01.11-16.08.45:071][945]LogStaticMesh: Built static mesh [0.06s] /Game/Megascans/3D_Assets/Modular_Building_Foundation_Kit_uhbicgudw_3d/uhbicgudw_LOD0_Aset_modular__S_uhbicgudw_01_LOD0.uhbicgudw_LOD0_Aset_modular__S_uhbicgudw_01_LOD0
+[2021.01.11-16.08.45:161][945]LogStaticMesh: Building static mesh uhbicgudw_LOD0_Aset_modular__S_uhbicgudw_02_LOD0...
+[2021.01.11-16.08.45:243][945]LogStaticMesh: Built static mesh [0.08s] /Game/Megascans/3D_Assets/Modular_Building_Foundation_Kit_uhbicgudw_3d/uhbicgudw_LOD0_Aset_modular__S_uhbicgudw_02_LOD0.uhbicgudw_LOD0_Aset_modular__S_uhbicgudw_02_LOD0
+[2021.01.11-16.08.45:345][945]LogStaticMesh: Building static mesh uhbicgudw_LOD0_Aset_modular__S_uhbicgudw_03_LOD0...
+[2021.01.11-16.08.45:457][945]LogStaticMesh: Built static mesh [0.11s] /Game/Megascans/3D_Assets/Modular_Building_Foundation_Kit_uhbicgudw_3d/uhbicgudw_LOD0_Aset_modular__S_uhbicgudw_03_LOD0.uhbicgudw_LOD0_Aset_modular__S_uhbicgudw_03_LOD0
+[2021.01.11-16.08.45:753][945]LogUObjectGlobals: Force Deleting 4 Package(s):
+	Asset Name: /Game/Megascans/3D_Assets/Modular_Building_Foundation_Kit_uhbicgudw_3d/Lods/uhbicgudw_LOD4_Aset_modular__S_uhbicgudw_03_LOD4.uhbicgudw_LOD4_Aset_modular__S_uhbicgudw_03_LOD4
+	Asset Name: /Game/Megascans/3D_Assets/Modular_Building_Foundation_Kit_uhbicgudw_3d/Lods/uhbicgudw_LOD4_Aset_modular__S_uhbicgudw_02_LOD4.uhbicgudw_LOD4_Aset_modular__S_uhbicgudw_02_LOD4
+	Asset Name: /Game/Megascans/3D_Assets/Modular_Building_Foundation_Kit_uhbicgudw_3d/Lods/uhbicgudw_LOD4_Aset_modular__S_uhbicgudw_01_LOD4.uhbicgudw_LOD4_Aset_modular__S_uhbicgudw_01_LOD4
+	Asset Name: /Game/Megascans/3D_Assets/Modular_Building_Foundation_Kit_uhbicgudw_3d/Lods/uhbicgudw_LOD4_Aset_modular__S_uhbicgudw_00_LOD4.uhbicgudw_LOD4_Aset_modular__S_uhbicgudw_00_LOD4
+[2021.01.11-16.08.46:764][945]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2021.01.11-16.08.46:968][945]Message dialog closed, result: Ok, title: Unable to Check Out From Source Control!, text: The following assets could not be successfully checked out from source control:
+/Game/Megascans/3D_Assets/Modular_Building_Foundation_Kit_uhbicgudw_3d/Modular_Building_Foundation_Kit_LOD0_uhbicgudw_1
+[2021.01.11-16.08.47:097][945]LogSavePackage: Moving '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Modular_Building_Foundation_Kit_516466D645AF7D4A49B5B1A906FC9EEA.tmp' to '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Content/Megascans/3D_Assets/Modular_Building_Foundation_Kit_uhbicgudw_3d/Modular_Building_Foundation_Kit_LOD0_uhbicgudw_1.uasset'
+[2021.01.11-16.08.47:413][945]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2021.01.11-16.08.47:436][945]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2021.01.11-16.08.47:451][945]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2021.01.11-16.08.47:832][945]Message dialog closed, result: Ok, title: Unable to Check Out From Source Control!, text: The following assets could not be successfully checked out from source control:
+/Game/Megascans/3D_Assets/Modular_Building_Foundation_Kit_uhbicgudw_3d/Modular_Building_Foundation_Kit_LOD0_uhbicgudw_2
+[2021.01.11-16.08.47:928][945]LogSavePackage: Moving '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Modular_Building_Foundation_Kit_A82E0761429B4589B960358C4F357618.tmp' to '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Content/Megascans/3D_Assets/Modular_Building_Foundation_Kit_uhbicgudw_3d/Modular_Building_Foundation_Kit_LOD0_uhbicgudw_2.uasset'
+[2021.01.11-16.08.48:243][945]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2021.01.11-16.08.48:263][945]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2021.01.11-16.08.48:278][945]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2021.01.11-16.08.48:580][945]Message dialog closed, result: Ok, title: Unable to Check Out From Source Control!, text: The following assets could not be successfully checked out from source control:
+/Game/Megascans/3D_Assets/Modular_Building_Foundation_Kit_uhbicgudw_3d/Modular_Building_Foundation_Kit_LOD0_uhbicgudw_3
+[2021.01.11-16.08.48:679][945]LogSavePackage: Moving '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Modular_Building_Foundation_Kit_E159C74D4BA94F9C5B3D95B26296F0A7.tmp' to '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Content/Megascans/3D_Assets/Modular_Building_Foundation_Kit_uhbicgudw_3d/Modular_Building_Foundation_Kit_LOD0_uhbicgudw_3.uasset'
+[2021.01.11-16.08.49:190][945]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2021.01.11-16.08.49:224][945]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2021.01.11-16.08.49:249][945]LogUObjectHash: Compacting FUObjectHashTables data took   2.29ms
+[2021.01.11-16.08.49:749][945]Message dialog closed, result: Ok, title: Unable to Check Out From Source Control!, text: The following assets could not be successfully checked out from source control:
+/Game/Megascans/3D_Assets/Modular_Building_Foundation_Kit_uhbicgudw_3d/Modular_Building_Foundation_Kit_LOD0_uhbicgudw_4
+[2021.01.11-16.08.49:869][945]LogSavePackage: Moving '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Modular_Building_Foundation_Kit_E3BDD3544AD2FE46EC414AB658BEFB15.tmp' to '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Content/Megascans/3D_Assets/Modular_Building_Foundation_Kit_uhbicgudw_3d/Modular_Building_Foundation_Kit_LOD0_uhbicgudw_4.uasset'
+[2021.01.11-16.08.50:268][945]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2021.01.11-16.08.50:297][945]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2021.01.11-16.08.50:320][945]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2021.01.11-16.08.50:806][946]AssetCheck: New page: Asset Save: multiple assets
+[2021.01.11-16.08.50:806][946]LogContentValidation: Display: Validating StaticMesh /Game/Megascans/3D_Assets/Modular_Building_Foundation_Kit_uhbicgudw_3d/Modular_Building_Foundation_Kit_LOD0_uhbicgudw_1.Modular_Building_Foundation_Kit_LOD0_uhbicgudw_1
+[2021.01.11-16.08.50:806][946]LogContentValidation: Display: Validating StaticMesh /Game/Megascans/3D_Assets/Modular_Building_Foundation_Kit_uhbicgudw_3d/Modular_Building_Foundation_Kit_LOD0_uhbicgudw_2.Modular_Building_Foundation_Kit_LOD0_uhbicgudw_2
+[2021.01.11-16.08.50:806][946]LogContentValidation: Display: Validating StaticMesh /Game/Megascans/3D_Assets/Modular_Building_Foundation_Kit_uhbicgudw_3d/Modular_Building_Foundation_Kit_LOD0_uhbicgudw_3.Modular_Building_Foundation_Kit_LOD0_uhbicgudw_3
+[2021.01.11-16.08.50:806][946]LogContentValidation: Display: Validating StaticMesh /Game/Megascans/3D_Assets/Modular_Building_Foundation_Kit_uhbicgudw_3d/Modular_Building_Foundation_Kit_LOD0_uhbicgudw_4.Modular_Building_Foundation_Kit_LOD0_uhbicgudw_4
+[2021.01.11-16.09.15:006][ 46]LogD3D11RHI: Display: Temp texture streaming buffer not large enough, needed 16777216 bytes
+[2021.01.11-16.09.15:228][ 59]LogSlate: Window 'Message Log' being destroyed
+[2021.01.11-16.09.15:234][ 59]LogSlate: Window 'Message Log' being destroyed
+[2021.01.11-16.09.17:625][192]LogActorFactory: Actor Factory created Modular_Building_Foundation_Kit_LOD0_uhbicgudw_2
+[2021.01.11-16.09.18:557][244]LogActorFactory: Actor Factory created Modular_Building_Foundation_Kit_LOD0_uhbicgudw_2
+[2021.01.11-16.10.26:372][233]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Modular_Building_Foundation_Kit_LOD0_uhbicgudw_2)
+[2021.01.11-16.10.50:994][697]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Modular_Building_Foundation_Kit_LOD0_uhbicgudw_2)
+[2021.01.11-16.10.52:442][783]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Modular_Building_Foundation_Kit_LOD0_uhbicgudw_2)
+[2021.01.11-16.10.56:016][982]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2021.01.11-16.11.07:617][670]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Dusty_Concrete_Stairs_LOD0_uknjfevga2)
+[2021.01.11-16.11.08:946][746]Cmd: EDIT COPY
+[2021.01.11-16.11.09:113][756]Cmd: EDIT PASTE
+[2021.01.11-16.11.20:959][456]Cmd: TRANSACTION UNDO
+[2021.01.11-16.11.20:959][456]LogEditorTransaction: Undo Rotate Actors
+[2021.01.11-16.11.30:540][  4]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2021.01.11-16.12.13:631][533]Cmd: TRANSACTION UNDO
+[2021.01.11-16.12.13:631][533]LogEditorTransaction: Undo Select Brush Surface
+[2021.01.11-16.12.14:157][540]Cmd: TRANSACTION UNDO
+[2021.01.11-16.12.14:157][540]LogEditorTransaction: Undo Set Rotation
+[2021.01.11-16.12.46:305][447]Cmd: TRANSACTION UNDO
+[2021.01.11-16.12.46:306][447]LogEditorTransaction: Undo Move Actors
+[2021.01.11-16.12.46:708][458]Cmd: TRANSACTION UNDO
+[2021.01.11-16.12.46:708][458]LogEditorTransaction: Undo Move Actors
+[2021.01.11-16.12.59:952][243]Cmd: EDIT COPY
+[2021.01.11-16.13.00:102][252]Cmd: EDIT PASTE
+[2021.01.11-16.13.37:859][450]LogActorFactory: Actor Factory created Cardboard_Boxes_Pack_LOD0_uewlfg2va_4
+[2021.01.11-16.13.38:642][495]LogActorFactory: Actor Factory created Cardboard_Boxes_Pack_LOD0_uewlfg2va_4
+[2021.01.11-16.13.50:776][217]Cmd: EDIT PASTE
+[2021.01.11-16.13.55:271][483]Cmd: TRANSACTION UNDO
+[2021.01.11-16.13.55:271][483]LogEditorTransaction: Undo Move Actors
+[2021.01.11-16.13.55:675][494]Cmd: TRANSACTION UNDO
+[2021.01.11-16.13.55:675][494]LogEditorTransaction: Undo Paste
+[2021.01.11-16.13.57:011][556]Cmd: EDIT COPY
+[2021.01.11-16.13.57:178][566]Cmd: EDIT PASTE
+[2021.01.11-16.14.04:501][  0]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2021.01.11-16.14.07:323][167]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cardboard_Boxes_Pack_LOD0_uewlfg2va_6)
+[2021.01.11-16.14.11:780][430]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cardboard_Boxes_Pack_LOD0_uewlfg2va_7)
+[2021.01.11-16.14.14:424][586]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Modular_Building_Foundation_Kit_LOD0_uhbicgudw_2)
+[2021.01.11-16.14.42:632][927]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Parkour" FILE="../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Content/Maps/Parkour.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.01.11-16.14.42:649][927]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2021.01.11-16.14.43:575][927]LogSavePackage: Moving '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Parkour17F1FA554E7327A9C0F86E82B05D774C.tmp' to '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Content/Maps/Parkour.umap'
+[2021.01.11-16.14.43:646][927]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Parkour_BuiltData" FILE="../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Content/Maps/Parkour_BuiltData.uasset" SILENT=true
+[2021.01.11-16.14.43:703][927]LogSavePackage: Moving '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Parkour_BuiltDataF34DD93C477DE4A9A0133A974B675217.tmp' to '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Content/Maps/Parkour_BuiltData.uasset'
+[2021.01.11-16.14.43:769][927]AssetCheck: New page: Asset Save: multiple assets
+[2021.01.11-16.14.43:770][927]LogContentValidation: Display: Validating World /Game/Maps/Parkour.Parkour
+[2021.01.11-16.14.43:770][927]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Parkour_BuiltData.Parkour_BuiltData
+[2021.01.11-16.14.45:154][993]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2021.01.11-16.14.46:409][993]LogSlate: Window 'Save Content' being destroyed
+[2021.01.11-16.14.46:940][993]LogSavePackage: Moving '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Albedo_2K_rhDrq3E4CDBF54225B53C34CB15BE063A96D0.tmp' to '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Content/Megascans/3D_Assets/cement_curbs_rhDrq_3d/Albedo_2K_rhDrq.uasset'
+[2021.01.11-16.14.47:064][993]LogSavePackage: Moving '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Cement_Curbs_LOD0_rhDrq_15E7A4C504B75C24210A0009E3D65015C.tmp' to '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Content/Megascans/3D_Assets/cement_curbs_rhDrq_3d/Cement_Curbs_LOD0_rhDrq_1.uasset'
+[2021.01.11-16.14.47:144][993]LogSavePackage: Moving '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Cement_Curbs_LOD0_rhDrq_2BD9129C1487C16A0C4C6659091E15149.tmp' to '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Content/Megascans/3D_Assets/cement_curbs_rhDrq_3d/Cement_Curbs_LOD0_rhDrq_2.uasset'
+[2021.01.11-16.14.47:209][993]LogSavePackage: Moving '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Cement_Curbs_LOD0_rhDrq_3F530FF3B481E77ADADDDEB9695641D76.tmp' to '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Content/Megascans/3D_Assets/cement_curbs_rhDrq_3d/Cement_Curbs_LOD0_rhDrq_3.uasset'
+[2021.01.11-16.14.47:313][993]LogSavePackage: Moving '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Cement_Curbs_LOD0_rhDrq_4669C989341D8F34180139AA4CD47D388.tmp' to '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Content/Megascans/3D_Assets/cement_curbs_rhDrq_3d/Cement_Curbs_LOD0_rhDrq_4.uasset'
+[2021.01.11-16.14.47:328][993]LogSavePackage: Moving '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Saved/cement_curbs_rhDrq_3d_instC9CD67F34BD0C004D7871D9778AB60F9.tmp' to '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Content/Megascans/3D_Assets/cement_curbs_rhDrq_3d/cement_curbs_rhDrq_3d_inst.uasset'
+[2021.01.11-16.14.47:348][993]LogSavePackage: Moving '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Cement_Curbs_LOD0_rhDrq_1792AB0224361BEA8C8772D84A2ADFE2F.tmp' to '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Content/Megascans/3D_Assets/cement_curbs_rhDrq_3d/Foliage/Cement_Curbs_LOD0_rhDrq_1.uasset'
+[2021.01.11-16.14.47:364][993]LogSavePackage: Moving '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Cement_Curbs_LOD0_rhDrq_2608BDED1486D06B2D386058E2498DF0A.tmp' to '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Content/Megascans/3D_Assets/cement_curbs_rhDrq_3d/Foliage/Cement_Curbs_LOD0_rhDrq_2.uasset'
+[2021.01.11-16.14.47:379][993]LogSavePackage: Moving '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Cement_Curbs_LOD0_rhDrq_3CA5A56B949110F283BDD4B85355AEA0F.tmp' to '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Content/Megascans/3D_Assets/cement_curbs_rhDrq_3d/Foliage/Cement_Curbs_LOD0_rhDrq_3.uasset'
+[2021.01.11-16.14.47:393][993]LogSavePackage: Moving '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Cement_Curbs_LOD0_rhDrq_403D214A34E9AD89C4F5D51B9850DE961.tmp' to '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Content/Megascans/3D_Assets/cement_curbs_rhDrq_3d/Foliage/Cement_Curbs_LOD0_rhDrq_4.uasset'
+[2021.01.11-16.14.47:853][993]LogSavePackage: Moving '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Normal_2K_LOD0_rhDrqEA5E3A7A40EDD27EF0B14489B844F81B.tmp' to '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Content/Megascans/3D_Assets/cement_curbs_rhDrq_3d/Normal_2K_LOD0_rhDrq.uasset'
+[2021.01.11-16.14.48:065][993]LogSavePackage: Moving '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Roughness_2K_rhDrqBD719B214E658CEDAD1AA68F2EA36F5B.tmp' to '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Content/Megascans/3D_Assets/cement_curbs_rhDrq_3d/Roughness_2K_rhDrq.uasset'
+[2021.01.11-16.14.48:349][993]LogSavePackage: Moving '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Albedo_2K_uknjfevga09E1CBE3431102018147688D4F9E2469.tmp' to '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Content/Megascans/3D_Assets/Dusty_Concrete_Stairs_uknjfevga_3d/Albedo_2K_uknjfevga.uasset'
+[2021.01.11-16.14.48:418][993]LogSavePackage: Moving '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Dusty_Concrete_Stairs_LOD0_uknjfE345C24446CCD20D0B18BE9D439B49D5.tmp' to '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Content/Megascans/3D_Assets/Dusty_Concrete_Stairs_uknjfevga_3d/Dusty_Concrete_Stairs_LOD0_uknjfevga.uasset'
+[2021.01.11-16.14.48:433][993]LogSavePackage: Moving '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Dusty_Concrete_Stairs_uknjfevga_F3D5B20441AD1365A34024A62B131023.tmp' to '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Content/Megascans/3D_Assets/Dusty_Concrete_Stairs_uknjfevga_3d/Dusty_Concrete_Stairs_uknjfevga_3d_inst.uasset'
+[2021.01.11-16.14.48:905][993]LogSavePackage: Moving '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Normal_2K_LOD0_uknjfevga59450B9441C80B1F56256BBA1040A530.tmp' to '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Content/Megascans/3D_Assets/Dusty_Concrete_Stairs_uknjfevga_3d/Normal_2K_LOD0_uknjfevga.uasset'
+[2021.01.11-16.14.49:089][993]LogSavePackage: Moving '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Roughness_2K_uknjfevga9B21A4DF43CC5B42694CFEB8F7D75DB2.tmp' to '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Content/Megascans/3D_Assets/Dusty_Concrete_Stairs_uknjfevga_3d/Roughness_2K_uknjfevga.uasset'
+[2021.01.11-16.14.49:411][993]LogSavePackage: Moving '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Albedo_2K_uhbicgudwEFAF969E48C8862D36F8F8B9B415D2A5.tmp' to '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Content/Megascans/3D_Assets/Modular_Building_Foundation_Kit_uhbicgudw_3d/Albedo_2K_uhbicgudw.uasset'
+[2021.01.11-16.14.49:451][993]LogSavePackage: Moving '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Modular_Building_Foundation_Kit_0C8F4C324B0CFABE356A77A126D5ED61.tmp' to '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Content/Megascans/3D_Assets/Modular_Building_Foundation_Kit_uhbicgudw_3d/Foliage/Modular_Building_Foundation_Kit_LOD0_uhbicgudw_1.uasset'
+[2021.01.11-16.14.49:522][993]LogSavePackage: Moving '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Modular_Building_Foundation_Kit_91EEB4BA4FE7AD0964FC5D9F80820CFF.tmp' to '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Content/Megascans/3D_Assets/Modular_Building_Foundation_Kit_uhbicgudw_3d/Foliage/Modular_Building_Foundation_Kit_LOD0_uhbicgudw_2.uasset'
+[2021.01.11-16.14.49:562][993]LogSavePackage: Moving '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Modular_Building_Foundation_Kit_BB4AA88A4A4360B1365836BE727D5E52.tmp' to '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Content/Megascans/3D_Assets/Modular_Building_Foundation_Kit_uhbicgudw_3d/Foliage/Modular_Building_Foundation_Kit_LOD0_uhbicgudw_3.uasset'
+[2021.01.11-16.14.49:605][993]LogSavePackage: Moving '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Modular_Building_Foundation_Kit_CC615D0E4CA11979D5FCEE9F9AF3801E.tmp' to '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Content/Megascans/3D_Assets/Modular_Building_Foundation_Kit_uhbicgudw_3d/Foliage/Modular_Building_Foundation_Kit_LOD0_uhbicgudw_4.uasset'
+[2021.01.11-16.14.49:682][993]LogSavePackage: Moving '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Modular_Building_Foundation_Kit_8FB2388B4D2BD16488E4698AF10ADA69.tmp' to '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Content/Megascans/3D_Assets/Modular_Building_Foundation_Kit_uhbicgudw_3d/Modular_Building_Foundation_Kit_LOD0_uhbicgudw_1.uasset'
+[2021.01.11-16.14.49:743][993]LogSavePackage: Moving '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Modular_Building_Foundation_Kit_5363F601400AFC77D2CDA192194DC8ED.tmp' to '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Content/Megascans/3D_Assets/Modular_Building_Foundation_Kit_uhbicgudw_3d/Modular_Building_Foundation_Kit_LOD0_uhbicgudw_2.uasset'
+[2021.01.11-16.14.49:815][993]LogSavePackage: Moving '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Modular_Building_Foundation_Kit_CCD424384C738F9E6F5CAA97CC695B2F.tmp' to '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Content/Megascans/3D_Assets/Modular_Building_Foundation_Kit_uhbicgudw_3d/Modular_Building_Foundation_Kit_LOD0_uhbicgudw_3.uasset'
+[2021.01.11-16.14.49:896][993]LogSavePackage: Moving '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Modular_Building_Foundation_Kit_2410866341E445B78EBE129A67EDFE70.tmp' to '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Content/Megascans/3D_Assets/Modular_Building_Foundation_Kit_uhbicgudw_3d/Modular_Building_Foundation_Kit_LOD0_uhbicgudw_4.uasset'
+[2021.01.11-16.14.49:936][993]LogSavePackage: Moving '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Modular_Building_Foundation_Kit_0E266475483DF60F040878A8E130266C.tmp' to '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Content/Megascans/3D_Assets/Modular_Building_Foundation_Kit_uhbicgudw_3d/Modular_Building_Foundation_Kit_uhbicgudw_3d_inst.uasset'
+[2021.01.11-16.14.50:355][993]LogSavePackage: Moving '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Normal_2K_LOD0_uhbicgudwFAFB2EBB49220F0241C98BBD693339F3.tmp' to '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Content/Megascans/3D_Assets/Modular_Building_Foundation_Kit_uhbicgudw_3d/Normal_2K_LOD0_uhbicgudw.uasset'
+[2021.01.11-16.14.50:600][993]LogSavePackage: Moving '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Roughness_2K_uhbicgudw33DFEF2841AE5078387FB794C58DF42A.tmp' to '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Content/Megascans/3D_Assets/Modular_Building_Foundation_Kit_uhbicgudw_3d/Roughness_2K_uhbicgudw.uasset'
+[2021.01.11-16.14.50:765][993]LogSavePackage: Moving '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Albedo_2K_ujzpdbcl253427254703166179B794BF0B4AF5D9.tmp' to '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Content/Megascans/Atlases/Graffiti_Tag_ujzpdbcl_atlas/Albedo_2K_ujzpdbcl.uasset'
+[2021.01.11-16.14.50:865][993]LogSavePackage: Moving '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Opacity_2K_ujzpdbcl26154BBF49A1244D7EEAAEA9DD5AFEE1.tmp' to '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Content/Megascans/Atlases/Graffiti_Tag_ujzpdbcl_atlas/Opacity_2K_ujzpdbcl.uasset'
+[2021.01.11-16.14.50:988][993]LogSavePackage: Moving '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Albedo_2K_uk2afjev482F5546492E8F6F40C172A83CA55C50.tmp' to '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Content/Megascans/Atlases/Graffiti_Tag_uk2afjev_atlas/Albedo_2K_uk2afjev.uasset'
+[2021.01.11-16.14.51:102][993]LogSavePackage: Moving '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Opacity_2K_uk2afjev9151C9C54FC3B2460BE6A580B18FC94B.tmp' to '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Content/Megascans/Atlases/Graffiti_Tag_uk2afjev_atlas/Opacity_2K_uk2afjev.uasset'
+[2021.01.11-16.14.51:222][993]AssetCheck: New page: Asset Save: multiple assets
+[2021.01.11-16.14.51:222][993]LogContentValidation: Display: Validating Texture2D /Game/Megascans/3D_Assets/cement_curbs_rhDrq_3d/Albedo_2K_rhDrq.Albedo_2K_rhDrq
+[2021.01.11-16.14.51:222][993]LogContentValidation: Display: Validating StaticMesh /Game/Megascans/3D_Assets/cement_curbs_rhDrq_3d/Cement_Curbs_LOD0_rhDrq_1.Cement_Curbs_LOD0_rhDrq_1
+[2021.01.11-16.14.51:222][993]LogContentValidation: Display: Validating StaticMesh /Game/Megascans/3D_Assets/cement_curbs_rhDrq_3d/Cement_Curbs_LOD0_rhDrq_2.Cement_Curbs_LOD0_rhDrq_2
+[2021.01.11-16.14.51:222][993]LogContentValidation: Display: Validating StaticMesh /Game/Megascans/3D_Assets/cement_curbs_rhDrq_3d/Cement_Curbs_LOD0_rhDrq_3.Cement_Curbs_LOD0_rhDrq_3
+[2021.01.11-16.14.51:222][993]LogContentValidation: Display: Validating StaticMesh /Game/Megascans/3D_Assets/cement_curbs_rhDrq_3d/Cement_Curbs_LOD0_rhDrq_4.Cement_Curbs_LOD0_rhDrq_4
+[2021.01.11-16.14.51:222][993]LogContentValidation: Display: Validating MaterialInstanceConstant /Game/Megascans/3D_Assets/cement_curbs_rhDrq_3d/cement_curbs_rhDrq_3d_inst.cement_curbs_rhDrq_3d_inst
+[2021.01.11-16.14.51:222][993]LogContentValidation: Display: Validating FoliageType_InstancedStaticMesh /Game/Megascans/3D_Assets/cement_curbs_rhDrq_3d/Foliage/Cement_Curbs_LOD0_rhDrq_1.Cement_Curbs_LOD0_rhDrq_1
+[2021.01.11-16.14.51:222][993]LogContentValidation: Display: Validating FoliageType_InstancedStaticMesh /Game/Megascans/3D_Assets/cement_curbs_rhDrq_3d/Foliage/Cement_Curbs_LOD0_rhDrq_2.Cement_Curbs_LOD0_rhDrq_2
+[2021.01.11-16.14.51:222][993]LogContentValidation: Display: Validating FoliageType_InstancedStaticMesh /Game/Megascans/3D_Assets/cement_curbs_rhDrq_3d/Foliage/Cement_Curbs_LOD0_rhDrq_3.Cement_Curbs_LOD0_rhDrq_3
+[2021.01.11-16.14.51:222][993]LogContentValidation: Display: Validating FoliageType_InstancedStaticMesh /Game/Megascans/3D_Assets/cement_curbs_rhDrq_3d/Foliage/Cement_Curbs_LOD0_rhDrq_4.Cement_Curbs_LOD0_rhDrq_4
+[2021.01.11-16.14.51:222][993]LogContentValidation: Display: Validating Texture2D /Game/Megascans/3D_Assets/cement_curbs_rhDrq_3d/Normal_2K_LOD0_rhDrq.Normal_2K_LOD0_rhDrq
+[2021.01.11-16.14.51:222][993]LogContentValidation: Display: Validating Texture2D /Game/Megascans/3D_Assets/cement_curbs_rhDrq_3d/Roughness_2K_rhDrq.Roughness_2K_rhDrq
+[2021.01.11-16.14.51:222][993]LogContentValidation: Display: Validating Texture2D /Game/Megascans/3D_Assets/Dusty_Concrete_Stairs_uknjfevga_3d/Albedo_2K_uknjfevga.Albedo_2K_uknjfevga
+[2021.01.11-16.14.51:222][993]LogContentValidation: Display: Validating StaticMesh /Game/Megascans/3D_Assets/Dusty_Concrete_Stairs_uknjfevga_3d/Dusty_Concrete_Stairs_LOD0_uknjfevga.Dusty_Concrete_Stairs_LOD0_uknjfevga
+[2021.01.11-16.14.51:222][993]LogContentValidation: Display: Validating MaterialInstanceConstant /Game/Megascans/3D_Assets/Dusty_Concrete_Stairs_uknjfevga_3d/Dusty_Concrete_Stairs_uknjfevga_3d_inst.Dusty_Concrete_Stairs_uknjfevga_3d_inst
+[2021.01.11-16.14.51:222][993]LogContentValidation: Display: Validating Texture2D /Game/Megascans/3D_Assets/Dusty_Concrete_Stairs_uknjfevga_3d/Normal_2K_LOD0_uknjfevga.Normal_2K_LOD0_uknjfevga
+[2021.01.11-16.14.51:222][993]LogContentValidation: Display: Validating Texture2D /Game/Megascans/3D_Assets/Dusty_Concrete_Stairs_uknjfevga_3d/Roughness_2K_uknjfevga.Roughness_2K_uknjfevga
+[2021.01.11-16.14.51:222][993]LogContentValidation: Display: Validating Texture2D /Game/Megascans/3D_Assets/Modular_Building_Foundation_Kit_uhbicgudw_3d/Albedo_2K_uhbicgudw.Albedo_2K_uhbicgudw
+[2021.01.11-16.14.51:222][993]LogContentValidation: Display: Validating FoliageType_InstancedStaticMesh /Game/Megascans/3D_Assets/Modular_Building_Foundation_Kit_uhbicgudw_3d/Foliage/Modular_Building_Foundation_Kit_LOD0_uhbicgudw_1.Modular_Building_Foundation_Kit_LOD0_uhbicgudw_1
+[2021.01.11-16.14.51:222][993]LogContentValidation: Display: Validating FoliageType_InstancedStaticMesh /Game/Megascans/3D_Assets/Modular_Building_Foundation_Kit_uhbicgudw_3d/Foliage/Modular_Building_Foundation_Kit_LOD0_uhbicgudw_2.Modular_Building_Foundation_Kit_LOD0_uhbicgudw_2
+[2021.01.11-16.14.51:222][993]LogContentValidation: Display: Validating FoliageType_InstancedStaticMesh /Game/Megascans/3D_Assets/Modular_Building_Foundation_Kit_uhbicgudw_3d/Foliage/Modular_Building_Foundation_Kit_LOD0_uhbicgudw_3.Modular_Building_Foundation_Kit_LOD0_uhbicgudw_3
+[2021.01.11-16.14.51:222][993]LogContentValidation: Display: Validating FoliageType_InstancedStaticMesh /Game/Megascans/3D_Assets/Modular_Building_Foundation_Kit_uhbicgudw_3d/Foliage/Modular_Building_Foundation_Kit_LOD0_uhbicgudw_4.Modular_Building_Foundation_Kit_LOD0_uhbicgudw_4
+[2021.01.11-16.14.51:223][993]LogContentValidation: Display: Validating StaticMesh /Game/Megascans/3D_Assets/Modular_Building_Foundation_Kit_uhbicgudw_3d/Modular_Building_Foundation_Kit_LOD0_uhbicgudw_1.Modular_Building_Foundation_Kit_LOD0_uhbicgudw_1
+[2021.01.11-16.14.51:223][993]LogContentValidation: Display: Validating StaticMesh /Game/Megascans/3D_Assets/Modular_Building_Foundation_Kit_uhbicgudw_3d/Modular_Building_Foundation_Kit_LOD0_uhbicgudw_2.Modular_Building_Foundation_Kit_LOD0_uhbicgudw_2
+[2021.01.11-16.14.51:223][993]LogContentValidation: Display: Validating StaticMesh /Game/Megascans/3D_Assets/Modular_Building_Foundation_Kit_uhbicgudw_3d/Modular_Building_Foundation_Kit_LOD0_uhbicgudw_3.Modular_Building_Foundation_Kit_LOD0_uhbicgudw_3
+[2021.01.11-16.14.51:223][993]LogContentValidation: Display: Validating StaticMesh /Game/Megascans/3D_Assets/Modular_Building_Foundation_Kit_uhbicgudw_3d/Modular_Building_Foundation_Kit_LOD0_uhbicgudw_4.Modular_Building_Foundation_Kit_LOD0_uhbicgudw_4
+[2021.01.11-16.14.51:223][993]LogContentValidation: Display: Validating MaterialInstanceConstant /Game/Megascans/3D_Assets/Modular_Building_Foundation_Kit_uhbicgudw_3d/Modular_Building_Foundation_Kit_uhbicgudw_3d_inst.Modular_Building_Foundation_Kit_uhbicgudw_3d_inst
+[2021.01.11-16.14.51:223][993]LogContentValidation: Display: Validating Texture2D /Game/Megascans/3D_Assets/Modular_Building_Foundation_Kit_uhbicgudw_3d/Normal_2K_LOD0_uhbicgudw.Normal_2K_LOD0_uhbicgudw
+[2021.01.11-16.14.51:223][993]LogContentValidation: Display: Validating Texture2D /Game/Megascans/3D_Assets/Modular_Building_Foundation_Kit_uhbicgudw_3d/Roughness_2K_uhbicgudw.Roughness_2K_uhbicgudw
+[2021.01.11-16.14.51:223][993]LogContentValidation: Display: Validating Texture2D /Game/Megascans/Atlases/Graffiti_Tag_ujzpdbcl_atlas/Albedo_2K_ujzpdbcl.Albedo_2K_ujzpdbcl
+[2021.01.11-16.14.51:223][993]LogContentValidation: Display: Validating Texture2D /Game/Megascans/Atlases/Graffiti_Tag_ujzpdbcl_atlas/Opacity_2K_ujzpdbcl.Opacity_2K_ujzpdbcl
+[2021.01.11-16.14.51:223][993]LogContentValidation: Display: Validating Texture2D /Game/Megascans/Atlases/Graffiti_Tag_uk2afjev_atlas/Albedo_2K_uk2afjev.Albedo_2K_uk2afjev
+[2021.01.11-16.14.51:223][993]LogContentValidation: Display: Validating Texture2D /Game/Megascans/Atlases/Graffiti_Tag_uk2afjev_atlas/Opacity_2K_uk2afjev.Opacity_2K_uk2afjev
+[2021.01.11-16.15.17:957][730]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Parkour" FILE="../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Content/Maps/Parkour.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.01.11-16.15.17:975][730]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2021.01.11-16.15.18:824][730]LogSavePackage: Moving '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Parkour6DF875494D0E8F0E0C9502B5FAEC6D93.tmp' to '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Content/Maps/Parkour.umap'
+[2021.01.11-16.15.18:884][730]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Parkour_BuiltData" FILE="../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Content/Maps/Parkour_BuiltData.uasset" SILENT=true
+[2021.01.11-16.15.18:898][730]LogSavePackage: Moving '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Saved/Parkour_BuiltDataFA2C71A24FABA209F2BE9697654B183B.tmp' to '../../../../../../kyle game/Project-Dimensions-of-horror/TheyLive 4.25/Content/Maps/Parkour_BuiltData.uasset'
+[2021.01.11-16.15.18:928][730]AssetCheck: New page: Asset Save: multiple assets
+[2021.01.11-16.15.18:928][730]LogContentValidation: Display: Validating World /Game/Maps/Parkour.Parkour
+[2021.01.11-16.15.18:928][730]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Parkour_BuiltData.Parkour_BuiltData
